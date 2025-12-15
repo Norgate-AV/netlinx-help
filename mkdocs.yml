@@ -1,0 +1,5 @@
+site_name: NetLinx Help
+site_description: Documentation for NetLinx
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
