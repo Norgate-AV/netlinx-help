@@ -29,7 +29,7 @@ The "++" and "–" Operators are statements and cannot appear within expressions
 
 Example:
 
-```
+```c linenums="1"
 FOR (I=1; I\<10; I++) // Legal
 
 ```

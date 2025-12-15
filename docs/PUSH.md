@@ -8,7 +8,7 @@ The PUSH keyword is used to declare a block of code to be executed when a push e
 
 Example:
 
-```
+```c linenums="1"
 PUSH \[DEVICE,CHANNEL\]
 
 ```

@@ -8,7 +8,7 @@ This function allows programs to authenticate/authorize a local or remote user d
 
 Syntax:
 
-```
+```c linenums="1"
 sinteger authenticate(DEV deviceHandler, LONG id, LONG eventType, LONG transactionId, LONG authType, CHAR username\[\], CHAR password\[\], CHAR facility\[\])
 
 ```

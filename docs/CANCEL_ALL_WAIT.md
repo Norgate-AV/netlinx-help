@@ -8,7 +8,7 @@ This keyword cancels all [WAITs](WAIT.md) (named or unnamed) in the WAIT list.
 
 Syntax:
 
-```
+```c linenums="1"
 CANCEL_ALL_WAIT \<'name'\>
 
 ```

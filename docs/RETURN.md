@@ -10,7 +10,7 @@ Only DEFINE\_FUNCTION functions can return values using the [RETURN](RETURN.md) 
 
 Syntax:
 
-```
+```c linenums="1"
 RETURN // DEFINE_CALL or function with no return value
 
 ```

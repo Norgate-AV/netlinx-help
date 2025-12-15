@@ -10,7 +10,7 @@ LEVEL.VALUE is an embedded object value in the LEVEL_EVENT statement. The LEVEL.
 
 Syntax:
 
-```
+```c linenums="1"
 LEVEL_EVENT\[DEVICE,LEVEL\] or LEVEL_EVENT\[(\[DEVLEV\[ \])\]
 
 {

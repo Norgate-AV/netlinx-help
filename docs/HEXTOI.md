@@ -8,7 +8,7 @@ Converts an ASCII string containing the hexadecimal representation of a number t
 
 Syntax:
 
-```
+```c linenums="1"
 LONG HEXTOI (CHAR STRING\[ \])
 
 ```
@@ -26,7 +26,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 Num = HEXTOI('126EC') // Num = 75500
 
 ```

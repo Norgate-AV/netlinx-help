@@ -8,7 +8,7 @@ UNCOMBINE_CHANNELS reverses the effect of [COMBINE_CHANNELS](COMBINE_CHANNELS.md
 
 Syntax:
 
-```
+```c linenums="1"
 UNCOMBINE_CHANNELS (DEVCHAN VDC)
 
 ```

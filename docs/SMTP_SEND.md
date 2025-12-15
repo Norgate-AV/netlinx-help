@@ -12,7 +12,7 @@ If the mail transmission fails, an [ONERROR](ONERROR.md) DATA event will be sent
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER SMTP_SEND(DEV DPS, CONSTANT CHAR TO_ADDRESS\[\], CONSTANT CHAR SUBJECT\[\], CONSTANT CHAR BODY\[\], CONSTANT CHAR TEXT_ATTACHMENT\[\]
 
 ```
@@ -34,7 +34,7 @@ Can be specified as NULL_STR when no attachment is desired.
 
 Example:
 
-```
+```c linenums="1"
 MAIL_IDX1 = SMTP_SEND (0:3:0, 'john.doe@acme.com','Mail Subject','This is the mail text','attachment.txt')
 
 ```

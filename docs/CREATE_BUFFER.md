@@ -16,7 +16,7 @@ CREATE_BUFFER directs NetLinx to place any strings received from the specified d
 
 Syntax:
 
-```
+```c linenums="1"
 CREATE_BUFFER DEV, Buffer
 
 ```

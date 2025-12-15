@@ -8,7 +8,7 @@ This system variable returns the current date in (mm/dd/yyyy) string format.
 
 Example:
 
-```
+```c linenums="1"
 IF (LDATE = '12/25/2000')
 
 {

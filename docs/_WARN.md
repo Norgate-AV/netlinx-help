@@ -10,7 +10,7 @@ Its primary purpose is to remind you of certain conditions related to the progra
 
 Example:
 
-```
+```c linenums="1"
 \#WARN 'This code is obsolete'
 
 ```

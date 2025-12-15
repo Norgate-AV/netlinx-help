@@ -8,7 +8,7 @@ Changes all alphabetic characters in the specified string to lower case.
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[ \]  LOWER_STRING (CHAR STRING\[ \])
 
 ```
@@ -24,7 +24,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 LCString = LOWER_STRING(STRING)
 
 ```

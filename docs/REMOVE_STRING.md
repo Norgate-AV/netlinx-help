@@ -26,7 +26,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STRING = 'ABCDEF'
 
 ```

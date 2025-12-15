@@ -8,7 +8,7 @@ The keyword allows you to include programming instructions from an external file
 
 Syntax:
 
-```
+```c linenums="1"
 INCLUDE '\<filename\>'
 
 ```

@@ -28,7 +28,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 POS = FIND_STRING(STRING, 'ABC', 1)
 
 ```

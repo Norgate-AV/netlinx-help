@@ -8,7 +8,7 @@ Returns the specified number of characters from the beginning of a string.
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[ \] LEFT_STRING (CHAR STRING\[ \], LONG Count)
 
 ```
@@ -26,7 +26,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STRING = 'ABCDEFG'
 
 ```

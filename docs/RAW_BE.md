@@ -8,7 +8,7 @@ This routine takes an intrinsic variable and converts the variable into a Charac
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[\] RAW_BE(IntrinsicVariable)
 
 ```

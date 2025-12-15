@@ -12,7 +12,7 @@ Members of a mutually exclusive set are placed in parentheses underneath the [DE
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_MUTUALLY_EXCLUSIVE
 
 (\[RELAY,SCREEN_UP\], \[RELAY,SCREEN_DOWN\])

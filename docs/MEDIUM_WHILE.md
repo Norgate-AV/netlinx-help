@@ -10,7 +10,7 @@ The compiler accepts the statement but converts it internally to a [WHILE](WHILE
 
 Example:
 
-```
+```c linenums="1"
 MEDIUM_WHILE (\<conditional expression\>)
 
 {

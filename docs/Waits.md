@@ -24,7 +24,7 @@ The wait time for a nested wait is the sum of it’s own wait time, plus that of
 
 Example:
 
-```
+```c linenums="1"
 WAIT 10 'FIRST WAIT'
 
 {

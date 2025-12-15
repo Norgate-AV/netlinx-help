@@ -12,7 +12,7 @@ This command turns a channel or variable on for the length of time set by the fu
 
 Syntax:
 
-```
+```c linenums="1"
 PULSE \[DEVICE,CHANNEL\]
 
 ```

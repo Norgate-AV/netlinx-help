@@ -14,7 +14,7 @@ The local port number is the key to identifying data sent to or received from a 
 
 Syntax:
 
-```
+```c linenums="1"
 IP_SERVER_OPEN(LocalPort, ServerPort, Protocol)
 
 ```
@@ -44,7 +44,7 @@ To close a local port, the server application must call IP_SERVER_CLOSE. Once IP
 
 Syntax:
 
-```
+```c linenums="1"
 IP_SERVER_CLOSE(LocalPort)
 
 ```
@@ -74,7 +74,7 @@ To close a local port, the server application must call [IP_SERVER_CLOSE](IP_SER
 
 Syntax:
 
-```
+```c linenums="1"
 IP_SERVER_CLOSE(LocalPort)
 
 ```
@@ -120,7 +120,7 @@ If an event handler is used, the data is located in the Text field of the DATA o
 
 Syntax:
 
-```
+```c linenums="1"
 DATA_EVENT\[0:LocalPort:0\]
 
 {

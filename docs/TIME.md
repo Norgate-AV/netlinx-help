@@ -10,7 +10,7 @@ The time is represented in 24-hour format.
 
 Example:
 
-```
+```c linenums="1"
 IF (TIME = '23:59:59')
 
 {

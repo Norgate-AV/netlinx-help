@@ -8,7 +8,7 @@ This command resumes the specified (named) wait that was paused previously with 
 
 Syntax:
 
-```
+```c linenums="1"
 RESTART_WAIT \<'name'\>
 
 ```

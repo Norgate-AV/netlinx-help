@@ -12,7 +12,7 @@ Once the server configuration values have been set, e-mail can be sent using the
 
 Syntax:
 
-```
+```c linenums="1"
 SMTP_SERVER_CONFIG_SET(CONSTANT CHAR CONFIG_NAME, CONSTANT CHAR CONFIG_VALUE)
 
 ```
@@ -36,7 +36,7 @@ Valid values are SMTP_TLS_TRUE and SMTP_TLS_FALSE.
 
 Example:
 
-```
+```c linenums="1"
 SMTP_SERVER_CONFIG_SET(SMTP_ADDRESS,'mail.amx.com')
 
 ```

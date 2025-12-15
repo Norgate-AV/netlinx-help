@@ -10,7 +10,7 @@ This system variable returns the current day of the week as one of the following
 
 Example:
 
-```
+```c linenums="1"
 IF (DAY = 'SUN')
 
 {

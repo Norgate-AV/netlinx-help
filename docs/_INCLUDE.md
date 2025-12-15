@@ -8,7 +8,7 @@ To include a file in a program, use the \#INCLUDE [Compiler Directive](Compiler_
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_PROGRAM
 
 (\* Program statements can go here \*)

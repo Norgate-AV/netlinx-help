@@ -8,7 +8,7 @@ This instruction is used to delay execution of one or more statements until a sp
 
 Syntax:
 
-```
+```c linenums="1"
 WAIT_UNTIL \<condition\> \['\<name\>'\]
 
 {

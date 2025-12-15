@@ -8,7 +8,7 @@ A structure provides the ability to create a new data type composed of other dat
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_TYPE
 
 ```

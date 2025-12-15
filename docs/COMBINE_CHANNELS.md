@@ -12,7 +12,7 @@ Any element in a DEVCHAN\[ \] set combined appears to come from the virtual devi
 
 Syntax:
 
-```
+```c linenums="1"
 COMBINE_CHANNELS (DEVCHAN VDC, DEVCHAN\[ \] DCSets)
 
 ```

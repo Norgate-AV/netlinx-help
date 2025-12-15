@@ -26,7 +26,7 @@ To terminate a conversation you must call [IP_CLIENT_CLOSE](IP_CLIENT_CLOSE.md) 
 
 Syntax:
 
-```
+```c linenums="1"
 IP_Client_Close(LocalPort)
 
 ```
@@ -38,7 +38,7 @@ To send data to the server, use the [SEND_STRING](SEND_STRING.md) command.
 
 Syntax:
 
-```
+```c linenums="1"
 SEND_STRING 0:LocalPort:0, '\<string\>'
 
 ```
@@ -56,7 +56,7 @@ To receive data from the server use a DATA event handler or a buffer created wit
 
 Syntax:
 
-```
+```c linenums="1"
 DATA_EVENT\[0:LocalPort:0\]
 
  {
@@ -98,7 +98,7 @@ To eliminate this delay, simply include and empty string event handler in the DA
 
 Example:
 
-```
+```c linenums="1"
 DATA_EVENT\[dvIP\]
 
 {

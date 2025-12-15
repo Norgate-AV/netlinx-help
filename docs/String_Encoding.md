@@ -10,7 +10,7 @@ NetLinx has no native string type, but since it is a common type the encoding/de
 
 Example:
 
-```
+```c linenums="1"
 \<data\>My Name is Jimmy Buffet&#x0D;\</data\>
 
 ```

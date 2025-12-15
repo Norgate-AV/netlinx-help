@@ -10,7 +10,7 @@ This keyword is used to introduce the definition of a module.
 
 Syntax:
 
-```
+```c linenums="1"
 MODULE_NAME = '\<module name\>' (\<parameter list\>)
 
 ```

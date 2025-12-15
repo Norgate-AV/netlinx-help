@@ -10,7 +10,7 @@ This message must be processed before another one is retrieved either at the sta
 
 Example:
 
-```
+```c linenums="1"
 LONG_WHILE (\<conditional expression\>)
 
 {

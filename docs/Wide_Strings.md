@@ -12,7 +12,7 @@ The statement above declares a wide character string containing 40 elements, for
 
 Example:
 
-```
+```c linenums="1"
 WIDECHAR StrExp\[6\]
 
 ```
@@ -30,7 +30,7 @@ A CHAR string may be assigned or compared to a wide character string.
 
 Example:
 
-```
+```c linenums="1"
 WChar = 'FFWD'
 
 ```

@@ -10,7 +10,7 @@ If the device supports the standby state, the device will transition to standby,
 
 Example:
 
-```
+```c linenums="1"
 DEVICE_STANDBY(DEVICE, NORMAL_STANDBY)
 
 ```

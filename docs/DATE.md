@@ -10,7 +10,7 @@ The wildcard character "?" is not allowed for string comparisons because the act
 
 Example:
 
-```
+```c linenums="1"
 IF (DATE = '12/25/00')
 
 {

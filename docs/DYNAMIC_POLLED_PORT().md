@@ -10,7 +10,7 @@ This API must be called for each serial port that can dynamically have a device 
 
 Syntax:
 
-```
+```c linenums="1"
 DYNAMIC_POLLED_PORT (DEV netlinxDevice)
 
 ```

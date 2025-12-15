@@ -6,9 +6,9 @@ title: __FILE__
 
 At compile time, this keyword is replaced with a string that contains the filename of the currently executing program file.
 
-**Example:**
+## Example
 
-```c
+```c  linenums="1"
 SEND_COMMAND TP, "'!T',1,__FILE__"
 ```
 

@@ -61,7 +61,7 @@ Since turning on or pulsing the relay does not produce a push, a [Button Event](
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_EVENT
 
 .

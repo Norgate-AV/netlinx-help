@@ -8,7 +8,7 @@ At compile time, this keyword is replaced by a string (mm/dd/yyyy), containing t
 
 **Example:**
 
-```c
+```c  linenums="1"
 SEND_COMMAND TP, "'!T',1,__LDATE__"
 ```
 
@@ -25,4 +25,3 @@ Sends the date (long version) of compilation to a variable text button on a touc
 - [\_\_TIME\_\_](__TIME__.md)
 - [Compilation Warnings](Compiler_Warnings.md)
 - [Compilation Errors](Compilation_Errors.md)
-

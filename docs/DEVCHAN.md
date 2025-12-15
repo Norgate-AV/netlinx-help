@@ -8,7 +8,7 @@ A data type (structure) containing fields used to represent a specific device nu
 
 Example:
 
-```
+```c linenums="1"
 STRUCTURE DEVCHAN
 
 {

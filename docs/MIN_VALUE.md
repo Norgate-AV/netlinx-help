@@ -10,13 +10,13 @@ It will take any intrinsic variable type and return the same type of the lowest 
 
 Syntax:
 
-```
+```c linenums="1"
  MINVAL MIN_VALUE(Var1,Var2)
 
 ```
 Example:
 
-```
+```c linenums="1"
 DEFINE_VARIABLE
 
 ```

@@ -10,7 +10,7 @@ The DATA_GET_EVENT_RECORD function retrieves data feed event record values from 
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER DATA_GET_EVENT_RECORD (DEV device, LONG payloadID, char fields\[\]\[\], DATA_RECORD rec)
 
 ```
@@ -32,7 +32,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
 
 {

@@ -50,7 +50,7 @@ Returns:
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_VARIABLE
 
 ```

@@ -8,7 +8,7 @@ Returns a string description/model number for the specified device.
 
 Example:
 
-```
+```c linenums="1"
 DeviceString = DEVICE_ID_STRING(55:1:0)
 
 ```

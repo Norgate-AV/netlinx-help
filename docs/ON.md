@@ -10,7 +10,7 @@ If used with a variable, ON sets it to 1.
 
 Syntax:
 
-```
+```c linenums="1"
 ON\[DEVICE,CHANNEL\]
 
 ```

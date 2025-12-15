@@ -8,7 +8,7 @@ This command suspends all [WAIT](WAIT.md)s currently in effect, regardless of wh
 
 Syntax:
 
-```
+```c linenums="1"
 PAUSE_ALL_WAIT
 
 ```

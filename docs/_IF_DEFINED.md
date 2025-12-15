@@ -12,7 +12,7 @@ This [Compiler Directive](Compiler_Directives.md)  is used to define conditiona
 
 Syntax:
 
-```
+```c linenums="1"
 \#IF_DEFINED symbol
 
  // code block
@@ -24,6 +24,7 @@ Syntax:
 \#END_IF
 
 ```
+
 See Also
 
 - [\#DEFINE](_DEFINE.md)
@@ -45,4 +46,3 @@ See Also
 - [Compiler Keywords](Compiler_Keywords.md)
 
 - [Compilation Warnings](Compiler_Warnings.md)
-

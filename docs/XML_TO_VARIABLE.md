@@ -6,7 +6,7 @@ title: XML_TO_VARIABLE
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER XML_TO_VARIABLE(VARIANTARRAY A,CONSTANT CHAR B\[\], LONG C, LONG D)
 
 ```
@@ -42,7 +42,7 @@ Return:
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_TYPE
 
 ```

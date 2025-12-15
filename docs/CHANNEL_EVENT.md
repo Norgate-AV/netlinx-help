@@ -12,7 +12,7 @@ This keyword defines a channel event handler.
 
 Example:
 
-```
+```c linenums="1"
 CHANNEL_EVENT\[DEVICE,CHANNEL\] or
 
 ```

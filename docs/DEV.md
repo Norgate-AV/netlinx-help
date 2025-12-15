@@ -10,7 +10,7 @@ In NetLinx, the DEV structure is the actual (internal) representation of a NetLi
 
 Example:
 
-```
+```c linenums="1"
 STRUCTURE DEV
 
 {

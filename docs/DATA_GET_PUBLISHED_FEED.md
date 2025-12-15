@@ -10,7 +10,7 @@ The DATA_GET_PUBLISHED_FEED function returns the URL of an already published fee
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[\] DATA_GET_PUBLISHED_FEED (CHAR FEED\[\])
 
 ```
@@ -24,7 +24,7 @@ A string containing the URL of the published data feed file OR a textual error m
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_VARIABLE
 
 ```

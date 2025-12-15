@@ -10,7 +10,7 @@ If a condition evaluates to true, the statement(s) associated with it are execut
 
 Example:
 
-```
+```c linenums="1"
 IF (\<conditional expression 1\>)
 
 {

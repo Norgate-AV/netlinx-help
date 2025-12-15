@@ -8,7 +8,7 @@ This function returns a random number X in the range 0 \<= X \< Max.
 
 Syntax:
 
-```
+```c linenums="1"
 LONG RANDOM_NUMBER (LONG Max)
 
 ```
@@ -22,7 +22,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 Num = RANDOM_NUMBER(1000) // 0 \<= Num \< 1000
 
 ```

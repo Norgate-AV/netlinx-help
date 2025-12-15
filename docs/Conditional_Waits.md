@@ -8,7 +8,7 @@ title: Conditional_Waits
 
 Syntax:
 
-```
+```c linenums="1"
 WAIT_UNTIL \<condition\> \['\<name\>'\]
 
 {

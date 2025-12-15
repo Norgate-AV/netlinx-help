@@ -12,13 +12,13 @@ This keyword is usually used to determine whether or not a device is present in 
 
 Syntax:
 
-```
+```c linenums="1"
 DeviceID = DEVICE_ID(Device)
 
 ```
 Example:
 
-```
+```c linenums="1"
 IF (DEVICE_ID(55:1:0) \<\> 0)
 
 {

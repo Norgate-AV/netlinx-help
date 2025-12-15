@@ -12,7 +12,7 @@ This keyword is used to define a [FOR loop](FOR_loops.md).
 
 Syntax:
 
-```
+```c linenums="1"
 FOR (\<INITIAL\>; \<condition\>; \<after pass\>)
 
 {

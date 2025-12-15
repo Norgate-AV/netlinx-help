@@ -8,7 +8,7 @@ Custom data types such as structures and classes are defined in the [DEFINE_TYPE
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_TYPE
 
 ```

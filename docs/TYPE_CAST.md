@@ -8,7 +8,7 @@ This routine eliminates compiler type cast warnings by casting the passed intrin
 
 Syntax:
 
-```
+```c linenums="1"
 IntrinsicVariableNewType TYPE_CAST (IntrinsicVariableType)
 
 ```

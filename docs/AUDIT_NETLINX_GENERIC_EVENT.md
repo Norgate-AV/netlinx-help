@@ -8,7 +8,7 @@ This function generates an audit record to the persistent audit trail containing
 
 Syntax:
 
-```
+```c linenums="1"
 sinteger AUDIT_NETLINX_GENERIC_EVENT(DEV device, char username\[\], char msg\[\])
 
 ```

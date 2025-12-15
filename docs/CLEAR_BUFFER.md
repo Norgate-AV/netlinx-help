@@ -12,7 +12,7 @@ CLEAR_BUFFER does not delete the data in the buffer; it only sets the length to 
 
 Syntax:
 
-```
+```c linenums="1"
 CLEAR_BUFFER Buffer
 
 ```

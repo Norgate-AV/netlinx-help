@@ -8,7 +8,7 @@ This command is used to pass all strings from device 1 to device 2 and all strin
 
 Syntax:
 
-```
+```c linenums="1"
 REDIRECT_STRING (Number, Device1, Device2)
 
 ```

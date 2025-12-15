@@ -10,7 +10,7 @@ Only named WAITs can be canceled.
 
 Syntax:
 
-```
+```c linenums="1"
 CANCEL_WAIT \<'name'\>
 
 ```

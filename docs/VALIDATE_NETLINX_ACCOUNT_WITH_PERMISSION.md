@@ -8,7 +8,7 @@ This function validates the specified user name and password against the NetLinx
 
 Syntax:
 
-```
+```c linenums="1"
 sinteger VALIDATE_NETLINX_ACCOUNT(CHAR USERNAME\[\], CHAR PASSWORD\[\],CHAR TYPE\[\], CHAR PERMISSION\[\], LAST_LOGIN_INFO INFO)
 
 ```

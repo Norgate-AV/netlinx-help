@@ -16,14 +16,13 @@ The form of the directive is:
 
 Example:
 
-```
-\#DEFINE STRING_1 'Hello World'
+```c linenums="1"
+#DEFINE STRING_1 'Hello World'
 
-\#DEFINE STRING_2 "'Hello Letter',65"
+#DEFINE STRING_2 "'Hello Letter',65"
 
-\#DEFINE STRING_3 "65,66,67,68,69,70"
+#DEFINE STRING_3 "65,66,67,68,69,70"
 
-```
 DEFINE_PROGRAM
 
 PUSH\[TP,1\]
@@ -37,6 +36,7 @@ SEND_STRING 0,STRING_2 // This will send out 'Hello Letter A'
 SEND_STRING 0,STRING_3 // This will send out 'ABCDEF'
 
 }
+```
 
 See Also
 
@@ -59,4 +59,3 @@ See Also
 - [Compiler Keywords](Compiler_Keywords.md)
 
 - [Compilation Warnings](Compiler_Warnings.md)
-

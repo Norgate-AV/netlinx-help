@@ -10,7 +10,7 @@ This routine takes two variables and returns the value of the highest.
 
 Example:
 
-```
+```c linenums="1"
 MaxVal MAX_VALUE(Var1,Var2)
 
 ```

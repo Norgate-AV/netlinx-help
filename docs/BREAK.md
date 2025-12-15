@@ -8,7 +8,7 @@ The BREAK command terminates execution of the current [WHILE](WHILE.md), [LONG_W
 
 Example:
 
-```
+```c linenums="1"
 WHILE (\<condition\>)
 
 {

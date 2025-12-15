@@ -8,7 +8,7 @@ Converts a 32-bit signed integer to a decimal ASCII string.
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[ \] ITOA (LONG Num)
 
 ```
@@ -22,7 +22,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STRING = ITOA(501) // STRING = '501'
 
 ```

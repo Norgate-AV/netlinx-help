@@ -10,7 +10,7 @@ This structure combines the fields of a [DEV](DEV.md) structure representing the
 
 Syntax:
 
-```
+```c linenums="1"
 STRUCTURE DEVCHAN
 
 {

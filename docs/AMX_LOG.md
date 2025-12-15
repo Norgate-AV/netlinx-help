@@ -24,7 +24,7 @@ Where level is one of the following values:
 
 Example:
 
-```
+```c linenums="1"
 AMX_LOG(AMX_ERROR,"'FAILURE OCCURRED, VALUE=',ITOA(ERR_VAL)")
 
 ```

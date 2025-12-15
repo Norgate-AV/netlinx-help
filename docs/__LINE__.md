@@ -8,7 +8,7 @@ At compile time, this keyword is replaced by a constant that contains the line n
 
 Example:
 
-```
+```c linenums="1"
 SEND_STRING 0,"ITOA(\_\_LINE\_\_)"
 
 ```

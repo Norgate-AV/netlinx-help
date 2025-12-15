@@ -10,7 +10,7 @@ It must appear on the first line of the program and cannot appear more than once
 
 Syntax:
 
-```
+```c linenums="1"
 PROGRAM_NAME = '\<program name\>'
 
 ```

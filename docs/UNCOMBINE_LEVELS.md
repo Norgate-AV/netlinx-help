@@ -8,7 +8,7 @@ Undoes the effect of [COMBINE\_LEVELS](COMBINE_LEVELS.md). All combines related 
 
 Syntax:
 
-```
+```c linenums="1"
 SLONG UNCOMBINE_LEVELS (VDL)
 
 ```
@@ -24,7 +24,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 Result = COMBINE_LEVELS (VDL, DLSet)
 
 .

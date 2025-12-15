@@ -10,7 +10,7 @@ Note: The symbol ! is equivalent to NOT.
 
 Example:
 
-```
+```c linenums="1"
 IF (NOT (X \> 10))
 
 {

@@ -10,7 +10,7 @@ It recognizes a character representation of a value that would be within the ran
 
 Syntax:
 
-```
+```c linenums="1"
 SLONG ATOI (CHAR STRING\[ \])
 
 ```
@@ -30,7 +30,7 @@ Note: While you can pass in larger values, ATOI will truncate any value outside 
 
 Example:
 
-```
+```c linenums="1"
 Vol = ATOI('Volume=100%') // Vol = 100
 
 ```

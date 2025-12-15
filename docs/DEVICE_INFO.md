@@ -8,7 +8,7 @@ NetLinx stores information, such as manufacturer, device name and device ID, for
 
 Syntax:
 
-```
+```c linenums="1"
 DEVICE_INFO(DEV Device, DEV_INFO_STRUCT Info)
 
 ```
@@ -68,7 +68,7 @@ The DEV_INFO_STRUCT contains the following information:
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_DEVICE
 
 ```

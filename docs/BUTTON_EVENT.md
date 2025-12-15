@@ -12,7 +12,7 @@ This keyword defines a button event handler.
 
 Example:
 
-```
+```c linenums="1"
 BUTTON_EVENT\[DEVICE,CHANNEL\] or
 
 ```

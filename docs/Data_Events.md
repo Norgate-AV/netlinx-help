@@ -128,7 +128,7 @@ The DATA_EVENT is evaluated on a need to know basis, rather than on each pass th
 
 Example:
 
-```
+```c linenums="1"
 The following example shows basic code for tracking a touch panel page.
 
 ```

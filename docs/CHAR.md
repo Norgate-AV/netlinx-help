@@ -22,7 +22,7 @@ On occasion, you may need to convert a CHAR array to a [WIDECHAR](WIDECHAR.md) a
 
 Example:
 
-```
+```c linenums="1"
 wcMyString = CH_TO_WC('Any ASCII string')
 
 ```

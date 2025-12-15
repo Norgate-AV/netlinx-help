@@ -14,7 +14,7 @@ Two forms of this command are supported.
 
 Syntax:
 
-```
+```c linenums="1"
 CREATE_MULTI_BUFFER FirstDevice, LastDevice, Buffer
 
 ```

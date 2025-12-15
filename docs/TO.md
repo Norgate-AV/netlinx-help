@@ -24,7 +24,7 @@ Note: This all applies to [MIN_TO](MIN_TO.md)  also.
 
 Syntax:
 
-```
+```c linenums="1"
 TO \[DEVICE,CHANNEL\]
 
 ```

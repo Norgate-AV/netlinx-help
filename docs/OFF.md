@@ -10,7 +10,7 @@ If used with a variable, OFF sets it to zero.
 
 Syntax:
 
-```
+```c linenums="1"
 OFF\[DEVICE,CHANNEL\]
 
 ```

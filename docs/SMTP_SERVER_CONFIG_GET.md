@@ -10,7 +10,7 @@ Get a configuration value for the current SMTP server.
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[\] SMTP_SERVER_CONFIG_GET(CONSTANT CHAR CONFIG_NAME)
 
 ```
@@ -30,7 +30,7 @@ Note: Query of SMTP_USERNAME and SMTP_PASSWORD is disabled for security reasons.
 
 Example:
 
-```
+```c linenums="1"
 CURRENT_ADDRESS = SMTP_SERVER_CONFIG_GET(SMTP_ADDRESS)
 
 ```

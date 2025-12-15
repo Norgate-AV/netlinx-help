@@ -8,7 +8,7 @@ At compile time, this keyword is replaced by a string that contains the [PROGRAM
 
 Example:
 
-```
+```c linenums="1"
 SEND_COMMAND TP, "'!T',1,\_\_NAME\_\_"
 
 ```

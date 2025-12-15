@@ -12,7 +12,7 @@ Similar to [DO_PUSH](DO_PUSH.md) except this one lets you specify the timeout.
 
 Syntax:
 
-```
+```c linenums="1"
 DO_PUSH_TIMED(DEV Device, INTEGER Channel, LONG Timeout)
 
 ```
@@ -28,7 +28,7 @@ Returns: None
 
 Example:
 
-```
+```c linenums="1"
 DO_PUSH_TIMED (dvTouchPanel, 5, 10) // push button 5 for 1.0S
 
 ```

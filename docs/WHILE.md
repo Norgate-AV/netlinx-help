@@ -10,7 +10,7 @@ The condition is evaluated before the first pass through the statements. Therefo
 
 Syntax:
 
-```
+```c linenums="1"
 WHILE (\<conditional expression\>)
 
 {
@@ -20,6 +20,7 @@ WHILE (\<conditional expression\>)
 }
 
 ```
+
 Notes:
 
 - Statements are executed repeatedly while the conditional expression evaluates to true.
@@ -35,4 +36,3 @@ See Also
 - [MEDIUM_WHILE](MEDIUM_WHILE.md)
 
 - [LONG_WHILE](LONG_WHILE.md)
-

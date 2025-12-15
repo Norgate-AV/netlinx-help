@@ -8,7 +8,7 @@ Returns an integer representing the month portion of a date string.
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER DATE_TO_MONTH (CHAR LDATE\[ \])
 
 ```
@@ -24,7 +24,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 SINTEGER nMonth
 
 ```

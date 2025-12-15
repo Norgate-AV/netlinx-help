@@ -20,7 +20,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 UCString = UPPER_STRING(STRING)
 
 ```

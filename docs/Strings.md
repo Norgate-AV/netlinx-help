@@ -8,7 +8,7 @@ A string is an array of characters of known length. This length may be less than
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_VARIABLE
 
 ```
@@ -34,7 +34,7 @@ The function [SET_LENGTH_STRING](SET_LENGTH_STRING.md) can be used to explicitly
 
 Example:
 
-```
+```c linenums="1"
 SET_LENGTH_STRING(MyString, 3)
 
 ```
@@ -44,7 +44,7 @@ A string expression is a string enclosed in double quotes containing a series of
 
 Example:
 
-```
+```c linenums="1"
 CHAR StrExp\[6\]
 
 ```

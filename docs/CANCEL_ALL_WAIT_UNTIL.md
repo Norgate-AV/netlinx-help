@@ -8,7 +8,7 @@ This keyword cancels all (named or unnamed) [WAIT_UNTIL](WAIT_UNTIL.md) and [TIM
 
 Syntax:
 
-```
+```c linenums="1"
 CANCEL_ALL_WAIT_UNTIL \<'name'\>
 
 ```

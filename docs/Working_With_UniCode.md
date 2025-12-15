@@ -60,7 +60,7 @@ To enter Unicode characters into your program, enclose the characters in single 
 
 Example:
 
-```
+```c linenums="1"
 \_WC(‘Your string goes here’)
 
 ```

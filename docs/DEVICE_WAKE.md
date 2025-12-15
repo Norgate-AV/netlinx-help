@@ -10,7 +10,7 @@ This command requests that a device in standby state wake up.
 
 Example:
 
-```
+```c linenums="1"
 DEVICE_WAKE (DEVICE, NORMAL_WAKE)
 
 ```

@@ -34,7 +34,7 @@ WAIT 42949672l9.5 // wait ~1.36 years
 
 Example:
 
-```
+```c linenums="1"
 WAIT 50 'FIRST WAIT'
 
 {

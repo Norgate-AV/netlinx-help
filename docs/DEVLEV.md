@@ -10,7 +10,7 @@ This structure is used to implement an array DEVLEV\[ \].
 
 Example:
 
-```
+```c linenums="1"
 STRUCTURE DEVLEV
 
 {

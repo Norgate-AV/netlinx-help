@@ -10,7 +10,7 @@ It provides the same information as [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md).
 
 Syntax:
 
-```
+```c linenums="1"
 LONG MAX_LENGTH_STRING (CHAR STRING\[ \])
 
 ```
@@ -26,7 +26,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 MAXLEN = MAX_LENGTH_STRING(STRING)
 
 ```

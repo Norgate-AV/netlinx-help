@@ -10,7 +10,7 @@ The DATA_ADD_RECORD function adds a new record to a data feed.
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER DATA_ADD_RECORD (CHAR FEED\[\], CHAR \[\] RECORDSET_ID, DATA_RECORD REC)
 
 ```
@@ -30,7 +30,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STACK_VAR DATA_RECORD record
 
  

@@ -8,7 +8,7 @@ This function converts a 64-bit floating-point value to an ASCII string containi
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[ \] FTOA (DOUBLE Num)
 
 ```

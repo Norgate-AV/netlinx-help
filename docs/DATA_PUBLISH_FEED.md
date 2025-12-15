@@ -10,7 +10,7 @@ The DATA_PUBLISH_FEED function publishes the specified data feed to a file and r
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[\] DATA_PUBLISH_FEED (CHAR FEED\[\])
 
 ```
@@ -24,7 +24,7 @@ A string containing the URL of the published data feed file OR a textual error m
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_VARIABLE
 
 ```

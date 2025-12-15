@@ -12,7 +12,7 @@ This command creates an association between a specified level of a device and a 
 
 Syntax:
 
-```
+```c linenums="1"
 CREATE_LEVEL Device, Level, Value
 
 ```

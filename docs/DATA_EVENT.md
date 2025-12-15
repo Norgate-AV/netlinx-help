@@ -12,7 +12,7 @@ This keyword defines a data event handler.
 
 Example:
 
-```
+```c linenums="1"
 DATA_EVENT\[DEVICE\]
 
 {

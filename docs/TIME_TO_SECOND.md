@@ -8,7 +8,7 @@ Returns an integer representing the second portion of a time string.
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER TIME_TO_SECOND (CHAR TimeStr\[ \])
 
 ```
@@ -24,7 +24,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 CCHAR TimeStr\[ \] = '9:30:08'
 
 ```

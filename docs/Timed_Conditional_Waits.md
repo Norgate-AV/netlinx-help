@@ -8,7 +8,7 @@ title: Timed_Conditional_Waits
 
 Syntax:
 
-```
+```c linenums="1"
 TIMED_WAIT_UNTIL \<condition\> timeout \['\<name\>'\]
 
 {

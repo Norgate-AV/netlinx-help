@@ -68,7 +68,7 @@ Returns:
 
 Example:
 
-```
+```c linenums="1"
 1.  fTemperature = 98.652
 
 ```

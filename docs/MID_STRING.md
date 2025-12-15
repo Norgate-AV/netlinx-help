@@ -8,7 +8,7 @@ Returns the specified number of characters starting at the specified location in
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[ \] MID_STRING (CHAR STRING, LONG Start, LONG Count)
 
 ```
@@ -28,7 +28,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STRING = 'ABCDEFGHIJK'
 
 ```

@@ -12,7 +12,7 @@ The SELECT…ACTIVE statement provides a programming structure for selective exe
 
 Example:
 
-```
+```c linenums="1"
 SELECT
 
 {

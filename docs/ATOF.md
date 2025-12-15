@@ -10,7 +10,7 @@ ATOF recognizes a character representation of a value that would be within the r
 
 Syntax:
 
-```
+```c linenums="1"
 FLOAT ATOF (CHAR STRING\[ \])
 
 ```
@@ -30,7 +30,7 @@ Note: When assigning the result to a DOUBLE the effective range is ±2.22507E-1 
 
 Example:
 
-```
+```c linenums="1"
 Num = ATOF('-1.25e-3')// Num = -0.00125
 
 ```

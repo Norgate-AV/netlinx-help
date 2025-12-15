@@ -8,7 +8,7 @@ Converts a 32-bit unsigned integer to an ASCII string containing the hexadecimal
 
 Syntax:
 
-```
+```c linenums="1"
 CHAR\[ \] ITOHEX (LONG Num)
 
 ```
@@ -22,7 +22,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STRING = ITOHEX(1000) // STRING = '3E8'
 
 ```

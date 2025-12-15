@@ -10,7 +10,7 @@ If the channel is already Off, no event is generated.
 
 Example:
 
-```
+```c linenums="1"
 DO_RELEASE(DEVICE, CHANNEL)
 
 ```

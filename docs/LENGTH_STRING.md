@@ -20,7 +20,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 IF (LENGTH_STRING(STRING) \> 0)
 
 {

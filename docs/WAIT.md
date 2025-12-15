@@ -8,7 +8,7 @@ This keyword is used to delay execution of one or more statements for a specifie
 
 Syntax:
 
-```
+```c linenums="1"
 WAIT time \['\<name\>'\]
 
 {
@@ -24,7 +24,7 @@ So the max wait time 2^32 or 4294967295 100th's of a second.
 
 Example:
 
-```
+```c linenums="1"
 WAIT 42949672l9.5 // wait ~1.36 years
 
 {

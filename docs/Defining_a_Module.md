@@ -58,7 +58,7 @@ A module is defined by the [MODULE_NAME](MODULE_NAME.md) entry on the first line
 
 Syntax:
 
-```
+```c linenums="1"
 MODULE_NAME = '\<module name\>' \[(\<parameter list\>)\]
 
 ```

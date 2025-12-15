@@ -8,7 +8,7 @@ This command resumes all waits that were previously paused, regardless of whethe
 
 Syntax:
 
-```
+```c linenums="1"
 RESTART_ALL_WAIT
 
 ```

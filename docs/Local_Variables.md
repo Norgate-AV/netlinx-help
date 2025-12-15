@@ -40,7 +40,7 @@ The scope of a local variable is restricted to the statement block in which it i
 
 Example:
 
-```
+```c linenums="1"
 IF (X \> 10)
 
 {
@@ -58,7 +58,7 @@ LOCAL_VAR and STACK_VAR can be used interchangeably in any statement block excep
 
 Example:
 
-```
+```c linenums="1"
 WAIT 10, 'My Wait Name'
 
 {
@@ -74,7 +74,7 @@ A name assigned to a local variable must be unique within the statement block in
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_FUNCTION integer MyFunc(INTEGER nFlag)
 
 {

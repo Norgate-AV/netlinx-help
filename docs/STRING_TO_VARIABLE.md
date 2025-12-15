@@ -10,7 +10,7 @@ The Decode variable must match the type of the encoded variable. In the case whe
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER STRING_TO_VARIABLE (DECODE, CHAR BUFFER\[ \], LONG POSITION
 
 ```
@@ -38,7 +38,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_TYPE
 
 ```

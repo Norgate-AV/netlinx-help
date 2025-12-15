@@ -8,7 +8,7 @@ Undoes the effect of [COMBINE\_DEVICES](COMBINE_DEVICES.md). All combines relate
 
 Syntax:
 
-```
+```c linenums="1"
 SLONG UNCOMBINE_DEVICES (VDC)
 
 ```
@@ -24,7 +24,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 Result = COMBINE_DEVICES (VDC, DCSet)
 
 .

@@ -16,7 +16,7 @@ Note: The timeout feature is used to prevent un-released pushes and out of contr
 
 Example:
 
-```
+```c linenums="1"
 DO_PUSH(DEVICE, CHANNEL)
 
 ```

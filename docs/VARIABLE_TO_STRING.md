@@ -10,7 +10,7 @@ The variable passed in can be of any type including arrays, structures, and arra
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER VARIABLE_TO_STRING(ENCODE, CHAR BUFFER\[ \], LONG POSITION
 
 ```
@@ -34,7 +34,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_TYPE
 
 ```

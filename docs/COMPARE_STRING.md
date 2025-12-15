@@ -12,7 +12,7 @@ This keyword compares two character strings.
 
 Example:
 
-```
+```c linenums="1"
 DEFINE_LIBRARY_FUNCTION LONG COMPARE_STRING(CHAR A\[\], CHAR B\[\])
 
 ```

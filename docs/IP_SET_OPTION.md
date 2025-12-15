@@ -8,7 +8,7 @@ Allows for specific option settings on IP client or server connections.  
 
 Syntax:
 
-```
+```c linenums="1"
 IP_SET_OPTION
 
     (INTEGER LocalPort,
@@ -48,7 +48,7 @@ IP_NODELAY_OFF - By default, the NODELAY option is disabled (OFF). Data will be 
 
 Example:
 
-```
+```c linenums="1"
 IP_SET_OPTION(PORT1, IP_MULTICAST_TTL_OPTION,IP_TTL_REGION)
 
 ```

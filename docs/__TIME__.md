@@ -8,7 +8,7 @@ At compile time, this keyword is replaced by a string (hh:mm:ss) representing th
 
 Example:
 
-```
+```c linenums="1"
 SEND_COMMAND TP, "'!T',1,\_\_TIME\_\_"
 
 ```

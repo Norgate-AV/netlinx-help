@@ -10,7 +10,7 @@ The DATA_CREATE_FEED function creates a NetLinx data feed with the supplied valu
 
 Syntax:
 
-```
+```c linenums="1"
 SINTEGER DATA_CREATE_FEED (DATA_FEED FEED)
 
 ```
@@ -26,7 +26,7 @@ Result:
 
 Example:
 
-```
+```c linenums="1"
 STACK_VAR DATA_FEED datafeed
 
 // --------------------------------------------------

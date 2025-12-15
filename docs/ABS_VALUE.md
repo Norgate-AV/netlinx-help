@@ -10,13 +10,13 @@ It will take any intrinsic variable type and return the same type.
 
 Syntax:
 
-```
+```c linenums="1"
  ABSVAL = ABS_VALUE (Value)
 
 ```
 Example:
 
-```
+```c linenums="1"
 DEFINE_VARIABLE
 
 ```

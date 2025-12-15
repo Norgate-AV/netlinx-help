@@ -10,7 +10,7 @@ Any element in a DEVLEV array appears to come from the virtual device-level repr
 
 Syntax:
 
-```
+```c linenums="1"
 COMBINE_LEVELS (DEVLEV VDLSET, DEVLEV\[ \] DLSETS)
 
 ```
