@@ -1,0 +1,16 @@
+# Encode / Decode Keywords
+
+The NetLinx language supports the following Encode / Decode keywords:
+
+- [STRING_TO_VARIABLE](STRING_TO_VARIABLE.md)
+
+- [VARIABLE_TO_STRING](VARIABLE_TO_STRING.md)
+
+- [LENGTH_VARIABLE_TO_STRING](LENGTH_VARIABLE_TO_STRING.md)
+
+- [LENGTH_VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md)
+
+- [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
+
+- [VARIABLE_TO_XML](VARIABLE_TO_XML.md)
+
