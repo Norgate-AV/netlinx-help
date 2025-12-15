@@ -301,8 +301,6 @@ PUSH\[dvPanel,8\]
 See Also
 
 - [Timeline Functions](Timeline_Functions.md)
-
 - [TIMELINE IDs](TIMELINE_IDs.md)
-
 - [TIMELINE Keywords](TIMELINE_Keywords.md)
 

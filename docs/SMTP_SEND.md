@@ -19,13 +19,9 @@ SINTEGER SMTP_SEND(DEV DPS, CONSTANT CHAR TO_ADDRESS\[\], CONSTANT CHAR SUBJECT\
 Where
 
 - DPS - a DEV to receive asynchronous send status
-
 - TO_ADDRESS - a string containing the email address of the destination. String must be less than 127 characters.
-
 - SUBJECT - a string containing the email subject line
-
 - BODY - a string containing the email body text
-
 - TEXT_ATTACHMENT - a string containing the filename of a text file to be attached to the email.  
 
 Filename must be less than 256 characters and file size must be under 65536 bytes.  
@@ -59,6 +55,5 @@ DEFINE_EVENT
 See Also
 
 - [SMTP_SERVER_CONFIG_SET](SMTP_SERVER_CONFIG_SET.md)
-
 - [SMTP_SERVER_CONFIG_GET](SMTP_SERVER_CONFIG_GET.md)
 

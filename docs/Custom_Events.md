@@ -43,6 +43,5 @@ If the event handler is specified using an array for DEV, INTEGER, or a DEVCHAN 
 See Also
 
 - [Event Handlers](Event_Handlers.md)
-
 - [Event Parameters](Event_Parameters.md)
 

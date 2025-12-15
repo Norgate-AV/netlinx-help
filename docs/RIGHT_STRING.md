@@ -17,7 +17,6 @@ WIDECHAR\[ \] RIGHT_STRING (WIDECHAR STRING\[ \], LONG Count)
 Parameters:
 
 - STRING - the string from which to extract the characters.
-
 - Count - the number of character to copy from the end of the string.
 
 Result:

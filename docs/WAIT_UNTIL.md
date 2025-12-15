@@ -23,8 +23,6 @@ Note:  When it is a NetLinx function the ( ) are NOT OPTIONAL, even if there ar
 See Also
 
 - [Waits](Waits.md)
-
 - [TIMED_WAIT_UNTIL](TIMED_WAIT_UNTIL.md)
-
 - [WAIT Keywords](WAIT_Keywords.md)
 

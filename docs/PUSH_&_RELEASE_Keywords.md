@@ -9,32 +9,22 @@ The NetLinx language supports the following PUSH & RELEASE keywords:
 PUSH Keywords:
 
 - [PUSH](PUSH.md)
-
 - [PUSH_CHANNEL](PUSH_CHANNEL.md)
-
 - [PUSH_DEVCHAN](PUSH_DEVCHAN.md)
-
 - [PUSH_DEVICE](PUSH_DEVICE.md)
-
 - [DO_PUSH](DO_PUSH.md)
-
 - [DO_PUSH_TIMED](DO_PUSH_TIMED.md)
 
 RELEASE Keywords:
 
 - [RELEASE](RELEASE.md)
-
 - [RELEASE_DEVICE](RELEASE_DEVICE.md)
-
 - [RELEASE_CHANNEL](RELEASE_CHANNEL.md)
-
 - [RELEASE_DEVCHAN](RELEASE_DEVCHAN.md)
-
 - [DO_RELEASE](DO_RELEASE.md)
 
 See Also
 
 - [TO](TO.md)
-
 - [MIN_TO](MIN_TO.md)
 

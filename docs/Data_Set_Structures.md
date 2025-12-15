@@ -7,9 +7,7 @@ title: Data_Set_Structures
 NetLinx predefines several structures designed to work with NetLinx device numbers, channels, and levels. Data sets allow you to group and combine certain elements of NetLinx devices. There are three data set structures supported by NetLinx:
 
 - [DEV](DEV.md) (Device Sets)
-
 - [DEVCHAN](DEVCHAN.md) (Device-Channel Sets)
-
 - [DEVLEV](DEVLEV.md) (Device-Level Sets)
 
 You have already seen the structure DEV structure in the [DEFINE_DEVICE](DEFINE_DEVICE.md) section. If we were to define the structure [DEV](DEV.md) in the [DEFINE_TYPE](DEFINE_TYPE.md) section, it would look like this:
@@ -115,14 +113,9 @@ PUSH\[MSP_PRESET1\]  (\* MSP_PRESET1 IS A DEVCHAN SET \*)
 See Also
 
 - [Identifiers](Identifiers.md)
-
 - [Devices](Devices.md)
-
 - [Device Arrays](Device_Arrays.md)
-
 - [Device-Channels and Device-Channel Arrays](Device_Channels_and_Device_Channel_Arrays.md)
-
 - [Device-Level Arrays](Device_Level_Arrays.md)
-
 - [Virtual Devices](Virtual_Devices.md)
 

@@ -17,9 +17,7 @@ SINTEGER DATA_ADD_RECORD (CHAR FEED\[\], CHAR \[\] RECORDSET_ID, DATA_RECORD REC
 Parameters:
 
 - FEED : A string containing the name of the data feed to add the record to
-
 - RECORDSET_ID : A string containing the name of the record set the record belongs to
-
 - REC : A [DATA_RECORD](DATA_RECORD.md) containing the record values to add to the data feed
 
 Result:
@@ -99,12 +97,8 @@ DATA_ADD_RECORD('phonelist', 'phonelist', record)
 See Also
 
 - [DATA_RECORD](DATA_RECORD.md)
-
 - [DATA_GET_EVENT_RECORD](DATA_GET_EVENT_RECORD.md)
-
 - [WC_DATA_RECORD](WC_DATA_RECORD.md)
-
 - \_[WC_DATA_ADD_RECORD](WC_DATA_ADD_RECORD.md)
-
 - \_[WC_DATA_GET_EVENT_RECORD](WC_DATA_GET_EVENT_RECORD.md)
 

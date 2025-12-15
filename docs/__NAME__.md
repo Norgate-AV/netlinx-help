@@ -17,18 +17,13 @@ Sends the PROGRAM\_NAME description of the currently executing program file to a
 See Also
 
 - [\_\_DATE\_\_](__DATE__.md)
-
 - [\_\_FILE\_\_](__FILE__.md)
-
 - [\_\_LDATE\_\_](__LDATE__.md)
-
 - [\_\_LINE\_\_](__LINE__.md)
-
 - [\_\_TIME\_\_](__TIME__.md)
 
 &nbsp;
 
 - [Compilation Warnings](Compiler_Warnings.md)
-
 - [Compilation Errors](Compilation_Errors.md)
 

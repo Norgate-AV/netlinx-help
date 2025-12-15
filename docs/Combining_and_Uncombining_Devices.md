@@ -7,7 +7,6 @@ title: Combining_and_Uncombining_Devices
 The NetLinx functions [COMBINE_DEVICES](COMBINE_DEVICES.md) and [UNCOMBINE_DEVICES](UNCOMBINE_DEVICES.md) are used within events and mainline code to dynamically change the devices combined together. When devices are combined the combine list and [DEV](DEV.md) set lists are reevaluated and updated during run time.
 
 - COMBINE_DEVICES and UNCOMBINE_DEVICES are used as stand-alone statements in an event, mainline or in assignment statements.
-
 - COMBINE_DEVICES and UNCOMBINE_DEVICES will return a value of 0 or -1, depending on the success or failure of the operation.
 
 The first device in a COMBINE_DEVICES statement should be a virtual device. The devices, listed after the virtual device, are either a list of individual device numbers, DEV sets, or any combination of devices and DEV sets.
@@ -89,8 +88,6 @@ PUSH\[TP1,1\]
 See Also
 
 - [Combining and Uncombining Channels](Combining_and_Uncombining_Channels.md)
-
 - [Combining and Uncombining Levels](Combining_and_Uncombining_Levels.md)
-
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
 

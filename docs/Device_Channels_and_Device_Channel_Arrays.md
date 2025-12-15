@@ -73,21 +73,13 @@ Furthermore, since a DEVCHAN array is an array of DEVCHAN structures, DEVCHAN me
 A [DEVCHAN](DEVCHAN.md) array can be used anywhere a \[Device, Channel\] specification is required with the result of providing a range of targets for the command or instruction where it is used. This implies an alternate form for the following commands:
 
 - Button\[(DEVCHAN)\]
-
 - DO_PUSH\[(DEVCHAN)\]
-
 - DO_RELEASE\[(DEVCHAN)\]
-
 - OFF\[(DEVCHAN)\]
-
 - ON\[(DEVCHAN)\]
-
 - PULSE\[(DEVCHAN)\]
-
 - PUSH\[(DEVCHAN)\]
-
 - RELEASE\[(DEVCHAN)\]
-
 - TO\[(DEVCHAN)\]
 
 The index of the last member of the array for which an event notification was triggered can be determined by calling Get_Last(MyDCSet). This is useful for determining which device and channel in an array is referenced to in a particular notification message.
@@ -95,12 +87,8 @@ The index of the last member of the array for which an event notification was tr
 See Also
 
 - [Arrays](Arrays.md)
-
 - [Multi-Dimensional Arrays](Multi_Dimensional_Arrays.md)
-
 - [Device Arrays](Device_Arrays.md)
-
 - [Device-Level Arrays](Device_Level_Arrays.md)
-
 - [Array Keywords](Array_Keywords.md)
 

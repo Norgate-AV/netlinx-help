@@ -61,8 +61,6 @@ UNCOMBINE_LEVELS(VIRTUAL1,1)
 See Also
 
 - [Combining and Uncombining Channels](Combining_and_Uncombining_Channels.md)
-
 - [Combining and Uncombining Devices](Combining_and_Uncombining_Devices.md)
-
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
 

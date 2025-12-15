@@ -19,7 +19,6 @@ Parameters:
 Result:
 
 - 0 = operation was successful
-
 - -1 = invalid virtual device-channel
 
 Example:
@@ -39,8 +38,6 @@ Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upo
 See Also
 
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
-
 - [COMBINE_DEVICES](COMBINE_DEVICES.md)
-
 - [Combining and Uncombining Devices](Combining_and_Uncombining_Devices.md)
 

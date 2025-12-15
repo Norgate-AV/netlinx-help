@@ -33,6 +33,5 @@ Var2 = ABS_VALUE(Var1) // Var2 = 1
 See Also
 
 - [Variables](Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

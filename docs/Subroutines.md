@@ -11,20 +11,14 @@ Note: NetLinx also supports the primary method of incorporating subroutines in A
 Rules:
 
 - The function name must not be a previously defined constant or variable or a name assigned to a buffer or a wait.
-
 - You cannot declare and initialize variables in the same line.
-
 - You must group the declarations first, followed by the initialization.
-
 - Function names are not case sensitive.
 
 See Also
 
 - [Subroutines - Calling Parameters](Subroutines_-_Calling_Parameters.md)
-
 - [Subroutines - Return Statements](Subroutines_-_Return_Statements.md)
-
 - [SYSTEM_CALL Subroutines](System_Call_Subroutines.md)
-
 - [Subroutine Keywords](Subroutine_Keywords.md)
 

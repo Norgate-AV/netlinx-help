@@ -23,8 +23,6 @@ This technique is useful in cases where a System Call contains a [WAIT](WAIT_Key
 See Also
 
 - [Subroutines](Subroutines.md)
-
 - [SYSTEM_CALL Subroutines](System_Call_Subroutines.md)
-
 - [Subroutine Keywords](Subroutine_Keywords.md)
 

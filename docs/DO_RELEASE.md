@@ -17,12 +17,10 @@ DO_RELEASE(DEVICE, CHANNEL)
 Parameters:
 
 - Device - the device to RELEASE.
-
 - Channel - the channel to RELEASE.
 
 See Also
 
 - [DO_PUSH](DO_PUSH.md)
-
 - [DO_PUSH_TIMED](DO_PUSH_TIMED.md)
 

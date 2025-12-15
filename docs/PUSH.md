@@ -39,7 +39,6 @@ Channel – a single channel number.
 CHAN\[ \] – a channel array.
 
 - [DEVCHAN](DEVCHAN.md)\[ \]:  a device-channel array.
-
 - Variable: a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
 
 Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md) handler for processing [PUSH](PUSH.md) events.
@@ -47,16 +46,10 @@ Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md) h
 See Also
 
 - [PUSH_CHANNEL](PUSH_CHANNEL.md)
-
 - [PUSH_DEVCHAN](PUSH_DEVCHAN.md)
-
 - [PUSH_DEVICE](PUSH_DEVICE.md)
-
 - [RELEASE](RELEASE.md)
-
 - [RELEASE_CHANNEL](RELEASE_CHANNEL.md)
-
 - [RELEASE_DEVCHAN](RELEASE_DEVCHAN.md)
-
 - [RELEASE_DEVICE](RELEASE_DEVICE.md)
 

@@ -89,9 +89,7 @@ Data Objects
 | Data.Text          | [CHAR](CHAR.md) Array | Text associated with the event |
 
 - The event number is a number associated with a command or error condition or the device ID associated with an online/offline event.
-
 - The numeric value is stored either as a floating point number or integer as appropriate, but the value can be assigned to a variable of any numeric type. This field could be a value associated with a command event or error condition.
-
 - Text associated with the event is text associated with a command, string, or error notification. It can also be the device ID string in the case of an online/offline event.
 
 The following table shows the fields that contain relevant information for data or notifications received via Internet protocol (IP):
@@ -133,7 +131,6 @@ The following example shows basic code for tracking a touch panel page.
 
 ```
 - Assume that the variables have been properly defined in the DEFINE_VARIABLE section.
-
 - The DEFINE_START section contains the creation of the buffer and the DEFINE_PROGRAM section contains the string evaluation.
 
 DEFINE_START
@@ -219,6 +216,5 @@ Each event handler contains several imbedded data objects that pass data values 
 See Also
 
 - [Button Events](Button_Events.md)
-
 - [Channel Events](Channel_Events.md)
 

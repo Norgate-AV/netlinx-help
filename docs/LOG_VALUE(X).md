@@ -15,9 +15,6 @@ Where X can be any intrinsic type (INTEGER, FLOAT,  DOUBLE, etc) with a value g
 See Also
 
 - [EXP_VALUE(X)](EXP_VALUE(X).htm)
-
 - [LOG10_VALUE(X)](LOG10_VALUE(X).htm)
-
 - [POWER_VALUE(X,Y)](POWER_VALUE(X,Y).htm)
-
 - [SQRT_VALUE(X)](SQRT_VALUE(X).htm)

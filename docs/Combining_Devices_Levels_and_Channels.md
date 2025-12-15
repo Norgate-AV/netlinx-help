@@ -15,34 +15,25 @@ In addition to [virtual devices](Virtual_Devices.md) and [device arrays](Device_
 The Keywords used to Combine Devices, Levels and Channels are:
 
 - [COMBINE_CHANNELS](COMBINE_CHANNELS.md)
-
 - [COMBINE_DEVICES](COMBINE_DEVICES.md)
-
 - [COMBINE_LEVELS](COMBINE_LEVELS.md)
 
 The Keywords used to Uncombine Devices, Levels and Channels are:
 
 - [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md)
-
 - [UNCOMBINE_DEVICES](UNCOMBINE_DEVICES.md)
-
 - [UNCOMBINE_LEVELS](UNCOMBINE_LEVELS.md)
 
 Notes:
 
 - If you have combined Devices, Levels and/or Channels, they must be uncombined before they can be added as part of a new Combine function.
-
 - When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upon a button event, the combining and combining must be done on the release of the button (the active event must be complete before a  COMBINE_XXXX or UNCOMBINE_XXXX function is invoked).
-
 - Input and output changes occurring on non-combined panels will not affect combined panels, and vice versa.
 
 Select a Help Topic:
 
 - [Combining and Uncombining Channels](Combining_and_Uncombining_Channels.md)
-
 - [Combining and Uncombining Devices](Combining_and_Uncombining_Devices.md)
-
 - [Combining and Uncombining Levels](Combining_and_Uncombining_Levels.md)
-
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
 

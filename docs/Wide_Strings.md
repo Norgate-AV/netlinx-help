@@ -49,6 +49,5 @@ Each 8-bit character in the CHAR string is converted to 16-bit before the assign
 See Also
 
 - [Strings](Strings.md)
-
 - [STRING Keywords](STRING_Keywords.md)
 

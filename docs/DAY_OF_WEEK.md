@@ -29,6 +29,5 @@ nDAY = DAY_OF_WEEK ('2/13/1999') // nDAY = 7 (Saturday)
 See Also
 
 - [DAY](DAY.md)
-
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
 

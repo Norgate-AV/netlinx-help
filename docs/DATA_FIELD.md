@@ -11,7 +11,6 @@ The DATA_FIELD structure contains information describing an individual data fiel
 DATA_FIELD structure fields:
 
 - ID – A string containing a unique identifier for the field
-
 - TYPE – A string containing the field type.  Valid data field types are:
 
 DATA_TYPE_UNKNOWN
@@ -37,7 +36,6 @@ DATA_FORMAT_EMAIL
 DATA_FORMAT_ISO8601
 
 - LABEL – A string containing the field label
-
 - VALUE – A string containing the field value
 
 See Also

@@ -17,9 +17,7 @@ Typically, persistent variables are used for saving preset information. Suppose 
 When a new NetLinx program is downloaded to the Master, the Master iterates through all non-volatile variables from the new program looking for persistent ones. When it finds a persistent variable in the new program, it searches the old programs persistent variable space for the same variable. When it finds the same variable, the value of the new variable is set to the same value as the old variable. The Master identifies the same variable by verifying the following:
 
 - Variable name
-
 - Variable source location
-
 - Variable type
 
 Therefore, in order for persistence to function properly the name, type, and file location declared must be the same as the previously downloaded NetLinx program. If you changed any of the three, the new persistent variable will not be set with the old variable's value.
@@ -29,18 +27,11 @@ Note: Persistent Variables do not work in [Modules](NetLinx_Modules_Advanced_Pro
 See Also
 
 - [Variables & Constants](Variables_&_Constants.md)
-
 - [Variables](Variables.md)
-
 - [Local Variables](Local_Variables.md)
-
 - [Global Variables](Global_Variables.md)
-
 - [Persistent Variables](Persistent_Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
-
 - [DEFINE_MUTUALLY_EXCLUSIVE and Variables](DEFINE_MUTUALLY_EXCLUSIVE_and_Variables.md)
-
 - [Constants](Constants.md)
 

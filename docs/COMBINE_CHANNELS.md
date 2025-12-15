@@ -19,7 +19,6 @@ COMBINE_CHANNELS (DEVCHAN VDC, DEVCHAN\[ \] DCSets)
 Parameters:
 
 - VDC -Virtual device-channel that represents one device-channel combine group.
-
 - DCSets -Device-channel array containing the device-channel pairs to combine. The VDC is combined with each element in the device-channel array.
 
 Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upon a button event, the combining and combining must be done on the release of the button (the active event must be complete before a  COMBINE_XXXX or UNCOMBINE_XXXX function is invoked).
@@ -29,6 +28,5 @@ For program code examples demonstrating the use of COMBINE_CHANNELS and [UNCOMBI
 See Also
 
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
-
 - [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md)
 

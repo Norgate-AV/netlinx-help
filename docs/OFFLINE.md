@@ -11,8 +11,6 @@ This is one of the important aspects of the DATA\_EVENT that is triggered when t
 See Also
 
 - [ONLINE](ONLINE.md)
-
 - [Data Events](Data_Events.md)
-
 - [Data Event Keywords](Data_Event_Keywords.md)
 

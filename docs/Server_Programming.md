@@ -21,9 +21,7 @@ IP_SERVER_OPEN(LocalPort, ServerPort, Protocol)
 Parameters:
 
 - LocalPort - the local port number to open. This number must be passed to IP_SERVER_CLOSE to close the port.
-
 - ServerPort - the number of the server port to listen on.
-
 - Protocol - The transport protocol to use (1 = TCP, 2 = UDP).
 
  If this parameter is not specified, TCP (1) is assumed.
@@ -139,9 +137,7 @@ STRING:
 The device specification (0:LocalPort:0) is interpreted as follows:
 
 - Device Number = 0: The master
-
 - Port = LocalPort: The local port number
-
 - System = 0: This system (the client)
 
 ## Sending Data
@@ -153,22 +149,15 @@ SEND_STRING 0:LocalPort:0, '\<string\>'
 The device specification (0:LocalPort:0) is interpreted as follows:
 
 - Device Number = 0: The master
-
 - Port = LocalPort: The local port number
-
 - System = 0: This system (the client)
 
 See Also
 
 - [IP Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-
 - [Client Programming](Client_Programming.md)
-
 - [Receiving Data with UDP](Receiving_Data_with_UDP.md)
-
 - [Multicast UDP Messages](Multicast_UDP_Messages.md)
-
 - [Example IP Code](Example_IP_Code.md)
-
 - [IP Keywords](IP_Keywords.md)
 

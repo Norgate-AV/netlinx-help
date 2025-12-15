@@ -17,5 +17,4 @@ Returns:
 The following values are returned from the call:
 
 - 0 - Successful audit
-
 - -1 - Audit failed

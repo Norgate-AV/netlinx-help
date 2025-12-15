@@ -13,17 +13,13 @@ INTEGER FIND_STRING (WIDECHAR STRING\[ \], WIDECHAR Seq\[ \], INTEGER Start)
 Parameters:
 
 - STRING - the string of character to search
-
 - Seq - the sequence of characters to search for
-
 - Start - the starting character position for the search
 
 Result:
 
 - A 16-bit unsigned integer representing the character location of Seq in STRING.
-
 -  If the character string is found at the beginning of the string, this function returns 1.
-
 - Any error condition returns 0.
 
 Example:

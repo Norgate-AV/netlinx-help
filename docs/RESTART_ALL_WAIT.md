@@ -15,10 +15,7 @@ RESTART_ALL_WAIT
 See Also
 
 - [Waits](Waits.md)
-
 - [PAUSE_ALL_WAIT](PAUSE_ALL_WAIT.md)
-
 - [PAUSE_WAIT](PAUSE_WAIT.md)
-
 - [RESTART_WAIT](RESTART_WAIT.md)
 

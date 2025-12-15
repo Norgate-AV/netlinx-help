@@ -11,9 +11,7 @@ Timelines are represented by the illustration below:
 ![](Timelines.jpg)
 
 - When the [TIMELINE_CREATE](TIMELINE_CREATE.md) function is executed, the timeline starts at zero and begins counting. When the timer value equals a value in the TIMES array, a [TIMELINE_EVENT](TIMELINE_EVENT.md) is triggered.
-
 - Within the timeline event, a TIMELINE structure is available to get information about the specific time from the TIMES array that generated the event.
-
 - When a relative timeline is created, the NetLinx Master converts the provided relative times into absolute times that are stored internally.
 
 The TIMELINE structure contains the following members:
@@ -151,14 +149,11 @@ PUSH\[dvPanel,2\]
 The example above creates two Timelines (TL1 and TL2) that trigger events at the same rate (once per second).
 
 - TL1 uses TIMELINE_ABSOLUTE to specify that the times in TimeArray are absolute with respect to the start of the timeline. Since TL1 specifies the TIMELINE_REPEAT, it is also repeating and will generate a TIMELINE_EVENT every second iterating through all five times in a round-robin fashion: 1,2,3,4,5,1,2,3,4,5,1,2,3, and so on.
-
 - TL2 uses TIMELINE_RELATIVE to specify that the times in TimeArray are relative to each other (i.e. each events occurs 1000 milliseconds after the previous). Since TL2 specifies the TIMELINE_ONCE parameter, it will execute the entire timeline once, then stop: 1,2,3,4,5.
 
 See Also
 
 - [TIMELINE IDs](TIMELINE_IDs.md)
-
 - [TIMELINE Example](TIMELINE_example.md)
-
 - [TIMELINE Keywords](TIMELINE_Keywords.md)
 

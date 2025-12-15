@@ -7,7 +7,6 @@ title: Working_With_UniCode
 Before you begin to work with Unicode, you must enable the UTF-8 Unicode option and the Unicode Compile option in NetLinx Studio.
 
 - The UTF-8 Unicode option directs NetLinx Studio to store your file as UTF-8, which will support Unicode characters.
-
 - The Unicode Compile option directs NetLinx Studio to process the \_WC pre-processor statements to properly handle Unicode embedded in your source files at compile time.
 
 ## Enabling UTF-8 in NetLinx Studio:
@@ -39,7 +38,6 @@ To enable UTF-8, in NetLinx Studio:
 ## Including the Unicode Library
 
 - The Unicode Library is implemented in a NetLinx Include file, UnicodeLib.axi, that must be included in your program in order to access the Unicode functions.  
-
 - The Unicode Library is located in an Include file located in the C:\Program Files\Common Files\AMXShare\AXIs directory.  
 
 Because this location is the default Include search path, you do not need to specify the directory in the include statement.
@@ -105,7 +103,6 @@ wchChar = wcString\[1\]
 Right-to-left languages are not stored differently than left-to-right languages, they are simply rendered differently than right to left languages. However, note that the functions WC_LEFT_STRING and WC_RIGHT_STRING remove a number of characters from the start and end of a string respectively.  Using WC_LEFT_STRING on a right-to-left language will return the number of right-most, i.e. first, characters you requested, not the left-most, i.e. end, characters.  
 
 - WC_LEFT_STRING returns the number of characters request from the front of the string.
-
 - WC_RIGHT_STRING return the number of characters requested from the end of the string, regardless of the language’s orientation.
 
 ## Sending Strings to a User Interface
@@ -121,7 +118,6 @@ SEND_COMMAND dvTP,"'^UNI-1,0,',cMyString "
 See Also
 
 - [Reading and Writing to Files](Reading_and_Writing_to_Files.md)
-
 - [Unicode-Related Compiler Errors](Unicode-Related_Compiler_Errors.md)
 
  

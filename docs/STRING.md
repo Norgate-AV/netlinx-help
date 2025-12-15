@@ -9,6 +9,5 @@ This keyword defines a section in a [DATA event handler](Data_Events.md) for pro
 See Also
 
 - [DATA_EVENT](DATA_EVENT.md)
-
 - [STRING Keywords](STRING_Keywords.md)
 

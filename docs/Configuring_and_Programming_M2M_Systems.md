@@ -25,13 +25,9 @@ In order to reference devices of other NetLinx systems, the devices MUST be defi
 Conversely, only devices that are necessary should be placed in the DEFINE_DEVICE section to avoid any unnecessary network traffic between NetLinx masters.
 
 - [DEFINE_LATCHING](DEFINE_LATCHING.md): A remote device’s channel is not allowed in the DEFINE_LATCHING section.
-
 - [DEFINE_MUTUALLY_EXCLUSIVE](DEFINE_MUTUALLY_EXCLUSIVE.md): A remote device’s channel is not allowed in the DEFINE_MUTUALLY_EXCLUSIVE section.
-
 - [DEFINE_TOGGLING](DEFINE_TOGGLING.md): A remote device’s channel is not allowed in the DEFINE_TOGGLING section.
-
 - The proper way to modify a channel’s behavior is to use [ON](ON.md)/ [OFF](OFF.md)/ [TO](TO.md)/ [PULSE](PULSE.md)!
-
 - [DEFINE_MODULE](DEFINE_MODULE.md): As a guideline the best practice is to run a UI module on the master that the touch panel or keypad is connected to, and to run the COMM module on the master that the device is connected to. This practice should limit the number of messages across the network as the amount of messages between the UI and COMM modules is generally smaller than the amount of messages between the device and the COMM module.
 
 ## M2M - Inter-Master Variables
@@ -41,10 +37,7 @@ Inter-master variables are not implemented at this time. However, the value of v
 The following topics describe configuring and programming M2M Systems:
 
 - [Using NetLinx Studio with M2M Systems](Using_NetLinx_Studio_with_M2M_Systems.md)
-
 - [Using Telnet with M2M Systems](Using_Telnet_with_M2M_Systems.md)
-
 - [M2M - Using Virtual Devices as Moderators](M2M_-_Using_Virtual_Devices_as_Moderators.md)
-
 - [M2M - Processing Queues and Troubleshooting](M2M_-_Processing_Queues_and_Troubleshooting.md)
 

@@ -9,6 +9,5 @@ This keyword may be used with the [HOLD](HOLD.md) keyword to specify that the (h
 See Also
 
 - [Event Handlers](Event_Handlers.md)
-
 - [Event Handler Keywords](Event_Handler_Keywords.md)
 

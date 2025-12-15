@@ -7,7 +7,6 @@ title: Structure_Keywords
 The NetLinx Language supports the following Structure keywords:
 
 - [STRUCT](STRUCT.md)
-
 - [STRUCTURE](STRUCTURE.md)
 
 See Also

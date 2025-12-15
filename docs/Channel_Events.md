@@ -122,12 +122,8 @@ PULSE\[VPROJ,VP_POWER_OFF\]
 See Also
 
 - [Button Events](Button_Events.md)
-
 - [Data Events](Data_Events.md)
-
 - [Level Events](Level_Events.md)
-
 - [Custom Events](Custom_Events.md)
-
 - [Event Handler Keywords](Event_Handler_Keywords.md)
 

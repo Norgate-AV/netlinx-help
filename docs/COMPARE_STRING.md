@@ -7,7 +7,6 @@ title: COMPARE_STRING
 This keyword compares two character strings.
 
 - If either string contains a ‘?’ character, the matching character in the other string is not compared.
-
 - The ‘?’ is equivalent to a wildcard.
 
 Example:
@@ -63,7 +62,6 @@ Another example of a use for this feature is if you want an event to occur every
 Result: The returned result can only be True (1) or False (0).
 
 - 0 = the strings don’ t match
-
 - 1 = the strings are the same
 
 See Also

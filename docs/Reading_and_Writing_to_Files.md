@@ -19,28 +19,20 @@ Note: The Unicode file format, specified by the constant WC_FORMAT_UNICODE , is 
 The WC_FILE_READ/WRITE functions take the number of characters that will be read or written to the file.  However, the functions return the number of bytes read or written to the file, not the number of characters.  For Unicode and Unicode BE encoding, there are 2 bytes for every character.  For UTF-8 encoding, the number of bytes for every character varies depending on the character.
 
 - Unicode filenames are not supported.  
-
 - The parameter for the file name is a CHAR array.  
-
 - Always use a non-Unicode name for the file.
 
 The following file functions support WIDECHAR arrays:
 
 - [WC_FILE_OPEN](WC_FILE_OPEN.md)
-
 - [WC_FILE_CLOSE](WC_FILE_CLOSE.md)
-
 - [WC_FILE_READ](WC_FILE_READ.md)
-
 - [WC_FILE_READ_LINE](WC_FILE_READ_LINE.md)
-
 - [WC_FILE_WRITE](WC_FILE_WRITE.md)
-
 - [WC_FILE_WRITE_LINE](WC_FILE_WRITE_LINE.md)
 
 See Also
 
 - [Working with WIDECHAR arrays and Unicode Strings](Working_with_WIDECHAR_arrays_and_Unicode_Strings.md)
-
 - [Unicode-Related Compiler Errors](Unicode-Related_Compiler_Errors.md)
 

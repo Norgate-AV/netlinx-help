@@ -27,24 +27,14 @@ INTEGER System
 See Also:
 
 - [CHAR](CHAR.md)
-
 - [WIDECHAR](WIDECHAR.md)
-
 - [INTEGER](INTEGER.md)
-
 - [SINTEGER](SINTEGER.md)
-
 - [LONG](LONG.md)
-
 - [SLONG](SLONG.md)
-
 - [FLOAT](FLOAT.md)
-
 - [DOUBLE](DOUBLE.md)
-
 - [DEVCHAN](DEVCHAN.md)
-
 - [DEVLEV](DEVLEV.md)
-
 - [Conversion Keywords](Conversion_Keywords.md)
 

@@ -35,8 +35,6 @@ VarMin = MIN_VALUE(Var1,Var2)  // VarMin = 100
 See Also
 
 - [MAX_VALUE](MAX_VALUE.md)
-
 - [Variables](Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

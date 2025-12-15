@@ -13,11 +13,8 @@ Parameters
 DEVICE refers to:
 
 - Device – a single device number.
-
 - Dps – a DEV structure.
-
 - D:P:S – a device specification such as 128:1:0.
-
 - DEV\[ \] – a device array.
 
 Note: Not all devices support REBOOT.

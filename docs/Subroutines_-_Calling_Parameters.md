@@ -15,13 +15,11 @@ Note: The rules pertaining to calling parameters for DEFINE\_FUNCTION subroutine
 Rules:
 
 - The parameter list must appear in parentheses to the right of the function name.
-
 - If the function has no calling parameters a set of parentheses must still be included. For example,
 
 MyFunc() // calling a function with no parameters
 
 - The return type may be omitted, as an alternate way of defining a subroutine. In this case the function cannot be used as part of an expression or in an assignment statement. See [Subroutines - Return Statements](Subroutines_-_Return_Statements.md) for details.
-
 - Function and subroutine declarations must include the type and name of each parameter expected. If the type is omitted, the default type is assumed – arrays are [CHAR](CHAR.md) type and non-array parameters are [INTEGER](INTEGER.md).
 
 To specify an array as a function or subroutine parameter, one set of brackets for each array dimension must follow the variable name, as shown in the following example:
@@ -53,8 +51,6 @@ The subroutine will receive a 2-dimensional array with 5 rows and 10 columns. Th
 See Also
 
 - [Subroutines - Return Statements](Subroutines_-_Return_Statements.md)
-
 - [SYSTEM_CALL Subroutines](System_Call_Subroutines.md)
-
 - [Subroutine Keywords](Subroutine_Keywords.md)
 

@@ -33,12 +33,8 @@ nMonth = DATE_TO_MONTH ('2/9/1999') // nMonth = 2
 See Also
 
 - [DATE](DATE.md)
-
 - [LDATE](LDATE.md)
-
 - [DATE_TO_DAY](DATE_TO_DAY.md)
-
 - [DATE_TO_YEAR](DATE_TO_YEAR.md)
-
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
 

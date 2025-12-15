@@ -37,6 +37,5 @@ WAIT 42949672l9.5 // wait ~1.36 years
 See Also
 
 - [WAITs](Waits.md)
-
 - [WAIT Keywords](WAIT_Keywords.md)
 

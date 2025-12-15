@@ -11,6 +11,5 @@ While NetLinx does not support a BOOLEAN data type, an non-zero value is conside
 See Also
 
 - [FALSE](FALSE.md)
-
 - [Conditional Keywords](Conditional_Keywords.md)
 

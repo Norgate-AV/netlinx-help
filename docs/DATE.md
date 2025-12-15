@@ -21,14 +21,9 @@ IF (DATE = '12/25/00')
 See Also
 
 - [LDATE](LDATE.md)
-
 - [DATE_TO_DAY](DATE_TO_DAY.md)
-
 - [DATE_TO_MONTH](DATE_TO_MONTH.md)
-
 - [DATE_TO_YEAR](DATE_TO_YEAR.md)
-
 - [\_\_DATE\_\_](__DATE__.md)
-
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
 

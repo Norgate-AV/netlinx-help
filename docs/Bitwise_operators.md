@@ -21,12 +21,8 @@ The Bitwise Operators are listed below:
 See Also
 
 - [Arithmetic Operators](Arithmetic_operators.md)
-
 - [Relational Operators](Relational_operators.md)
-
 - [Logical Operators](Logical_operators.md)
-
 - [Assignment Operators](Assignment_operators.md)
-
 - [Operator Precedence](Operator_Precedence.md)
 

@@ -19,6 +19,5 @@ Note: Due to the nature of [STANDBY](STANDBY.md) state, a device in standby sync
 See Also
 
 - [DEVICE Keywords](DEVICE_Keywords.md)
-
 - [DEVICE_STANDBY](DEVICE_STANDBY.md)
 

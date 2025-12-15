@@ -23,8 +23,6 @@ For program code examples demonstrating the use of [COMBINE_CHANNELS](COMBINE_CH
 See Also
 
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
-
 - [COMBINE_CHANNELS](COMBINE_CHANNELS.md)
-
 - [Combining and Uncombining Channels](Combining_and_Uncombining_Channels.md)
 

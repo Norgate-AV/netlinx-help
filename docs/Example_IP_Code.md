@@ -203,14 +203,9 @@ SEND_STRING dvIPClient,"'ping',13"
 See Also
 
 - [IP Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-
 - [Client Programming](Client_Programming.md)
-
 - [Server Programming](Server_Programming.md)
-
 - [Receiving Data with UDP](Receiving_Data_with_UDP.md)
-
 - [Multicast UDP Messages](Multicast_UDP_Messages.md)
-
 - [IP Keywords](IP_Keywords.md)
 

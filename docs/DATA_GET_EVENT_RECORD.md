@@ -17,11 +17,8 @@ SINTEGER DATA_GET_EVENT_RECORD (DEV device, LONG payloadID, char fields\[\]\[\],
 Parameters:
 
 - device : NetLinx device event is coming from
-
 - payloadID : Payload identifier supplied in custom event value1
-
 - fields : array of strings specifying what fields from the record to return
-
 - rec : [DATA_RECORD](DATA_RECORD.md) structure containing the desired field values from the data feed event
 
 Result:
@@ -107,12 +104,8 @@ if (payloadID \> 0 && payloadType == DATA_STRUCTURE_DATARECORD)
 See Also
 
 - [DATA_RECORD](DATA_RECORD.md)
-
 - [DATA_ADD_RECORD](DATA_ADD_RECORD.md)
-
 - [WC_DATA_RECORD](WC_DATA_RECORD.md)
-
 - \_[WC_DATA_ADD_RECORD](WC_DATA_ADD_RECORD.md)
-
 - \_[WC_DATA_GET_EVENT_RECORD](WC_DATA_GET_EVENT_RECORD.md)
 

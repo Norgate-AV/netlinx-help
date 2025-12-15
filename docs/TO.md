@@ -37,19 +37,14 @@ Parameters
 DEVICE refers to:
 
 - Device – a single device number.
-
 - Dps – a DEV structure.
-
 - D:P:S – a device specification such as TP:1:0.
-
 - DEV\[ \] – a device array.
 
 CHANNEL refers to:
 
 - Channel – a single channel number.
-
 - CHAN\[ \] – a channel array.
-
 - The channel or variable will act under the rules set by [DEFINE_LATCHING](DEFINE_LATCHING.md), [DEFINE_MUTUALLY_EXCLUSIVE](DEFINE_MUTUALLY_EXCLUSIVE.md) and [DEFINE_TOGGLING](DEFINE_TOGGLING.md).
 
 DEVCHAN\[ \] refers to a device-channel array.

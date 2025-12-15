@@ -9,9 +9,7 @@ Wait instructions allow delayed execution of one or more program statements. Whe
 Types of Wait statements include:
 
 - [Timed Wait](Timed_Waits.md): A timed wait request has an associated parameter that indicates that amount of time that must elapse before the associated wait instruction(s) are to be executed.
-
 - [Conditional Wait](Conditional_Waits.md): Conditional waits require that a specified condition be met before the instructions are executed. [WAIT_UNTIL](WAIT_UNTIL.md) is a conditional Wait request.
-
 - [Timed Conditional Wait](Timed_Conditional_Waits.md): Timed conditional waits are conditional waits with a timeout parameter; if the condition is not met before the specified time elapses, the wait request is cancelled.
 
 Naming WAITs
@@ -63,13 +61,9 @@ WAIT_UNTIL \<condition 1\> 'FIRST WAIT'
 Using Waits - Limitations
 
 - References to [STACK_VAR](STACK_VAR.md) variables are not allowed within waits. STACK_VARs are temporary variables that cease to exist when the block in which they are declared is exited.
-
 - Variable copies are made of functions and subroutine parameters. This can have speed/execute penalties.
-
 - Within functions and subroutines, a [RETURN](RETURN.md) is not allowed within a [WAIT](WAIT.md).
-
 - A [BREAK](BREAK.md) or CONTINUE cannot appear within a WAIT if it takes execution out of the scope of the WAIT.
-
 - The code within a WAIT cannot reference a function or subroutine array parameter whose bounds are unspecified.
 
 See Also

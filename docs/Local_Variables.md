@@ -33,9 +33,7 @@ DEFINE_CALL 'My Subroutine' (INTEGER INT1)
 The scope of a local variable is restricted to the statement block in which it is declared. A local variable is either static or non-static, depending on whether it is declared as [LOCAL_VAR](LOCAL_VAR.md) or [STACK_VAR](STACK_VAR.md):
 
 - The keyword [LOCAL_VAR](LOCAL_VAR.md) specifies a static variable. A static variable's value is initialized the first time the statement block in which it is declared is executed and retained after execution of the statement block has finished.
-
 - The [STACK_VAR](STACK_VAR.md) keyword specifies a non-static variable. A non-static variable's value is re-initialized every time the statement block in which it is declared is executed.
-
 - If neither the [LOCAL_VAR](LOCAL_VAR.md) nor the [STACK_VAR](STACK_VAR.md) keyword is specified, STACK_VAR is assumed (default).
 
 Example:
@@ -147,16 +145,10 @@ Since non-static local variables are allocated on the program stack (a block of 
 See Also
 
 - [Variables & Constants](Variables_&_Constants.md)
-
 - [Variables](Variables.md)
-
 - [Global Variables](Global_Variables.md)
-
 - [Persistent Variables](Persistent_Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
-
 - [DEFINE_MUTUALLY_EXCLUSIVE and Variables](DEFINE_MUTUALLY_EXCLUSIVE_and_Variables.md)
-
 - [Constants](Constants.md)
 

@@ -7,9 +7,7 @@ title: Button_Events
 Button Events include Pushes, Releases and Holds. These events are associated with a push or release on a particular device-channel.
 
 - A [HOLD](HOLD.md) event handler specifies the actions that should be performed when a button is pressed and held for a minimum length of time indicated by the [TIME](TIME.md) parameter (specified in 0.1 second increments).
-
 - The [REPEAT](REPEAT.md) keyword is used to specify that the event notification should be repeated in TIME increments as long as the button is held.
-
 - The BUTTON object is available to the button event handler as a local variable.
 
 The following table lists the information contained in Button Objects.
@@ -72,14 +70,9 @@ BUTTON_EVENT\[(DEVCHAN\[ \])\]
 See Also
 
 - [Channel Events](Channel_Events.md)
-
 - [Data Events](Data_Events.md)
-
 - [Level Events](Level_Events.md)
-
 - [Custom Events](Custom_Events.md)
-
 - [Event Parameters](Event_Parameters.md)
-
 - [Event Handler Keywords](Event_Handler_Keywords.md)
 

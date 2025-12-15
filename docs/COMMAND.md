@@ -9,6 +9,5 @@ This keyword defines a section in a DATA event handler for processing [SEND_COMM
 See Also
 
 - [Data Events](Data_Events.md)
-
 - [Data Event Keywords](Data_Event_Keywords.md)
 

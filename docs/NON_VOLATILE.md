@@ -13,8 +13,6 @@ Note: Unless specified otherwise, all variables are stored in non-volatile memor
 See Also
 
 - [VOLATILE](VOLATILE.md)
-
 - [Variables](Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

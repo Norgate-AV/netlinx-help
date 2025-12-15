@@ -67,7 +67,6 @@ The MODULE_NAME entry identifies the file as containing a NetLinx module, as opp
 Module parameters behave exactly like subroutine parameters; the parameter list is optional. The value for each parameter is set either by the main program or another module. If the value of a parameter is changed, both the main program and the module see the change.
 
 - Constants and expressions cannot be used as arguments in the parameter list.
-
 - [Persistent variables](Persistent_Variables.md) do not work in Modules.
 
 All parameters to a module must be on of the intrinsic types: [CHAR](CHAR.md), [INTEGER](INTEGER.md), [SINTEGER](SINTEGER.md), [LONG](LONG.md), [SLONG](SLONG.md), [FLOAT](FLOAT.md), [DOUBLE](DOUBLE.md), [DEV](DEV.md), [DEVCHAN](DEVCHAN.md) or [DEVLEV](DEVLEV.md). Also, any array of any of the  intrinsic types can be used.
@@ -259,6 +258,5 @@ However, because different instances of the same module must not be separated by
 See Also
 
 - [NetLinx Modules](NetLinx_Modules_Advanced_Programmers_.md)
-
 - [Module Keywords](Module_Keywords.md)
 

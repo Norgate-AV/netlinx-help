@@ -39,10 +39,7 @@ BREAK also jumps to the end of a [SWITCH](SWITCH_CASE.md) statement.
 See Also
 
 - [Loops](Loops.md)
-
 - [FOR Loops](FOR_loops.md)
-
 - [SWITCH...CASE](SWITCH_CASE.md)
-
 - [Conditional Keywords](Conditional_Keywords.md)
 

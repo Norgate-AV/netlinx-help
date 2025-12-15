@@ -35,10 +35,7 @@ The sections below describe the IP communication support provided by NetLinx. Th
 See Also
 
 - [Client Programming](Client_Programming.md)
-
 - [Server Programming](Server_Programming.md)
-
 - [Example IP Code](Example_IP_Code.md)
-
 - [IP Keywords](IP_Keywords.md)
 

@@ -11,8 +11,6 @@ Variables stored in volatile memory are not retained when the system is powered 
 See Also
 
 - [NON_VOLATILE](NON_VOLATILE.md)
-
 - [Variables](Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

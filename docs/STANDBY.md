@@ -13,6 +13,5 @@ While in standby state, all communication to the device from the master is dropp
 See Also
 
 - [Data Events](Data_Events.md)
-
 - [Data Event Keywords](Data_Event_Keywords.md)
 

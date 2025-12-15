@@ -17,7 +17,6 @@ WAIT time \['\<name\>'\]
 Parameters:
 
 - time - A constant or variable indicating the wait time. Time is expressed in 1/10th second units. The statement below specifies a wait time of 5 seconds for the wait named FIRST WAIT.
-
 - name - The name to assign to the wait. This name must be a literal string. The wait name is optional, although unless a wait is named it cannot be individually cancelled, paused or restarted.
 
 The NetLinx interpreter accepts any type of number (including Floats and Doubles) for WAIT times but it casts them to an unsigned 32-bit number, i.e. a long.
@@ -49,6 +48,5 @@ Note: If greater precision is required, the time parameter can be expressed as a
 See Also
 
 - [Conditional Waits](Conditional_Waits.md)
-
 - [Timed Conditional Waits](Timed_Conditional_Waits.md)
 

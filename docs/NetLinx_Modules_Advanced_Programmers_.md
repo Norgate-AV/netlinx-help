@@ -17,6 +17,5 @@ When using modules, always keep the order of usage in mind. The modules must be 
 Select a Help Topic
 
 - [Defining a Module](Defining_a_Module.md)
-
 - [Module Keywords](Module_Keywords.md)
 

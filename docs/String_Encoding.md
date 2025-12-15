@@ -34,10 +34,7 @@ These characters are invalid in XML so the following characters can be also be e
 See Also
 
 - [Binary Array Encoding](Binary_Array_Encoding.md)
-
 - [Marshalling Protocol (Group of Bytes)](Marshalling_Protocol_Group_of_Bytes_.md)
-
 - [Marshalling Protocol (Variables)](Marshalling_Protocol_Variables_.md)
-
 - [Marshalling Protocol: Encoding Notes](Marshalling_Protocol_Encoding_Notes.md)
 

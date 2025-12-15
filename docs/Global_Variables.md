@@ -25,10 +25,7 @@ Note: Modules are reusable NetLinx sub-programs that can be inserted into the ma
 See Also
 
 - [NetLinx Modules](NetLinx_Modules_Advanced_Programmers_.md)
-
 - [Variables](Variables.md)
-
 - [Variables & Constants](Variables_&_Constants.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

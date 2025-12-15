@@ -23,14 +23,11 @@ DO_PUSH(DEVICE, CHANNEL)
 Parameters:
 
 - Device - the device to PUSH.
-
 - Channel - the channel to PUSH.
 
 See Also
 
 - [DO_PUSH_TIMED](DO_PUSH_TIMED.md)
-
 - [DO_RELEASE](DO_RELEASE.md)
-
 - [PUSH & RELEASE Keywords](PUSH_&_RELEASE_Keywords.md)
 

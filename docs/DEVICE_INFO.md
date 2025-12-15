@@ -15,55 +15,34 @@ DEVICE_INFO(DEV Device, DEV_INFO_STRUCT Info)
 Parameters:
 
 - Device: The device to query.
-
 - Info: A DEV_INFO_STRUCT variable to populate with the device information.
 
 Result:
 
 - DEVICE_INFO does not return a result.  However, if the DEVICE_INFO call is successful, the DEVICE_ID element of the structure will be non-zero.  
-
 - If DEVICE_ID is zero, the structure contains no useful information.
 
 The DEV_INFO_STRUCT contains the following information:
 
 - Info. MANUFACTURER_STRING – A string identifying the manufacturer of the device.
-
 - Info. MANUFACTURER – A integer identifying the manufacturer.
-
 - Info. DEVICE_ID_STRING – A string description/model number for the specified device.  This is the same information returned by the [DEVICE_ID_STRING](DEVICE_ID_STRING.md) keyword.
-
 - Info. DEVICE_ID – A unique ID number identifying its device type, such as an infrared/serial card or touch panel.  This is the same information returned by the [DEVICE_ID](DEVICE_ID.md) keyword.
-
 - Info. VERSION – A string identifying the firmware version of the device.  This is not available for AxLink devices.
-
 - Info. FIRMWARE_ID – A unique ID number identifying the firmware for this device.  This is not available for AxLink devices.
-
 - Info.SERIAL_NUMBER – A 16-character serial number of the specified device.  The serial number of every device is established when manufactured.  This is the same information returned by [GET_SERIAL_NUMBER](GET_SERIAL_NUMBER.md) keyword .  This is not available for AxLink devices.
-
 - Info. SOURCE_TYPE – An integer identifying how the device is connected to the master.  This value can be any of the following:
-
 - \$00 (SOURCE_TYPE_NO_ADDRESS) – There is now source address.
-
 - \$01 (SOURCE_TYPE_NEURON_ID) – The device is connected via ICSNet.
-
 - \$02 (SOURCE_TYPE_IP_ADDRESS) – the device is connected via IP.
-
 - \$03 (SOURCE_TYPE_AXLINK) The device is connected via ICSNet.
-
 - \$06 (SOURCE_TYPE_IPv4_PORT_MAC_ADDRESS) - The device is connected via IP.
-
 - \$10 (SOURCE_TYPE_NEURON_SUBNODE_ICSP) – The device is connected via ICSNet.
-
 - \$11 (SOURCE_TYPE_NEURON_SUBNODE_PL) – The device is connected via ICSNet.
-
 - \$12 (SOURCE_TYPE_IP_SOCKET_ADDRESS) – This device is a NetLinx socket.
-
 - \$13 (SOURCE_TYPE_RS232) – This device is connected via RS232.
-
 - \$18 (SOURCE_TYPE_IPv4_PORT_MAC_IPv6) - The device is connected via IP.
-
 - \$20 (SOURCE_TYPE_INTERNAL) - This device is internal to the NetLinx controlled.
-
 - Info. SOURCE_STRING – A string identifying the source address.  Normally, this contains only useful information when Info.SOURCE_TYPE is \$02 (IP), in which case this contains the IP address of the device.
 
 Example:
@@ -137,10 +116,7 @@ SOURCE_STRING=00A066452001
 See Also
 
 - [DEVICE_ID](DEVICE_ID.md)
-
 - [DEVICE_ID_STRING](DEVICE_ID_STRING.md)
-
 - [DEVICE_STANDBY](DEVICE_STANDBY.md)
-
 - [DEVICE_WAKE](DEVICE_WAKE.md)
 

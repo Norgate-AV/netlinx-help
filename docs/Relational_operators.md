@@ -22,12 +22,8 @@ The Relational Operators are listed below:
 See Also
 
 - [Arithmetic Operators](Arithmetic_operators.md)
-
 - [Assignment Operators](Assignment_operators.md)
-
 - [Bitwise Operators](Bitwise_operators.md)
-
 - [Logical Operators](Logical_operators.md)
-
 - [Operator Precedence](Operator_Precedence.md)
 

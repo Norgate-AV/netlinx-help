@@ -15,9 +15,7 @@ WIDECHAR\[ \] REMOVE_STRING (WIDECHAR STRING, WIDECHAR Seq\[ \], LONG Start)
 Parameters:
 
 - STRING - string from which to find and remove characters.
-
 - Seq - sequence of characters to find.
-
 - Start - starting position in string to begin search.
 
 Result:

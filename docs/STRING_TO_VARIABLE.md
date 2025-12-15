@@ -19,21 +19,15 @@ Note: The "S" in SINTEGER allows a negative value to be returned.
 Parameters:
 
 - Decode - any type of variable. This is the variable to be decoded into.
-
 - Buffer - Must of char array type. This is where the decode data is found.
-
 - Position - This is where the first byte of the decode data. Is it also modified to point to the next location after the last decoded byte. That means that successive calls to this function can be made without modifying position. Position should be set to one on the first call.
 
 Result:
 
 - 2 = Decode data to small, more members in structure
-
 - 1 = Structure to small, more members in decode string
-
 - 0 = Decoded OK
-
 - -1 = Decode variable type mismatch
-
 - -2 = Decode data too small, decoder ran out of data
 
 Example:
@@ -227,38 +221,21 @@ RELEASE:
 See Also
 
 - [ATOI](ATOI.md)
-
 - [ATOL](ATOL.md)
-
 - [ITOA](ITOA.md)
-
 - [ATOF](ATOF.md)
-
 - [FTOA](FTOA.md)
-
 - [ITOHEX](ITOHEX.md)
-
 - [HEXTOI](HEXTOI.md)
-
 - [CH_TO_WC](CH_TO_WC.md)
-
 - [WC_TO_CH](WC_TO_CH.md)
-
 - [RAW_BE](RAW_BE.md)
-
 - [RAW_LE](RAW_LE.md)
-
 - [VARIABLE_TO_STRING](VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_STRING](LENGTH_VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md)
-
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
-
 - [VARIABLE_TO_XML](VARIABLE_TO_XML.md)
-
 - [FORMAT](FORMAT.md)
-
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
 

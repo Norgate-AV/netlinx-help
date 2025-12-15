@@ -29,14 +29,9 @@ Note that UDP with Receive (3) is only available when calling [IP_CLIENT_OPEN](I
 See Also
 
 - [IP Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-
 - [Client Programming](Client_Programming.md)
-
 - [Server Programming](Server_Programming.md)
-
 - [Multicast UDP Messages](Multicast_UDP_Messages.md)
-
 - [Example IP Code](Example_IP_Code.md)
-
 - [IP Keywords](IP_Keywords.md)
 

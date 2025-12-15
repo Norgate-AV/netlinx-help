@@ -27,52 +27,30 @@ For 0.0001 \<= \| n\| \< 1000000, FTOA returns the result in non-exponential for
 Examples:
 
 - n=1000000 returns '1E+06'
-
 - n=1234567 returns '1.23457E+06'
-
 - n=-0.001 returns '-0.001'
-
 - n=0.00045 returns '0.00045'
-
 - n=0.000045 returns '4.5E-05'
-
 - n=123.45678 returns '123.457'
 
 See Also
 
 - [ATOI](ATOI.md)
-
 - [ATOL](ATOL.md)
-
 - [ITOA](ITOA.md)
-
 - [ATOF](ATOF.md)
-
 - [ITOHEX](ITOHEX.md)
-
 - [HEXTOI](HEXTOI.md)
-
 - [CH_TO_WC](CH_TO_WC.md)
-
 - [WC_TO_CH](WC_TO_CH.md)
-
 - [RAW_BE](RAW_BE.md)
-
 - [RAW_LE](RAW_LE.md)
-
 - [STRING_TO_VARIABLE](STRING_TO_VARIABLE.md)
-
 - [VARIABLE_TO_STRING](VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_STRING](LENGTH_VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md)
-
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
-
 - [VARIABLE_TO_XML](VARIABLE_TO_XML.md)
-
 - [FORMAT](FORMAT.md)
-
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
 

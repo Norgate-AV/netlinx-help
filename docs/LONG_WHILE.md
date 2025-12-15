@@ -23,14 +23,11 @@ LONG_WHILE (\<conditional expression\>)
 Notes:
 
 - DEFINE_EVENTs events are still processed even if mainline is in a LONG_WHILE.
-
 - Special care should be taken to avoid spawning concurrent LONG_WHILEs via [DEFINE_EVENT](DEFINE_EVENT.md) code. This can cause excessive drag on system resources.
 
 See Also
 
 - [Conditional Keywords](Conditional_Keywords.md)
-
 - [WHILE](WHILE.md)
-
 - [MEDIUM_WHILE](MEDIUM_WHILE.md)
 

@@ -15,12 +15,8 @@ CANCEL_ALL_WAIT_UNTIL \<'name'\>
 See Also
 
 - [Waits](Waits.md)
-
 - [CANCEL_WAIT](CANCEL_WAIT.md)
-
 - [CANCEL_WAIT_UNTIL](CANCEL_WAIT_UNTIL.md)
-
 - [CANCEL_ALL_WAIT](CANCEL_ALL_WAIT.md)
-
 - [WAIT Keywords](WAIT_Keywords.md)
 

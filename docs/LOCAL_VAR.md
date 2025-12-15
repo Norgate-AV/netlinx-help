@@ -13,6 +13,5 @@ Note: To provide compatibility with the Axcess language, local variables may be 
 See Also
 
 - [Variables](Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

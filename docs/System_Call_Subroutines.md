@@ -25,10 +25,7 @@ SYSTEM_CALL 'COSX' (45)
 See Also
 
 - [Subroutines](Subroutines.md)
-
 - [Subroutines - Calling Parameters](Subroutines_-_Calling_Parameters.md)
-
 - [Subroutines - Return Statements](Subroutines_-_Return_Statements.md)
-
 - [Subroutine Keywords](Subroutine_Keywords.md)
 

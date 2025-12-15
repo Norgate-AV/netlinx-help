@@ -11,6 +11,5 @@ While NetLinx does not support a BOOLEAN data type, zero is considered a false c
 See Also
 
 - [TRUE](True.md)
-
 - [Conditional Keywords](Conditional_Keywords.md)
 

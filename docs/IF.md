@@ -39,9 +39,7 @@ ELSE
 Regarding IF statements:
 
 - ELSE IF and ELSE are optional
-
 - [IF](IF.md) statements may be nested to any number of levels
-
 - The braces delimiting the statements associated with each condition are required only if there is more than one statement.
 
 For example, the following syntax is correct:
@@ -53,6 +51,5 @@ IF (X \> 0)
 See Also
 
 - [Conditional Keywords](Conditional_Keywords.md)
-
 - [ELSE](ELSE.md)
 

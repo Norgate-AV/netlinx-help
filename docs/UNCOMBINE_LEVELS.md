@@ -19,7 +19,6 @@ Parameters:
 Result:
 
 - 0 = operation was successful
-
 - -1 = invalid virtual device-level
 
 Example:
@@ -39,8 +38,6 @@ Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upo
 See Also
 
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
-
 - [COMBINE_LEVELS](COMBINE_LEVELS.md)
-
 - [Combining and Uncombining Levels](Combining_and_Uncombining_Levels.md)
 

@@ -45,9 +45,7 @@ Where:
 | Blank | Positive values begin with a blank.                                 |
 
 - Width Minimum number of characters to print. If the output would be less than this width it is padded with spaces to be width characters wide. If the output is larger than width the entire output is provided (i.e. it is not truncated).
-
 - Prec Maximum number of characters to print or number of digits to the right of the decimal point for a float or double type.
-
 - Type Conversion type:
 
 |  |  |
@@ -88,38 +86,21 @@ Example:
 See Also
 
 - [ATOI](ATOI.md)
-
 - [ATOL](ATOL.md)
-
 - [ITOA](ITOA.md)
-
 - [ATOF](ATOF.md)
-
 - [FTOA](FTOA.md)
-
 - [ITOHEX](ITOHEX.md)
-
 - [HEXTOI](HEXTOI.md)
-
 - [CH_TO_WC](CH_TO_WC.md)
-
 - [WC_TO_CH](WC_TO_CH.md)
-
 - [RAW_BE](RAW_BE.md)
-
 - [RAW_LE](RAW_LE.md)
-
 - [STRING_TO_VARIABLE](STRING_TO_VARIABLE.md)
-
 - [VARIABLE_TO_STRING](VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_STRING](LENGTH_VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md)
-
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
-
 - [VARIABLE_TO_XML](VARIABLE_TO_XML.md)
-
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
 

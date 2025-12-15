@@ -21,7 +21,6 @@ IP_SET_OPTION
 Parameters:
 
 - LocalPort - a user-defined (non-zero) integer value representing the local port on the client machine to use for this conversation. This local port number was previously specified in an [IP_CLIENT_OPEN](IP_CLIENT_OPEN.md) or [IP_SERVER_OPEN](IP_SERVER_OPEN.md) call.
-
 - OptionID - Identifier value for the option to be set.   
 
 Valid option IDs are:
@@ -55,6 +54,5 @@ IP_SET_OPTION(PORT1, IP_MULTICAST_TTL_OPTION,IP_TTL_REGION)
 See Also
 
 - [Internet Protocol (IP) Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-
 - [IP Keywords](IP_Keywords.md)
 

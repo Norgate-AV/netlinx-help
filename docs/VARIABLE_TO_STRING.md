@@ -19,17 +19,13 @@ Note: The "S" in SINTEGER allows a negative value to be returned.
 Parameters:
 
 - ENCODE - any type of variable. This is the variable to be encoded.
-
 - BUFFER - Must of char array type. This is where the encode data is placed.
-
 - POSITION - This is where the first byte of the encoding is placed. It is also modified to point to the next location after the last encoded byte. That means that successive calls to this function can be made without modifying position. Position should be set to one on the first call.
 
 Result:
 
 - 0  = Encoded OK
-
 - -1  = Encoded variable unrecognized type
-
 - -2  =Encoded data would not fit into buffer, buffer too small
 
 Example:
@@ -221,38 +217,21 @@ RELEASE:
 See Also
 
 - [ATOI](ATOI.md)
-
 - [ATOL](ATOL.md)
-
 - [ITOA](ITOA.md)
-
 - [ATOF](ATOF.md)
-
 - [FTOA](FTOA.md)
-
 - [ITOHEX](ITOHEX.md)
-
 - [HEXTOI](HEXTOI.md)
-
 - [CH_TO_WC](CH_TO_WC.md)
-
 - [WC_TO_CH](WC_TO_CH.md)
-
 - [RAW_BE](RAW_BE.md)
-
 - [RAW_LE](RAW_LE.md)
-
 - [STRING_TO_VARIABLE](STRING_TO_VARIABLE.md)
-
 - [LENGTH_VARIABLE_TO_STRING](LENGTH_VARIABLE_TO_STRING.md)
-
 - [LENGTH_VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md)
-
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
-
 - [VARIABLE_TO_XML](VARIABLE_TO_XML.md)
-
 - [FORMAT](FORMAT.md)
-
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
 

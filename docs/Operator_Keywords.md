@@ -23,25 +23,17 @@ The NetLinx language supports the following Operator keywords:
 Bitwise Operators:
 
 - [BAND(&)](BAND_.md)
-
 - [BNOT(~)](BNOT_.md)
-
 - [BOR(\|)](BOR_.md)
-
 - [BXOR(^)](BXOR_.md)
-
 - [LSHIFT (\<\<)](LSHIFT_(__).htm)
-
 - [RSHIFT (\>\>)](RSHIFT_(_).htm)
 
 Logical Operators:
 
 - [AND(&&)](AND_.md)
-
 - [NOT(!)](NOT_.md)
-
 - [OR(\|\|)](OR_.md)
-
 - [XOR(^^)](XOR_.md)
 
 [Relational Operators:](Relational_operators.md)

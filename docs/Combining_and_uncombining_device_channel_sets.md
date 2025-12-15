@@ -41,6 +41,5 @@ Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upo
 See Also:
 
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
-
 - [Conversion Keywords](Conversion_Keywords.md)
 

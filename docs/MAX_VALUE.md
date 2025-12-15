@@ -31,8 +31,6 @@ VarMax = MAX_VALUE(Var1,Var2)  // VarMax = 200
 See Also
 
 - [MIN_VALUE](MIN_VALUE.md)
-
 - [Variables](Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
 

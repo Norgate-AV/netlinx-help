@@ -19,7 +19,6 @@ This setting does not take effect until the next reboot.
 Valid values are:
 
 - 2 - 8 for 32MB systems
-
 - 2 - 36 for 64MB systems
 
 Note:" DUET_MEM_SIZE_SET(int)" should call REBOOT() following a set.
@@ -27,8 +26,6 @@ Note:" DUET_MEM_SIZE_SET(int)" should call REBOOT() following a set.
 See Also
 
 - [DUET_MEM_SIZE_GET](DUET_MEM_SIZE_GET.md)
-
 - [NetLinx Modules](NetLinx_Modules_Advanced_Programmers_.md)
-
 - [Defining a Module](Defining_a_Module.md)
 

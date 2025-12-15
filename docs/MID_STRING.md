@@ -17,9 +17,7 @@ WIDECHAR\[ \] MID_STRING (WIDECHAR STRING, LONG Start, LONG Count)
 Parameters:
 
 - STRING - Input character string.
-
 - Start - Starting location in the string.
-
 - Count - Number of characters to extract.
 
 Result:

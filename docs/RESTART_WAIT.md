@@ -15,10 +15,7 @@ RESTART_WAIT \<'name'\>
 See Also
 
 - [Waits](Waits.md)
-
 - [PAUSE_WAIT](PAUSE_WAIT.md)
-
 - [PAUSE_ALL_WAIT](PAUSE_ALL_WAIT.md)
-
 - [RESTART_ALL_WAIT](RESTART_ALL_WAIT.md)
 

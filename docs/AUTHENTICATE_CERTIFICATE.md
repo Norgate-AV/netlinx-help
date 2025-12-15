@@ -15,17 +15,11 @@ sinteger AUTHENTICATE_CERTIFICATE(DEV handler, LONG id, LONG eventType, LONG tra
 Parameters:
 
 - handler - DPS (similar to IP sockets) that will handle the custom event.
-
 - id - The custom event ID
-
 - eventType - The custom event eventType.
-
 - transactionId - A unique transaction ID. This aids in correlating responses.
-
 - authType - unused (enter 0)
-
 - certificate - X.509 certificate (likely from a custom event on the UI device)
-
 - ca - X.509 certificate of the CA used to sign the certificate
 
 Returns:

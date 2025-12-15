@@ -47,7 +47,6 @@ The device specification (0:LocalPort:0) is interpreted as follows:
 1.  - Device Number = 0: The master
 
     - Port = LocalPort: The local port number
-
     - System = 0: This system (the client)
 
 Receiving Data (Client)
@@ -81,7 +80,6 @@ The device specification (0:LocalPort:0) is interpreted as follows:
 1.  - Device Number = 0: The master
 
     - Port = LocalPort: The local port number
-
     - System = 0: This system (the client)
 
 When using IP sockets in NetLinx, it is not uncommon to create a buffer using a CREATE_BUFFER keyword and processing the buffer in the [DATA_EVENT](DATA_EVENT.md)... [OFFLINE](OFFLINE.md) event.
@@ -125,12 +123,8 @@ DATA_EVENT\[dvIP\]
 See Also
 
 - [Server Programming](Server_Programming.md)
-
 - [Receiving Data with UDP](Receiving_Data_with_UDP.md)
-
 - [Multicast UDP Messages](Multicast_UDP_Messages.md)
-
 - [Example IP Code](Example_IP_Code.md)
-
 - [IP Keywords](IP_Keywords.md)
 

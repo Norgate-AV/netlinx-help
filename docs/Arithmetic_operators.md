@@ -13,12 +13,8 @@ The Arithmetic Operators are described below:
 See Also
 
 - [Assignment Operators](Assignment_operators.md)
-
 - [Bitwise Operators](Bitwise_operators.md)
-
 - [Logical Operators](Logical_operators.md)
-
 - [Relational Operators](Relational_operators.md)
-
 - [Operator Precedence](Operator_Precedence.md)
 

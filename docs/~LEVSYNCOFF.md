@@ -29,6 +29,5 @@ Also note that the LEVSYNCON and LEVSYNCOFF SEND_COMMANDs may not be sent to rem
 See Also
 
 - [Level Keywords](LEVEL_Keywords.md)
-
 - [~LEVSYNCON](~LEVSYNCON.md)
 

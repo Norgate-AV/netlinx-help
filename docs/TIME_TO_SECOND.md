@@ -35,10 +35,7 @@ nSecond = TIME_TO_SECOND (TimeStr) // nSecond = 8
 See Also
 
 - [TIME](TIME.md)
-
 - [TIME_TO_HOUR](TIME_TO_HOUR.md)
-
 - [TIME_TO_MINUTE](TIME_TO_MINUTE.md)
-
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
 

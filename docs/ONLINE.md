@@ -13,8 +13,6 @@ This is an important aspect of the DATA_EVENT that is triggered when the master 
 See Also
 
 - [OFFLINE](OFFLINE.md)
-
 - [Data Events](Data_Events.md)
-
 - [Data Event Keywords](Data_Event_Keywords.md)
 

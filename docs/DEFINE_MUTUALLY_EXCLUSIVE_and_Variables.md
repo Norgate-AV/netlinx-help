@@ -101,16 +101,10 @@ See Also
 &nbsp;
 
 - [Variables & Constants](Variables_&_Constants.md)
-
 - [Variables](Variables.md)
-
 - [Local Variables](Local_Variables.md)
-
 - [Global Variables](Global_Variables.md)
-
 - [Persistent Variables](Persistent_Variables.md)
-
 - [Variables Keywords](Variables_Keywords.md)
-
 - [Constants](Constants.md)
 

@@ -29,8 +29,6 @@ Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upo
 See Also
 
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
-
 - [UNCOMBINE_DEVICES](UNCOMBINE_DEVICES.md)
-
 - [Combining and Uncombining Devices](Combining_and_Uncombining_Devices.md)
 

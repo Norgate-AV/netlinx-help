@@ -33,10 +33,7 @@ Note: Parameter names might not match those listed above.
 See Also
 
 - [Working With Unicode](Working_With_UniCode.md)
-
 - [Compiler Warnings](Compiler_Warnings.md)
-
 - [Compiler Errors](Compilation_Errors.md)
-
 - [Run-Time Errors](Run_Time_Errors.md)
 

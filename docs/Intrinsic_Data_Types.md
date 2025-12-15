@@ -21,10 +21,7 @@ The following Data Types are intrinsic to the NetLinx language:
 See Also
 
 - [Custom Data Types](Custom_Data_Types.md)
-
 - [Data Type Conversion](Data_Type_Conversion.md)
-
 - [Data Type Keywords](Data_Type_Keywords.md)
-
 - [Data Set Structures](Data_Set_Structures.md)
 

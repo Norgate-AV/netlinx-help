@@ -129,15 +129,10 @@ However, since both [PUSH_CHANNEL](PUSH_CHANNEL.md) and [RELEASE_CHANNEL](RELEAS
 There are some additional parameter "shortcuts" available.  In all cases, the following rules apply:
 
 - When a DEV can be used, a DEV array can also be used.
-
 - When a DEVCHAN can be used, a DEVCHAN array can be used.
-
 - When a DEVLEV can be used, a DEVLEV array can be used.
-
 - When a Char, Integer or Long can be used, a Char, Integer or Long array can also be used.
-
 - You can apply more then 1 of the above rules at a time in a given event handler.
-
 - [GET_LAST](GET_LAST.md) can be used to determine which index of an array (any type) caused the event to fire.
 
 The above rules can let you write some interesting event handler. Let's say you wanted to handle 4 buttons from 6 panels all with one button event. You could write:
@@ -199,6 +194,5 @@ In the case of nButtonIndex, it will contain a value of 1 when button 4 was pres
 See Also
 
 - [Event Handlers](Event_Handlers.md)
-
 - [Event Handler Keywords](Event_Handler_Keywords.md)
 

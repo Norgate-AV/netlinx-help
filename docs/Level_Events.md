@@ -68,14 +68,9 @@ OFF\[RELAY,FAN\]
 See Also
 
 - [Event Handlers](Event_Handlers.md)
-
 - [Button Events](Button_Events.md)
-
 - [Channel Events](Channel_Events.md)
-
 - [Data Events](Data_Events.md)
-
 - [Event Parameters](Event_Parameters.md)
-
 - [Custom Events](Custom_Events.md)
 
