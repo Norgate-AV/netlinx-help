@@ -37,4 +37,3 @@ See Also
 - [DATE_TO_MONTH](DATE_TO_MONTH.md)
 - [DATE_TO_YEAR](DATE_TO_YEAR.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

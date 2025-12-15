@@ -23,4 +23,3 @@ Note: Redirections are lost if system power is turned off.
 See Also
 
 - [STRING Keywords](STRING_Keywords.md)
-

@@ -19,4 +19,3 @@ The NetLinx language supports the following Time & Date keywords:
 - [TIME_TO_HOUR](TIME_TO_HOUR.md)
 - [TIME_TO_MINUTE](TIME_TO_MINUTE.md)
 - [TIME_TO_SECOND](TIME_TO_SECOND.md)
-

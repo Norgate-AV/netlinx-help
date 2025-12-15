@@ -21,4 +21,3 @@ The NetLinx language supports the following DEVICE keywords:
 - [REBOOT (0:0:0)](Reboot_0_0_0_.md)
 - [SEND_COMMAND](SEND_COMMAND.md)
 - [SYSTEM_NUMBER](SYSTEM_NUMBER.md)
-

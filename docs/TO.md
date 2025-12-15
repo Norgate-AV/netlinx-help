@@ -54,4 +54,3 @@ DEVCHAN\[ \] refers to a device-channel array.
 See Also
 
 - [MIN_TO](MIN_TO.md)
-

@@ -12,4 +12,3 @@ The NetLinx language supports the following Encode / Decode keywords:
 - [LENGTH_VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md)
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
 - [VARIABLE_TO_XML](VARIABLE_TO_XML.md)
-

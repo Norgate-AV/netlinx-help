@@ -24,4 +24,3 @@ Note: REBOOT (0:0:0) or REBOOT (0:1:0) or REBOOT (0) will cause the master to re
 See Also
 
 - [DEVICE Keywords](DEVICE_Keywords.md)
-

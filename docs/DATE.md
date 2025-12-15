@@ -26,4 +26,3 @@ See Also
 - [DATE_TO_YEAR](DATE_TO_YEAR.md)
 - [\_\_DATE\_\_](__DATE__.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

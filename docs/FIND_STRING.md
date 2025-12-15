@@ -31,4 +31,3 @@ POS = FIND_STRING(STRING, 'ABC', 1)
 See Also
 
 - [STRING Keywords](STRING_Keywords.md)
-

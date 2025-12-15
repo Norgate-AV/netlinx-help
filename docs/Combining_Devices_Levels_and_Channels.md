@@ -36,4 +36,3 @@ Select a Help Topic:
 - [Combining and Uncombining Devices](Combining_and_Uncombining_Devices.md)
 - [Combining and Uncombining Levels](Combining_and_Uncombining_Levels.md)
 - [Combine & Uncombine Keywords](COMBINE_&_UNCOMBINE_Keywords.md)
-

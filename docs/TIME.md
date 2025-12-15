@@ -25,4 +25,3 @@ See Also
 - [TIME_TO_SECOND](TIME_TO_SECOND.md)
 - [\_\_TIME\_\_](__TIME__.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

@@ -39,4 +39,3 @@ Substr = REMOVE_STRING(STRING, 'BC', 1)
 See Also
 
 - [STRING Keywords](STRING_Keywords.md)
-

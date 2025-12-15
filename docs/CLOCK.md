@@ -23,4 +23,3 @@ SEND_COMMAND 0,"'CLOCK 04-12-05 09:45:31'"
 See Also
 
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

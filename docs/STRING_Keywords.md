@@ -21,4 +21,3 @@ The NetLinx Language supports the following STRING keywords:
 - [REMOVE_STRING](REMOVE_STRING.md)
 - [STRING_TO_VARIABLE](STRING_TO_VARIABLE.md)
 - [VARIABLE_TO_STRING](VARIABLE_TO_STRING.md)
-

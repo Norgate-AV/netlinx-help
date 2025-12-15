@@ -135,5 +135,3 @@ title: ASCII__HEX___Decimal_Conversions_Table
 | }   | 7D  | 125 |
 | ~   | 7E  | 126 |
 | del | 7F  | 127 |
-
- 

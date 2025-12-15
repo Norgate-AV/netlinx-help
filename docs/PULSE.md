@@ -62,4 +62,3 @@ See Also
 &nbsp;
 
 - [SET_PULSE_TIME](SET_PULSE_TIME.md)
-

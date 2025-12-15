@@ -22,4 +22,3 @@ The NetLinx programming language supports the following Listview keywords. These
 - \_[WC_DATA_CREATE_FEED](WC_DATA_CREATE_FEED.md)
 - \_[WC_DATA_ADD_RECORD](WC_DATA_ADD_RECORD.md)
 - \_[WC_DATA_GET_EVENT_RECORD](WC_DATA_GET_EVENT_RECORD.md)
-

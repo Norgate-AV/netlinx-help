@@ -28,4 +28,3 @@ The NetLinx language supports the following Conversion keywords:
 See Also:
 
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
-

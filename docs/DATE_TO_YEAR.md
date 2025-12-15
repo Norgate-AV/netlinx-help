@@ -33,4 +33,3 @@ See Also
 - [DATE_TO_DAY](DATE_TO_DAY.md)
 - [DATE_TO_MONTH](DATE_TO_MONTH.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

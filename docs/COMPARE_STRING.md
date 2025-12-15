@@ -67,4 +67,3 @@ Result: The returned result can only be True (1) or False (0).
 See Also
 
 - [STRING Keywords](STRING_Keywords.md)
-

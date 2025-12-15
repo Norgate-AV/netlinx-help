@@ -29,4 +29,3 @@ Num = RANDOM_NUMBER(1000) // 0 \<= Num \< 1000
 See Also
 
 - [Variables Keywords](Variables_Keywords.md)
-

@@ -45,4 +45,3 @@ IF (MAXLEN \> Len)
 See Also
 
 - [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md)
-

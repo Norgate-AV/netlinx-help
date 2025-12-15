@@ -34,4 +34,3 @@ Substr = RIGHT_STRING(STRING, 3) // Substr = 'EFG'
 See Also
 
 - [LEFT_STRING](LEFT_STRING.md)
-

@@ -20,4 +20,3 @@ The table below shows the inherent precedence assigned to the Operators.
 See Also
 
 - [Operator Keywords](Operator_Keywords.md)
-

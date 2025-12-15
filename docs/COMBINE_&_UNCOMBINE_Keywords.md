@@ -16,4 +16,3 @@ The NetLinx language supports the following COMBINE & UNCOMBINE keywords:
 See Also
 
 - [Combining Devices, Levels and Channels](Combining_Devices_Levels_and_Channels.md)
-

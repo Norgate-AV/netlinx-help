@@ -54,4 +54,3 @@ Regarding SELECT...ACTIVE statements:
 See Also
 
 - [Conditional Keywords](Conditional_Keywords.md)
-

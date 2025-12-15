@@ -40,4 +40,3 @@ The following topics describe configuring and programming M2M Systems:
 - [Using Telnet with M2M Systems](Using_Telnet_with_M2M_Systems.md)
 - [M2M - Using Virtual Devices as Moderators](M2M_-_Using_Virtual_Devices_as_Moderators.md)
 - [M2M - Processing Queues and Troubleshooting](M2M_-_Processing_Queues_and_Troubleshooting.md)
-

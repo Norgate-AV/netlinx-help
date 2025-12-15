@@ -16,4 +16,3 @@ Where LOG_LEVEL is one of the following built-in constants:
 - INTEGER  AMX_WARNING = 2;
 - INTEGER  AMX_INFO = 3;
 - INTEGER  AMX_DEBUG = 4;
-

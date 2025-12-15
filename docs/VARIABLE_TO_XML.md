@@ -145,4 +145,3 @@ See Also
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md)
 - [FORMAT](FORMAT.md)
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
-

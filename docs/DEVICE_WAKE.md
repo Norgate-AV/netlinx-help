@@ -20,4 +20,3 @@ See Also
 
 - [DEVICE Keywords](DEVICE_Keywords.md)
 - [DEVICE_STANDBY](DEVICE_STANDBY.md)
-

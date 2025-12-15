@@ -23,4 +23,3 @@ See Also
 - [DATE_TO_MONTH](DATE_TO_MONTH.md)
 - [DATE_TO_YEAR](DATE_TO_YEAR.md)
 - [\_\_LDATE\_\_](__LDATE__.md)
-

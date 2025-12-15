@@ -9,4 +9,3 @@ This is an unsigned 16-bit integer system constant that contains the system numb
 See Also
 
 - [DEVICE Keywords](DEVICE_Keywords.md)
-

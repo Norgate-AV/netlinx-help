@@ -30,4 +30,3 @@ See Also
 
 - [DAY](DAY.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

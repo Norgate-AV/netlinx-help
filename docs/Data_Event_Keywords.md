@@ -13,4 +13,3 @@ The NetLinx language supports the following Date Event keywords:
 - [OFFLINE](OFFLINE.md)
 - [ONLINE](ONLINE.md)
 - [STANDBY](STANDBY.md)
-

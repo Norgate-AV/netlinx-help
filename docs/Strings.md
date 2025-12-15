@@ -66,4 +66,3 @@ ATOI("STRING")
 See Also
 
 - [Wide Strings](Wide_Strings.md)
-

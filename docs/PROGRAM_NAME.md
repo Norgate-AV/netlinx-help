@@ -17,4 +17,3 @@ PROGRAM_NAME = '\<program name\>'
 See Also
 
 - [DEFINE Keywords](DEFINE_Keywords.md)
-

@@ -12,4 +12,3 @@ The NetLinx Language supports the following Structure keywords:
 See Also
 
 - [Data Set Structures](Data_Set_Structures.md)
-

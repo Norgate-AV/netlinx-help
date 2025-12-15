@@ -17,4 +17,3 @@ The NetLinx programming language supports the following WAIT keywords:
 - [PAUSE_ALL_WAIT](PAUSE_ALL_WAIT.md)
 - [RESTART_WAIT](RESTART_WAIT.md)
 - [RESTART_ALL_WAIT](RESTART_ALL_WAIT.md)
-

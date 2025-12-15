@@ -35,4 +35,3 @@ See Also
 
 - [Working with WIDECHAR arrays and Unicode Strings](Working_with_WIDECHAR_arrays_and_Unicode_Strings.md)
 - [Unicode-Related Compiler Errors](Unicode-Related_Compiler_Errors.md)
-

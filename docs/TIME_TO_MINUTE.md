@@ -38,4 +38,3 @@ See Also
 - [TIME_TO_HOUR](TIME_TO_HOUR.md)
 - [TIME_TO_SECOND](TIME_TO_SECOND.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

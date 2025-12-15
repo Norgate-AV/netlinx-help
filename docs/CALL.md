@@ -17,4 +17,3 @@ The subroutine is executed only once, and then NetLinx returns to the statement 
 See Also
 
 - [Subroutines](Subroutines.md)
-

@@ -22,4 +22,3 @@ See Also
 
 - [DAY_OF_WEEK](DAY_OF_WEEK.md)
 - [Time and Date Keywords](Time_and_Date_Keywords.md)
-

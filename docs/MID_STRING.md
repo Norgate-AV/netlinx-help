@@ -39,4 +39,3 @@ Substr = MID_STRING(STRING, 5, 4)
 See Also
 
 - [STRING Keywords](STRING_Keywords.md)
-

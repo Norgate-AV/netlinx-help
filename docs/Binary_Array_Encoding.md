@@ -33,4 +33,3 @@ See Also
 - [Marshalling Protocol: Encoding Notes](Marshalling_Protocol_Encoding_Notes.md)
 - [Marshalling Protocol (Group of Bytes)](Marshalling_Protocol_Group_of_Bytes_.md)
 - [Marshalling Protocol (Variables)](Marshalling_Protocol_Variables_.md)
-

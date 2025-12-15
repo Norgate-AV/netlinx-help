@@ -34,4 +34,3 @@ Substr = LEFT_STRING(STRING, 3) // Substr = 'ABC'
 See Also
 
 - [RIGHT_STRING](RIGHT_STRING.md)
-

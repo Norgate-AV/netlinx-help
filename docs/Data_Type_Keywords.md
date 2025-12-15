@@ -29,4 +29,3 @@ See Also
 
 - [Custom Data Types](Custom_Data_Types.md)
 - [Data Type Conversion](Data_Type_Conversion.md)
-
