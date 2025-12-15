@@ -1,3 +1,7 @@
+---
+title: WHILE
+---
+
 # WHILE
 
 A WHILE statement executes its statement block as long as its associated condition evaluates to true.

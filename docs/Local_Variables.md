@@ -1,3 +1,7 @@
+---
+title: Local_Variables
+---
+
 # Local Variables
 
 Local variables are restricted in scope to the statement block in which they are declared. A statement block is one or more NetLinx statements enclosed in a pair of braces, like the blocks following subroutines, functions, conditionals, loops, waits, and so on.

@@ -1,3 +1,7 @@
+---
+title: ~LEVSYNCON
+---
+
 # ~LEVSYNCON
 
 This SEND_COMMAND enables a feature that helps synchronize level values.

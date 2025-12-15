@@ -1,3 +1,7 @@
+---
+title: _w_Long_While_within_While
+---
+
 # (w) LONG_WHILE within While
 
 This warning occurs if the compiler finds a [LONG\_WHILE](LONG_WHILE.md) or [MEDIUM_WHILE](MEDIUM_WHILE.md) inside a block of code following a [WHILE](WHILE.md) keyword.

@@ -1,3 +1,7 @@
+---
+title: TIMELINE_example
+---
+
 # TIMELINE example
 
 The following code is an example of using [TIMELINE functions](Timeline_Functions.md).

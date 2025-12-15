@@ -1,3 +1,7 @@
+---
+title: MASTER_SLOT
+---
+
 # MASTER_SLOT
 
 This system variable represents the number of the slot in which the master card is plugged into – "0" is the primary master and "1" is the secondary master.

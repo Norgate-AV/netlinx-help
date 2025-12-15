@@ -1,3 +1,7 @@
+---
+title: ABS_VALUE
+---
+
 # ABS_VALUE
 
 This routine takes a variable and returns the absolute value of the variable.

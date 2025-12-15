@@ -1,3 +1,7 @@
+---
+title: DEV
+---
+
 # DEV
 
 A data type (structure) used to represent a specific device, port and system.

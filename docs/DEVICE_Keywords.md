@@ -1,3 +1,7 @@
+---
+title: DEVICE_Keywords
+---
+
 # DEVICE Keywords
 
 The NetLinx language supports the following DEVICE keywords:

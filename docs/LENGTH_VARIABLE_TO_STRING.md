@@ -1,3 +1,7 @@
+---
+title: LENGTH_VARIABLE_TO_STRING
+---
+
 # LENGTH_VARIABLE_TO_STRING
 
 This routine calculates how many bytes it takes to encode a variable.

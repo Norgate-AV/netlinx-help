@@ -1,3 +1,7 @@
+---
+title: Timed_Conditional_Waits
+---
+
 # Timed Conditional Waits
 
 [TIMED_WAIT_UNTIL](TIMED_WAIT_UNTIL.md) is a timed conditional Wait request.

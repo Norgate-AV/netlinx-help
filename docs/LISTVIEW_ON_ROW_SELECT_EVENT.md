@@ -1,3 +1,7 @@
+---
+title: LISTVIEW_ON_ROW_SELECT_EVENT
+---
+
 # LISTVIEW_ON_ROW_SELECT_EVENT
 
 LISTVIEW_ON_ROW_SELECT_EVENT is a Custom Event that is raised in response to a user selection of an item in a Listview button.

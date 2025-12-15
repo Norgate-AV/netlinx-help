@@ -1,3 +1,7 @@
+---
+title: GET_URL_LIST
+---
+
 # GET_URL_LIST
 
 Returns a list of URLs that the specified device is programmed to actively attempt to connect to.  The function requires an array of URL_STRUCT structures that will get filled in with the device’s URL list.

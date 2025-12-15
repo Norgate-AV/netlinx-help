@@ -1,3 +1,7 @@
+---
+title: DO_PUSH
+---
+
 # DO_PUSH
 
 This command causes an input change from OFF to ON to occur on a specified device-channel without the device-channel being activated by external means.

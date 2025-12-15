@@ -1,3 +1,7 @@
+---
+title: DEFINE_LATCHING
+---
+
 # DEFINE_LATCHING
 
 The DEFINE_LATCHING section is where latching channels and variables are defined. A latching channel is one that changes its state once per PUSH.

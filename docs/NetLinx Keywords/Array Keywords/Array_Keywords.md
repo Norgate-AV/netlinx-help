@@ -1,3 +1,7 @@
+---
+title: Array_Keywords
+---
+
 # Array Keywords
 
 An [array](Arrays.md) is data structure that stores a collection of individual values that are of the same data type.

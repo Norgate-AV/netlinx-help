@@ -1,3 +1,7 @@
+---
+title: DEFINE_MUTUALLY_EXCLUSIVE
+---
+
 # DEFINE_MUTUALLY_EXCLUSIVE
 
 When a channel is turned on in a mutually exclusive set, it activates its physical output as long as the button is pressed. When the button is released, the physical output stops. Even after the physical output stops, the status still indicates the channel is on until another channel in the mutually exclusive set is activated. The feedback remains on to indicate which channel in the set was activated last ("last button pushed" feedback).

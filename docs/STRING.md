@@ -1,3 +1,7 @@
+---
+title: STRING
+---
+
 # STRING
 
 This keyword defines a section in a [DATA event handler](Data_Events.md) for processing [SEND_STRING](SEND_STRING.md) instructions.

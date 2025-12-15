@@ -1,3 +1,7 @@
+---
+title: Strings
+---
+
 # Strings
 
 A string is an array of characters of known length. This length may be less than the dimensioned length.

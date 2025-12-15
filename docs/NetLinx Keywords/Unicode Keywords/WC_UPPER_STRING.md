@@ -1,3 +1,7 @@
+---
+title: WC_UPPER_STRING
+---
+
 # WC_UPPER_STRING
 
 This function changes all alphabetic characters in the specified string to upper case using the case mapping specified by Unicode.org.

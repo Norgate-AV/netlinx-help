@@ -1,3 +1,7 @@
+---
+title: DATE
+---
+
 # DATE
 
 This system variable returns the current date in (mm/dd/yy) string format.

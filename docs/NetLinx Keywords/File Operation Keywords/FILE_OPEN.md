@@ -1,3 +1,7 @@
+---
+title: FILE_OPEN
+---
+
 # FILE_OPEN
 
 Opens a file for reading or writing. The syntax:

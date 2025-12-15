@@ -1,3 +1,7 @@
+---
+title: File_Operations_Example__Reading_to_a_File
+---
+
 # File Operations Example: Reading to a File
 
 The code example below shows a framework for using the file operations to read the contents of a file.  

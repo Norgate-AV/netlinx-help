@@ -1,3 +1,7 @@
+---
+title: __FILE__
+---
+
 # \_\_FILE\_\_
 
 At compile time, this keyword is replaced with a string that contains the filename of the currently executing program file.

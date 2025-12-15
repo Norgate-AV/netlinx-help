@@ -1,3 +1,7 @@
+---
+title: MODULE_NAME
+---
+
 # MODULE_NAME
 
 This keyword is used to introduce the definition of a module.

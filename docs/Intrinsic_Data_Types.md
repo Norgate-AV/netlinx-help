@@ -1,3 +1,7 @@
+---
+title: Intrinsic_Data_Types
+---
+
 # Intrinsic Data Types
 
 The following Data Types are intrinsic to the NetLinx language:

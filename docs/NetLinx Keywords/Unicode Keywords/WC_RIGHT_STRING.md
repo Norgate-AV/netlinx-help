@@ -1,3 +1,7 @@
+---
+title: WC_RIGHT_STRING
+---
+
 # WC_RIGHT_STRING
 
 Returns the specified number of characters from the end of a string.

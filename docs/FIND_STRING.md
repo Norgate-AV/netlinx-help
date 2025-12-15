@@ -1,3 +1,7 @@
+---
+title: FIND_STRING
+---
+
 # FIND_STRING
 
 Searches through a string for a specified sequence of characters. The syntax:

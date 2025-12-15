@@ -1,3 +1,7 @@
+---
+title: DYNAMIC_POLLED_PORT()
+---
+
 # DYNAMIC_POLLED_PORT
 
 Designates a NetLinx serial port that should be polled for [Dynamic Device Discovery (DDD)](Dynamic_Device_Discovery_(DDD).htm).

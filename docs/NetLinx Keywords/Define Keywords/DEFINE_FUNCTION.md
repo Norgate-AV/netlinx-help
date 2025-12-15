@@ -1,3 +1,7 @@
+---
+title: DEFINE_FUNCTION
+---
+
 # DEFINE_FUNCTION
 
 This keyword defines the implementation of a NetLinx function.

@@ -1,3 +1,7 @@
+---
+title: DYNAMIC_APPLICATION_DEVICE()_
+---
+
 # DYNAMIC_APPLICATION_DEVICE
 
 Specifies a Duet device that is completely dynamic.  

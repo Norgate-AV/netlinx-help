@@ -1,3 +1,7 @@
+---
+title: SEND_LEVEL
+---
+
 # SEND_LEVEL
 
 This command sends a value to a specific level on a NetLinx device/port.

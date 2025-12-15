@@ -1,3 +1,7 @@
+---
+title: GET_PULSE_TIME
+---
+
 # GET_PULSE_TIME
 
 The function returns the current duration of [PULSE](PULSE.md) and [MIN_TO](MIN_TO.md) commands, as set by [SET_PULSE_TIME](SET_PULSE_TIME.md).

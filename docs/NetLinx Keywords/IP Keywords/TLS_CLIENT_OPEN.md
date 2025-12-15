@@ -1,3 +1,7 @@
+---
+title: TLS_CLIENT_OPEN
+---
+
 # TLS_CLIENT_OPEN
 
 Opens a port for TLS communication with a remote device.

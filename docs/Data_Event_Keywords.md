@@ -1,3 +1,7 @@
+---
+title: Data_Event_Keywords
+---
+
 # Data Event Keywords
 
 The NetLinx language supports the following Date Event keywords:

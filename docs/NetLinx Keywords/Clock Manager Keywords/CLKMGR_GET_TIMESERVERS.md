@@ -1,3 +1,7 @@
+---
+title: CLKMGR_GET_TIMESERVERS
+---
+
 # CLKMGR_GET_TIMESERVERS
 
 Populates the currently configured time server entries from the Clock Manager into the specified TIMESERVER array.

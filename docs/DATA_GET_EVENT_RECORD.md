@@ -1,3 +1,7 @@
+---
+title: DATA_GET_EVENT_RECORD
+---
+
 # DATA_GET_EVENT_RECORD
 
 *Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*

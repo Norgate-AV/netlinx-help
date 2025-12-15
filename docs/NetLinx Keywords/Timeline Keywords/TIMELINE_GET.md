@@ -1,3 +1,7 @@
+---
+title: TIMELINE_GET
+---
+
 # TIMELINE_GET
 
 This function returns the value of the specified timeline’s timer.

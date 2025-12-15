@@ -1,3 +1,7 @@
+---
+title: DDD_-_Static_Binding
+---
+
 # DDD - Static Binding
 
 The [STATIC_PORT_BINDING](STATIC_PORT_BINDING().htm) API designates an application device along with its SDK class and the physical interface it is bound to.  

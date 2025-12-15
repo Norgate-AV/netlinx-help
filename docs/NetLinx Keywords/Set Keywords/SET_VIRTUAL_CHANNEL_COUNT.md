@@ -1,3 +1,7 @@
+---
+title: SET_VIRTUAL_CHANNEL_COUNT
+---
+
 # SET_VIRTUAL_CHANNEL_COUNT
 
 Lets the programmer override the default number of channels that a virtual device port maintains.

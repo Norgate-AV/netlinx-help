@@ -1,3 +1,7 @@
+---
+title: WC_FILE_WRITE_LINE
+---
+
 # WC_FILE_WRITE_LINE
 
 This function writes a line of widechar data to the specified file.

@@ -1,3 +1,7 @@
+---
+title: WC_ENCODE
+---
+
 # WC_ENCODE
 
 This function encodes a Unicode string to a character string using one of 4 formats.

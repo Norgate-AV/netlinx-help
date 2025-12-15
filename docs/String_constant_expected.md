@@ -1,3 +1,7 @@
+---
+title: String_constant_expected
+---
+
 # String constant expected
 
 A string is required for the particular operation.

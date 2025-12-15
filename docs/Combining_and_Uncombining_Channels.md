@@ -1,3 +1,7 @@
+---
+title: Combining_and_Uncombining_Channels
+---
+
 # Combining and Uncombining Channels
 
 The NetLinx functions [COMBINE_CHANNELS](COMBINE_CHANNELS.md) and [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md) are used within events and mainline code to dynamically change what levels are connected to each other.

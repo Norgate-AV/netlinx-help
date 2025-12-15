@@ -1,3 +1,7 @@
+---
+title: Multi_Dimensional_Arrays
+---
+
 # Multi-Dimensional Arrays
 
 Any of the single dimension array types listed above can be used to define an array of n-dimensions.

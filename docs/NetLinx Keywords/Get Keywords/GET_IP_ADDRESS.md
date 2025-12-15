@@ -1,3 +1,7 @@
+---
+title: GET_IP_ADDRESS
+---
+
 # GET_IP_ADDRESS
 
 Returns the TCP/IP configuration of the specified device. The configuration information includes DHCP/Static configuration, IP address, subnet mask, gateway, and host name.

@@ -1,3 +1,7 @@
+---
+title: TIMELINE_ACTIVE
+---
+
 # TIMELINE_ACTIVE
 
 This function is used to determine if a timeline has been created. If the timeline does not exist (i.e. [TIMELINE_CREATE](TIMELINE_CREATE.md) has not been called) this function returns zero.

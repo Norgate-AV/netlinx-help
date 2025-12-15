@@ -1,3 +1,7 @@
+---
+title: ADD_URL_ENTRY
+---
+
 # ADD_URL_ENTRY
 
 This function adds a URL entry to the specified device. The function requires a pre-initialized URL_STRUCT  that will be sent to the specified device.

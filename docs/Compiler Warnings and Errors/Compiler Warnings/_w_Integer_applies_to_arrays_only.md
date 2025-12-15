@@ -1,3 +1,7 @@
+---
+title: _w_Integer_applies_to_arrays_only
+---
+
 # (w) Integer applies to arrays only
 
 This warning appears when the keyword [INTEGER](INTEGER.md) is applied to a non-array type of variable.

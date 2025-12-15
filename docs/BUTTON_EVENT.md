@@ -1,3 +1,7 @@
+---
+title: BUTTON_EVENT
+---
+
 # BUTTON_EVENT
 
 This keyword defines a button event handler.

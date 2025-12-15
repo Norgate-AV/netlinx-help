@@ -1,3 +1,7 @@
+---
+title: FILE_WRITE
+---
+
 # FILE_WRITE
 
 Writes a block of data to the specified file.

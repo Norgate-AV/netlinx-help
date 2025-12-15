@@ -1,3 +1,7 @@
+---
+title: String_Encoding
+---
+
 # String Encoding
 
 NetLinx has no native string type, but since it is a common type the encoding/decoding of the string data will be logically handled so the XML remains concise.

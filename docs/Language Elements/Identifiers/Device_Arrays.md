@@ -1,3 +1,7 @@
+---
+title: Device_Arrays
+---
+
 # Device Arrays
 
 In order to specify a group of devices for a command or event handler, NetLinx provides the capability to define an array of [DEV](DEV.md)s and treat it as a device array.

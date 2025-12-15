@@ -1,3 +1,7 @@
+---
+title: Channel_Events
+---
+
 # Channel Events
 
 Channel Events are similar to [Button Events](Button_Events.md).

@@ -1,3 +1,7 @@
+---
+title: WC_FILE_WRITE
+---
+
 # WC_FILE_WRITE
 
 This function writes a block of WIDECHAR data to the specified file.

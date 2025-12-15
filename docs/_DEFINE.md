@@ -1,3 +1,7 @@
+---
+title: _DEFINE
+---
+
 # \#DEFINE
 
 This [Compiler Directive](Compiler_Directives.md) defines a symbol to be used only by [\#IF\_DEFINED](_IF_DEFINED.md) and [\#IF\_NOT\_DEFINED](_IF_NOT_DEFINED.md) directives.

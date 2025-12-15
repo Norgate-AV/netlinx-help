@@ -1,3 +1,7 @@
+---
+title: MOD_
+---
+
 # MOD(%)
 
 This [Arithmetic Operator](Arithmetic_operators.md) is used to generate the remainder of a division operation.

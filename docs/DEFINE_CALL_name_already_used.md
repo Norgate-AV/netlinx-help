@@ -1,3 +1,7 @@
+---
+title: DEFINE_CALL_name_already_used
+---
+
 # DEFINE_CALL name already used
 
 The name of the [DEFINE_CALL](DEFINE_CALL.md) has already been used.

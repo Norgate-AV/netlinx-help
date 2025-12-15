@@ -1,3 +1,7 @@
+---
+title: LSHIFT_(__)
+---
+
 # LSHIFT (\<\<)
 
 This [Bitwise Operator](Bitwise_operators.md) causes the bits in the associated integer field to be shifted left. This has the effect of multiplying by 2n where n is the number of bit positions to shift.

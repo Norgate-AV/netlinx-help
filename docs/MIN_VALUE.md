@@ -1,3 +1,7 @@
+---
+title: MIN_VALUE
+---
+
 # MIN_VALUE
 
 This routine takes two variables and returns the value of the lowest.

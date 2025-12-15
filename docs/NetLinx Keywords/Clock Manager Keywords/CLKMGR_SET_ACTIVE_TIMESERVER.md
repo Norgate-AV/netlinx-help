@@ -1,3 +1,7 @@
+---
+title: CLKMGR_SET_ACTIVE_TIMESERVER
+---
+
 # CLKMGR_SET_ACTIVE_TIMESERVER
 
 Sets the time server entry that has the matching IP-ADDRESS to the IP parameter as the active time server entry.

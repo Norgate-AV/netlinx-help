@@ -1,3 +1,7 @@
+---
+title: TIMELINE_KILL
+---
+
 # TIMELINE_KILL
 
 This function is used to terminate a timeline.

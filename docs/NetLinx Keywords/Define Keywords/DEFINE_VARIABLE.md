@@ -1,3 +1,7 @@
+---
+title: DEFINE_VARIABLE
+---
+
 # DEFINE_VARIABLE
 
 This program section is used to declare global variables. Any variable defined in this section is static (its value is maintained throughout the duration of program execution) with module scope (it is accessible from any instruction in the current module).

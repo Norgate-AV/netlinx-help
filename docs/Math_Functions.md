@@ -1,3 +1,7 @@
+---
+title: Math_Functions
+---
+
 # Math Functions
 
 Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  

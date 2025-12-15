@@ -1,3 +1,7 @@
+---
+title: Must_be_char_array_reference
+---
+
 # Must be char array reference
 
 An array type variable was expected in [CREATE\_BUFFER](CREATE_BUFFER.md) , [CREATE\_MULTI\_BUFFER](CREATE_MULTI_BUFFER.md) , or [CLEAR_BUFFER](CLEAR_BUFFER.md).

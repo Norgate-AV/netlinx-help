@@ -1,3 +1,7 @@
+---
+title: GET_BUFFER_CHAR
+---
+
 # GET_BUFFER_CHAR
 
 This function is used to remove characters from a buffer.

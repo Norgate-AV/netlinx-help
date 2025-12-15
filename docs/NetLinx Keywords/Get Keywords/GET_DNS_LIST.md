@@ -1,3 +1,7 @@
+---
+title: GET_DNS_LIST
+---
+
 # GET_DNS_LIST
 
 Returns the domain name and list of DNS server IP addresses that the specified device is programmed to utilize. The order of the returned list is the preferred server order.

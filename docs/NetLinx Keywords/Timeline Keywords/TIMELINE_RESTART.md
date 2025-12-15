@@ -1,3 +1,7 @@
+---
+title: TIMELINE_RESTART
+---
+
 # TIMELINE_RESTART
 
 This function is used to continue execution of a timeline that was suspended with [TIMELINE_PAUSE](TIMELINE_PAUSE.md).

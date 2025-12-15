@@ -1,3 +1,7 @@
+---
+title: AND_
+---
+
 # AND(&&)
 
 The Logical Operator AND is used to evaluate two Logical conditions.

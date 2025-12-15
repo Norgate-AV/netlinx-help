@@ -1,3 +1,7 @@
+---
+title: DEFINE_TYPE
+---
+
 # DEFINE_TYPE
 
 The DEFINE_TYPE section is used to define custom data types such as structures and classes.

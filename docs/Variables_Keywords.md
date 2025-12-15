@@ -1,3 +1,7 @@
+---
+title: Variables_Keywords
+---
+
 # Variables Keywords
 
 The NetLinx programming language supports the following Variables keywords:

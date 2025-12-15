@@ -1,3 +1,7 @@
+---
+title: SET_SYSTEM_NUMBER
+---
+
 # SET_SYSTEM_NUMBER
 
 Sets the system number of the NetLinx master. The new system number will take effect after the system has been rebooted.

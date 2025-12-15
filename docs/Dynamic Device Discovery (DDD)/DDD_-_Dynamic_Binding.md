@@ -1,3 +1,7 @@
+---
+title: DDD_-_Dynamic_Binding
+---
+
 # DDD - Dynamic Binding
 
 The dynamic binding capability is accomplished through two NetLinx APIs:

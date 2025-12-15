@@ -1,3 +1,7 @@
+---
+title: SET_TIMER
+---
+
 # SET_TIMER
 
 This function resets the system timer. The system timer counts up in .10 second units.

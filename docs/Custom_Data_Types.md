@@ -1,3 +1,7 @@
+---
+title: Custom_Data_Types
+---
+
 # Custom Data Types
 
 Custom data types such as structures and classes are defined in the [DEFINE_TYPE](DEFINE_TYPE.md) section.

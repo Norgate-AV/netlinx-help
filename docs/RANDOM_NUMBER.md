@@ -1,3 +1,7 @@
+---
+title: RANDOM_NUMBER
+---
+
 # RANDOM_NUMBER
 
 This function returns a random number X in the range 0 \<= X \< Max.

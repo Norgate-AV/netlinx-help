@@ -1,3 +1,7 @@
+---
+title: MIN_TO
+---
+
 # MIN_TO
 
 This keyword operates just like the [TO](TO.md) keyword, except that the specified channel or variable stays on for a minimum length of time, even if the corresponding channel is released.

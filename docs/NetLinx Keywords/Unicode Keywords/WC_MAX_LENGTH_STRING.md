@@ -1,3 +1,7 @@
+---
+title: WC_MAX_LENGTH_STRING
+---
+
 # WC_MAX_LENGTH_STRING
 
 This function returns the dimensioned length of a WIDECHAR string.  

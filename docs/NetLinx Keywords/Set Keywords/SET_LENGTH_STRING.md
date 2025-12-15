@@ -1,3 +1,7 @@
+---
+title: SET_LENGTH_STRING
+---
+
 # SET_LENGTH_STRING
 
 Set the length of a [CHAR](CHAR.md) or [WIDECHAR](WIDECHAR.md) string.

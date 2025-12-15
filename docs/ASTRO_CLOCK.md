@@ -1,3 +1,7 @@
+---
+title: ASTRO_CLOCK
+---
+
 # ASTRO_CLOCK
 
 This routine calculates the time of sunset and sunrise at a specified location (specified by longitude and latitude) on a specified date.

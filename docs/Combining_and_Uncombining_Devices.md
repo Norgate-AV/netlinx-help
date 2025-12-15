@@ -1,3 +1,7 @@
+---
+title: Combining_and_Uncombining_Devices
+---
+
 # Combining and Uncombining Devices
 
 The NetLinx functions [COMBINE_DEVICES](COMBINE_DEVICES.md) and [UNCOMBINE_DEVICES](UNCOMBINE_DEVICES.md) are used within events and mainline code to dynamically change the devices combined together. When devices are combined the combine list and [DEV](DEV.md) set lists are reevaluated and updated during run time.

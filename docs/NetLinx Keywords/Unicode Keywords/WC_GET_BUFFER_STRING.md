@@ -1,3 +1,7 @@
+---
+title: WC_GET_BUFFER_STRING
+---
+
 # WC_GET_BUFFER_STRING
 
 This function removes characters from a buffer.

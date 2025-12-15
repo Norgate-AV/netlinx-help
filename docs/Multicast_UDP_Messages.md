@@ -1,3 +1,7 @@
+---
+title: Multicast_UDP_Messages
+---
+
 # Multicast UDP Messages
 
 NetLinx can send and receive multi-cast UDP messages.

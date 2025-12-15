@@ -1,3 +1,7 @@
+---
+title: Device_values_must_be_equal
+---
+
 # Device values must be equal
 
 In a range specification, the devices (or their defined identifiers) must be equal.

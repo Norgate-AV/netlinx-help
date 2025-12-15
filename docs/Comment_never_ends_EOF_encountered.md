@@ -1,3 +1,7 @@
+---
+title: Comment_never_ends_EOF_encountered
+---
+
 # Comment never ends, EOF encountered
 
 A [comment](Comments.md) begins but never ends.

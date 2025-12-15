@@ -1,3 +1,7 @@
+---
+title: Structures
+---
+
 # Structures
 
 A structure provides the ability to create a new data type composed of other data types arranged in a specified order.

@@ -1,3 +1,7 @@
+---
+title: SET_OUTDOOR_TEMPERATURE
+---
+
 # SET_OUTDOOR_TEMPERATURE
 
 Establishes the value for the outdoor temperature.

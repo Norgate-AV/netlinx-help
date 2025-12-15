@@ -1,3 +1,7 @@
+---
+title: LDATE
+---
+
 # LDATE
 
 This system variable returns the current date in (mm/dd/yyyy) string format.

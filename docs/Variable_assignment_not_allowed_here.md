@@ -1,3 +1,7 @@
+---
+title: Variable_assignment_not_allowed_here
+---
+
 # Variable assignment not allowed here
 
 Variables may not be assigned a value when they are defined in the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.

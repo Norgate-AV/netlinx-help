@@ -1,3 +1,7 @@
+---
+title: CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE
+---
+
 # CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE
 
 Sets the END Daylight Savings rule to the specified string which must be in either the Fixed-Date format or the occurrence-of-day format.

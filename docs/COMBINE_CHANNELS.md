@@ -1,3 +1,7 @@
+---
+title: COMBINE_CHANNELS
+---
+
 # COMBINE_CHANNELS
 
 COMBINE_CHANNELS connects a single virtual device-channel to one or more channels on another device (or devices).

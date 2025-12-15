@@ -1,3 +1,7 @@
+---
+title: CHANNEL_Keywords
+---
+
 # CHANNEL Keywords
 
 The NetLinx programming language supports the following CHANNEL keywords:

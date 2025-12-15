@@ -1,3 +1,7 @@
+---
+title: PUSH_DEVICE
+---
+
 # PUSH_DEVICE
 
 This system variable contains the number of the device that was just turned on due to an input change.

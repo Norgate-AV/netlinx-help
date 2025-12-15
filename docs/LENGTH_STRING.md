@@ -1,3 +1,7 @@
+---
+title: LENGTH_STRING
+---
+
 # LENGTH_STRING
 
 Returns the length of a [CHAR](CHAR.md) or [WIDECHAR](WIDECHAR.md) string. This function is retained for compatibility with previous versions of Axcess. It provides the same information as [LENGTH_ARRAY](LENGTH_ARRAY.md). The syntax:

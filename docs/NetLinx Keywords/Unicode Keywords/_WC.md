@@ -1,3 +1,7 @@
+---
+title: _WC
+---
+
 # \_WC
 
 This keyword is a macro for Unicode strings.

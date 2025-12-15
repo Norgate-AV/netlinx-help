@@ -1,3 +1,7 @@
+---
+title: Master-To-Master_(M2M)
+---
+
 # Master-To-Master (M2M)
 
 The functionality of a Master-To-Master (M2M) system consists of master routing and intersystem control. Master routing is the ability to route messages to any other master or device and is the foundation of all M2M functionality. Intersystem control allows a master, or its NetLinx program, to control and get status of any other device (or master) that is connected to any other master.

@@ -1,3 +1,7 @@
+---
+title: Log_Keywords
+---
+
 # Log Keywords
 
 The NetLinx programming language supports the following Log keywords:

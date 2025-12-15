@@ -1,3 +1,7 @@
+---
+title: CONSTANT
+---
+
 # CONSTANT
 
 This keyword is used as part of a variable declaration to specify that the variable cannot be changed at run-time.

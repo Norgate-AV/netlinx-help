@@ -1,3 +1,7 @@
+---
+title: MAX_VALUE
+---
+
 # MAX_VALUE
 
 This routine takes two variables and returns the value of the highest.

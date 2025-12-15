@@ -1,3 +1,7 @@
+---
+title: Variables
+---
+
 # Variables
 
 NetLinx provides support for several different types of variables distinguished by attributes such as scope, constancy and persistence.

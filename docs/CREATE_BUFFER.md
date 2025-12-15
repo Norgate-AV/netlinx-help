@@ -1,3 +1,7 @@
+---
+title: CREATE_BUFFER
+---
+
 # CREATE_BUFFER
 
 CREATE_BUFFER directs NetLinx to place any strings received from the specified device into the specified buffer (character array).

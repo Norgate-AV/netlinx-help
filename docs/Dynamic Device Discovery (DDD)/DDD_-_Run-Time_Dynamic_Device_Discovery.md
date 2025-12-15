@@ -1,3 +1,7 @@
+---
+title: DDD_-_Run-Time_Dynamic_Device_Discovery
+---
+
 # DDD - Run-Time Dynamic Device Discovery
 
 ## Serial Device Detection

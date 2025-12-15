@@ -1,3 +1,7 @@
+---
+title: Timeline_Functions
+---
+
 # Timeline Functions
 
 NetLinx Timeline functions provide a mechanism for triggering events based upon a sequence of times. The sequence of times is passed into the timeline functions as an array of LONG values, with each value representing a time period (in milliseconds) that is either relative to the start time of the timeline or to the previously triggered event. Timelines provide the capability to dynamically set up a timed sequence, providing a mechanism to modify the sequence, and allow the user to create, delete, and modify sequences.

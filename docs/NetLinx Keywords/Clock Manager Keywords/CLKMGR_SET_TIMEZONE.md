@@ -1,3 +1,7 @@
+---
+title: CLKMGR_SET_TIMEZONE
+---
+
 # CLKMGR_SET_TIMEZONE
 
 Sets the Timezone.

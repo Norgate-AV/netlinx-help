@@ -1,3 +1,7 @@
+---
+title: WC_GET_BUFFER_CHAR
+---
+
 # WC_GET_BUFFER_CHAR
 
 This keyword removes a character from a buffer.

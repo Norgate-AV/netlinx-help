@@ -1,3 +1,7 @@
+---
+title: FILE_DELETE
+---
+
 # FILE_DELETE
 
 Deletes a specified file.

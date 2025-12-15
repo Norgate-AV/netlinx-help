@@ -1,3 +1,7 @@
+---
+title: WC_TO_CH
+---
+
 # WC_TO_CH
 
 This keyword converts a [WIDECHAR](WIDECHAR.md) array to a [CHAR](CHAR.md) array.

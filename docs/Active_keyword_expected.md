@@ -1,3 +1,7 @@
+---
+title: Active_keyword_expected
+---
+
 # ACTIVE keyword expected
 
 An [ACTIVE](SELECT_ACTIVE.md) keyword is not present after a [SELECT](SELECT_ACTIVE.md) keyword.

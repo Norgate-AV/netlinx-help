@@ -1,3 +1,7 @@
+---
+title: TIME_TO_SECOND
+---
+
 # TIME_TO_SECOND
 
 Returns an integer representing the second portion of a time string.

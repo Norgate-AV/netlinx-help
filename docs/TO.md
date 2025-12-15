@@ -1,3 +1,7 @@
+---
+title: TO
+---
+
 # TO
 
 The TO command is used to activate a channel or variable for as long as the corresponding channel of its [PUSH](PUSH.md) statement is activated.

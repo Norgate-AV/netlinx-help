@@ -1,3 +1,7 @@
+---
+title: DEFINE_CALL
+---
+
 # DEFINE_CALL
 
 This keyword defines the implementation of a NetLinx subroutine.

@@ -1,3 +1,7 @@
+---
+title: Combining_and_uncombining_device_channel_sets
+---
+
 # Combining and Uncombining Device/Channel Sets
 
 Combining [DEVCHAN](DEVCHAN.md) sets is unique to NetLinx. The format for [COMBINE_CHANNELS](COMBINE_CHANNELS.md) and [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md) is:

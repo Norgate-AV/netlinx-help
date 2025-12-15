@@ -1,3 +1,7 @@
+---
+title: AUTHENTICATE_CERTIFICATE
+---
+
 # AUTHENTICATE_CERTIFICATE
 
 This function allows programs to authenticate/authorize an X.509 certificate against the OCSP responder included in the Authority Information Access field of the certificate. The OCSP option does NOT impact the availability/functionality of this feature. The OCSP security option is ONLY for authenticating/validating incoming ICSP/ICSPS connections.

@@ -1,3 +1,7 @@
+---
+title: SYSTEM_CALL
+---
+
 # SYSTEM_CALL
 
 When this keyword is used, the compiler generates a call to the [subroutine](Subroutines.md) in a LIB (library) file and automatically includes the LIB file for compilation.

@@ -1,3 +1,7 @@
+---
+title: M2M_-_Cluster_Topology
+---
+
 # M2M - Cluster Topology
 
 Another possible connection topology is to establish communication hubs by combining other topologies that optimize the traffic with adjacent masters but still allow connections to all other masters, as shown below:

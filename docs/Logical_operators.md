@@ -1,3 +1,7 @@
+---
+title: Logical_operators
+---
+
 # Logical Operators
 
 Logical Operators compare two conditions or, in the case of [NOT](NOT_.md) , invert one condition (also known as Boolean Operators).

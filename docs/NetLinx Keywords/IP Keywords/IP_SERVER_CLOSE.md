@@ -1,3 +1,7 @@
+---
+title: IP_SERVER_CLOSE
+---
+
 # IP_SERVER_CLOSE
 
 Closes a port opened with [IP_SERVER_OPEN](IP_SERVER_OPEN.md).

@@ -1,3 +1,7 @@
+---
+title: SSH_CLIENT_CLOSE
+---
+
 # SSH_CLIENT_CLOSE
 
 This function closes an open SSH communication port with a server.

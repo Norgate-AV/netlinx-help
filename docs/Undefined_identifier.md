@@ -1,3 +1,7 @@
+---
+title: Undefined_identifier
+---
+
 # Undefined identifier
 
 An attempt was made to reference an identifier that has not been defined previously in the program.

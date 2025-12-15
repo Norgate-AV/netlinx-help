@@ -1,3 +1,7 @@
+---
+title: Using_NetLinx_Studio_with_M2M_Systems
+---
+
 # Using NetLinx Studio with M2M Systems
 
 NetLinx Studio can be used to configure and diagnose M2M systems. After you have connected NetLinx Studio to the master, and you have configured the master with the proper "Network Address" information, you will need to change the system number on the master via the Device Addressing dialog:

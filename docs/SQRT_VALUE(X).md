@@ -1,3 +1,7 @@
+---
+title: SQRT_VALUE(X)
+---
+
 # SQRT_VALUE
 
 Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  

@@ -1,3 +1,7 @@
+---
+title: GET_UNIQUE_ID
+---
+
 # GET_UNIQUE_ID
 
 Returns a 48-bit hardware constant that is guaranteed to be unique in the domain of NetLinx Masters.

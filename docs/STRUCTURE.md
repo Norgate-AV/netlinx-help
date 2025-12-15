@@ -1,3 +1,7 @@
+---
+title: STRUCTURE
+---
+
 # STRUCTURE
 
 This keyword is used to introduce the declaration of a STRUCTURE data type.

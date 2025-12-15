@@ -1,3 +1,7 @@
+---
+title: TIMELINE_PAUSE
+---
+
 # TIMELINE_PAUSE
 
 This function is used to suspend the execution of a timeline. It may be restarted from where it left off with the [TIMELINE_RESTART](TIMELINE_RESTART.md) function.

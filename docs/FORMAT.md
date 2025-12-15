@@ -1,3 +1,7 @@
+---
+title: FORMAT
+---
+
 # FORMAT
 
 Provides a mechanism similar to ‘C’s printf statement for formatting the display of numbers.

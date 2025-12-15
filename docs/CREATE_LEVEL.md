@@ -1,3 +1,7 @@
+---
+title: CREATE_LEVEL
+---
+
 # CREATE_LEVEL
 
 This command creates an association between a specified level of a device and a variable that will contain the value of the level.

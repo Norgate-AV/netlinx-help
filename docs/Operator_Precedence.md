@@ -1,3 +1,7 @@
+---
+title: Operator_Precedence
+---
+
 # Operator Precedence
 
 The table below shows the inherent precedence assigned to the Operators.

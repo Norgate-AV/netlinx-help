@@ -1,3 +1,7 @@
+---
+title: DEFINE_PROGRAM
+---
+
 # DEFINE_PROGRAM
 
 The DEFINE_PROGRAM (or [Mainline](Mainline.md)) and the [DEFINE_EVENT](DEFINE_EVENT.md) section of the NetLinx program are responsible for processing events in a NetLinx system.

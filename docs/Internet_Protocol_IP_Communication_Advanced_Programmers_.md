@@ -1,3 +1,7 @@
+---
+title: Internet_Protocol_IP_Communication_Advanced_Programmers_
+---
+
 # IP Communication
 
 Clients and servers communicate over Internet Protocol (IP) using either a connection-oriented or connection less protocol. Connection-oriented input/output (I/O) channels require a connection or virtual circuit to be established between the client and server before data can be transmitted or received. Transmission Control Protocol (TCP) is the transport protocol typically used for connection-oriented I/O. With TCP, delivery of the data is guaranteed.

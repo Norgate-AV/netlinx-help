@@ -1,3 +1,7 @@
+---
+title: DELETE_URL_ENTRY
+---
+
 # DELETE_URL_ENTRY
 
 This function deletes a URL entry to the specified device.

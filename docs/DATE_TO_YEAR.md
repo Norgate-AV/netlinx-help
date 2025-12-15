@@ -1,3 +1,7 @@
+---
+title: DATE_TO_YEAR
+---
+
 # DATE_TO_YEAR
 
 Returns an integer representing the year portion of a date string. The syntax:

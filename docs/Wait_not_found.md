@@ -1,3 +1,7 @@
+---
+title: Wait_not_found
+---
+
 # Wait not found
 
 A statement references a [WAIT](WAIT.md) by a name that does not exist.

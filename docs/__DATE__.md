@@ -1,3 +1,7 @@
+---
+title: __date__
+---
+
 # \_\_DATE\_\_
 
 At compile time, this keyword is replaced by a string (mm/dd/yy) that contains the date of compilation.

@@ -1,3 +1,7 @@
+---
+title: __LINE__
+---
+
 # \_\_LINE\_\_
 
 At compile time, this keyword is replaced by a constant that contains the line number the keyword is on.

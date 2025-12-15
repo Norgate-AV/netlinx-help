@@ -1,3 +1,7 @@
+---
+title: SEND_STRING
+---
+
 # SEND_STRING
 
 This keyword sends a string to a NetLinx device/port.

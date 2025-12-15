@@ -1,3 +1,7 @@
+---
+title: LOWER_STRING
+---
+
 # LOWER_STRING
 
 Changes all alphabetic characters in the specified string to lower case.

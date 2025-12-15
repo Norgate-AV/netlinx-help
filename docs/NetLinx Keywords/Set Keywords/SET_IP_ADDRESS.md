@@ -1,3 +1,7 @@
+---
+title: SET_IP_ADDRESS
+---
+
 # SET_IP_ADDRESS
 
 Programs the TCP/IP configuration of the specified device. The function requires a pre-initialized IP_ADDRESS_STRUCT structure that will be sent to the specified device.

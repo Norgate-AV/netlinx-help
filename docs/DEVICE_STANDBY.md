@@ -1,3 +1,7 @@
+---
+title: DEVICE_STANDBY
+---
+
 # DEVICE_STANDBY
 
 This command requests that a device goes to standby state.

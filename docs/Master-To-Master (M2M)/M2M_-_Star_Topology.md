@@ -1,3 +1,7 @@
+---
+title: M2M_-_Star_Topology
+---
+
 # M2M - Star Topology
 
 The figure below shows the M2M system configured in a star topology to take advantage of the fact that each NetLinx master supports multiple connections to masters:

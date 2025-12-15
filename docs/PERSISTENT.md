@@ -1,3 +1,7 @@
+---
+title: PERSISTENT
+---
+
 # PERSISTENT
 
 If a variable is declared with the PERSISTENT keyword, it is initialized to zero the first time the program is loaded but will retain its value after either power-down or reload.

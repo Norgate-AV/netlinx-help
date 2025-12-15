@@ -1,3 +1,7 @@
+---
+title: PAUSE_ALL_WAIT
+---
+
 # PAUSE_ALL_WAIT
 
 This command suspends all [WAIT](WAIT.md)s currently in effect, regardless of whether or not they are named.

@@ -1,3 +1,7 @@
+---
+title: DEFINE_MODULE
+---
+
 # DEFINE_MODULE
 
 This keyword declares a module to be used by either the main program or by another module. It is the counterpart to the [MODULE_NAME](MODULE_NAME.md) entry that appears as part of the implementation of the module.

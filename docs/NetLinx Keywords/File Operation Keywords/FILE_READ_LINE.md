@@ -1,3 +1,7 @@
+---
+title: FILE_READ_LINE
+---
+
 # FILE_READ_LINE
 
 Reads a line of data from the specified file.

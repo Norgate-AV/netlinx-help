@@ -1,3 +1,7 @@
+---
+title: Syntax_error
+---
+
 # Syntax error
 
 A syntax error is found in an expression.

@@ -1,3 +1,7 @@
+---
+title: CREATE_MULTI_BUFFER
+---
+
 # CREATE_MULTI_BUFFER
 
 This keyword is the same as [CREATE_BUFFER](CREATE_BUFFER.md) except that it accepts strings from a range of devices.

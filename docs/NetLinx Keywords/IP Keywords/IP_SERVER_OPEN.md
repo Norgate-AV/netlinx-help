@@ -1,3 +1,7 @@
+---
+title: IP_SERVER_OPEN
+---
+
 # IP_SERVER_OPEN
 
 Opens a server port to listen for client requests.

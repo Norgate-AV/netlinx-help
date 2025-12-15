@@ -1,3 +1,7 @@
+---
+title: Comments
+---
+
 # Comments
 
 Any text that is bracketed with a set of parenthesis/asterisks is designated as a comment. Comments are not part of the actual program code, in that they are not compiled. Comments can appear anywhere (except within literal strings) – on the same line as a programming statement or on a separate line.

@@ -1,3 +1,7 @@
+---
+title: M2M_-_Route_Modes_(Normal_and_Direct)
+---
+
 # M2M - Route Modes (Normal and Direct)
 
 There are two route modes in which masters can be configured to share their routing table.

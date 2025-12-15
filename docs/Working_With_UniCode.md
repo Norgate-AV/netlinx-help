@@ -1,3 +1,7 @@
+---
+title: Working_With_UniCode
+---
+
 # Working With Unicode
 
 Before you begin to work with Unicode, you must enable the UTF-8 Unicode option and the Unicode Compile option in NetLinx Studio.

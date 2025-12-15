@@ -1,3 +1,7 @@
+---
+title: Constants
+---
+
 # Constants
 
 Constants are defined in the [DEFINE_CONSTANT](DEFINE_CONSTANT.md) section.

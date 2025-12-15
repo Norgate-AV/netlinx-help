@@ -1,3 +1,7 @@
+---
+title: AUTHENTICATE
+---
+
 # AUTHENTICATE
 
 This function allows programs to authenticate/authorize a local or remote user depending on the parameters used. The authenticate command responds with custom events. The ID and event are completely customizable at the programmer's discretion.

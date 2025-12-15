@@ -1,3 +1,7 @@
+---
+title: FILE_REMOVEDIR
+---
+
 # FILE_REMOVEDIR
 
 This function removes the specified directory path (including subdirectories), only if it is empty.

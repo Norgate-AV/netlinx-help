@@ -1,3 +1,7 @@
+---
+title: Too_many_include_files
+---
+
 # Too many include files
 
 In NetLinx, the number of [Include](INCLUDE.md) files allowed is limited only by the amount of memory available on the PC at compile time.

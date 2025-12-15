@@ -1,3 +1,7 @@
+---
+title: NOT_
+---
+
 # NOT(!)
 
 This Logical Operator is used to negate a given expression.

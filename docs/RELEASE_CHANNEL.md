@@ -1,3 +1,7 @@
+---
+title: RELEASE_CHANNEL
+---
+
 # RELEASE_CHANNEL
 
 This system variable contains the number of the channel that was just turned off due to an input change.

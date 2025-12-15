@@ -1,3 +1,7 @@
+---
+title: GET_LOG_LEVEL
+---
+
 # GET_LOG_LEVEL
 
 Retrieves the current log level for the program.  

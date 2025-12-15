@@ -1,3 +1,7 @@
+---
+title: SLONG
+---
+
 # SLONG
 
 SLONG defines an intrinsic data type representing a 32-bit signed integer. It is used to store signed large integer values less than -32767 and greater than 32767.

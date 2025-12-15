@@ -1,3 +1,7 @@
+---
+title: XML_TO_VARIABLE
+---
+
 # XML_TO_VARIABLE
 
 Syntax:

@@ -1,3 +1,7 @@
+---
+title: SEND_COMMAND
+---
+
 # SEND_COMMAND
 
 This command sends device-specific commands to a NetLinx device.

@@ -1,3 +1,7 @@
+---
+title: SET_LOG_LEVEL
+---
+
 # SET_LOG_LEVEL
 
 Sets the current log level for the program.  All subsequent logs at the specified level or lower will cause a log message out the NetLinx master’s logging facilities.  

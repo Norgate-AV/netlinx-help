@@ -1,3 +1,7 @@
+---
+title: Data_Type_Conversion
+---
+
 # Data Type Conversion
 
 Although explicit type casting is not supported in the NetLinx language, the compiler is forced to do type conversion in situations where an arithmetic, assignment or other operation is defined with constants and/or variables having mixed data types.

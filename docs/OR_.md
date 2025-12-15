@@ -1,3 +1,7 @@
+---
+title: OR_
+---
+
 # OR(\|\|)
 
 This Logical Operator is used to evaluate two conditions.

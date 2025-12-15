@@ -1,3 +1,7 @@
+---
+title: ATOF
+---
+
 # ATOF
 
 Converts a character representation of a number to a 64-bit floating-point value.

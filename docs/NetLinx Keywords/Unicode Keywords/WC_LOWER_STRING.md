@@ -1,3 +1,7 @@
+---
+title: WC_LOWER_STRING
+---
+
 # WC_LOWER_STRING
 
 This function changes all alphabetic characters in the specified string to lower case using the case mapping defined by Unicode.org.

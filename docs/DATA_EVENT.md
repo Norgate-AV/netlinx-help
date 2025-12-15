@@ -1,3 +1,7 @@
+---
+title: DATA_EVENT
+---
+
 # DATA_EVENT
 
 This keyword defines a data event handler.

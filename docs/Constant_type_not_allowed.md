@@ -1,3 +1,7 @@
+---
+title: Constant_type_not_allowed
+---
+
 # Constant type not allowed
 
 A constant value was declared as latching, toggling, or mutually exclusive, as shown below:

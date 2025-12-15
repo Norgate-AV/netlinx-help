@@ -1,3 +1,7 @@
+---
+title: CLKMGR_ADD_USERDEFINED_TIMESERVER
+---
+
 # CLKMGR_ADD_USERDEFINED_TIMESERVER
 
 Adds a user-defined time server entry.

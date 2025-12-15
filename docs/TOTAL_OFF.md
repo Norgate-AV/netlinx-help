@@ -1,3 +1,7 @@
+---
+title: TOTAL_OFF
+---
+
 # TOTAL_OFF
 
 This function turns a channel or variable off.

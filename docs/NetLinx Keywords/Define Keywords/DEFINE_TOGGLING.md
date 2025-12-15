@@ -1,3 +1,7 @@
+---
+title: DEFINE_TOGGLING
+---
+
 # DEFINE_TOGGLING
 
 When a channel is defined as [mutually exclusive](DEFINE_MUTUALLY_EXCLUSIVE.md) and [latching](DEFINE_LATCHING.md), there is no way to turn off the channel without activating another.

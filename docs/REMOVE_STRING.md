@@ -1,3 +1,7 @@
+---
+title: REMOVE_STRING
+---
+
 # REMOVE_STRING
 
 This function removes characters from the specified string.

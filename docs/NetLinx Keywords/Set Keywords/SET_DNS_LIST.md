@@ -1,3 +1,7 @@
+---
+title: SET_DNS_LIST
+---
+
 # SET_DNS_LIST
 
 Programs a domain name and the list of DNS servers that the specified device will use to lookup domain names.

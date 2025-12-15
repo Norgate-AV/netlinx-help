@@ -1,3 +1,7 @@
+---
+title: SET_PULSE_TIME
+---
+
 # SET_PULSE_TIME
 
 This function sets the [PULSE](PULSE.md) time in .10 second units.

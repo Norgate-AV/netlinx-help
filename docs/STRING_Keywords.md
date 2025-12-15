@@ -1,3 +1,7 @@
+---
+title: STRING_Keywords
+---
+
 # STRING Keywords
 
 The NetLinx Language supports the following STRING keywords:

@@ -1,3 +1,7 @@
+---
+title: Unicode-Related_Compiler_Errors
+---
+
 # Unicode-Related Compiler Errors
 
 The most common type of compiler errors you will encounter while programming for Unicode are caused by not wrapping Unicode string literals in \_WC, passing a WIDECHAR to a function that take a CHAR array or passing a CHAR array to a function that takes a WIDECHAR array.

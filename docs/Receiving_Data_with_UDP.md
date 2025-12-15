@@ -1,3 +1,7 @@
+---
+title: Receiving_Data_with_UDP
+---
+
 # Receiving Data with UDP
 
 Since UDP is connection-less, no formal agreement has been made between the client and server to exchange data. The client simply sends a UDP message and hopes the server is listening. In many protocols that use UDP for communication, there is an implied agreement for the client to receive date from the server.

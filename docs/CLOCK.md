@@ -1,3 +1,7 @@
+---
+title: CLOCK
+---
+
 # CLOCK
 
 Sets the date and time on the Master.

@@ -1,3 +1,7 @@
+---
+title: TIMELINE_EVENT
+---
+
 # TIMELINE_EVENT
 
 These events are generated when a timeline’s internal timer is equal to one of the specified times in the times array.

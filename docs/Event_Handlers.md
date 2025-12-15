@@ -1,3 +1,7 @@
+---
+title: Event_Handlers
+---
+
 # Event Handlers
 
 The NetLinx language provides a special program section called [DEFINE_EVENT](DEFINE_EVENT.md) to define handlers for incoming events/notifications. These handlers are stored in an event table providing quick access to code that must be executed when an event is received. There are handlers to support five types of events:

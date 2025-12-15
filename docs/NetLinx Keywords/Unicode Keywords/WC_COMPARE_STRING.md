@@ -1,3 +1,7 @@
+---
+title: WC_COMPARE_STRING
+---
+
 # WC_COMPARE_STRING
 
 This keyword compares two Unicode strings.

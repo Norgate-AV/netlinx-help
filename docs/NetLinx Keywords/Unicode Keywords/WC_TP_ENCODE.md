@@ -1,3 +1,7 @@
+---
+title: WC_TP_ENCODE
+---
+
 # WC_TP_ENCODE
 
 This function encodes a WIDECHAR array into a CHAR array formatted for the UNI and BAU user interface commands.

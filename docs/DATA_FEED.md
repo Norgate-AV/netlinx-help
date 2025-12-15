@@ -1,3 +1,7 @@
+---
+title: DATA_FEED
+---
+
 # DATA_FEED
 
 *Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the DATA_FEED structure.*

@@ -1,3 +1,7 @@
+---
+title: WC_FILE_READ
+---
+
 # WC_FILE_READ
 
 This function reads (from the current location of the file pointer) the number of characters specified by BufLen (or fewer bytes if the end of file is reached).

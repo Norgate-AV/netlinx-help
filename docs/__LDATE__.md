@@ -1,3 +1,7 @@
+---
+title: __LDATE__
+---
+
 # \_\_LDATE\_\_
 
 At compile time, this keyword is replaced by a string (mm/dd/yyyy), containing the date of compilation.

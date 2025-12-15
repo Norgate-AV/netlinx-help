@@ -1,3 +1,7 @@
+---
+title: FOR
+---
+
 # FOR
 
 This keyword is used to define a [FOR loop](FOR_loops.md).

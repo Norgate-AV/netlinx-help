@@ -1,3 +1,7 @@
+---
+title: DUET_MEM_SIZE_SET
+---
+
 # DUET_MEM_SIZE_SET
 
 Set the amount of memory allocated for Duet Java pool (the current Java memory heap size), measured in MB.

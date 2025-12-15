@@ -1,3 +1,7 @@
+---
+title: CLKMGR_DELETE_USERDEFINED_TIMESERVER
+---
+
 # CLKMGR_DELETE_USERDEFINED_TIMESERVER
 
 Deletes the user-defined entry that has its IP-ADDRESS matching the parameter.

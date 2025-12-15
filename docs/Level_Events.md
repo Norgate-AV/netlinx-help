@@ -1,3 +1,7 @@
+---
+title: Level_Events
+---
+
 # Level Events
 
 The level object is available to the level event handler as a local variable. Level events are triggered by a level change on a particular device. This eliminates having to constantly evaluate a level against a previous value.

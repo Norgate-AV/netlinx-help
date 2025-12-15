@@ -1,3 +1,7 @@
+---
+title: FILE_COPY
+---
+
 # FILE_COPY
 
 Copies the specified file.

@@ -1,3 +1,7 @@
+---
+title: M2M_-_Master_Routing
+---
+
 # M2M - Master Routing
 
 By design, all NetLinx masters do not automatically make a M2M connection with other NetLinx masters by virtue of being on the same network. The connection between them must be made intentionally by adding them to a list. This connection list is called the "URL List". The URL List on the NetLinx master is used to force the master to initiate a TCP connection to the specified URL/IP address.

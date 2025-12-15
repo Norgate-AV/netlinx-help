@@ -1,3 +1,7 @@
+---
+title: GET_TIMER
+---
+
 # GET_TIMER
 
 This function returns an unsigned long integer representing the value currently held by the system timer.

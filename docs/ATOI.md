@@ -1,3 +1,7 @@
+---
+title: ATOI
+---
+
 # ATOI
 
 ATOI converts a character representation of a number to a signed 32-bit integer.

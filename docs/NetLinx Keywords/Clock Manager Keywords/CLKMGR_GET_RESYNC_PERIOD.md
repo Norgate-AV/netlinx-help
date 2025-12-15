@@ -1,3 +1,7 @@
+---
+title: CLKMGR_GET_RESYNC_PERIOD
+---
+
 # CLKMGR_GET_RESYNC_PERIOD
 
 Returns the Clock Manager's re-sync period in minutes.

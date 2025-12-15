@@ -1,3 +1,7 @@
+---
+title: WAIT_Keywords
+---
+
 # WAIT Keywords
 
 The NetLinx programming language supports the following WAIT keywords:

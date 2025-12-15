@@ -1,3 +1,7 @@
+---
+title: STRUCT
+---
+
 # STRUCT
 
 STRUCT is an abbreviated form of the [STRUCTURE](STRUCTURE.md) keyword, and has the same functionality.

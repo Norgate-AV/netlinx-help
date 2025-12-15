@@ -1,3 +1,7 @@
+---
+title: DEFINE_MUTUALLY_EXCLUSIVE_and_Variables
+---
+
 # DEFINE_MUTUALLY_EXCLUSIVE and Variables
 
 Symptom

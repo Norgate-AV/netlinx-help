@@ -1,3 +1,7 @@
+---
+title: DEFINE_DEVICE
+---
+
 # DEFINE_DEVICE
 
 This keyword is used to define the devices referenced in the program.

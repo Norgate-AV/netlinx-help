@@ -1,3 +1,7 @@
+---
+title: MAX_LENGTH_STRING
+---
+
 # MAX_LENGTH_STRING
 
 Returns the dimensioned length of a [CHAR](CHAR.md) or [WIDECHAR](WIDECHAR.md) string. This function is retained for compatibility with previous versions of NetLinx.

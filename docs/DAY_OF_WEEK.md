@@ -1,3 +1,7 @@
+---
+title: DAY_OF_WEEK
+---
+
 # DAY_OF_WEEK
 
 Returns the day of the week for the specified date.

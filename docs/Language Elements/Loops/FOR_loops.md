@@ -1,3 +1,7 @@
+---
+title: FOR_loops
+---
+
 # FOR Loops
 
 The FOR loop structure allows you to define initialization statements, statements to execute after each pass through the loop and a condition to test after each pass. If the condition evaluates to true, another pass is made. Otherwise, the loop is terminated.

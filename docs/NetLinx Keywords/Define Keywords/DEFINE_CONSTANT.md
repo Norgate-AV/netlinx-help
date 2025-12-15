@@ -1,3 +1,7 @@
+---
+title: DEFINE_CONSTANT
+---
+
 # DEFINE_CONSTANT
 
 This keyword is used to define program constants.

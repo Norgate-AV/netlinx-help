@@ -1,3 +1,7 @@
+---
+title: WC_MID_STRING
+---
+
 # WC_MID_STRING
 
 This function returns the specified number of characters, starting at the specified location in the source string.

@@ -1,3 +1,7 @@
+---
+title: FILE_GETDIR
+---
+
 # FILE_GETDIR
 
 Returns the current working directory.

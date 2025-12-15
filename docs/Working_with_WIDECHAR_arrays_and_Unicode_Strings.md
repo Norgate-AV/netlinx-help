@@ -1,3 +1,7 @@
+---
+title: Working_with_WIDECHAR_arrays_and_Unicode_Strings
+---
+
 # Working with WIDECHAR arrays and Unicode Strings
 
 Working with [WIDECHAR](WIDECHAR.md) arrays and [Unicode](Working_With_UniCode.md) strings is very similar to working with [CHAR](CHAR.md) arrays and ASCII strings.   

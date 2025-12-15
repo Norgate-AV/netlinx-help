@@ -1,3 +1,7 @@
+---
+title: FILE_SEEK
+---
+
 # FILE_SEEK
 
 Sets the file pointer to the specified position.

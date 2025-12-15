@@ -1,3 +1,7 @@
+---
+title: CLKMGR_GET_START_DAYLIGHTSAVINGS_RULE
+---
+
 # CLKMGR_GET_START_DAYLIGHTSAVINGS_RULE
 
 Gets a string representation of when Daylight Savings is supposed to start.

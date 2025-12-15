@@ -1,3 +1,7 @@
+---
+title: DEFINE_CONNECT_LEVEL
+---
+
 # DEFINE_CONNECT_LEVEL
 
 This keyword is used to define level connections. A single connection is defined by listing the device-level pairs inside parentheses.

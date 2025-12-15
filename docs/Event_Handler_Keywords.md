@@ -1,3 +1,7 @@
+---
+title: Event_Handler_Keywords
+---
+
 # Event Handler Keywords
 
 The NetLinx programming language supports the following [Event Handler](Event_Handlers.md) keywords:

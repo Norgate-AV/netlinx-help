@@ -1,3 +1,7 @@
+---
+title: WC_REMOVE_STRING
+---
+
 # WC_REMOVE_STRING
 
 This function removes characters from the specified string.

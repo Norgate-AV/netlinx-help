@@ -1,3 +1,7 @@
+---
+title: WAIT_UNTIL
+---
+
 # WAIT_UNTIL
 
 This instruction is used to delay execution of one or more statements until a specified condition is met.

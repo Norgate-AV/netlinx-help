@@ -1,3 +1,7 @@
+---
+title: Relational_operators
+---
+
 # Relational Operators
 
 A conditional statement (also known as a Boolean expression) is used to tell NetLinx whether or not to execute a particular function or functions in the program.

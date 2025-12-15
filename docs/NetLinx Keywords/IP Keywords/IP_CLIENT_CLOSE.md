@@ -1,3 +1,7 @@
+---
+title: IP_CLIENT_CLOSE
+---
+
 # IP_CLIENT_CLOSE
 
 Closes a port opened with [IP_CLIENT_OPEN](IP_CLIENT_OPEN.md).

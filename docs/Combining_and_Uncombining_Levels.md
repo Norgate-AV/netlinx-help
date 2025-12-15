@@ -1,3 +1,7 @@
+---
+title: Combining_and_Uncombining_Levels
+---
+
 # Combining and Uncombining Levels
 
 The NetLinx functions [COMBINE_LEVELS](COMBINE_LEVELS.md) and [UNCOMBINE_LEVELS](UNCOMBINE_LEVELS.md) are used within events and mainline code to dynamically change what levels are connected to each other.

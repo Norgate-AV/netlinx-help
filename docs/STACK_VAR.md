@@ -1,3 +1,7 @@
+---
+title: STACK_VAR
+---
+
 # STACK_VAR
 
 This keyword specifies a variable that is non-static.

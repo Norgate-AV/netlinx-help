@@ -1,3 +1,7 @@
+---
+title: __TIME__
+---
+
 # \_\_TIME\_\_
 
 At compile time, this keyword is replaced by a string (hh:mm:ss) representing the time of compilation.

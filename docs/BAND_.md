@@ -1,3 +1,7 @@
+---
+title: BAND_
+---
+
 # BAND(&)
 
 This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise [AND](AND_.md) on two data items.

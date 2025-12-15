@@ -1,3 +1,7 @@
+---
+title: Global_Variables
+---
+
 # Global Variables
 
 Global variables are defined in the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section of any program module. For example,

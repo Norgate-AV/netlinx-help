@@ -1,3 +1,7 @@
+---
+title: ASCII__HEX___Decimal_Conversions_Table
+---
+
 # ASCII /HEX / Decimal Conversions Table
 
 |     |     |     |

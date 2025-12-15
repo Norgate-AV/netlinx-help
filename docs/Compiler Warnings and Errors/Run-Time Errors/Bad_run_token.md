@@ -1,3 +1,7 @@
+---
+title: Bad_run_token
+---
+
 # Bad run token
 
 This error occurs when the Central Controller does not understand a piece of data in the program it is executing.

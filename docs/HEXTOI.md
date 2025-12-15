@@ -1,3 +1,7 @@
+---
+title: HEXTOI
+---
+
 # HEXTOI
 
 Converts an ASCII string containing the hexadecimal representation of a number to an unsigned 32-bit integer.

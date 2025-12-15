@@ -1,3 +1,7 @@
+---
+title: COMPARE_STRING
+---
+
 # COMPARE_STRING
 
 This keyword compares two character strings.

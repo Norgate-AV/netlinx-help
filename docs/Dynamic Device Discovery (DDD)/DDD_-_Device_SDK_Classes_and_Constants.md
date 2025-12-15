@@ -1,3 +1,7 @@
+---
+title: DDD_-_Device_SDK_Classes_and_Constants
+---
+
 # DDD - Device SDK Classes and Constants
 
 The following is the current list of device SDK classes and their associated NetLinx Constant values.  

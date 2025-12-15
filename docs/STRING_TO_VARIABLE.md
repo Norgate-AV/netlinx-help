@@ -1,3 +1,7 @@
+---
+title: STRING_TO_VARIABLE
+---
+
 # STRING_TO_VARIABLE
 
 This routine takes the Encode data from buffer and loads the values into the Decode variable.

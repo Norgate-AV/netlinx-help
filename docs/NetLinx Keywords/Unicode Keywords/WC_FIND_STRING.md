@@ -1,3 +1,7 @@
+---
+title: WC_FIND_STRING
+---
+
 # WC_FIND_STRING
 
 This function searches through a string for a specified sequence of characters.

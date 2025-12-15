@@ -1,3 +1,7 @@
+---
+title: RELEASE_DEVCHAN
+---
+
 # RELEASE_DEVCHAN
 
 This system variable contains the device-channel (in the way of a [DEVCHAN](DEVCHAN.md) structure) that was just turned off due to an input change.

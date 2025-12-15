@@ -1,3 +1,7 @@
+---
+title: Duplicate_symbol
+---
+
 # Duplicate symbol
 
 Duplicate definitions of [variables](Variables.md) or [constants](Constants.md) are found.

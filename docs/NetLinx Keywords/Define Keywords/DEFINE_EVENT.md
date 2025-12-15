@@ -1,3 +1,7 @@
+---
+title: DEFINE_EVENT
+---
+
 # DEFINE_EVENT
 
 In NetLinx, events thread runs parallel to the mainline thread. Events describe certain types of conditions within the control system. If the conditions are defined as a DEFINE_EVENT, the event code is run and mainline is bypassed.

@@ -1,3 +1,7 @@
+---
+title: DEVICE_INFO
+---
+
 # DEVICE_INFO
 
 NetLinx stores information, such as manufacturer, device name and device ID, for each device in the system. The DEVICE_INFO keyword allows a programmer to access all available information for any device.  If the device does not exist in the system, a Device ID of zero is returned. This keyword is usually used to determine the firmware version of a device in the system.

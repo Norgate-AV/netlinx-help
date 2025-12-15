@@ -1,3 +1,7 @@
+---
+title: DATE_TO_DAY
+---
+
 # DATE_TO_DAY
 
 Returns an integer representing the day portion of a date string.

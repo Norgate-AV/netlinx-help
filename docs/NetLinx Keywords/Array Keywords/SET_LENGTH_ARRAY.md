@@ -1,3 +1,7 @@
+---
+title: SET_LENGTH_ARRAY
+---
+
 # SET_LENGTH_ARRAY
 
 Sets the effective length of a dimension of an array.

@@ -1,3 +1,7 @@
+---
+title: VALIDATE_NETLINX_ACCOUNT_WITH_PERMISSION
+---
+
 # VALIDATE_NETLINX_ACCOUNT_WITH_PERMISSION
 
 This function validates the specified user name and password against the NetLinx Master Controller's internal user account database. For the account to be valid the user name must exist with the matching password and the specified user account must have been set up with ICSP Authorization.

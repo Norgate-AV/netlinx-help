@@ -1,3 +1,7 @@
+---
+title: STANDBY
+---
+
 # STANDBY
 
 This keyword defines a section in a [DATA event handler](Data_Events.md) for processing STANDBY notifications.  

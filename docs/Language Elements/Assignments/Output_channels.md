@@ -1,3 +1,7 @@
+---
+title: Output_channels
+---
+
 # Output channels
 
 This type of statement is typically used for feedback. It sends an output change to the specified channel on the given device.

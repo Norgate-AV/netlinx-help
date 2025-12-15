@@ -1,3 +1,7 @@
+---
+title: DATE_TO_MONTH
+---
+
 # DATE_TO_MONTH
 
 Returns an integer representing the month portion of a date string.

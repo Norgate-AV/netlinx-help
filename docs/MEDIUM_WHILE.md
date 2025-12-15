@@ -1,3 +1,7 @@
+---
+title: MEDIUM_WHILE
+---
+
 # MEDIUM_WHILE
 
 The MEDIUM_WHILE statement is obsolete in NetLinx.

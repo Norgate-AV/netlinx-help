@@ -1,3 +1,7 @@
+---
+title: LOG_VALUE(X)
+---
+
 # LOG_VALUE
 
 Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  

@@ -1,3 +1,7 @@
+---
+title: RELEASE
+---
+
 # RELEASE
 
 The RELEASE keyword is used to declare a block of code to be executed when a release event is received for the associated device and channel.

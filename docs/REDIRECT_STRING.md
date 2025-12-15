@@ -1,3 +1,7 @@
+---
+title: REDIRECT_STRING
+---
+
 # REDIRECT_STRING
 
 This command is used to pass all strings from device 1 to device 2 and all strings from device 2 to device 1. This is called a redirection and you can assign up to eight of them at one time.

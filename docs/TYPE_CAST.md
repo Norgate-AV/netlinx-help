@@ -1,3 +1,7 @@
+---
+title: TYPE_CAST
+---
+
 # TYPE_CAST
 
 This routine eliminates compiler type cast warnings by casting the passed intrinsic variable type to the type assigned by the return value.

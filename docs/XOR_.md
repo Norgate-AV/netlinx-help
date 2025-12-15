@@ -1,3 +1,7 @@
+---
+title: XOR_
+---
+
 # XOR(^^)
 
 This Logical Operator is used to evaluate two conditions.

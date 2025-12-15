@@ -1,3 +1,7 @@
+---
+title: Assignments
+---
+
 # Assignments
 
 Assignment statements include Variables and Output Channels.

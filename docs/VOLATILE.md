@@ -1,3 +1,7 @@
+---
+title: VOLATILE
+---
+
 # VOLATILE
 
 This keyword is used as part of a variable declaration to specify that storage space for the variable be allocated in volatile memory.

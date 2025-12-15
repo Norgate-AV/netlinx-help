@@ -1,3 +1,7 @@
+---
+title: WC_CONCAT_STRING
+---
+
 # WC_CONCAT_STRING
 
 This keyword concatenates two WIDECHAR arrays.

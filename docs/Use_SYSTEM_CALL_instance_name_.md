@@ -1,3 +1,7 @@
+---
+title: Use_SYSTEM_CALL_instance_name_
+---
+
 # Use SYSTEM_CALL \[instance\] 'name'
 
 This error occurs if a [SYSTEM\_CALL](SYSTEM_CALL.md) statement is written incorrectly as SYSTEM\_CALL 'NAME' \[INSTANCE NUMBER\].

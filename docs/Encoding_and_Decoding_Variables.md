@@ -1,3 +1,7 @@
+---
+title: Encoding_and_Decoding_Variables
+---
+
 # Encoding and Decoding Variables
 
 There are six functions used to encode and decode variables in NetLinx. This encoding process takes a NetLinx variable, no matter how complex, and converts it into a string. The decode process will take this string and copy the contents back into a variable.

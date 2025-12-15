@@ -1,3 +1,7 @@
+---
+title: COMBINE_DEVICES
+---
+
 # COMBINE_DEVICES
 
 This keyword is used to define the combination of functionally identical devices, such as identically programmed touch panels. When the program references one of these devices, all other combined devices in the array are also referenced. The devices in a given array must be enclosed in parentheses.

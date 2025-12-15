@@ -1,3 +1,7 @@
+---
+title: DEFINE_CALL_must_have_a_name
+---
+
 # DEFINE_CALL must have a name
 
 [DEFINE_CALL](DEFINE_CALL.md) must have a name after it.

@@ -1,3 +1,7 @@
+---
+title: _WARN
+---
+
 # \#WARN
 
 This [Compiler Directive](Compiler_Directives.md)  forces a warning message to be displayed after the program is compiled.

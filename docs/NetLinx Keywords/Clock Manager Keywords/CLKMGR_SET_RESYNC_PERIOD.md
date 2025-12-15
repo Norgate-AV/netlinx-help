@@ -1,3 +1,7 @@
+---
+title: CLKMGR_SET_RESYNC_PERIOD
+---
+
 # CLKMGR_SET_RESYNC_PERIOD
 
 Sets the re-sync period to the specified minute value.

@@ -1,3 +1,7 @@
+---
+title: RETURN
+---
+
 # RETURN
 
 This statement is used in a [DEFINE\_FUNCTION](DEFINE_FUNCTION.md) or [DEFINE\_CALL](DEFINE_CALL.md) subroutine to prematurely terminate execution and/or to return a value to the caller.

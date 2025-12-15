@@ -1,3 +1,7 @@
+---
+title: TIMELINE_CREATE
+---
+
 # TIMELINE_CREATE
 
 Creates an initial timeline and specifies the attributes of the timeline.

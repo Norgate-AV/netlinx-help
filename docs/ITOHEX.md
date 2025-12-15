@@ -1,3 +1,7 @@
+---
+title: ITOHEX
+---
+
 # ITOHEX
 
 Converts a 32-bit unsigned integer to an ASCII string containing the hexadecimal representation of the number.

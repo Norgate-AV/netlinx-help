@@ -1,3 +1,7 @@
+---
+title: STATIC_PORT_BINDING()
+---
+
 # STATIC_PORT_BINDING
 
 Designates an application device along with its SDK class and the physical interface it is bound to.

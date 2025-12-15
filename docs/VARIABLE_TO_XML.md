@@ -1,3 +1,7 @@
+---
+title: VARIABLE_TO_XML
+---
+
 # VARIABLE_TO_XML
 
 **Syntax:**

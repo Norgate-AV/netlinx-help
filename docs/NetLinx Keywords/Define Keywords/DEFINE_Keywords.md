@@ -1,3 +1,7 @@
+---
+title: DEFINE_Keywords
+---
+
 # DEFINE Keywords
 
 The NetLinx language supports the following DEFINE keywords:

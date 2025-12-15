@@ -1,3 +1,7 @@
+---
+title: AUDIT_NETLINX_SESSION_EVENT
+---
+
 # AUDIT_NETLINX_SESSION_EVENT
 
 This function generates an audit record in the persistent audit trail containing the specified NetLinx Device D:P:S where the login occurred, the username of the login and the audit type.

@@ -1,3 +1,7 @@
+---
+title: WC_FILE_READ_LINE
+---
+
 # WC_FILE_READ_LINE
 
 This function reads from the current location of the file pointer up to the next carriage return or to the end-of-file (EOF), whichever comes first.

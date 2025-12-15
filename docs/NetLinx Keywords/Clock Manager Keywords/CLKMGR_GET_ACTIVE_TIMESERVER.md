@@ -1,3 +1,7 @@
+---
+title: CLKMGR_GET_ACTIVE_TIMESERVER
+---
+
 # CLKMGR_GET_ACTIVE_TIMESERVER
 
 Populates the TIMESERVER structure with the currently active time server's data.

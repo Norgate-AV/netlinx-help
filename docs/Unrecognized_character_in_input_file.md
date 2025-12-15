@@ -1,3 +1,7 @@
+---
+title: Unrecognized_character_in_input_file
+---
+
 # Unrecognized character in input file
 
 An invalid character was found during the build.

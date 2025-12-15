@@ -1,3 +1,7 @@
+---
+title: FILE_RENAME
+---
+
 # FILE_RENAME
 
 Renames the specified file. The syntax:

@@ -1,3 +1,7 @@
+---
+title: SET_VIRTUAL_PORT_COUNT
+---
+
 # SET_VIRTUAL_PORT_COUNT
 
 Lets the programmer override the default number of ports that a virtual device maintains.

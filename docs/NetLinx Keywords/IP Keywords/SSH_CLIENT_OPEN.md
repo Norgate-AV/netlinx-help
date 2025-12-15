@@ -1,3 +1,7 @@
+---
+title: SSH_CLIENT_OPEN
+---
+
 # SSH_CLIENT_OPEN
 
 This function opens a port for SSH communication with a server.

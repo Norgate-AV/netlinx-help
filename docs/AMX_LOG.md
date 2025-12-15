@@ -1,3 +1,7 @@
+---
+title: AMX_LOG
+---
+
 # AMX_LOG
 
 Note: This command is supported by NetLinx Controller firmware version 4 or higher.

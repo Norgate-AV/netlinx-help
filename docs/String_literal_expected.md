@@ -1,3 +1,7 @@
+---
+title: String_literal_expected
+---
+
 # String literal expected
 
 A string is required for the particular operation.

@@ -1,3 +1,7 @@
+---
+title: System_Call_Subroutines
+---
+
 # SYSTEM_CALL Subroutines
 
 A SYSTEM_CALL is a special type of [subroutine](Subroutines.md) that is defined in a separate program file called a LIB (library) file with a [PROGRAM_NAME](PROGRAM_NAME.md) entry matching the subroutine name, as shown below:

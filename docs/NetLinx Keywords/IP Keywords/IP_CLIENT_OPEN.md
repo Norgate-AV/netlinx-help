@@ -1,3 +1,7 @@
+---
+title: IP_CLIENT_OPEN
+---
+
 # IP_CLIENT_OPEN
 
 Opens a port for IP communication with a server.

@@ -1,3 +1,7 @@
+---
+title: CHARDM
+---
+
 # CHARDM
 
 Sets the delay between all transmitted characters to that specified in 1-millisecond increments.

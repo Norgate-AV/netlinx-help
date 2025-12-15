@@ -1,3 +1,7 @@
+---
+title: CLKMGR_IS_NETWORK_SOURCED
+---
+
 # CLKMGR_IS_NETWORK_SOURCED
 
 - Returns FALSE/0 or TRUE/1.

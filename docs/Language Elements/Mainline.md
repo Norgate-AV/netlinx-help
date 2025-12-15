@@ -1,3 +1,7 @@
+---
+title: Mainline
+---
+
 # Mainline
 
 Mainline is the section of the program that is executed continuously by the NetLinx Master Controller. [DEFINE_PROGRAM](DEFINE_PROGRAM.md) contains the code known as mainline that is executed continuously as long as the Controller has power. Mainline is where all input (button events, level changes, command/string input, etc.) is processed. After each pass through mainline, NetLinx services the NetLinx bus and updates its internal structures.

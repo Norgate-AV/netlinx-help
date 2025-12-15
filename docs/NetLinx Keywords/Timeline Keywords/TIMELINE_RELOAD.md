@@ -1,3 +1,7 @@
+---
+title: TIMELINE_RELOAD
+---
+
 # TIMELINE_RELOAD
 
 This function is used to change the array times of a timeline. The new array of times takes affect immediately even if the timeline is currently executing.

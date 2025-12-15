@@ -1,3 +1,7 @@
+---
+title: TIME_TO_HOUR
+---
+
 # TIME_TO_HOUR
 
 Returns an integer representing the hour portion of a time string.

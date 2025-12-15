@@ -1,3 +1,7 @@
+---
+title: BXOR_
+---
+
 # BXOR(^)
 
 This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise XOR operation between two data items.

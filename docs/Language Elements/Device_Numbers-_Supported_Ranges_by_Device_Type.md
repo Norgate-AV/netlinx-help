@@ -1,3 +1,7 @@
+---
+title: Device_Numbers-_Supported_Ranges_by_Device_Type
+---
+
 # Device Numbers - Supported Ranges by Device Type
 
 Each [device](Devices.md) requires a device number within the network, but many devices have range limitations on the device number that may be used. If an incorrect device number outside of that range is assigned to a particular device, the module may not function properly.

@@ -1,3 +1,7 @@
+---
+title: Waits
+---
+
 # Waits
 
 Wait instructions allow delayed execution of one or more program statements. When a wait statement is executed, it is added to a list of currently active wait requests and the program continues running.

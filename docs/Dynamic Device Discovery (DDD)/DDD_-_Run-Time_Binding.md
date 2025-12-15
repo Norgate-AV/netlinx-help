@@ -1,3 +1,7 @@
+---
+title: DDD_-_Run-Time_Binding
+---
+
 # DDD - Run-Time Binding
 
 The NetLinx Master can be configured to automatically determine what Dynamic Application Device a newly discovered Dynamic Physical Device should be bound to.  The use of this capability requires that a newly discovered physical device have only one clear choice of Application Device.

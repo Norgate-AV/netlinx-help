@@ -1,3 +1,7 @@
+---
+title: DOUBLE
+---
+
 # DOUBLE
 
 DOUBLE defines an intrinsic data type representing a 64-bit (double precision) signed floating-point value. It is used to store large real numbers with 15 digits of precision.

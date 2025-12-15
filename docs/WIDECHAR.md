@@ -1,3 +1,7 @@
+---
+title: WIDECHAR
+---
+
 # WIDECHAR
 
 WIDECHAR is an intrinsic data type representing a 16-bit unsigned integer. This data type is intended for use with [Unicode](Working_With_UniCode.md) fonts that use 16-bit character codes (and most Far-eastern fonts).

@@ -1,3 +1,7 @@
+---
+title: DEVICE_ID_STRING
+---
+
 # DEVICE_ID_STRING
 
 Returns a string description/model number for the specified device.

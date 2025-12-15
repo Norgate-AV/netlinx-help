@@ -1,3 +1,7 @@
+---
+title: AWAKE
+---
+
 # AWAKE
 
 This keyword defines a section in a [DATA event handler](DATA_EVENT.md) for processing AWAKE notifications.

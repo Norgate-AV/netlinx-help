@@ -1,3 +1,7 @@
+---
+title: WC_FILE_CLOSE
+---
+
 # WC_FILE_CLOSE
 
 This function closes a file opened with [WC_FILE_OPEN](WC_FILE_OPEN.md).

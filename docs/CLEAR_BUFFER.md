@@ -1,3 +1,7 @@
+---
+title: CLEAR_BUFFER
+---
+
 # CLEAR_BUFFER
 
 This command clears the contents of the specified text buffer.

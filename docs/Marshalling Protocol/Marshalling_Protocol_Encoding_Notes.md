@@ -1,3 +1,7 @@
+---
+title: Marshalling_Protocol_Encoding_Notes
+---
+
 # Marshalling Protocol: Encoding Notes
 
 - The encoding XML will not contain any white space. This includes CR,LF pairs.

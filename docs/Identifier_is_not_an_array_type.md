@@ -1,3 +1,7 @@
+---
+title: Identifier_is_not_an_array_type
+---
+
 # Identifier is not an array type
 
 A non-array variable was treated as an array.

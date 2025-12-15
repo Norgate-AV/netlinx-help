@@ -1,3 +1,7 @@
+---
+title: Compilation_Errors
+---
+
 # Compiler Errors
 
 The compiler informs you when it finds an error during the compilation process. Most of the time these errors occur due to a typographical error or incorrect syntax of a particular command.

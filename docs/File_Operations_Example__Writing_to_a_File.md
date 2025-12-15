@@ -1,3 +1,7 @@
+---
+title: File_Operations_Example__Writing_to_a_File
+---
+
 # File Operations Example: Writing to a File
 
 The following example code demonstrates writing to a file (typical usage):

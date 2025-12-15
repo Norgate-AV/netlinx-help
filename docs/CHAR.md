@@ -1,3 +1,7 @@
+---
+title: CHAR
+---
+
 # CHAR
 
 CHAR is used to store single-byte values and character strings. This data type is used with ANSI character strings.

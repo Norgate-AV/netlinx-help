@@ -1,3 +1,7 @@
+---
+title: IP_BOUND_CLIENT_OPEN
+---
+
 # IP_BOUND_CLIENT_OPEN
 
 Opens a port for IP communication with a server using a specific local IP port number.

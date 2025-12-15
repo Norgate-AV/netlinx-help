@@ -1,3 +1,7 @@
+---
+title: CANCEL_ALL_WAIT
+---
+
 # CANCEL_ALL_WAIT
 
 This keyword cancels all [WAITs](WAIT.md) (named or unnamed) in the WAIT list.

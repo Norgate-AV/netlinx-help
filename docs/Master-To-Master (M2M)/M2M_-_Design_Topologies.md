@@ -1,3 +1,7 @@
+---
+title: M2M_-_Design_Topologies
+---
+
 # M2M - Design Topologies
 
 The goal when using M2M is to minimize the amount of traffic between masters while providing the required functionality.

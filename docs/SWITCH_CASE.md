@@ -1,3 +1,7 @@
+---
+title: SWITCH_CASE
+---
+
 # SWITCH...CASE
 
 SWITCH...CASE statements provide selective execution of code blocks evaluated by a single condition. The value of the SWITCH expression is tested against each CASE value (a numeric constant or a string literal).

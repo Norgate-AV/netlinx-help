@@ -1,3 +1,7 @@
+---
+title: SMTP_SEND
+---
+
 # SMTP_SEND
 
 Note: SMTP functionality is supported by NetLinx Controller firmware version 4 or higher.

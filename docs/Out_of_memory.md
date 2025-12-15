@@ -1,3 +1,7 @@
+---
+title: Out_of_memory
+---
+
 # Out of memory
 
 The compiler has run out of memory.

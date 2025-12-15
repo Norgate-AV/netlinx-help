@@ -1,3 +1,7 @@
+---
+title: Must_be_integer_reference
+---
+
 # Must be integer reference
 
 The identifier in question must be an integer.

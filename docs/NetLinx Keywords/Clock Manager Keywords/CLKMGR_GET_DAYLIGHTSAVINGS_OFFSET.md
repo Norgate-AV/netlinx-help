@@ -1,3 +1,7 @@
+---
+title: CLKMGR_GET_DAYLIGHTSAVINGS_OFFSET
+---
+
 # CLKMGR_GET_DAYLIGHTSAVINGS_OFFSET
 
 Populates the TIMEOFFSET structure with the current Daylight Savings Offset configured.

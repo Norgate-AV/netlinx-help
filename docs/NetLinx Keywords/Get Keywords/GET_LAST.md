@@ -1,3 +1,7 @@
+---
+title: GET_LAST
+---
+
 # GET_LAST
 
 This function returns the index of the array element that most recently caused an [Event Handler](Event_Handlers.md) to be triggered.

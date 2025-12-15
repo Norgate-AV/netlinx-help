@@ -1,3 +1,7 @@
+---
+title: True
+---
+
 # TRUE
 
 This keyword is a CHAR constant containing the value 1.

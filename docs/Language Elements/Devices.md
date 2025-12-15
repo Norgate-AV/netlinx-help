@@ -1,3 +1,7 @@
+---
+title: Devices
+---
+
 # Devices
 
 A device is any hardware component that can be connected to the NetLinx bus. Each device must be assigned a unique number to locate that device on the bus.

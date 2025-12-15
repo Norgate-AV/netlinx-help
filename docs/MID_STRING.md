@@ -1,3 +1,7 @@
+---
+title: MID_STRING
+---
+
 # MID_STRING
 
 Returns the specified number of characters starting at the specified location in the source string.

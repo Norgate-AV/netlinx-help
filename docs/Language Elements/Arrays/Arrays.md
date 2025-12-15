@@ -1,3 +1,7 @@
+---
+title: Arrays
+---
+
 # Arrays
 
 An array is data structure that stores a collection of individual values that are of the same data type.

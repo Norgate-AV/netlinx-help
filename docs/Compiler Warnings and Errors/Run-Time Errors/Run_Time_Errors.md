@@ -1,3 +1,7 @@
+---
+title: Run_Time_Errors
+---
+
 # Run-Time Errors
 
 In many cases, a program is compiled and sent to the Central Controller error-free, but the system does not act in the way it should. If the program code is correct, you should check for run-time errors. These errors occur in the Central Controller, usually when it could not perform a particular operation in the program.

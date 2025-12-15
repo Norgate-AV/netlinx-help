@@ -1,3 +1,7 @@
+---
+title: TIMELINE_SET
+---
+
 # TIMELINE_SET
 
 This function is used to modify the current timer value of a timeline. The timeline’s timer is immediately set to the new value regardless of whether the timeline is executing or not.

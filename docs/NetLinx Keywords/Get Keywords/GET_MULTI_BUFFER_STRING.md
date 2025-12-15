@@ -1,3 +1,7 @@
+---
+title: GET_MULTI_BUFFER_STRING
+---
+
 # GET_MULTI_BUFFER_STRING
 
 To access characters coming into a multi-buffer, you must first use GET_MULTI_BUFFER_STRING to transfer these characters into another array.

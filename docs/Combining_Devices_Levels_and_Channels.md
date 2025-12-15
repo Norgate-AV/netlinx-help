@@ -1,3 +1,7 @@
+---
+title: Combining_Devices_Levels_and_Channels
+---
+
 # Combining Devices, Levels and Channels
 
 The original Axcess language supports the concept of combining several panels to make them behave as if they were one panel, in order to simplify code. This feature allows the combination of functionally identical devices, such as identically programmed Touch Panels and Softwire Panels. When the program references one of these devices, all other combined devices array are also referenced.

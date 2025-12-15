@@ -1,3 +1,7 @@
+---
+title: TIME_TO_MINUTE
+---
+
 # TIME_TO_MINUTE
 
 Returns an integer representing the minute portion of a time string.

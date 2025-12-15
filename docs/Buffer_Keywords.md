@@ -1,3 +1,7 @@
+---
+title: Buffer_Keywords
+---
+
 # Buffer Keywords
 
 The NetLinx programming language supports the following Buffer keywords:

@@ -1,3 +1,7 @@
+---
+title: DEVICE_WAKE
+---
+
 # DEVICE_WAKE
 
 This command requests that a device in standby state wake up.

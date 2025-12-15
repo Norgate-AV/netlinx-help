@@ -1,3 +1,7 @@
+---
+title: AUDIT_NETLINX_GENERIC_EVENT
+---
+
 # AUDIT_NETLINX_GENERIC_EVENT
 
 This function generates an audit record to the persistent audit trail containing the specified NetLinx Device D:P:S and user name to associate with the audit record and a text message to include in the audit record.

@@ -1,3 +1,7 @@
+---
+title: CHANNEL_EVENT
+---
+
 # CHANNEL_EVENT
 
 This keyword defines a channel event handler.

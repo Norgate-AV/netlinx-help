@@ -1,3 +1,7 @@
+---
+title: CLKMGR_SET_CLK_SOURCE
+---
+
 # CLKMGR_SET_CLK_SOURCE
 
 Sets the source of the clock manager.

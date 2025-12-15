@@ -1,3 +1,7 @@
+---
+title: Device_Level_Arrays
+---
+
 # Device-Level Arrays
 
 A device-level array ([DEVLEV](DEVLEV.md) array) is an array of device-level pairs. Each element is represented internally as a [DEVLEV](DEVLEV.md) structure.

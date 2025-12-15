@@ -1,3 +1,7 @@
+---
+title: WC_DECODE
+---
+
 # WC_DECODE
 
 This function decodes Unicode string from a character string using one of 4 formats.

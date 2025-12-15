@@ -1,3 +1,7 @@
+---
+title: WC_FILE_OPEN
+---
+
 # WC_FILE_OPEN
 
 This function opens a file for reading or writing.

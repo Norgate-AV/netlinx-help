@@ -1,3 +1,7 @@
+---
+title: FILE_SETDIR
+---
+
 # FILE_SETDIR
 
 Sets the current working directory to the specified path.

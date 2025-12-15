@@ -1,3 +1,7 @@
+---
+title: Data_Set_Structures
+---
+
 # Data Set Structures
 
 NetLinx predefines several structures designed to work with NetLinx device numbers, channels, and levels. Data sets allow you to group and combine certain elements of NetLinx devices. There are three data set structures supported by NetLinx:

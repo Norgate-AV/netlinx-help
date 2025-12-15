@@ -1,3 +1,7 @@
+---
+title: VARIABLE_TO_STRING
+---
+
 # VARIABLE_TO_STRING
 
 This routine takes the variable Encode and creates entries in the buffer to represent that variable.

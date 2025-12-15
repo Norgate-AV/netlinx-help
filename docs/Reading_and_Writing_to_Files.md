@@ -1,3 +1,7 @@
+---
+title: Reading_and_Writing_to_Files
+---
+
 # Reading and Writing to Files
 
 The [NetLinx Unicode library](Working_With_UniCode.md) supports reading and writing of WIDECHAR arrays.  The WC_FILE functions operate the same as FILE routines, with the exception of FILE_OPEN:   [WC_FILE_OPEN](WC_FILE_OPEN.md) takes an additional parameter; the file format.  

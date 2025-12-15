@@ -1,3 +1,7 @@
+---
+title: Persistent_Variables
+---
+
 # Persistent Variables
 
 Persistent variables are NetLinx program variables that maintain their value between updates to the NetLinx program. The user can define a variable to be persistent using the PERSISTENT storage modifier as show below:

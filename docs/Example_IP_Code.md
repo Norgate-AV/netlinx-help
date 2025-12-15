@@ -1,3 +1,7 @@
+---
+title: Example_IP_Code
+---
+
 # Example IP Code
 
 PROGRAM_NAME='IPExample'

@@ -1,3 +1,7 @@
+---
+title: REBUILD_EVENT()
+---
+
 # REBUILD_EVENT()
 
 The NetLinx runtime supports the run-time library function REBUILD_EVENT(), which rebuilds the NetLinx event table for level, channel, button, timeline, and data events.  Modifications to variables used in event declarations affect NetLinx event handling when REBUILD_EVENT() is called after the variables are modified.  

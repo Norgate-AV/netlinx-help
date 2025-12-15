@@ -1,3 +1,7 @@
+---
+title: ON
+---
+
 # ON
 
 This keyword is used to turn a channel or variable on.

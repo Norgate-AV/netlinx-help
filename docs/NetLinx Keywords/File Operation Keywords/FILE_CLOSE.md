@@ -1,3 +1,7 @@
+---
+title: FILE_CLOSE
+---
+
 # FILE_CLOSE
 
 Closes a file opened with [FILE_OPEN](FILE_OPEN.md). This function should be called when all reading or writing to the file is completed.

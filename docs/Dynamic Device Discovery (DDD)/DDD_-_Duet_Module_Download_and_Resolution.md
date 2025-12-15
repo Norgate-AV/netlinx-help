@@ -1,3 +1,7 @@
+---
+title: DDD_-_Duet_Module_Download_and_Resolution
+---
+
 # DDD - Duet Module Download and Resolution
 
 In order to complete a bind activity, the master’s firmware must load and start the appropriate Duet module to control the new device.  In the concrete programming world, these modules are bundled and downloaded with the NetLinx application.  But with Dynamic Device Discovery, the proper Duet modules are not known at program time and thus cannot be part of the programming download.  

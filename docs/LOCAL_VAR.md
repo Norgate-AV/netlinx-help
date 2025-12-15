@@ -1,3 +1,7 @@
+---
+title: LOCAL_VAR
+---
+
 # LOCAL_VAR
 
 The keyword LOCAL_VAR specifies a variable that is static.

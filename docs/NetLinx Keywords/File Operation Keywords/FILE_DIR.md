@@ -1,3 +1,7 @@
+---
+title: FILE_DIR
+---
+
 # FILE_DIR
 
 Returns a list of files located at the specified path.

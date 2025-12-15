@@ -1,3 +1,7 @@
+---
+title: PROGRAM_NAME
+---
+
 # PROGRAM_NAME
 
 This keyword is used to declare the program name.

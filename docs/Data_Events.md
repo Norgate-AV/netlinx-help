@@ -1,3 +1,7 @@
+---
+title: Data_Events
+---
+
 # Data Events
 
 Data Events provide the ability to receive strings of data from a device.

@@ -1,3 +1,7 @@
+---
+title: WC_SET_LENGTH_STRING
+---
+
 # WC_SET_LENGTH_STRING
 
 This function sets the length of a WIDECHAR string.

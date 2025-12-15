@@ -1,3 +1,7 @@
+---
+title: GET_SERIAL_NUMBER
+---
+
 # GET_SERIAL_NUMBER
 
 Returns the 16-character serial number of the specified device.

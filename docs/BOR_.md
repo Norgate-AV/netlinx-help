@@ -1,3 +1,7 @@
+---
+title: BOR_
+---
+
 # BOR (\|)
 
 This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise OR on two data items.

@@ -1,3 +1,7 @@
+---
+title: Event_Parameters
+---
+
 # Event Parameters
 
 [DEFINE_EVENT](DEFINE_EVENT.md) handlers are stored in an event table providing quick access to code that must be executed when an event is received.  

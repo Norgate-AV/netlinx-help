@@ -1,3 +1,7 @@
+---
+title: __NAME__
+---
+
 # \_\_NAME\_\_
 
 At compile time, this keyword is replaced by a string that contains the [PROGRAM\_NAME](PROGRAM_NAME.md) description found on the first line of the program.

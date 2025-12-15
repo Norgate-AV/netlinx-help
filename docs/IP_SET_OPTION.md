@@ -1,3 +1,7 @@
+---
+title: IP_SET_OPTION
+---
+
 # IP_SET_OPTION
 
 Allows for specific option settings on IP client or server connections.  

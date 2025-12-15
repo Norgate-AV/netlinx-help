@@ -1,3 +1,7 @@
+---
+title: Dynamic_Device_Discovery_(DDD)
+---
+
 # Dynamic Device Discovery (DDD)
 
 In Dynamic Device Discovery (DDD), physical devices are detected in the system at run-time.  

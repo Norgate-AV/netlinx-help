@@ -1,3 +1,7 @@
+---
+title: Device_Channels_and_Device_Channel_Arrays
+---
+
 # Device-Channels and Device-Channel Arrays
 
 As the name implies, a device-channel ([DEVCHAN](DEVCHAN.md)) is a combination of a device and a channel. It is represented internally as a [DEVCHAN](DEVCHAN.md) structure.

@@ -1,3 +1,7 @@
+---
+title: Bad_assign_Call_
+---
+
 # Bad assign Call...
 
 These errors occur if the Central Controller cannot assign a parameter in a CALL statement to the parameter in the corresponding DEFINE_CALL statement.

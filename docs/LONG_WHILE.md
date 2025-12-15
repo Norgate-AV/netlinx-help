@@ -1,3 +1,7 @@
+---
+title: LONG_WHILE
+---
+
 # LONG_WHILE
 
 A [LONG_WHILE](LONG_WHILE.md) differs from a [WHILE](WHILE.md) statement in the way input change notifications are processed during the programming loop. Before execution of each loop after the first, the system checks the input queue for a change notification message. The message is retrieved if one exists.

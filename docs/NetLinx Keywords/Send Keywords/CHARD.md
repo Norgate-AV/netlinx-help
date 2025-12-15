@@ -1,3 +1,7 @@
+---
+title: CHARD
+---
+
 # CHARD
 
 Sets the delay between all transmitted characters to that specified in 100-microsecond increments.

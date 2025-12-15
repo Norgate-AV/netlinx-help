@@ -1,3 +1,7 @@
+---
+title: RIGHT_STRING
+---
+
 # RIGHT_STRING
 
 Returns the specified number of characters from the end of a string.

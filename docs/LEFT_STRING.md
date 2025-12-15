@@ -1,3 +1,7 @@
+---
+title: LEFT_STRING
+---
+
 # LEFT_STRING
 
 Returns the specified number of characters from the beginning of a string.

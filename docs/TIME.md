@@ -1,3 +1,7 @@
+---
+title: TIME
+---
+
 # TIME
 
 This system variable holds the current time as a string in the form "hh:mm:ss".

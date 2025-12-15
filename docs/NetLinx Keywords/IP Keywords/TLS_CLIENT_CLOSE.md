@@ -1,3 +1,7 @@
+---
+title: TLS_CLIENT_CLOSE
+---
+
 # TLS_CLIENT_CLOSE
 
 Closes an open TLS communication port with a remote device. Typically, the remote host closes the connection and you do not need to send this command.

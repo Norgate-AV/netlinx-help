@@ -1,3 +1,7 @@
+---
+title: FILE_READ
+---
+
 # FILE_READ
 
 Reads a block of data from the specified file.

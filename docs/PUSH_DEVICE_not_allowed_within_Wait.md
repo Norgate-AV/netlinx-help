@@ -1,3 +1,7 @@
+---
+title: PUSH_DEVICE_not_allowed_within_Wait
+---
+
 # PUSH_DEVICE not allowed within Wait
 
 The [PUSH_DEVICE](PUSH_DEVICE.md) keyword is not allowed in a section of code which will be executed due to a [WAIT](WAIT.md) keyword.

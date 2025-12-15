@@ -1,3 +1,7 @@
+---
+title: WC_LENGTH_STRING
+---
+
 # WC_LENGTH_STRING
 
 This function returns the length of a WIDECHAR string.

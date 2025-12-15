@@ -1,3 +1,7 @@
+---
+title: DEVICE_ID
+---
+
 # DEVICE_ID
 
 Every device on the NetLinx bus has a unique ID number identifying its device type, such as an infrared/serial card or a touch panel.

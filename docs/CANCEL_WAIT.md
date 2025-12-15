@@ -1,3 +1,7 @@
+---
+title: CANCEL_WAIT
+---
+
 # CANCEL_WAIT
 
 This keyword cancels a specified [WAIT](WAIT.md).

@@ -1,3 +1,7 @@
+---
+title: GET_SYSTEM_NUMBER
+---
+
 # GET_SYSTEM_NUMBER
 
 Returns the system number of the NetLinx Master.

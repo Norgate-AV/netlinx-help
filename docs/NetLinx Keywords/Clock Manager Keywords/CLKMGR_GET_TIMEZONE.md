@@ -1,3 +1,7 @@
+---
+title: CLKMGR_GET_TIMEZONE
+---
+
 # CLKMGR_GET_TIMEZONE
 
 Returns Timezone as a string in the format:

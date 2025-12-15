@@ -1,3 +1,7 @@
+---
+title: Button_Events
+---
+
 # Button Events
 
 Button Events include Pushes, Releases and Holds. These events are associated with a push or release on a particular device-channel.

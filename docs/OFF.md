@@ -1,3 +1,7 @@
+---
+title: OFF
+---
+
 # OFF
 
 This keyword is used to turn a channel or variable off.

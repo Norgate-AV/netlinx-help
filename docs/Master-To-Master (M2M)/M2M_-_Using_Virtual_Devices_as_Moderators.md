@@ -1,3 +1,7 @@
+---
+title: M2M_-_Using_Virtual_Devices_as_Moderators
+---
+
 # M2M - Using Virtual Devices as Moderators
 
 Virtual Devices may be used as moderators to share information between masters that may or may not be related to specific devices, like passing the values of a variable.  

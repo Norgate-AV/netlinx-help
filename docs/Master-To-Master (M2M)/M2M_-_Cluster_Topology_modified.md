@@ -1,3 +1,7 @@
+---
+title: M2M_-_Cluster_Topology_modified
+---
+
 # M2M - Cluster Topology modified
 
 Using [route mode direct](M2M_-_Route_Modes_(Normal_and_Direct).htm) with the appropriate topology helps to accomplish this goal because it is the most efficient routing method since it will reduce network traffic and master processing of messages. The figure below uses the [Cluster](M2M_-_Cluster_Topology.md) concept and direct mode to link specific masters, yet remain isolated from other masters on the network:

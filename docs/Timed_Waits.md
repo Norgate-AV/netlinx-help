@@ -1,3 +1,7 @@
+---
+title: Timed_Waits
+---
+
 # Timed Waits
 
 The syntax for Timed Waits is shown below:

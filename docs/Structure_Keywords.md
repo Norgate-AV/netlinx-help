@@ -1,3 +1,7 @@
+---
+title: Structure_Keywords
+---
+
 # Structure Keywords
 
 The NetLinx Language supports the following Structure keywords:

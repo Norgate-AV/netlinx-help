@@ -1,3 +1,7 @@
+---
+title: SINTEGER
+---
+
 # SINTEGER
 
 SINTEGER is used to store signed integer values both greater than and less than zero.

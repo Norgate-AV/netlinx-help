@@ -1,3 +1,7 @@
+---
+title: Marshalling_Protocol_Variables_
+---
+
 # Marshalling Protocol (Variables)
 
 The protocol assumes that every Logical field (variable) is identified with a name or index, type/size information and the actual data.

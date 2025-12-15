@@ -1,3 +1,7 @@
+---
+title: Bitwise_operators
+---
+
 # Bitwise Operators
 
 Bitwise Operators are keywords or symbols that perform a bit-by-bit operation between two items.

@@ -1,3 +1,7 @@
+---
+title: LEVEL_EVENT
+---
+
 # LEVEL_EVENT
 
 This keyword defines a level event handler. This type of handler is invoked when a level change occurs on the specified device-channel.

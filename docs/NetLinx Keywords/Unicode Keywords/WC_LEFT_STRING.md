@@ -1,3 +1,7 @@
+---
+title: WC_LEFT_STRING
+---
+
 # WC_LEFT_STRING
 
 This function returns the specified number of characters from the beginning of a string.

@@ -1,3 +1,7 @@
+---
+title: RSHIFT_(_)
+---
+
 # RSHIFT (\>\>)
 
 This [Bitwise Operator](Bitwise_operators.md) causes the bits in the associated integer field to be shifted right. This has the effect of dividing by 2n where n is the number of bit positions to shift.

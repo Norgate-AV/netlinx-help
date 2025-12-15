@@ -1,3 +1,7 @@
+---
+title: NetLinx_Language_Help
+---
+
 # NetLinx Language Help
 
 This help file is provided as a reference guide to the NetLinx Programming Language.

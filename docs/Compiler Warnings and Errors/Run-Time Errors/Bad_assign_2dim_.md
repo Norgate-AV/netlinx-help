@@ -1,3 +1,7 @@
+---
+title: Bad_assign_2dim_
+---
+
 # Bad assign 2dim...
 
 These errors occur if an attempt is made to assign a two-dimensional array to a different type (such as a variable or one-dimensional array), and vice versa.

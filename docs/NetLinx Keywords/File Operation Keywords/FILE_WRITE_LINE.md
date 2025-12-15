@@ -1,3 +1,7 @@
+---
+title: FILE_WRITE_LINE
+---
+
 # FILE_WRITE_LINE
 
 Writes a line of data to the specified file.

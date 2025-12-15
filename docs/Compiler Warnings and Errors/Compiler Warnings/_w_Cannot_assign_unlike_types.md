@@ -1,3 +1,7 @@
+---
+title: _w_Cannot_assign_unlike_types
+---
+
 # (w) Cannot assign unlike types
 
 This warning occurs when a variable or value of one type is assigned to a variable of a different type.

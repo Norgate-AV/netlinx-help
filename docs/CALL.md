@@ -1,3 +1,7 @@
+---
+title: CALL
+---
+
 # CALL
 
 To tell NetLinx to execute a subroutine, use the CALL keyword and the name of the subroutine in single quotes.

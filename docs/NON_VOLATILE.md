@@ -1,3 +1,7 @@
+---
+title: NON_VOLATILE
+---
+
 # NON_VOLATILE
 
 A variable declared with the NON_VOLATILE keyword is stored in non-volatile memory.

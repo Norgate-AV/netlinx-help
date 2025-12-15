@@ -1,3 +1,7 @@
+---
+title: Encode___Decode_Keywords
+---
+
 # Encode / Decode Keywords
 
 The NetLinx language supports the following Encode / Decode keywords:

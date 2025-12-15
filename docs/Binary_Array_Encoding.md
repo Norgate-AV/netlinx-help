@@ -1,3 +1,7 @@
+---
+title: Binary_Array_Encoding
+---
+
 # Binary Array Encoding
 
 Arrays can optionally be encoded/decoded as pairs of ASCII-encoded HEX.

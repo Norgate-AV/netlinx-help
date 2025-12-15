@@ -1,3 +1,7 @@
+---
+title: Virtual_Devices
+---
+
 # Virtual Devices
 
 NetLinx supports the concept of virtual devices. A virtual device is a device that does not physically exist but merely represents one or more devices.

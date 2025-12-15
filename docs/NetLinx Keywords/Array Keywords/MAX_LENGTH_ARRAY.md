@@ -1,3 +1,7 @@
+---
+title: MAX_LENGTH_ARRAY
+---
+
 # MAX_LENGTH_ARRAY
 
 Returns the maximum length of a dimension of an array.

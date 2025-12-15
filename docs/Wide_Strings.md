@@ -1,3 +1,7 @@
+---
+title: Wide_Strings
+---
+
 # Wide Strings
 
 A wide character string data type is provided for dealing with Unicode fonts, which use 16-bit character codes (used for many Far-Eastern fonts) instead of the standard 8-bit codes (used with most Western fonts). Here’s a syntax sample for a wide character string:

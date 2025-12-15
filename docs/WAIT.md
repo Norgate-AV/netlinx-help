@@ -1,3 +1,7 @@
+---
+title: WAIT
+---
+
 # WAIT
 
 This keyword is used to delay execution of one or more statements for a specified period of time.

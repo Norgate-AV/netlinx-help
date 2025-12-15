@@ -1,3 +1,7 @@
+---
+title: Defining_a_Module
+---
+
 # Defining a Module
 
 To use a module in a program, you must declare it using the [DEFINE_MODULE](DEFINE_MODULE.md) keyword. This tells the NetLinx compiler to add the module to the program, effectively merging the module’s event handling and mainline code with the containing program (or module). In other words, the program will have one event table and one mainline routine consisting of code from the main program and all modules declared using the MODULE statement.

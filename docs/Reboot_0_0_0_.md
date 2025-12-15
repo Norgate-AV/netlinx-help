@@ -1,3 +1,7 @@
+---
+title: Reboot_0_0_0_
+---
+
 # REBOOT
 
 This keyword causes the specified device to reset.

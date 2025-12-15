@@ -1,3 +1,7 @@
+---
+title: PULSE
+---
+
 # PULSE
 
 This command turns a channel or variable on for the length of time set by the function [SET_PULSE_TIME](SET_PULSE_TIME.md).

@@ -1,3 +1,7 @@
+---
+title: Bad_While
+---
+
 # Bad While
 
 This error occurs whenever a [WHILE](WHILE.md) loop terminates due to the half-second timeout imposed on WHILE loops.

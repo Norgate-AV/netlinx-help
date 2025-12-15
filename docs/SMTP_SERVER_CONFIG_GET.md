@@ -1,3 +1,7 @@
+---
+title: SMTP_SERVER_CONFIG_GET
+---
+
 # SMTP_SERVER_CONFIG_GET
 
 Note: SMTP functionality is supported by NetLinx Controller firmware version 4 or higher.

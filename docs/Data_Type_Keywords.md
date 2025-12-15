@@ -1,3 +1,7 @@
+---
+title: Data_Type_Keywords
+---
+
 # Data Type Keywords
 
 NetLinx supports integers up to 32-bits and signed values to allow positive and negative values.

@@ -1,3 +1,7 @@
+---
+title: PUSH
+---
+
 # PUSH
 
 The PUSH keyword is used to declare a block of code to be executed when a push event is received for the associated device and channel.

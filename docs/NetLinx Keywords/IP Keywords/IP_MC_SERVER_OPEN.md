@@ -1,3 +1,7 @@
+---
+title: IP_MC_SERVER_OPEN
+---
+
 # IP_MC_SERVER_OPEN
 
 This function opens a server port to listen for UDP multicast messages.

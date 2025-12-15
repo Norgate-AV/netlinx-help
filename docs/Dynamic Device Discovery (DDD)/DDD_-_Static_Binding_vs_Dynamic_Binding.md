@@ -1,3 +1,7 @@
+---
+title: DDD_-_Static_Binding_vs_Dynamic_Binding
+---
+
 # DDD - Static Binding vs Dynamic Binding
 
 In concrete programming, the application device is forever associated with the NetLinx physical device. The act of associating an application device with a physical device is called ‘binding”.  
