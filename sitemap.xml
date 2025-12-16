@@ -257,10 +257,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Constants/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Conversion_Keywords/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -350,10 +346,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/DEFINE_MUTUALLY_EXCLUSIVE/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -525,10 +517,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Global_Variables/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/HEXTOI/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -654,10 +642,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Listview_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Local_Variables/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -834,10 +818,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Parameter_mismatch_in_Call/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Persistent_Variables/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1233,14 +1213,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Variables_%26_Constants/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Variables_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/WAIT/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -1505,10 +1477,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Assignments/Variables/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Identifiers/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -1538,6 +1506,38 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Loops/Loops/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Constants/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Global_Variables/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Local_Variables/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Persistent_Variables/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Variables/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Variables_Keywords/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
