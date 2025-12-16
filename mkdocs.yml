@@ -6,6 +6,7 @@ repo_name: Norgate-AV/netlinx-help
 
 plugins:
   - search
+  - social
   - tags
 
 extra:
@@ -14,6 +15,8 @@ extra:
 
 theme:
   name: material
+
+  language: en
 
   features:
     - navigation.instant
@@ -33,27 +36,37 @@ theme:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/weather-sunny
+        name: Switch to light mode
       primary: indigo
       accent: deep purple
 
     # Light Mode
     - scheme: default
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Switch to dark mode
       primary: indigo
       accent: deep purple
 
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
 
 nav:
   - Home: index.md
