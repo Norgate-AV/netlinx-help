@@ -10,27 +10,29 @@
       
       
       
-        <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/Device_Level_Arrays/">
+        <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/Language%20Elements/Virtual_Devices/">
       
+      
+        <link rel="prev" href="../Identifiers/Data_Set_Structures/">
       
       
       
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>Device_Level_Arrays - NetLinx Language Help</title>
+        <title>Virtual Devices - NetLinx Language Help</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#device-level-arrays" class="md-skip">
+        <a href="#virtual-devices" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +96,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="NetLinx Language Help" class="md-header__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
+    <a href="../.." title="NetLinx Language Help" class="md-header__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Device_Level_Arrays
+              Virtual Devices
             
           </span>
         </div>
@@ -237,7 +239,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="NetLinx Language Help" class="md-nav__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
+    <a href="../.." title="NetLinx Language Help" class="md-nav__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -267,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -291,18 +293,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -323,7 +327,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -341,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language%20Elements/Mainline/" class="md-nav__link">
+      <a href="../Mainline/" class="md-nav__link">
         
   
   
@@ -369,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language%20Elements/Statements_and_Expressions/" class="md-nav__link">
+      <a href="../Statements_and_Expressions/" class="md-nav__link">
         
   
   
@@ -397,7 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language%20Elements/Keywords/" class="md-nav__link">
+      <a href="../Keywords/" class="md-nav__link">
         
   
   
@@ -425,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language%20Elements/Devices/" class="md-nav__link">
+      <a href="../Devices/" class="md-nav__link">
         
   
   
@@ -441,6 +445,459 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Device_Numbers-_Supported_Ranges_by_Device_Type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Device Numbers - Supported Ranges by Device Type
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Devices
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Comments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Identifiers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Identifiers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Identifiers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Identifiers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Identifiers/Device_Arrays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Device Arrays
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Identifiers/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Device-Channels and Device-Channel Arrays
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Identifiers/Device_Level_Arrays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Device-Level Arrays
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Identifiers/Data_Set_Structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Sets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Devices
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -473,6 +930,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -489,6 +965,64 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Mainline/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Language Elements
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Identifiers/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Identifiers
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -496,7 +1030,7 @@
 
 
   
-    <a href="https://github.com/Norgate-AV/netlinx-help/edit/master/docs/Device_Level_Arrays.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Norgate-AV/netlinx-help/edit/master/docs/Language Elements/Virtual_Devices.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -504,63 +1038,38 @@
   
 
 
-<h1 id="device-level-arrays">Device-Level Arrays</h1>
-<p>A device-level array (<a href="../DEVLEV/">DEVLEV</a> array) is an array of device-level
-pairs. Each element is represented internally as a <a href="../DEVLEV/">DEVLEV</a>
-structure.</p>
-<p>This structure combines the fields of a <a href="../DEV/">DEV</a> structure representing the
-device with a field representing the level number.</p>
-<p><strong>Syntax:</strong></p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>STRUCTURE DEVLEV
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>{
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    DEV   Device
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    INTEGER  Level
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>}
-</span></code></pre></div>
-<p>The first component of a device-level pair (DevN) represents the device number,
-port, and system and can be specified as either a single device number, a
-constant DEV structure or as a D:P:S specification. Each device specified in a
-device-level pair should be defined in the <a href="DEFINE_DEVICE.md">DEFINE_DEVICE</a>
-section.</p>
-<p>The second component is the level number on the device. The level number is
-expressed as an integer constant.</p>
-<p>A <a href="../DEVLEV/">DEVLEV</a> array is declared in the
-<a href="DEFINE_VARIABLE.md">DEFINE_VARIABLE</a> or <a href="DEFINE_CONSTANT.md">DEFINE_CONSTANT</a>
-section in one of two ways:</p>
-<ol>
-<li>Declare a DEVLEV array whose maximum length is determined by the number of
-   elements in the initialization array on the right-hand side.</li>
-</ol>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>DEVLEV DLName[] = {{Dev1,Level1}, {Dev2,Level2}, .}
-</span></code></pre></div>
-<ol>
-<li>Use MAXLEN to specify the maximum length of the array.</li>
-</ol>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>DEVLEV DLName[MAXLEN] = {{Dev1,Level1}, {Dev2,Level2}, ...}
-</span></code></pre></div>
-<p>In either case, the number of elements in the initialization array determines
-the effective length of the array. That value can be determined at run-time by
-calling <a href="LENGTH_ARRAY.md">LENGTH_ARRAY</a>. The maximum length available for a
-DEVLEV array can be determined by calling
-<a href="MAX_LENGTH_ARRAY.md">MAX_LENGTH_ARRAY</a>.</p>
-<p>The individual elements of a level array can be referenced by their defined
-names (Dev1, Level1, Dev2, Level2, etc.) or alternatively, by using array
-notation with the device-level array name.</p>
-<p>For example, the 3rd element in the device-level array, MyDLSet would be
-referenced by MyDLSet[3]. Furthermore, since a DEVLEV array is an array of
-DEVLEV structures, DEVLEV members can be referenced using the dot Operator
-notation such as MyDLSet[3].Device or MyDLSet[1].Level.</p>
-<p>The index of the last member of the array for which an event notification was
-triggered can be determined by calling Get_Last(MyDLSet). This is useful for
-determining which device and level in an array is referenced to in a particular
-notification message.</p>
-<p>See Also</p>
+<h1 id="virtual-devices">Virtual Devices</h1>
+<p>NetLinx supports the concept of <em>virtual devices</em>. A virtual device is a device that does not
+physically exist but merely represents one or more devices.</p>
 <ul>
+<li>Virtual devices carry a device number ranging from <code>32,768</code> to <code>36,863</code>, a port number of <code>1</code>,
+    and a system number of <code>0</code>.</li>
+<li>Virtual devices are devices that cannot be taken off the bus.</li>
+<li>By listing a virtual device as the first device in a <a href="DEFINE_COMBINE.md">DEFINE_COMBINE</a>
+    statement or as the first device in a <a href="COMBINE_DEVICES.md">COMBINE_DEVICES</a>,
+    <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a>, or <a href="COMBINE_CHANNELS.md">COMBINE_CHANNELS</a> statement, the
+    abnormalities seen in Axcess <code>DEFINE_COMBINE</code> statements are eliminated.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../Mainline/">Mainline</a></li>
+<li><a href="../Statements_and_Expressions/">Statements and Expressions</a></li>
+<li><a href="../Keywords/">Keywords</a></li>
+<li><a href="../Devices/">Devices</a></li>
+<li><a href="../Comments/">Comments</a></li>
+<li><a href="Identifiers.md">Identifiers</a></li>
+<li><a href="Variables_&amp;_Constants.md">Variables &amp; Constants</a></li>
+<li><a href="Subroutines.md">Subroutines</a></li>
+<li><a href="Compiler_Directives.md">Compiler Directives</a></li>
 <li><a href="Arrays.md">Arrays</a></li>
-<li><a href="Multi_Dimensional_Arrays.md">Multi-Dimensional Arrays</a></li>
-<li><a href="Device_Arrays.md">Device Arrays</a></li>
-<li><a href="../Device_Channels_and_Device_Channel_Arrays/">Device-Channels and Device-Channel Arrays</a></li>
-<li><a href="Array_Keywords.md">Array Keywords</a></li>
+<li><a href="Assignments.md">Assignments</a></li>
+<li><a href="Intrinsic_Data_Types.md">Intrinsic Data Types</a></li>
+<li><a href="Event_Handlers.md">Event Handlers</a></li>
+<li><a href="Loops.md">Loops</a></li>
+<li><a href="Strings.md">Strings</a></li>
+<li><a href="Structures.md">Structures</a></li>
+<li><a href="Timeline_Functions.md">Timeline Functions</a></li>
+<li><a href="Waits.md">Waits</a></li>
 </ul>
 
 
@@ -590,6 +1099,28 @@ notification message.</p>
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Identifiers/Data_Set_Structures/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Data Sets">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Data Sets
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -618,10 +1149,10 @@ notification message.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "content.action.edit", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "content.action.edit", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
     
   </body>
