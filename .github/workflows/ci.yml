@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: .python-version
+          cache: pip
+
+      - name: Setup Cache
+        uses: actions/cache@v5
+        with:
+          key: mkdocs-material-${{ github.ref }}-${{ hashFiles('**/pyproject.toml') }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-${{ github.ref }}-
+            mkdocs-material-
+
+      - name: Install mkdocs-material
+        run: pip install mkdocs-material
+
+      - name: Deploy Documentation
+        run: mkdocs gh-deploy --force
