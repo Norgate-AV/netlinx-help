@@ -97,3 +97,5 @@ nav:
           - Variables Keywords: Language Elements/Variables-and-Constants/Variables_Keywords.md
           - DEFINE_MUTUALLY_EXCLUSIVE and Variables: Language Elements/Variables-and-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables.md
           - Constants: Language Elements/Variables-and-Constants/Constants.md
+      - Subroutines (Functions):
+          - Language Elements/Subroutines-Functions/index.md
