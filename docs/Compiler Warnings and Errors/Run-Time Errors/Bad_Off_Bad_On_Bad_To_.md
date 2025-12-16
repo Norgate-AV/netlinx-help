@@ -4,9 +4,11 @@ title: Bad_Off_Bad_On_Bad_To_
 
 # Bad Off... Bad On... Bad To...
 
-These errors indicate that the device-channel or variable that is being referenced by an OFF, ON, or TO keyword is out of range.
+These errors indicate that the device-channel or variable that is being
+referenced by an OFF, ON, or TO keyword is out of range.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 
@@ -15,4 +17,3 @@ See Also
 - [Compiler Errors](Compilation_Errors.md)
 
 - [Run-Time Errors](Run_Time_Errors.md)
-

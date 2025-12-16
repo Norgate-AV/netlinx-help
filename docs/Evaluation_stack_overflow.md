@@ -6,7 +6,8 @@ title: Evaluation_stack_overflow
 
 The expression is too complicated. Try breaking it up into smaller pieces.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

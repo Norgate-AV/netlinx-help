@@ -4,7 +4,8 @@ title: RESTART_ALL_WAIT
 
 # RESTART_ALL_WAIT
 
-This command resumes all waits that were previously paused, regardless of whether or not they are named
+This command resumes all waits that were previously paused, regardless of
+whether or not they are named
 
 Syntax:
 

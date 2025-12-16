@@ -4,9 +4,12 @@ title: Compilation_Errors
 
 # Compiler Errors
 
-The compiler informs you when it finds an error during the compilation process. Most of the time these errors occur due to a typographical error or incorrect syntax of a particular command.
+The compiler informs you when it finds an error during the compilation process.
+Most of the time these errors occur due to a typographical error or incorrect
+syntax of a particular command.
 
-Unlike warnings, errors must be corrected before your NetLinx program can be executed.
+Unlike warnings, errors must be corrected before your NetLinx program can be
+executed.
 
 Select a Help Topic:
 
@@ -105,4 +108,3 @@ Select a Help Topic:
 - [Variable assignment not allowed here](Variable_assignment_not_allowed_here.md)
 
 - [Wait not found](Wait_not_found.md)
-

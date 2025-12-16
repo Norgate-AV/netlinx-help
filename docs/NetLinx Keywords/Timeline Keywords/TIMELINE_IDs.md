@@ -4,9 +4,12 @@ title: TIMELINE_IDs
 
 # TIMELINE IDs
 
-When creating a [TIMELINE_EVENT](TIMELINE_EVENT.md),  the timeline ID must be a user defined long constant.
+When creating a [TIMELINE_EVENT](TIMELINE_EVENT.md),  the timeline ID must be a
+user defined long constant.
 
-- The NetLinx compiler will not semantic check the type of the timeline ID, and the NetLinx runtime system will attempt to cast the contents of the timeline ID constant, to a long constant.  
+- The NetLinx compiler will not semantic check the type of the timeline ID, and
+  the NetLinx runtime system will attempt to cast the contents of the timeline
+  ID constant, to a long constant.  
 
 - A runtime error will occur if the cast is unsuccessful.  
 
@@ -38,13 +41,17 @@ LONG TimeArray\[4\] =
 
 DEFINE_START
 
-TIMELINE_CREATE (TimelineID_1,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
+TIMELINE_CREATE
+(TimelineID_1,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
 
-TIMELINE_CREATE (TimelineID_2,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
+TIMELINE_CREATE
+(TimelineID_2,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
 
-TIMELINE_CREATE (TimelineID_3,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
+TIMELINE_CREATE
+(TimelineID_3,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
 
-TIMELINE_CREATE (TimelineID_4,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
+TIMELINE_CREATE
+(TimelineID_4,TimeArray,LENGTH_ARRAY(TimeArray),TIMELINE_RELATIVE,TIMELINE_REPEAT)
 
 DEFINE_EVENT
 
@@ -54,7 +61,8 @@ TIMELINE_EVENT\[TimelineID_1\] // capture all events for Timeline 1
 
 {
 
-SEND_STRING 0,"'TL ID = ', itoa(timeline.id),', sequence = ',itoa(timeline.sequence)"
+SEND_STRING 0,"'TL ID = ', itoa(timeline.id),', sequence =
+',itoa(timeline.sequence)"
 
 }
 
@@ -68,7 +76,8 @@ TIMELINE_EVENT\[TimelineID_4\] // capture all events for Timeline 4
 
 {
 
-SEND_STRING 0,"'TL ID = ', itoa(timeline.id),', sequence = ',itoa(timeline.sequence)"
+SEND_STRING 0,"'TL ID = ', itoa(timeline.id),', sequence =
+',itoa(timeline.sequence)"
 
 }
 
@@ -81,4 +90,3 @@ See Also
 - [TIMELINE example](TIMELINE_example.md)
 
 - [TIMELINE Keywords](TIMELINE_Keywords.md)
-

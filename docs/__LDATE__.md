@@ -4,17 +4,21 @@ title: __LDATE__
 
 # \_\_LDATE\_\_
 
-At compile time, this keyword is replaced by a string (mm/dd/yyyy), containing the date of compilation.
+At compile time, this keyword is replaced by a string (mm/dd/yyyy), containing
+the date of compilation.
 
 **Example:**
 
-```c  linenums="1"
+```c linenums="1"
 SEND_COMMAND TP, "'!T',1,__LDATE__"
 ```
 
-Sends the date (long version) of compilation to a variable text button on a touch panel.
+Sends the date (long version) of compilation to a variable text button on a
+touch panel.
 
-> ***Note***: The difference between "\_\_LDATE\_\_" and "\_\_DATE_\_\" is in the format of the returned string: "\_\_DATE_\_\" returns a short version (mm/dd/yy), and "\_\_LDATE\_\_" returns a long version (mm/dd/yyyy).
+> **_Note_**: The difference between "\_\_LDATE\_\_" and "\_\_DATE*\_\" is in
+> the format of the returned string: "\_\_DATE*\_\" returns a short version
+> (mm/dd/yy), and "\_\_LDATE\_\_" returns a long version (mm/dd/yyyy).
 
 ## See Also
 

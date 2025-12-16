@@ -4,7 +4,8 @@ title: Structures
 
 # Structures
 
-A structure provides the ability to create a new data type composed of other data types arranged in a specified order.
+A structure provides the ability to create a new data type composed of other
+data types arranged in a specified order.
 
 Example:
 
@@ -22,11 +23,14 @@ STRUCTURE NEWSTRUCT
 
 }
 
-In the example above, a structure named NEWSTRUCT is declared to contain two data types, a 16-bit number and a 20-character array.
+In the example above, a structure named NEWSTRUCT is declared to contain two
+data types, a 16-bit number and a 20-character array.
 
-Note: A structure is declared in the [DEFINE_TYPE](DEFINE_TYPE.md) section of the program.
+Note: A structure is declared in the [DEFINE_TYPE](DEFINE_TYPE.md) section of
+the program.
 
-Once declared, a structure may be used in the same way as any other data type. Here is a syntax sample:
+Once declared, a structure may be used in the same way as any other data type.
+Here is a syntax sample:
 
 DEFINE_VARIABLE
 
@@ -34,7 +38,9 @@ NEWSTRUCT MyNewStruct
 
 NEWSTRUCT MyNewStructArray\[3\]
 
-Structures can be initialized using set notation as in the two examples below. Notice that the members of each structure as well as the entire array are enclosed in braces.
+Structures can be initialized using set notation as in the two examples below.
+Notice that the members of each structure as well as the entire array are
+enclosed in braces.
 
 MyNewStruct.Number = 0
 
@@ -76,7 +82,8 @@ STRUCTURE <name>
 
 }
 
-Note: The attributes [VOLATILE](VOLATILE.md), [PERSISTENT](PERSISTENT.md), and [CONSTANT](CONSTANT.md) do not apply to the individual members of a structure.
+Note: The attributes [VOLATILE](VOLATILE.md), [PERSISTENT](PERSISTENT.md), and
+[CONSTANT](CONSTANT.md) do not apply to the individual members of a structure.
 
 See Also
 

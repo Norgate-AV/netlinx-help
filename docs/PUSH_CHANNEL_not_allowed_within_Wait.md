@@ -4,9 +4,11 @@ title: PUSH_CHANNEL_not_allowed_within_Wait
 
 # PUSH_CHANNEL not allowed within Wait
 
-The [PUSH_CHANNEL](PUSH_CHANNEL.md) keyword is not allowed in a section of code which will be executed due to a [WAIT](WAIT.md) keyword.
+The [PUSH_CHANNEL](PUSH_CHANNEL.md) keyword is not allowed in a section of code
+which will be executed due to a [WAIT](WAIT.md) keyword.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

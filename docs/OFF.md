@@ -35,7 +35,8 @@ Channel – a single channel number.
 CHAN[] – a channel array.
 
 - DEVCHAN[] refers to a device-channel array.
-- Variable refers to a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
+- Variable refers to a variable defined under the
+  [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
 
 See Also
 

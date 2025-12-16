@@ -12,9 +12,15 @@ title: TO_statements_that_occur_outside_the_data_flow_of_PUSH_events_statements_
 
 3.   Under a BUTTON_EVENT/ [HOLD](HOLD.md) handler
 
-4.   In a [DEFINE_FUNCTION](DEFINE_FUNCTION.md) or [DEFINE_CALL](DEFINE_CALL.md) that gets invoked in one of the areas above. In this case,  the function or call could be potentially be invoked anywhere in the program. It is an intractable problem to check for misplacement of <any possible function name> and <any possible call name>, so TO outside of PUSH'es will not generate an error, just a warning.
+4.   In a [DEFINE_FUNCTION](DEFINE_FUNCTION.md) or [DEFINE_CALL](DEFINE_CALL.md)
+    that gets invoked in one of the areas above. In this case,  the function or
+    call could be potentially be invoked anywhere in the program. It is an
+    intractable problem to check for misplacement of
+    <any possible function name> and <any possible call name>, so TO outside of
+    PUSH'es will not generate an error, just a warning.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

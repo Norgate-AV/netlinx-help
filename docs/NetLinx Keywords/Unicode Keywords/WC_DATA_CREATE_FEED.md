@@ -4,9 +4,12 @@ title: WC_DATA_CREATE_FEED
 
 # \_WC_DATA_CREATE_FEED
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
-The \_WC_DATA_CREATE_FEED function creates a WIDECHAR NetLinx data feed with the supplied values.
+The \_WC_DATA_CREATE_FEED function creates a WIDECHAR NetLinx data feed with the
+supplied values.
 
 Syntax:
 
@@ -14,9 +17,11 @@ Syntax:
 SINTEGER \_WC_DATA_CREATE_FEED (WC_DATA_FEED FEED)
 
 ```
+
 Parameters:
 
-- FEED : A [WC_DATA_FEED](WC_DATA_FEED.md) structure populated with the desired data feed identification values
+- FEED : A [WC_DATA_FEED](WC_DATA_FEED.md) structure populated with the desired
+  data feed identification values
 
 Result:
 
@@ -37,4 +42,3 @@ See Also
 - [DATA_PUBLISH_FEED](DATA_PUBLISH_FEED.md)
 
 - [DATA_GET_PUBLISHED_FEED](DATA_GET_PUBLISHED_FEED.md)
-

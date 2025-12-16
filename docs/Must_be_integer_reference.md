@@ -6,9 +6,11 @@ title: Must_be_integer_reference
 
 The identifier in question must be an integer.
 
-This error occurs when the third parameter of [CREATE_LEVEL](CREATE_LEVEL.md) is an array or array element.
+This error occurs when the third parameter of [CREATE_LEVEL](CREATE_LEVEL.md) is
+an array or array element.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

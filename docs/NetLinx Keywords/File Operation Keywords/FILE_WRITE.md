@@ -12,7 +12,10 @@ Syntax:
 SLONG FILE_WRITE (LONG HFile, CHAR Buffer\[ \], LONG BufLen)
 
 ```
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 Parameters:
 
@@ -40,9 +43,11 @@ Example:
 CHAR Buffer\[1024\]
 
 ```
+
 Result = FILE_WRITE (HFile, Buffer, 1024)
 
-Note: The data will overwrite or append to the current contents of the file depending on the current position of the file pointer.
+Note: The data will overwrite or append to the current contents of the file
+depending on the current position of the file pointer.
 
 See Also
 
@@ -51,4 +56,3 @@ See Also
 - [FILE_WRITE_LINE](FILE_WRITE_LINE.md)
 
 - [File Operations Example: Writing to a File](File_Operations_Example__Writing_to_a_File.md)
-

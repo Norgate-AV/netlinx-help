@@ -6,9 +6,11 @@ title: String_constant_expected
 
 A string is required for the particular operation.
 
-This error occurs if a string literal enclosed in single quotes does not follow the [PROGRAM_NAME](PROGRAM_NAME.md) keyword.
+This error occurs if a string literal enclosed in single quotes does not follow
+the [PROGRAM_NAME](PROGRAM_NAME.md) keyword.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

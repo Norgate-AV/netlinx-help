@@ -4,7 +4,8 @@ title: Arithmetic_operators
 
 # Arithmetic Operators
 
-Arithmetic Operators create a numeric value from one or more operations such as addition, multiplication, and division.
+Arithmetic Operators create a numeric value from one or more operations such as
+addition, multiplication, and division.
 
 The Arithmetic Operators are described below:
 

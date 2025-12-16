@@ -12,6 +12,7 @@ Syntax:
 SEND_COMMAND DEV, '\<command string\>'
 
 ```
+
 or
 
 SEND_COMMAND DEV\[ \], '\<command string\>'
@@ -21,4 +22,3 @@ See Also
 - [DEVICE Keywords](DEVICE_Keywords.md)
 
 - [Send Keywords](Send_Keywords.md)
-

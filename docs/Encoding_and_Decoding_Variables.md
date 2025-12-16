@@ -4,9 +4,17 @@ title: Encoding_and_Decoding_Variables
 
 # Encoding and Decoding Variables
 
-There are six functions used to encode and decode variables in NetLinx. This encoding process takes a NetLinx variable, no matter how complex, and converts it into a string. The decode process will take this string and copy the contents back into a variable.
+There are six functions used to encode and decode variables in NetLinx. This
+encoding process takes a NetLinx variable, no matter how complex, and converts
+it into a string. The decode process will take this string and copy the contents
+back into a variable.
 
-These functions can be used to take the contents of NetLinx variables and convert them to string. Once the variable exists in string form, it can then be sent across an RS-232 connection, sent over and IP socket or saved to the NetLinx master's file system (disc on chip). Once the string is retrieved, either from a data event or by reading the information from the NetLinx master's file system, the data can be converted back to a variable.
+These functions can be used to take the contents of NetLinx variables and
+convert them to string. Once the variable exists in string form, it can then be
+sent across an RS-232 connection, sent over and IP socket or saved to the
+NetLinx master's file system (disc on chip). Once the string is retrieved,
+either from a data event or by reading the information from the NetLinx master's
+file system, the data can be converted back to a variable.
 
 There are two version of this encoding and decoding: Binary and XML.
 
@@ -22,11 +30,26 @@ The XML routines are:
 - [VARIABLE_TO_XML](VARIABLE_TO_XML.md) and
 - [LENGTH\_ VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md).
 
-Both sets of routines accomplish the same function but the encoded string differs in protocol. The binary conversion routines uses a compact binary representation of the variable while the XML represents the variable as a ASCII text only XML document.
+Both sets of routines accomplish the same function but the encoded string
+differs in protocol. The binary conversion routines uses a compact binary
+representation of the variable while the XML represents the variable as a ASCII
+text only XML document.
 
-The binary routines are ideal when sending data from one NetLinx system to another NetLinx system over RS-232 or IP since the variable will be as compact as possible. It is also ideal for saving a file to the NetLinx master's file system if you do not intend to edit the file later. The binary routines encode and decode a variable sequentially meaning that the order and type of the variables must match on both the encoding and decoding side.
+The binary routines are ideal when sending data from one NetLinx system to
+another NetLinx system over RS-232 or IP since the variable will be as compact
+as possible. It is also ideal for saving a file to the NetLinx master's file
+system if you do not intend to edit the file later. The binary routines encode
+and decode a variable sequentially meaning that the order and type of the
+variables must match on both the encoding and decoding side.
 
-The XML routines are ideal when sending data from one NetLinx system to another type of system over RS232 or IP, since XML is more universally accepted by other types of computer systems. XML is also ideal for saving a file to the NetLinx master's file system if you intend to edit the file later since it is entirely ASCII text. It should be noted that while the XML is more universal, is not very compact. The XML routines encode and decode a variable non-sequentially, meaning that the order and type of variables do not need to match on both the encoding and decoding side.
+The XML routines are ideal when sending data from one NetLinx system to another
+type of system over RS232 or IP, since XML is more universally accepted by other
+types of computer systems. XML is also ideal for saving a file to the NetLinx
+master's file system if you intend to edit the file later since it is entirely
+ASCII text. It should be noted that while the XML is more universal, is not very
+compact. The XML routines encode and decode a variable non-sequentially, meaning
+that the order and type of variables do not need to match on both the encoding
+and decoding side.
 
 Below are some examples of how to use these encoding routines:
 
@@ -370,9 +393,11 @@ SEND_STRING 0,"'POSITION=',ITOA(lPos),'; RETURN=',ITOA(slReturn)"
 
 (\* READ AND DECODE \*)
 
-(\* THE BINARY WILL FAIL SINCE THE DECODE TYPE DOES NOT MATCH THE ENCODE TYPE \*)
+(\* THE BINARY WILL FAIL SINCE THE DECODE TYPE DOES NOT MATCH THE ENCODE TYPE
+\*)
 
-(\* THE XML WILL NOT FAIL SINCE IT DOES NOT REQUIRE DATA TO BE THE SEQUENTIAL \*)
+(\* THE XML WILL NOT FAIL SINCE IT DOES NOT REQUIRE DATA TO BE THE SEQUENTIAL
+\*)
 
 BUTTON_EVENT\[dvTP,3\]
 

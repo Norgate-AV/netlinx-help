@@ -4,12 +4,16 @@ title: CREATE_BUFFER
 
 # CREATE_BUFFER
 
-CREATE_BUFFER directs NetLinx to place any strings received from the specified device into the specified buffer (character array).
+CREATE_BUFFER directs NetLinx to place any strings received from the specified
+device into the specified buffer (character array).
 
-- When strings are added to the buffer the length of the buffer is automatically adjusted.
-- If the buffer is full, all bytes in the buffer are shifted to make room for the new string.
+- When strings are added to the buffer the length of the buffer is automatically
+  adjusted.
+- If the buffer is full, all bytes in the buffer are shifted to make room for
+  the new string.
 - A buffer can be manipulated in the same way as a character array.
-- It can only appear in the [DEFINE_START](DEFINE_START.md) section of the program.
+- It can only appear in the [DEFINE_START](DEFINE_START.md) section of the
+  program.
 
 Syntax:
 

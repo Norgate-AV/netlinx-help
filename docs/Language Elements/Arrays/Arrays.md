@@ -4,12 +4,18 @@ title: Arrays
 
 # Arrays
 
-An array is data structure that stores a collection of individual values that are of the same data type.
+An array is data structure that stores a collection of individual values that
+are of the same data type.
 
-The NetLinx language allows arrays of any of the [Intrinsic Data Types](Intrinsic_Data_Types.md), as well as arrays of user-defined structures and classes.
+The NetLinx language allows arrays of any of the
+[Intrinsic Data Types](Intrinsic_Data_Types.md), as well as arrays of
+user-defined structures and classes.
 
-- If an initialization statement is included in the variable declaration, the array dimension is not required.
-- If the array dimension is omitted, both the maximum and effective length is set to the length needed to hold the data contained in the initialization string.
+- If an initialization statement is included in the variable declaration, the
+  array dimension is not required.
+- If the array dimension is omitted, both the maximum and effective length is
+  set to the length needed to hold the data contained in the initialization
+  string.
 
 **Example:**
 
@@ -36,13 +42,15 @@ CHAR StringTable_3[3][5]=
 }
 ```
 
-String expressions can be used initialization statements only if each byte is separated by a comma:
+String expressions can be used initialization statements only if each byte is
+separated by a comma:
 
 ```netlinx
 CHAR sProjOn[] = {$02,'P','O','N',$03}
 ```
 
-For multi-dimensional array types, the data pertaining to each dimension is delimited using braces, as shown below:
+For multi-dimensional array types, the data pertaining to each dimension is
+delimited using braces, as shown below:
 
 ```netlinx
 INTEGER Num2D[ ][ ] = {{1, 3}, {2, 4}, {7, 8}}
@@ -55,14 +63,25 @@ The "=" Operator can be used to assign a one dimensional array to another:
 Array1 = Array2
 ```
 
-The one-dimensional arrays must match type. The size of each dimension of the destination array must be greater than or equal to the corresponding array being assigned; otherwise the contents of the array being assigned is truncated to fit into the destination array. If a type mismatch is detected the compiler will issue an appropriate warning.
+The one-dimensional arrays must match type. The size of each dimension of the
+destination array must be greater than or equal to the corresponding array being
+assigned; otherwise the contents of the array being assigned is truncated to fit
+into the destination array. If a type mismatch is detected the compiler will
+issue an appropriate warning.
 
-The lengths of an array are determined by calling [LENGTH_ARRAY](LENGTH_ARRAY.md) and [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md):
+The lengths of an array are determined by calling
+[LENGTH_ARRAY](LENGTH_ARRAY.md) and [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md):
 
-- [LENGTH_ARRAY](LENGTH_ARRAY.md) returns the effective length of a dimension of an array: the length set implicitly through array initialization or explicitly through a call to [SET_LENGTH_ARRAY](SET_LENGTH_ARRAY.md).
-- [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md) is used to determine the maximum length of a dimension of an array.
+- [LENGTH_ARRAY](LENGTH_ARRAY.md) returns the effective length of a dimension of
+  an array: the length set implicitly through array initialization or explicitly
+  through a call to [SET_LENGTH_ARRAY](SET_LENGTH_ARRAY.md).
+- [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md) is used to determine the maximum
+  length of a dimension of an array.
 
-Changing an element in array does not change its length. [SET_LENGTH_ARRAY](SET_LENGTH_ARRAY.md) is used to change the effective length of an array when necessary, such as when you've added elements via a [FOR loop](FOR_loops.md):
+Changing an element in array does not change its length.
+[SET_LENGTH_ARRAY](SET_LENGTH_ARRAY.md) is used to change the effective length
+of an array when necessary, such as when you've added elements via a
+[FOR loop](FOR_loops.md):
 
 ```netlinx
 DEFINE_VARIABLE
@@ -90,7 +109,8 @@ SET_LENGTH_ARRAY(Array2,Len2 + Len1) // Set Array2 length to new length
 // end
 ```
 
-Multi-dimension arrays cannot be copied directly to another. Use [FOR](FOR.md) or [WHILE](WHILE.md) loops to copy them at the lowest dimension:
+Multi-dimension arrays cannot be copied directly to another. Use [FOR](FOR.md)
+or [WHILE](WHILE.md) loops to copy them at the lowest dimension:
 
 ```netlinx
 DEFINE_VARIABLE
@@ -117,4 +137,3 @@ See Also
 - [Device-Level Arrays](Device_Level_Arrays.md)
 - [Device-Channels and Device-Channel Arrays](Device_Channels_and_Device_Channel_Arrays.md)
 - [Array Keywords](Array_Keywords.md)
-

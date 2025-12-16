@@ -4,9 +4,11 @@ title: Subroutine_may_not_call_itself
 
 # Subroutine may not call itself
 
-A [subroutine](Subroutines.md) cannot call itself. It can, however, call a different subroutine.
+A [subroutine](Subroutines.md) cannot call itself. It can, however, call a
+different subroutine.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

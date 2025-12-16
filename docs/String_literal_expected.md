@@ -6,9 +6,11 @@ title: String_literal_expected
 
 A string is required for the particular operation.
 
-This error would occur if a string literal enclosed in single quotes does not follow the [\#WARN](_WARN.md) keyword.
+This error would occur if a string literal enclosed in single quotes does not
+follow the [\#WARN](_WARN.md) keyword.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

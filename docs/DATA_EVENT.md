@@ -6,8 +6,10 @@ title: DATA_EVENT
 
 This keyword defines a data event handler.
 
-- This type of handler processes [COMMAND](COMMAND.md), [STRING](STRING.md), [ONLINE](ONLINE.md), [OFFLINE](OFFLINE.md) and [ONERROR](ONERROR.md) events.
--  It can only be used in the [DEFINE_EVENT](DEFINE_EVENT.md) section of the program.
+- This type of handler processes [COMMAND](COMMAND.md), [STRING](STRING.md),
+  [ONLINE](ONLINE.md), [OFFLINE](OFFLINE.md) and [ONERROR](ONERROR.md) events.
+-  It can only be used in the [DEFINE_EVENT](DEFINE_EVENT.md) section of the
+  program.
 
 Example:
 

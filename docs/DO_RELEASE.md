@@ -4,7 +4,8 @@ title: DO_RELEASE
 
 # DO_RELEASE
 
-This command causes an input change from On to Off to occur on a specified device and channel without the channel being deactivated by external means.
+This command causes an input change from On to Off to occur on a specified
+device and channel without the channel being deactivated by external means.
 
 If the channel is already Off, no event is generated.
 

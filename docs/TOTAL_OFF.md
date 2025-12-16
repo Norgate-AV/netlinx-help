@@ -6,7 +6,8 @@ title: TOTAL_OFF
 
 This function turns a channel or variable off.
 
-Unlike [OFF](OFF.md), TOTAL\_OFF turns off the status of a channel or variable that is in a mutually exclusive set.
+Unlike [OFF](OFF.md), TOTAL_OFF turns off the status of a channel or variable
+that is in a mutually exclusive set.
 
 See Also
 

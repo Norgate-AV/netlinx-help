@@ -4,7 +4,8 @@ title: PULSE
 
 # PULSE
 
-This command turns a channel or variable on for the length of time set by the function [SET_PULSE_TIME](SET_PULSE_TIME.md).
+This command turns a channel or variable on for the length of time set by the
+function [SET_PULSE_TIME](SET_PULSE_TIME.md).
 
 - Once the pulse time elapses, the channel or variable is turned off.
 - The default pulse time is 0.5 seconds.
@@ -38,7 +39,8 @@ Channel – a single channel number.
 CHAN[] – a channel array.
 
 - DEVCHAN[] refers to a device-channel array.
-- Variable refers to a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
+- Variable refers to a variable defined under the
+  [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
 
 See Also
 

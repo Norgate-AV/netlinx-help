@@ -4,11 +4,14 @@ title: _w_Integer_applies_to_arrays_only
 
 # (w) Integer applies to arrays only
 
-This warning appears when the keyword [INTEGER](INTEGER.md) is applied to a non-array type of variable.
+This warning appears when the keyword [INTEGER](INTEGER.md) is applied to a
+non-array type of variable.
 
-Doing this is not an error, because non-array variables are already integers, but it is redundant.
+Doing this is not an error, because non-array variables are already integers,
+but it is redundant.
 
-Note: Compiler Warnings, unlike Compiler Errors, do not stop the program from compiling.
+Note: Compiler Warnings, unlike Compiler Errors, do not stop the program from
+compiling.
 
 See Also
 
@@ -17,4 +20,3 @@ See Also
 - [Compilation Errors](Compilation_Errors.md)
 
 - [Run-Time Errors](Run_Time_Errors.md)
-

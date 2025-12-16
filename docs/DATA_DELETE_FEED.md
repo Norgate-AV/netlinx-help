@@ -4,9 +4,12 @@ title: DATA_DELETE_FEED
 
 # DATA_DELETE_FEED
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
-The DATA_DELETE_FEED function deletes the NetLinx data feed with the specified name.
+The DATA_DELETE_FEED function deletes the NetLinx data feed with the specified
+name.
 
 Syntax:
 

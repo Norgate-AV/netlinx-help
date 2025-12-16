@@ -4,7 +4,8 @@ title: WC_TO_CH
 
 # WC_TO_CH
 
-This keyword converts a [WIDECHAR](WIDECHAR.md) array to a [CHAR](CHAR.md) array.
+This keyword converts a [WIDECHAR](WIDECHAR.md) array to a [CHAR](CHAR.md)
+array.
 
 Syntax:
 
@@ -12,6 +13,7 @@ Syntax:
 CHAR\[ \] WC_TO_CH (WIDECHAR WCSTRING\[ \])
 
 ```
+
 Parameters:
 
 - STRING: The widechar string to convert to a character string.
@@ -20,7 +22,8 @@ Result:
 
 - A character string version of the widechar string.  
 
-- All characters that require more than 8 bits of storage are converted to the ‘?’ character.
+- All characters that require more than 8 bits of storage are converted to the
+  ‘?’ character.
 
  cData= WC_TO_CH (\_WC(‘Unicode’))
 
@@ -61,4 +64,3 @@ See Also
 - [FORMAT](FORMAT.md)
 
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
-

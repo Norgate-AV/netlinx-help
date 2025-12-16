@@ -4,9 +4,12 @@ title: RELEASE_DEVCHAN
 
 # RELEASE_DEVCHAN
 
-This system variable contains the device-channel (in the way of a [DEVCHAN](DEVCHAN.md) structure) that was just turned off due to an input change.
+This system variable contains the device-channel (in the way of a
+[DEVCHAN](DEVCHAN.md) structure) that was just turned off due to an input
+change.
 
-Individual fields of this DEVCHAN structure can be accessed using dot-operator syntax, as shown below:
+Individual fields of this DEVCHAN structure can be accessed using dot-operator
+syntax, as shown below:
 
 RELEASE_DEVCHAN.Device
 

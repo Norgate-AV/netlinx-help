@@ -12,7 +12,10 @@ Syntax:
 SLONG FILE_COPY (CHAR SrcFilePath\[ \], CHAR DstFilePath\[ \])
 
 ```
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 Parameters:
 
@@ -36,11 +39,13 @@ Example:
 // copy OLDFILE.TXT in the current directory to NEWFILE.TXT
 
 ```
+
 Result = File_Copy('OLDFILE.TXT', 'NEWFILE.TXT')
 
-Note: If either path name fails to specify a directory, the current directory is assumed. The current directory is either the top-level directory or the subdirectory specified in the last call to [FILE_SETDIR](FILE_SETDIR.md).
+Note: If either path name fails to specify a directory, the current directory is
+assumed. The current directory is either the top-level directory or the
+subdirectory specified in the last call to [FILE_SETDIR](FILE_SETDIR.md).
 
 See Also
 
 - [File Operation Keywords](File_Operation_Keywords.md)
-

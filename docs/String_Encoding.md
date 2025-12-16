@@ -4,9 +4,13 @@ title: String_Encoding
 
 # String Encoding
 
-NetLinx has no native string type, but since it is a common type the encoding/decoding of the string data will be logically handled so the XML remains concise.
+NetLinx has no native string type, but since it is a common type the
+encoding/decoding of the string data will be logically handled so the XML
+remains concise.
 
-[CHAR](CHAR.md) arrays will be encoded/decoded as string type, printable ASCII characters appear as ASCII, and non-printable characters appear as escaped decimal or hex code, &#<decimal code>; or &#x<hex code>;.
+[CHAR](CHAR.md) arrays will be encoded/decoded as string type, printable ASCII
+characters appear as ASCII, and non-printable characters appear as escaped
+decimal or hex code, &#<decimal code>; or &#x<hex code>;.
 
 Example:
 
@@ -20,10 +24,11 @@ or:
 
 Additionally, some characters have a more readable syntax.
 
-These characters are invalid in XML so the following characters can be also be encoded in this format:
+These characters are invalid in XML so the following characters can be also be
+encoded in this format:
 
 |           |                |
-|-----------|----------------|
+| --------- | -------------- |
 | Character | Escape Version |
 | \<        | &lt;           |
 | \>        | &gt;           |

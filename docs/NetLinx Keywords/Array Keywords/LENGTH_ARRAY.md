@@ -4,13 +4,17 @@ title: LENGTH_ARRAY
 
 # LENGTH_ARRAY
 
-`LENGTH_ARRAY` returns the *effective length* of a dimension of an array, implicitly through array initialization or array manipulation operations, or explicitly through a call to the function [`SET_LENGTH_ARRAY`](SET_LENGTH_ARRAY.md).
+`LENGTH_ARRAY` returns the _effective length_ of a dimension of an array,
+implicitly through array initialization or array manipulation operations, or
+explicitly through a call to the function
+[`SET_LENGTH_ARRAY`](SET_LENGTH_ARRAY.md).
 
 **Syntax:**
 
 ```netlinx
 LONG LENGTH_ARRAY (<type> Array[ ])
 ```
+
 **Parameters:**
 
 - **\<type\>** may be any intrinsic or user-defined data type.

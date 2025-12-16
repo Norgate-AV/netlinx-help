@@ -4,7 +4,9 @@ title: DATA_ADD_RECORD
 
 # DATA_ADD_RECORD
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
 The DATA_ADD_RECORD function adds a new record to a data feed.
 
@@ -17,8 +19,10 @@ SINTEGER DATA_ADD_RECORD (CHAR FEED[], CHAR [] RECORDSET_ID, DATA_RECORD REC)
 Parameters:
 
 - FEED : A string containing the name of the data feed to add the record to
-- RECORDSET_ID : A string containing the name of the record set the record belongs to
-- REC : A [DATA_RECORD](DATA_RECORD.md) containing the record values to add to the data feed
+- RECORDSET_ID : A string containing the name of the record set the record
+  belongs to
+- REC : A [DATA_RECORD](DATA_RECORD.md) containing the record values to add to
+  the data feed
 
 Result:
 

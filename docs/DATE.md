@@ -6,7 +6,8 @@ title: DATE
 
 This system variable returns the current date in (mm/dd/yy) string format.
 
-The wildcard character "?" is not allowed for string comparisons because the actual date is needed.
+The wildcard character "?" is not allowed for string comparisons because the
+actual date is needed.
 
 Example:
 

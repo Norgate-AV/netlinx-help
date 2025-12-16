@@ -4,13 +4,18 @@ title: WC_FILE_READ_LINE
 
 # WC_FILE_READ_LINE
 
-This function reads from the current location of the file pointer up to the next carriage return or to the end-of-file (EOF), whichever comes first.
+This function reads from the current location of the file pointer up to the next
+carriage return or to the end-of-file (EOF), whichever comes first.
 
-- A complete line will not be read if the buffer length is exceeded before a carriage return (or EOF) is encountered.
+- A complete line will not be read if the buffer length is exceeded before a
+  carriage return (or EOF) is encountered.
 
-- The characters are read from the file identified by HFile and are stored in Buffer. The \<CR\> or \<CR\>\<LF\> pair will not be stored in Buffer.
+- The characters are read from the file identified by HFile and are stored in
+  Buffer. The \<CR\> or \<CR\>\<LF\> pair will not be stored in Buffer.
 
-- If a complete line is read, the file pointer is advanced to the next character in the file after the \<CR\> or \<CR\>\<LF\> pair or to the EOF if the last line was read.
+- If a complete line is read, the file pointer is advanced to the next character
+  in the file after the \<CR\> or \<CR\>\<LF\> pair or to the EOF if the last
+  line was read.
 
 Syntax:
 
@@ -18,6 +23,7 @@ Syntax:
 SLONG WC_FILE_READ_LINE (LONG HFile, WIDECHAR Buffer\[ \], LONG BufLen)
 
 ```
+
 Parameters:
 
 -  HFile: Handle to the file returned by [WC_FILE_OPEN](WC_FILE_OPEN.md)
@@ -44,6 +50,7 @@ Example:
 WIDECHAR wcBuffer\[80\]
 
 ```
+
 nBytes = WC_FILE_READ_LINE (HFile, wcBuffer, 80)
 
 See Also
@@ -55,4 +62,3 @@ See Also
 - [Reading and Writing to Files](Reading_and_Writing_to_Files.md)
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

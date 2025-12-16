@@ -4,9 +4,11 @@ title: Identifiers
 
 # Identifiers
 
-An Identifier is a combination of letters, numbers, or underscores that represents a device, constant, or variable.
+An Identifier is a combination of letters, numbers, or underscores that
+represents a device, constant, or variable.
 
-Identifier types include Devices, Device Arrays, Channel Arrays, Device-Channel Arrays, Level Arrays and Device-Level Arrays.
+Identifier types include Devices, Device Arrays, Channel Arrays, Device-Channel
+Arrays, Level Arrays and Device-Level Arrays.
 
 Each type of identifier is described in the following help topics:
 
@@ -23,4 +25,3 @@ See Also
 - [Data Sets](Data_Set_Structures.md)
 
 - [Virtual Devices](Virtual_Devices.md)
-

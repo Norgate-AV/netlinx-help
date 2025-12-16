@@ -4,7 +4,8 @@ title: CH_TO_WC
 
 # CH_TO_WC
 
-This keyword converts a [CHAR](CHAR.md) array to a [WIDECHAR](WIDECHAR.md) array.
+This keyword converts a [CHAR](CHAR.md) array to a [WIDECHAR](WIDECHAR.md)
+array.
 
 Syntax:
 
@@ -12,6 +13,7 @@ Syntax:
 WIDECHAR\[\] CH_TO_WC(CHAR STRING\[\])
 
 ```
+
 Parameters:
 
 - STRING: a character string to be converted.
@@ -59,4 +61,3 @@ See Also
 - [FORMAT](FORMAT.md)
 
 - [Intrinsic Data Types](Intrinsic_Data_Types.md)
-

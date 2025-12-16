@@ -4,7 +4,8 @@ title: ITOHEX
 
 # ITOHEX
 
-Converts a 32-bit unsigned integer to an ASCII string containing the hexadecimal representation of the number.
+Converts a 32-bit unsigned integer to an ASCII string containing the hexadecimal
+representation of the number.
 
 Syntax:
 
@@ -18,7 +19,8 @@ Parameters:
 
 Result:
 
-- A character string that contains the hexadecimal representation of the specified integer.
+- A character string that contains the hexadecimal representation of the
+  specified integer.
 
 Example:
 

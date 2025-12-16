@@ -4,7 +4,8 @@ title: CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE
 
 # CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE
 
-Sets the END Daylight Savings rule to the specified string which must be in either the Fixed-Date format or the occurrence-of-day format.
+Sets the END Daylight Savings rule to the specified string which must be in
+either the Fixed-Date format or the occurrence-of-day format.
 
 Syntax:
 
@@ -12,13 +13,15 @@ Syntax:
 CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE (CONSTANT CHAR RECORD\[\])
 
 ```
+
 The function returns a negative SLONG value if it encounters an error.
 
 The fixed-date rules have the form:
 
 "fixed:DAY,MONTH,HH:MM:SS"
 
-with all fields as numeric except for the word "fixed" (e.g.: "fixed:21,3,02:00:00" ===\> March 21 @ 02:00:00AM).
+with all fields as numeric except for the word "fixed" (e.g.:
+"fixed:21,3,02:00:00" ===\> March 21 @ 02:00:00AM).
 
 The occurrence-of-day rules have the form:
 
@@ -59,4 +62,3 @@ See Also
 - [CLKMGR_SET_START_DAYLIGHTSAVINGS_RULE](CLKMGR_SET_START_DAYLIGHTSAVINGS_RULE.md)
 
 - [CLKMGR_GET_START_DAYLIGHTSAVINGS_RULE](CLKMGR_GET_START_DAYLIGHTSAVINGS_RULE.md)
-

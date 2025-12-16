@@ -18,7 +18,8 @@ Parameters:
 
 Result:
 
-- A character string that contains the decimal representation of the specified integer.
+- A character string that contains the decimal representation of the specified
+  integer.
 
 Example:
 

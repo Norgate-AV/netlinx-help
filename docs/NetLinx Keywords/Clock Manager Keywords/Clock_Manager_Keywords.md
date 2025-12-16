@@ -43,4 +43,3 @@ The NetLinx language supports the following Clock Manager keywords:
 - [CLKMGR_GET_TIMEZONE](CLKMGR_GET_TIMEZONE.md)
 
 - [CLKMGR_SET_CLK_SOURCE](CLKMGR_SET_CLK_SOURCE.md)
-

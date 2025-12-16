@@ -14,7 +14,8 @@ LONG RANDOM_NUMBER (LONG Max)
 
 Parameters:
 
-- Max - Unsigned long integer (must be greater than zero) that will serve as the upper limit for the random number generator.
+- Max - Unsigned long integer (must be greater than zero) that will serve as the
+  upper limit for the random number generator.
 
 Result:
 

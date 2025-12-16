@@ -6,7 +6,9 @@ title: ATOL
 
 ATOL converts a character representation of a number to a signed 32-bit integer.
 
-It recognizes a character representation of a value that would be within the ranges of the data types: [INTEGER](INTEGER.md), [SINTEGER](SINTEGER.md), and [SLONG](SLONG.md).
+It recognizes a character representation of a value that would be within the
+ranges of the data types: [INTEGER](INTEGER.md), [SINTEGER](SINTEGER.md), and
+[SLONG](SLONG.md).
 
 Syntax:
 
@@ -16,15 +18,20 @@ SLONG ATOL (CHAR STRING[])
 
 Parameters:
 
-- STRING - string containing the character representation of the integer. Valid input characters are "0" through "9" and the sign designators ("+" and "-"). If no valid characters are found, zero is returned as a result.
+- STRING - string containing the character representation of the integer. Valid
+  input characters are "0" through "9" and the sign designators ("+" and "-").
+  If no valid characters are found, zero is returned as a result.
 
 Result:
 
 - A 32-bit integer representing the converted string.
 - Any non-numeric characters in the string are ignored.
-- ATOL returns the value representing the first complete set of characters that represents an integer.
+- ATOL returns the value representing the first complete set of characters that
+  represents an integer.
 
-Note: While you can pass in larger values, ATOI will truncate any value outside the range -2147483648 to 2147483647 to the value -2147483648 (if negative) or 2147483647 (if positive).
+Note: While you can pass in larger values, ATOI will truncate any value outside
+the range -2147483648 to 2147483647 to the value -2147483648 (if negative) or
+2147483647 (if positive).
 
 Example:
 

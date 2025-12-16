@@ -4,7 +4,8 @@ title: RESTART_WAIT
 
 # RESTART_WAIT
 
-This command resumes the specified (named) wait that was paused previously with a [PAUSE\_WAIT](PAUSE_WAIT.md) command.
+This command resumes the specified (named) wait that was paused previously with
+a [PAUSE_WAIT](PAUSE_WAIT.md) command.
 
 Syntax:
 

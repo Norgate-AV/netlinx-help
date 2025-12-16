@@ -4,7 +4,8 @@ title: WC_LOWER_STRING
 
 # WC_LOWER_STRING
 
-This function changes all alphabetic characters in the specified string to lower case using the case mapping defined by Unicode.org.
+This function changes all alphabetic characters in the specified string to lower
+case using the case mapping defined by Unicode.org.
 
 Syntax:
 
@@ -12,6 +13,7 @@ Syntax:
 WIDECHAR\[ \] WC_LOWER_STRING (WIDECHAR STRING\[ \])
 
 ```
+
 Parameters:
 
 -  STRING: The widechar string to convert to lower case.
@@ -26,6 +28,7 @@ Example:
 wcLCString = WC_LOWER_STRING(wcSTRING)
 
 ```
+
 See Also
 
 - [WC_LEFT_STRING](WC_LEFT_STRING.md)
@@ -35,4 +38,3 @@ See Also
 - [WC_MID_STRING](WC_MID_STRING.md)
 
 - [WC_UPPER_STRING](WC_UPPER_STRING.md)
-

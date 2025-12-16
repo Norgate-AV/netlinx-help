@@ -4,9 +4,12 @@ title: DATA_FEED
 
 # DATA_FEED
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the DATA_FEED structure.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+DATA_FEED structure._
 
-The DATA_FEED structure contains information describing a Listview Dynamic Data feed.
+The DATA_FEED structure contains information describing a Listview Dynamic Data
+feed.
 
 DATA_FEED structure fields:
 

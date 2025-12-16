@@ -6,7 +6,8 @@ title: DEV
 
 A data type (structure) used to represent a specific device, port and system.
 
-In NetLinx, the DEV structure is the actual (internal) representation of a NetLinx device.
+In NetLinx, the DEV structure is the actual (internal) representation of a
+NetLinx device.
 
 Example:
 

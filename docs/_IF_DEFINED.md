@@ -4,10 +4,14 @@ title: _IF_DEFINED
 
 # \#IF_DEFINED
 
-This [Compiler Directive](Compiler_Directives.md)  is used to define conditional compilation:
+This [Compiler Directive](Compiler_Directives.md)  is used to define conditional
+compilation:
 
-- The code following the \#IF_DEFINED and before [\#ELSE](_ELSE.md) (or before [\#END\_IF](_END_IF.md), if \#ELSE is not present) is compiled only if symbol is defined (see [\#DEFINE](_DEFINE.md)).
-- If symbol is not defined and the \#ELSE directive is present, the code following \#ELSE and before \#END_IF is compiled instead.
+- The code following the \#IF_DEFINED and before [\#ELSE](_ELSE.md) (or before
+  [\#END_IF](_END_IF.md), if \#ELSE is not present) is compiled only if symbol
+  is defined (see [\#DEFINE](_DEFINE.md)).
+- If symbol is not defined and the \#ELSE directive is present, the code
+  following \#ELSE and before \#END_IF is compiled instead.
 
 Syntax:
 

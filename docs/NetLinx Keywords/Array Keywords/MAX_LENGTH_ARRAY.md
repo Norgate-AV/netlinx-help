@@ -26,7 +26,7 @@ LONG MAX_LENGTH_ARRAY (<type> Array[ ])
 ```netlinx
 FLOAT FPArray[10]
 LONG NumArray[5][3][4]
- 
+
 Len = MAX_LENGTH_ARRAY(FPArray)        // Len = 10
 Len = MAX_LENGTH_ARRAY(NumArray)       // Len = 5
 Len = MAX_LENGTH_ARRAY(NumArray[1])    // Len = 3
@@ -38,4 +38,3 @@ See Also
 - [Array Keywords](Array_Keywords.md)
 - [LENGTH_ARRAY](LENGTH_ARRAY.md)
 - [SET_LENGTH_ARRAY](SET_LENGTH_ARRAY.md)
-

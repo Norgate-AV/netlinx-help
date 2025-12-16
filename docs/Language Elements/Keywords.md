@@ -4,19 +4,24 @@ title: Keywords
 
 # Keywords
 
-A keyword defines the operation to perform in a NetLinx command, such as the word [CALL](CALL.md) in the statement:
+A keyword defines the operation to perform in a NetLinx command, such as the
+word [CALL](CALL.md) in the statement:
 
 CALL 'Read Data' (Buffer)
 
 - Keywords are case insensitive.
 
-- For example, the command PUSH is the same as PUSH and the data type INTEGER is the same as integer.
+- For example, the command PUSH is the same as PUSH and the data type INTEGER is
+  the same as integer.
 
-- Keywords are reserved, meaning that identifiers (device names, constants or variables) may not be defined with the same name.
+- Keywords are reserved, meaning that identifiers (device names, constants or
+  variables) may not be defined with the same name.
 
-- Each keyword reserved by the NetLinx compiler is listed below along with an explanation regarding its purpose and usage.
+- Each keyword reserved by the NetLinx compiler is listed below along with an
+  explanation regarding its purpose and usage.
 
-Note:  NetLinx specific functions must always be accompanied by parenthesis, even if there are no parameters.
+Note:  NetLinx specific functions must always be accompanied by parenthesis,
+even if there are no parameters.
 
 Example:  
 
@@ -59,4 +64,3 @@ See Also
 - [Timeline Functions](Timeline_Functions.md)
 
 - [Waits](Waits.md)
-

@@ -4,9 +4,11 @@ title: Push_Release_not_allowed_within_Push_Release
 
 # Push/Release not allowed within Push/Release
 
-A [PUSH](PUSH.md) or [RELEASE](RELEASE.md) statement was found within a block of code headed by a PUSH or RELEASE statement.
+A [PUSH](PUSH.md) or [RELEASE](RELEASE.md) statement was found within a block of
+code headed by a PUSH or RELEASE statement.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

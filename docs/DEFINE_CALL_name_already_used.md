@@ -8,7 +8,8 @@ The name of the [DEFINE_CALL](DEFINE_CALL.md) has already been used.
 
 This name cannot be the same as an already declared identifier of any type.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

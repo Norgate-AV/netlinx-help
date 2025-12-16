@@ -4,9 +4,11 @@ title: Invalid_include_file_name
 
 # Invalid include file name
 
-A string literal enclosed in single quotes must follow the [INCLUDE](INCLUDE.md) keyword.
+A string literal enclosed in single quotes must follow the [INCLUDE](INCLUDE.md)
+keyword.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

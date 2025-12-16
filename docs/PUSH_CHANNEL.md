@@ -4,7 +4,8 @@ title: PUSH_CHANNEL
 
 # PUSH_CHANNEL
 
-This system variable contains the number of the channel that was just turned on due to an input change.
+This system variable contains the number of the channel that was just turned on
+due to an input change.
 
 - The value remains valid for one pass through mainline.
 - All fields equal to zero is the inactive state of this variable.

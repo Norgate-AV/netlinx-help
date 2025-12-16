@@ -18,8 +18,10 @@ Parameters:
 
 Result:
 
-- A 16-bit unsigned integer representing the character location of Seq in STRING.
--  If the character string is found at the beginning of the string, this function returns 1.
+- A 16-bit unsigned integer representing the character location of Seq in
+  STRING.
+-  If the character string is found at the beginning of the string, this
+  function returns 1.
 - Any error condition returns 0.
 
 Example:

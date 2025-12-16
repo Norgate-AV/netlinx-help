@@ -4,7 +4,8 @@ title: Operator_Keywords
 
 # Operator Keywords
 
-An Operator is a character (or group of characters) that performs a specific mathematical or relational function.
+An Operator is a character (or group of characters) that performs a specific
+mathematical or relational function.
 
 The NetLinx language supports the following Operator keywords:
 
@@ -15,7 +16,7 @@ The NetLinx language supports the following Operator keywords:
 [Assignment Operators](Assignment_operators.md):
 
 |     |                |
-|-----|----------------|
+| --- | -------------- |
 | =   | Assignment     |
 | ++  | Increment by 1 |
 | --  | Decrement by 1 |
@@ -26,8 +27,8 @@ Bitwise Operators:
 - [BNOT(~)](BNOT_.md)
 - [BOR(\|)](BOR_.md)
 - [BXOR(^)](BXOR_.md)
-- [LSHIFT (\<\<)](LSHIFT_(__).htm)
-- [RSHIFT (\>\>)](RSHIFT_(_).htm)
+- [LSHIFT (\<\<)](<LSHIFT_(__).htm>)
+- [RSHIFT (\>\>)](<RSHIFT_(_).htm>)
 
 Logical Operators:
 
@@ -39,7 +40,7 @@ Logical Operators:
 [Relational Operators:](Relational_operators.md)
 
 |      |                          |
-|------|--------------------------|
+| ---- | ------------------------ |
 | \<   | Less Than                |
 | \>   | Greater Than             |
 | =    | Equal To                 |

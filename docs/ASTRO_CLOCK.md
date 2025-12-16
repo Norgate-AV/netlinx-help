@@ -4,7 +4,8 @@ title: ASTRO_CLOCK
 
 # ASTRO_CLOCK
 
-This routine calculates the time of sunset and sunrise at a specified location (specified by longitude and latitude) on a specified date.
+This routine calculates the time of sunset and sunrise at a specified location
+(specified by longitude and latitude) on a specified date.
 
 Syntax:
 
@@ -14,9 +15,12 @@ SINTEGER ASTRO_CLOCK(DOUBLE Longitude,DOUBLE Latitude,DOUBLE HoursFromGMT,CHAR[]
 
 Parameters:
 
-- Longitude - Longitude in Degrees.Fraction of Degrees. West longitudes must be negative.
-- Latitude - Latitude in Degrees.Fraction of Degrees. South latitudes must be negative.
-- HoursFromGMT - Number of hours from GMT. Hours West of GMT can be entered as negative (e.g., -5 for EST, -4 for EDT)
+- Longitude - Longitude in Degrees.Fraction of Degrees. West longitudes must be
+  negative.
+- Latitude - Latitude in Degrees.Fraction of Degrees. South latitudes must be
+  negative.
+- HoursFromGMT - Number of hours from GMT. Hours West of GMT can be entered as
+  negative (e.g., -5 for EST, -4 for EDT)
 - Date - In mm/dd/yyyy format.
 - Sunrise - In 24-hour format. Value gets filled in by the function.
 - Sunset - In mm/dd/yyyy format. Value gets filled in by the function.

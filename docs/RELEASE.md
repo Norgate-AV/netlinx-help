@@ -4,7 +4,8 @@ title: RELEASE
 
 # RELEASE
 
-The RELEASE keyword is used to declare a block of code to be executed when a release event is received for the associated device and channel.
+The RELEASE keyword is used to declare a block of code to be executed when a
+release event is received for the associated device and channel.
 
 RELEASE \[DEVICE,CHANNEL\]
 
@@ -36,7 +37,8 @@ CHAN[] – a channel array.
 
 - [DEVCHAN](DEVCHAN.md)[]: a device-channel array.
 
-Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md) handler for processing [RELEASE](RELEASE.md) events.
+Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md)
+handler for processing [RELEASE](RELEASE.md) events.
 
 See Also
 

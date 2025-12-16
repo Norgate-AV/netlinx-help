@@ -4,7 +4,8 @@ title: _DISABLE_WARNING_
 
 # \#DISABLE_WARNING
 
-This [Compiler Directive](Compiler_Directives.md) disables a specified warning message from being displayed after the program is compiled.
+This [Compiler Directive](Compiler_Directives.md) disables a specified warning
+message from being displayed after the program is compiled.
 
 Syntax:
 
@@ -18,7 +19,8 @@ Example:
 To disable the following warning:
 ```
 
-WARNING: C:\Temp\AMXLoader\AMX home Autopatch Switcher.axi(1191): C10571: Converting type \[INTEGER\] to \[SINTEGER\]
+WARNING: C:\Temp\AMXLoader\AMX home Autopatch Switcher.axi(1191): C10571:
+Converting type \[INTEGER\] to \[SINTEGER\]
 
 Add the following to the AXS file to disable the "C10571" warning:
 

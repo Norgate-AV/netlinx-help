@@ -4,7 +4,8 @@ title: DUET_MEM_SIZE_GET
 
 # DUET_MEM_SIZE_GET
 
-Displays the amount of memory allocated for Duet Java pool (the current Java memory heap size), measured in MB.
+Displays the amount of memory allocated for Duet Java pool (the current Java
+memory heap size), measured in MB.
 
 Syntax:
 

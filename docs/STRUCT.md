@@ -4,7 +4,8 @@ title: STRUCT
 
 # STRUCT
 
-STRUCT is an abbreviated form of the [STRUCTURE](STRUCTURE.md) keyword, and has the same functionality.
+STRUCT is an abbreviated form of the [STRUCTURE](STRUCTURE.md) keyword, and has
+the same functionality.
 
 This keyword is used to introduce the declaration of a STRUCTURE data type.
 

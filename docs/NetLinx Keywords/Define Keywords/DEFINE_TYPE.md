@@ -4,7 +4,8 @@ title: DEFINE_TYPE
 
 # DEFINE_TYPE
 
-The DEFINE_TYPE section is used to define custom data types such as structures and classes.
+The DEFINE_TYPE section is used to define custom data types such as structures
+and classes.
 
 Example:
 
@@ -12,6 +13,7 @@ Example:
 DEFINE_TYPE
 
 ```
+
  
 
 STRUCTURE MyStruct
@@ -29,4 +31,3 @@ See Also
 - [DEFINE Keywords](DEFINE_Keywords.md)
 
 - [Structure Keywords](Structure_Keywords.md)
-

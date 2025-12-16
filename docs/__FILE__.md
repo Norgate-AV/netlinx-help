@@ -4,15 +4,17 @@ title: __FILE__
 
 # \_\_FILE\_\_
 
-At compile time, this keyword is replaced with a string that contains the filename of the currently executing program file.
+At compile time, this keyword is replaced with a string that contains the
+filename of the currently executing program file.
 
 ## Example
 
-```c  linenums="1"
+```c linenums="1"
 SEND_COMMAND TP, "'!T',1,__FILE__"
 ```
 
-Sends the filename of the currently executing program file to a variable text button on a touch panel.
+Sends the filename of the currently executing program file to a variable text
+button on a touch panel.
 
 ## See Also
 

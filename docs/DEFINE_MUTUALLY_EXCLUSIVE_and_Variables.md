@@ -6,7 +6,9 @@ title: DEFINE_MUTUALLY_EXCLUSIVE_and_Variables
 
 Symptom
 
-If you have a set of variables that are mutually exclusive and you set one of the variables to a non-zero value by assignment, e.g. Var1 = 1 or the Studio Debug window, then the other variables in the set stay "on" i.e. non-zero.
+If you have a set of variables that are mutually exclusive and you set one of
+the variables to a non-zero value by assignment, e.g. Var1 = 1 or the Studio
+Debug window, then the other variables in the set stay "on" i.e. non-zero.
 
 DEFINE_VARIABLE
 
@@ -30,9 +32,11 @@ var\[x\] = x // This will not invoke the mutually exclusive magic
 
 }
 
-In the NetLinx code example above, all elements of var will eventually be non-zero.
+In the NetLinx code example above, all elements of var will eventually be
+non-zero.
 
-Note: Axcess does not support making elements of an INTEGER array mutually exclusive.
+Note: Axcess does not support making elements of an INTEGER array mutually
+exclusive.
 
 Cause
 
@@ -60,11 +64,13 @@ WAIT 20
 
 x++; IF (x \> 4) x = 1;
 
-ON\[var\[x\]\] // This will work as expected - only one element of var will have a value of 1 at any time
+ON\[var\[x\]\] // This will work as expected - only one element of var will have
+a value of 1 at any time
 
 }
 
-This issue does not occur with DEVCHAN's. Using ON or assigning them a non-zero value will work as expected:
+This issue does not occur with DEVCHAN's. Using ON or assigning them a non-zero
+value will work as expected:
 
 DEFINE_DEVICE
 
@@ -88,9 +94,11 @@ WAIT 20
 
 x++; IF (x \> 4) x = 1;
 
-ON\[dvRelay,x\]       // This works as expected: only 1 relay of relays 1 to 4 will be on at a time
+ON\[dvRelay,x\]       // This works as expected: only 1 relay of relays 1 to 4
+will be on at a time
 
-\[dvRelay,x + 4\] = x // This works as expected: only 1 relay of relays 5 to 8 will be on at a time
+\[dvRelay,x + 4\] = x // This works as expected: only 1 relay of relays 5 to 8
+will be on at a time
 
 }
 

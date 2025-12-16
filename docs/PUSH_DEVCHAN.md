@@ -4,9 +4,11 @@ title: PUSH_DEVCHAN
 
 # PUSH_DEVCHAN
 
-This system variable contains the device-channel (in the way of a [DEVCHAN](DEVCHAN.md) structure) that was just turned on due to an input change.
+This system variable contains the device-channel (in the way of a
+[DEVCHAN](DEVCHAN.md) structure) that was just turned on due to an input change.
 
-Individual fields of this DEVCHAN structure can be accessed using dot-operator syntax, as shown below:
+Individual fields of this DEVCHAN structure can be accessed using dot-operator
+syntax, as shown below:
 
 PUSH_DEVCHAN.Device
 

@@ -4,7 +4,9 @@ title: Listview_Keywords
 
 # Listview Keywords
 
-The NetLinx programming language supports the following Listview keywords. These keywords support the Listview and Dynamic Data functionality in Modero G5 touch panels and TPDesign5:
+The NetLinx programming language supports the following Listview keywords. These
+keywords support the Listview and Dynamic Data functionality in Modero G5 touch
+panels and TPDesign5:
 
 - [LISTVIEW_ON_ROW_SELECT_EVENT](LISTVIEW_ON_ROW_SELECT_EVENT.md)
 - [DATA_FEED](DATA_FEED.md)

@@ -35,4 +35,3 @@ The NetLinx language supports the following DEFINE keywords:
 - [DEFINE_TYPE](DEFINE_TYPE.md)
 
 - [DEFINE_VARIABLE](DEFINE_VARIABLE.md)
-

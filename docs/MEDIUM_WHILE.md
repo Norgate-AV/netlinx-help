@@ -6,7 +6,8 @@ title: MEDIUM_WHILE
 
 The MEDIUM_WHILE statement is obsolete in NetLinx.
 
-The compiler accepts the statement but converts it internally to a [WHILE](WHILE.md) statement.
+The compiler accepts the statement but converts it internally to a
+[WHILE](WHILE.md) statement.
 
 Example:
 

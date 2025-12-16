@@ -4,7 +4,8 @@ title: DEVLEV
 
 # DEVLEV
 
-A data type (structure) containing fields used to represent a specific device number, port, system and level.
+A data type (structure) containing fields used to represent a specific device
+number, port, system and level.
 
 This structure is used to implement an array DEVLEV[].
 

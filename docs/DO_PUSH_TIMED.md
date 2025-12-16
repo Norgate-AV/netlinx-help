@@ -6,8 +6,10 @@ title: DO_PUSH_TIMED
 
 Similar to [DO_PUSH](DO_PUSH.md) except this one lets you specify the timeout.
 
-- DO_PUSH defaults to a 0.5s push on a channel before issuing a DO_RELEASE for you (unless another DO_PUSH is executed for the same channel).
-- DO_PUSH_TIMED lets you control the length of time that will pass before the automatic DO_RELEASE is generated.
+- DO_PUSH defaults to a 0.5s push on a channel before issuing a DO_RELEASE for
+  you (unless another DO_PUSH is executed for the same channel).
+- DO_PUSH_TIMED lets you control the length of time that will pass before the
+  automatic DO_RELEASE is generated.
 
 Syntax:
 
@@ -19,7 +21,10 @@ Parameters:
 
 - Device - the device to PUSH.
 - Channel - the channel to PUSH.
-- Timeout - the time (in 1/10ths of seconds) that the PUSH shall remain active. If zero is specified as the timeout then the timeout is 0.5s. If DO_PUSH_TIMED_INFINITE is specified as the timeout then the push never times out.
+- Timeout - the time (in 1/10ths of seconds) that the PUSH shall remain active.
+  If zero is specified as the timeout then the timeout is 0.5s. If
+  DO_PUSH_TIMED_INFINITE is specified as the timeout then the push never times
+  out.
 
 Returns: None
 

@@ -6,8 +6,10 @@ title: BUTTON_EVENT
 
 This keyword defines a button event handler.
 
-- This type of handler processes [PUSH](PUSH.md), [RELEASE](RELEASE.md) and [HOLD](HOLD.md) events.
-- It can only be used in the [DEFINE_EVENT](DEFINE_EVENT.md) section of the program.
+- This type of handler processes [PUSH](PUSH.md), [RELEASE](RELEASE.md) and
+  [HOLD](HOLD.md) events.
+- It can only be used in the [DEFINE_EVENT](DEFINE_EVENT.md) section of the
+  program.
 
 Example:
 

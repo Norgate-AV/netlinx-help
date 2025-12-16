@@ -6,7 +6,8 @@ title: WC_REMOVE_STRING
 
 This function removes characters from the specified string.
 
-All characters up to and including the first occurrence of the specified sequence are removed.
+All characters up to and including the first occurrence of the specified
+sequence are removed.
 
 Syntax:
 
@@ -14,6 +15,7 @@ Syntax:
 WIDECHAR\[ \] WC_REMOVE_STRING (WIDECHAR STRING\[\], WIDECHAR Seq\[\], LONG Start)
 
 ```
+
 Parameters:
 
 -  STRING: String from which to find and remove characters.
@@ -24,7 +26,8 @@ Parameters:
 
 Result:
 
-The result is a string containing the removed characters. If the character sequence was not found, an empty string is returned.
+The result is a string containing the removed characters. If the character
+sequence was not found, an empty string is returned.
 
 Example:
 
@@ -32,6 +35,7 @@ Example:
 wcSTRING = \_WC('ABCDEF')
 
 ```
+
 wcSubstr = WC_REMOVE_STRING(wcSTRING, \_WC('BC'), 1)
 
 // wcSubstr = 'ABC'
@@ -41,4 +45,3 @@ wcSubstr = WC_REMOVE_STRING(wcSTRING, \_WC('BC'), 1)
 See Also
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

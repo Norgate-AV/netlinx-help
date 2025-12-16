@@ -4,9 +4,14 @@ title: STRING_TO_VARIABLE
 
 # STRING_TO_VARIABLE
 
-This routine takes the Encode data from buffer and loads the values into the Decode variable.
+This routine takes the Encode data from buffer and loads the values into the
+Decode variable.
 
-The Decode variable must match the type of the encoded variable. In the case where the Encode variable was a structure then the Decode variable members must match in type and order. However if the number of members of the structures do not match, then the routine will fill all it can or skip any unused data members.
+The Decode variable must match the type of the encoded variable. In the case
+where the Encode variable was a structure then the Decode variable members must
+match in type and order. However if the number of members of the structures do
+not match, then the routine will fill all it can or skip any unused data
+members.
 
 Syntax:
 
@@ -20,7 +25,10 @@ Parameters:
 
 - Decode - any type of variable. This is the variable to be decoded into.
 - Buffer - Must of char array type. This is where the decode data is found.
-- Position - This is where the first byte of the decode data. Is it also modified to point to the next location after the last decoded byte. That means that successive calls to this function can be made without modifying position. Position should be set to one on the first call.
+- Position - This is where the first byte of the decode data. Is it also
+  modified to point to the next location after the last decoded byte. That means
+  that successive calls to this function can be made without modifying position.
+  Position should be set to one on the first call.
 
 Result:
 
@@ -36,7 +44,7 @@ Example:
 DEFINE_TYPE
 ```
 
-STRUCTURE \_AlbumStruct
+STRUCTURE _AlbumStruct
 
 {
 

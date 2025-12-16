@@ -4,7 +4,10 @@ title: VALIDATE_NETLINX_ACCOUNT_WITH_PERMISSION
 
 # VALIDATE_NETLINX_ACCOUNT_WITH_PERMISSION
 
-This function validates the specified user name and password against the NetLinx Master Controller's internal user account database. For the account to be valid the user name must exist with the matching password and the specified user account must have been set up with ICSP Authorization.
+This function validates the specified user name and password against the NetLinx
+Master Controller's internal user account database. For the account to be valid
+the user name must exist with the matching password and the specified user
+account must have been set up with ICSP Authorization.
 
 Syntax:
 
@@ -17,8 +20,11 @@ Parameters:
 - username - A character array containing the user name to validate.
 - password - A character array containing the password to validate.
 - type - The authorization type.
-- permission - The permission type. Valid permission include: Configuration, Console, Diags, EncryptICSP, FTP, HTTP, ICSP, Terminal, AuditLog, User1, User2, User3, and User4
-- info - A return structure of type LAST_LOGIN_INFO which contains the following values:
+- permission - The permission type. Valid permission include: Configuration,
+  Console, Diags, EncryptICSP, FTP, HTTP, ICSP, Terminal, AuditLog, User1,
+  User2, User3, and User4
+- info - A return structure of type LAST_LOGIN_INFO which contains the following
+  values:
 
 STRUCTURE LAST_LOGIN_INFO
 

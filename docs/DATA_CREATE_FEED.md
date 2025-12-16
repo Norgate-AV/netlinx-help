@@ -4,9 +4,12 @@ title: DATA_CREATE_FEED
 
 # DATA_CREATE_FEED
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
-The DATA_CREATE_FEED function creates a NetLinx data feed with the supplied values.
+The DATA_CREATE_FEED function creates a NetLinx data feed with the supplied
+values.
 
 Syntax:
 
@@ -16,7 +19,8 @@ SINTEGER DATA_CREATE_FEED (DATA_FEED FEED)
 
 Parameters:
 
-- FEED : A [DATA_FEED](DATA_FEED.md) structure populated with the desired data feed identification values
+- FEED : A [DATA_FEED](DATA_FEED.md) structure populated with the desired data
+  feed identification values
 
 Result:
 

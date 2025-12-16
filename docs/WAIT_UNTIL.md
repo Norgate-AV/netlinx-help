@@ -4,7 +4,8 @@ title: WAIT_UNTIL
 
 # WAIT_UNTIL
 
-This instruction is used to delay execution of one or more statements until a specified condition is met.
+This instruction is used to delay execution of one or more statements until a
+specified condition is met.
 
 Syntax:
 
@@ -18,7 +19,8 @@ WAIT_UNTIL <condition> ['<name>']
 }
 ```
 
-Note:  When it is a NetLinx function the ( ) are NOT OPTIONAL, even if there are no parameters.
+Note:  When it is a NetLinx function the ( ) are NOT OPTIONAL, even if there are
+no parameters.
 
 See Also
 

@@ -5,7 +5,7 @@ title: ASCII__HEX___Decimal_Conversions_Table
 # ASCII /HEX / Decimal Conversions Table
 
 |     |     |     |
-|-----|-----|-----|
+| --- | --- | --- |
 | CHR | HEX | DEC |
 | nul | 00  | 0   |
 | soh | 01  | 1   |

@@ -6,9 +6,11 @@ title: Syntax_error
 
 A syntax error is found in an expression.
 
-In most cases, this error means that a character is out of place or something is misspelled.
+In most cases, this error means that a character is out of place or something is
+misspelled.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

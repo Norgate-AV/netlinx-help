@@ -4,7 +4,8 @@ title: RELEASE_DEVICE
 
 # RELEASE_DEVICE
 
-This system variable contains the number of the device associated with the channel that was just turned off due to an input change.
+This system variable contains the number of the device associated with the
+channel that was just turned off due to an input change.
 
 - The value remains valid for one pass through mainline.
 - All fields equal to zero is the inactive state of this variable.

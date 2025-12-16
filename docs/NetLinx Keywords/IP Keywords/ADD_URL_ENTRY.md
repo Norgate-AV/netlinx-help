@@ -4,7 +4,8 @@ title: ADD_URL_ENTRY
 
 # ADD_URL_ENTRY
 
-This function adds a URL entry to the specified device. The function requires a pre-initialized URL_STRUCT  that will be sent to the specified device.
+This function adds a URL entry to the specified device. The function requires a
+pre-initialized URL_STRUCT  that will be sent to the specified device.
 
 Syntax:
 
@@ -12,11 +13,14 @@ Syntax:
 ADD_URL_ENTRY (DEV Device, URL_STRUCT URL)
 
 ```
+
 Parameters:
 
-- Device: Device number of the device that stores the URL; typically the local Master (0:1:0).
+- Device: Device number of the device that stores the URL; typically the local
+  Master (0:1:0).
 
-Note: If you are currently connected to another Master, you can use \<0:1:system number of remote master\>.
+Note: If you are currently connected to another Master, you can use \<0:1:system
+number of remote master\>.
 
 - URL: URL_STRUCT that will be programmed into the device.
 
@@ -38,7 +42,8 @@ STRUCTURE URL_STRUCT
 
 }
 
-The following definitions exist for the Flags member of the URL_STRUCT structure.
+The following definitions exist for the Flags member of the URL_STRUCT
+structure.
 
 CONSTANT CHAR URL_Flg_TCP = 1 // TCP connection
 
@@ -56,7 +61,8 @@ CONSTANT CHAR URL_Flg_Stat_Waiting  = \$80   // waiting
 
 CONSTANT CHAR URL_Flg_Stat_Connected = \$C0  // connected
 
-The Flags member is a bit field that is used for several different purposes.  Each bit is defined in the table below:
+The Flags member is a bit field that is used for several different purposes.
+ Each bit is defined in the table below:
 
 [TABLE]
 
@@ -74,11 +80,11 @@ Result:
 
 - -4: Add failed
 
-Note: NetLinx automatically sets bit 5 of the Flags member of the URL_STRUCT structure.
+Note: NetLinx automatically sets bit 5 of the Flags member of the URL_STRUCT
+structure.
 
 See Also
 
 - [IP Keywords](IP_Keywords.md)
 
 - [IP Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-

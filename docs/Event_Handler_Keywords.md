@@ -4,7 +4,8 @@ title: Event_Handler_Keywords
 
 # Event Handler Keywords
 
-The NetLinx programming language supports the following [Event Handler](Event_Handlers.md) keywords:
+The NetLinx programming language supports the following
+[Event Handler](Event_Handlers.md) keywords:
 
 - [DEFINE_EVENT](DEFINE_EVENT.md)
 - [BUTTON_EVENT](BUTTON_EVENT.md)
@@ -14,7 +15,7 @@ The NetLinx programming language supports the following [Event Handler](Event_Ha
 - [HOLD](HOLD.md)
 - [ONLINE](ONLINE.md)
 - [OFFLINE](OFFLINE.md)
-- [REBUILD_EVENT()](REBUILD_EVENT().htm)
+- [REBUILD_EVENT()](<REBUILD_EVENT().htm>)
 - [REPEAT](REPEAT.md)
 
 See Also

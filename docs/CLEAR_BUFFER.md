@@ -6,9 +6,11 @@ title: CLEAR_BUFFER
 
 This command clears the contents of the specified text buffer.
 
-The length of the buffer is set to zero; therefore, subsequent [GET\_BUFFER\_CHAR](GET_BUFFER_CHAR.md) calls will not return anything.
+The length of the buffer is set to zero; therefore, subsequent
+[GET_BUFFER_CHAR](GET_BUFFER_CHAR.md) calls will not return anything.
 
-CLEAR_BUFFER does not delete the data in the buffer; it only sets the length to zero.
+CLEAR_BUFFER does not delete the data in the buffer; it only sets the length to
+zero.
 
 Syntax:
 

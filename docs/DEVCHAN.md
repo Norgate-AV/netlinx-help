@@ -4,7 +4,8 @@ title: DEVCHAN
 
 # DEVCHAN
 
-A data type (structure) containing fields used to represent a specific device number, port, system and channel.
+A data type (structure) containing fields used to represent a specific device
+number, port, system and channel.
 
 Example:
 

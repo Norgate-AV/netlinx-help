@@ -4,7 +4,9 @@ title: BREAK
 
 # BREAK
 
-The BREAK command terminates execution of the current [WHILE](WHILE.md), [LONG_WHILE](LONG_WHILE.md) or [FOR](FOR_loops.md) loop and resumes program execution at the first instruction following that loop.
+The BREAK command terminates execution of the current [WHILE](WHILE.md),
+[LONG_WHILE](LONG_WHILE.md) or [FOR](FOR_loops.md) loop and resumes program
+execution at the first instruction following that loop.
 
 Example:
 

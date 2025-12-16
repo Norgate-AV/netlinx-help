@@ -4,7 +4,9 @@ title: INTEGER
 
 # INTEGER
 
-INTEGER is the default variable value to store values up to and including 65535. This is the default data type if a non-array variable is declared without a data type specified.
+INTEGER is the default variable value to store values up to and including 65535.
+This is the default data type if a non-array variable is declared without a data
+type specified.
 
 - Data Type: Integer
 - Sign: Unsigned

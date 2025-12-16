@@ -4,6 +4,13 @@
 extends: null
 default: true
 
+list-marker-space:
+  ul_multi: 3
+  ul_single: 3
+
+ul-indent:
+  indent: 4
+
 # Rule overrides
 MD013: # Line length
   line_length: 100

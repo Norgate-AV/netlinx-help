@@ -12,6 +12,7 @@ Syntax:
 SLONG FILE_DIR (CHAR DirPath\[ \], CHAR Buffer\[ \], LONG Entry)
 
 ```
+
 Parameters:
 
 - DirPath - string containing the path to the requested directory.
@@ -34,7 +35,8 @@ This function returns the number of remaining files in the directory, or:
 
 - -12 = directory not loaded
 
-Note: Each directory entry will have a \<CR\>\<LF\> character pair appended to the end.
+Note: Each directory entry will have a \<CR\>\<LF\> character pair appended to
+the end.
 
 Example:
 
@@ -42,6 +44,7 @@ Example:
 CHAR Buffer\[1024\]
 
 ```
+
 LONG NumFiles = 1
 
 LONG Entry = 1
@@ -58,9 +61,10 @@ WHILE (NumFiles \> 0)
 
 }
 
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 See Also
 
 - [File Operation Keywords](File_Operation_Keywords.md)
-

@@ -20,7 +20,8 @@ Parameters:
 
 Result:
 
-- If successful, this function returns an integer (0-59) representing the minute portion of the time string. If the specified time is invalid, –1 is returned.
+- If successful, this function returns an integer (0-59) representing the minute
+  portion of the time string. If the specified time is invalid, –1 is returned.
 
 Example:
 

@@ -4,9 +4,11 @@ title: Active_keyword_expected
 
 # ACTIVE keyword expected
 
-An [ACTIVE](SELECT_ACTIVE.md) keyword is not present after a [SELECT](SELECT_ACTIVE.md) keyword.
+An [ACTIVE](SELECT_ACTIVE.md) keyword is not present after a
+[SELECT](SELECT_ACTIVE.md) keyword.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

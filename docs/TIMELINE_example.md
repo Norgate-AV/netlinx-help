@@ -4,7 +4,8 @@ title: TIMELINE_example
 
 # TIMELINE example
 
-The following code is an example of using [TIMELINE functions](Timeline_Functions.md).
+The following code is an example of using
+[TIMELINE functions](Timeline_Functions.md).
 
 PROGRAM_NAME='TimelineExample'
 
@@ -112,9 +113,11 @@ TIMELINE_EVENT\[MY_LINE_1\]
 
   }
 
-  SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event ',ITOA(Timeline.Sequence), ' Time= ',ITOA(Timeline.Time),
+  SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event
+',ITOA(Timeline.Sequence), ' Time= ',ITOA(Timeline.Time),
 
-            'Repetition = ',ITOA(Timeline.Repetition),' Relative = ',ITOA(Timeline.Relative)"
+            'Repetition = ',ITOA(Timeline.Repetition),' Relative =
+',ITOA(Timeline.Relative)"
 
 }
 
@@ -138,9 +141,11 @@ TIMELINE_EVENT\[MY_LINE_2\]
 
   }
 
-SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event ',ITOA(Timeline.Sequence), ' Time = ',ITOA(Timeline.Time),
+SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event
+',ITOA(Timeline.Sequence), ' Time = ',ITOA(Timeline.Time),
 
-           ' Repetition = ',ITOA(Timeline.Repetition),' Relative = ',ITOA(Timeline.Relative)"
+           ' Repetition = ',ITOA(Timeline.Repetition),' Relative =
+',ITOA(Timeline.Relative)"
 
 }
 

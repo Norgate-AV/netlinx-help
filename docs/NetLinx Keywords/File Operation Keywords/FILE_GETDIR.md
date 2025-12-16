@@ -12,7 +12,10 @@ Syntax:
 SLONG FILE_GETDIR (CHAR DirPath\[ \])
 
 ```
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 Parameters:
 
@@ -30,9 +33,9 @@ Example:
 CHAR Buffer\[256\]
 
 ```
+
 Result = FILE_GETDIR (Buffer)
 
 See Also
 
 - [File Operation Keywords](File_Operation_Keywords.md)
-

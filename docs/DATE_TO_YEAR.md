@@ -16,7 +16,8 @@ Parameters:
 
 Result:
 
-- If successful, this function returns a 4-digit integer representing the year portion of the date string. If the specified date is invalid, –1 is returned.
+- If successful, this function returns a 4-digit integer representing the year
+  portion of the date string. If the specified date is invalid, –1 is returned.
 
 Example:
 

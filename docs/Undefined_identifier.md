@@ -4,9 +4,11 @@ title: Undefined_identifier
 
 # Undefined identifier
 
-An attempt was made to reference an identifier that has not been defined previously in the program.
+An attempt was made to reference an identifier that has not been defined
+previously in the program.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

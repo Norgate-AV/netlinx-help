@@ -4,14 +4,19 @@ title: DATA_RECORD
 
 # DATA_RECORD
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the DATA_RECORD structure.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+DATA_RECORD structure._
 
-The DATA_RECORD structure contains information describing a data record within a data feed.
+The DATA_RECORD structure contains information describing a data record within a
+data feed.
 
 DATA_RECORD structure fields:
 
-- METADATA – [DATA_FIELD](DATA_FIELD.md) array containing a list of metadata values associated with the record
-- CONTENT – [DATA_FIELD](DATA_FIELD.md) array containing a list of data fields for the record
+- METADATA – [DATA_FIELD](DATA_FIELD.md) array containing a list of metadata
+  values associated with the record
+- CONTENT – [DATA_FIELD](DATA_FIELD.md) array containing a list of data fields
+  for the record
 
 See Also
 

@@ -11,4 +11,3 @@ title: CLKMGR_IS_NETWORK_SOURCED
 See Also
 
 - [Clock Manager Keywords](Clock_Manager_Keywords.md)
-

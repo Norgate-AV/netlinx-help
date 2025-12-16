@@ -11,7 +11,8 @@ Where:
 - A is the variable (any type) to be encoded.
 - B is the encoding flag. These can be used together:
 
-Value \$01 is "Encode with Types". If the bit is set, types will be included for every variable being encoded. The default is to not include types.
+Value \$01 is "Encode with Types". If the bit is set, types will be included for
+every variable being encoded. The default is to not include types.
 
 Value \$10 is "Encoded CHAR arrays as using data list".
 

@@ -4,9 +4,11 @@ title: TIMED_WAIT_UNTIL
 
 # TIMED_WAIT_UNTIL
 
-This instruction is used to delay execution of one or more statements until a particular condition is met.
+This instruction is used to delay execution of one or more statements until a
+particular condition is met.
 
-It is similar to [WAIT\_UNTIL](WAIT_UNTIL.md) except that this instruction provides for a timeout parameter to be specified.
+It is similar to [WAIT_UNTIL](WAIT_UNTIL.md) except that this instruction
+provides for a timeout parameter to be specified.
 
 Syntax:
 

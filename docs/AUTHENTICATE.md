@@ -4,7 +4,10 @@ title: AUTHENTICATE
 
 # AUTHENTICATE
 
-This function allows programs to authenticate/authorize a local or remote user depending on the parameters used. The authenticate command responds with custom events. The ID and event are completely customizable at the programmer's discretion.
+This function allows programs to authenticate/authorize a local or remote user
+depending on the parameters used. The authenticate command responds with custom
+events. The ID and event are completely customizable at the programmer's
+discretion.
 
 Syntax:
 
@@ -21,7 +24,11 @@ Parameters:
 - authType - The format of the password (0-clear text, 1-G5/PKI encrypted)
 - username - A character array containing the user name to validate.
 - password - A character array containing the password to validate.
-- facility - The specific permission being queried. Each permission must be queried individually. If just authenticating, this should be an empty string. The following permissions are valid: AuditLog, Configuration, DeviceConfig, FTP, HTTP, NetworkConfig, ProgramPort, SecurityControl, SoftwareManagement, Terminal, User1, User2, User3, User4, UserManagement
+- facility - The specific permission being queried. Each permission must be
+  queried individually. If just authenticating, this should be an empty string.
+  The following permissions are valid: AuditLog, Configuration, DeviceConfig,
+  FTP, HTTP, NetworkConfig, ProgramPort, SecurityControl, SoftwareManagement,
+  Terminal, User1, User2, User3, User4, UserManagement
 
 Returns:
 

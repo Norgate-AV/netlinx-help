@@ -4,7 +4,8 @@ title: SET_VIRTUAL_PORT_COUNT
 
 # SET_VIRTUAL_PORT_COUNT
 
-Lets the programmer override the default number of ports that a virtual device maintains.
+Lets the programmer override the default number of ports that a virtual device
+maintains.
 
 By default every virtual device maintains the state of a single port (port 1).
 
@@ -14,6 +15,7 @@ Syntax:
 SET_VIRTUAL_PORT_COUNT(DEV Device, INTEGER Count)
 
 ```
+
 Parameters:
 
 - Device - the virtual device to modify.
@@ -28,6 +30,7 @@ Example:
 SET_VIRTUAL_PORT_COUNT (dvVirtual,2) // 2 ports
 
 ```
+
 See Also
 
 - [SET Keywords](SET_Keywords.md)
@@ -39,4 +42,3 @@ See Also
 - [Port Keywords](Port_Keywords.md)
 
 - [DEVICE Keywords](DEVICE_Keywords.md)
-

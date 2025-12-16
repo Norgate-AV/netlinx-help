@@ -8,7 +8,8 @@ A string literal is started but never ends.
 
 Add a closing single quotation mark ( ' ) to the end of the string.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

@@ -4,7 +4,8 @@ title: BNOT_
 
 # BNOT(~)
 
-This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise NOT on a constant or variable.
+This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise NOT on a
+constant or variable.
 
 Note: The symbol ~ is equivalent to BNOT.
 

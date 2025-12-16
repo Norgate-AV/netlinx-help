@@ -6,7 +6,8 @@ title: COMPARE_STRING
 
 This keyword compares two character strings.
 
-- If either string contains a ‘?’ character, the matching character in the other string is not compared.
+- If either string contains a ‘?’ character, the matching character in the other
+  string is not compared.
 - The ‘?’ is equivalent to a wildcard.
 
 Example:
@@ -53,7 +54,10 @@ else
 
  SEND_STRING DvDEBUG, 'ALEXERICRYAN == ALEX????RYAN'
 
-Another example of a use for this feature is if you want an event to occur every hour. You would enter a time string that would contain a ‘??;00 ;00’ (hours/minute/sec) for the recurring event that in this case would occur every hour.
+Another example of a use for this feature is if you want an event to occur every
+hour. You would enter a time string that would contain a ‘??;00 ;00’
+(hours/minute/sec) for the recurring event that in this case would occur every
+hour.
 
 Result: The returned result can only be True (1) or False (0).
 

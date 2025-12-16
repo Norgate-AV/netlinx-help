@@ -19,7 +19,8 @@ DEVICE refers to:
 
 Note: Not all devices support REBOOT.
 
-Note: REBOOT (0:0:0) or REBOOT (0:1:0) or REBOOT (0) will cause the master to reboot.
+Note: REBOOT (0:0:0) or REBOOT (0:1:0) or REBOOT (0) will cause the master to
+reboot.
 
 See Also
 

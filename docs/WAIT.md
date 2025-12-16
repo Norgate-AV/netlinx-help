@@ -4,7 +4,8 @@ title: WAIT
 
 # WAIT
 
-This keyword is used to delay execution of one or more statements for a specified period of time.
+This keyword is used to delay execution of one or more statements for a
+specified period of time.
 
 Syntax:
 
@@ -18,7 +19,9 @@ WAIT time ['<name>']
 }
 ```
 
-The NetLinx interpreter accepts any type of number (including Floats and Doubles) for WAIT times but it casts them to an unsigned 32-bit number, i.e. a long.
+The NetLinx interpreter accepts any type of number (including Floats and
+Doubles) for WAIT times but it casts them to an unsigned 32-bit number, i.e. a
+long.
 
 So the max wait time 2^32 or 4294967295 100th's of a second.
 

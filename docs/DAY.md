@@ -4,7 +4,8 @@ title: DAY
 
 # DAY
 
-This system variable returns the current day of the week as one of the following strings:
+This system variable returns the current day of the week as one of the following
+strings:
 
 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT' or 'SUN'.
 

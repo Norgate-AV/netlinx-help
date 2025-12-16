@@ -4,7 +4,8 @@ title: PUSH
 
 # PUSH
 
-The PUSH keyword is used to declare a block of code to be executed when a push event is received for the associated device and channel.
+The PUSH keyword is used to declare a block of code to be executed when a push
+event is received for the associated device and channel.
 
 Example:
 
@@ -39,9 +40,11 @@ Channel – a single channel number.
 CHAN[] – a channel array.
 
 - [DEVCHAN](DEVCHAN.md)[]:  a device-channel array.
-- Variable: a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
+- Variable: a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md)
+  section.
 
-Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md) handler for processing [PUSH](PUSH.md) events.
+Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md)
+handler for processing [PUSH](PUSH.md) events.
 
 See Also
 

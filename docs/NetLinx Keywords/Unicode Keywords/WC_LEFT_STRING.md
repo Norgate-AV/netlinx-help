@@ -4,7 +4,8 @@ title: WC_LEFT_STRING
 
 # WC_LEFT_STRING
 
-This function returns the specified number of characters from the beginning of a string.
+This function returns the specified number of characters from the beginning of a
+string.
 
 Syntax:
 
@@ -12,6 +13,7 @@ Syntax:
 WIDECHAR\[ \] WC_LEFT_STRING (WIDECHAR STRING\[ \], LONG Count)
 
 ```
+
 Parameters:
 
 -  STRING: The string from which to extract the characters.
@@ -28,6 +30,7 @@ Example:
 wcSTRING = \_WC('ABCDEFG')
 
 ```
+
 wcSubstr = WC_LEFT_STRING(wcSTRING, 3)
 
 // wcSubstr = 'ABC'
@@ -43,4 +46,3 @@ See Also
 - [WC_LOWER_STRING](WC_LOWER_STRING.md)
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

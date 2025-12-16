@@ -4,7 +4,8 @@ title: HEXTOI
 
 # HEXTOI
 
-Converts an ASCII string containing the hexadecimal representation of a number to an unsigned 32-bit integer.
+Converts an ASCII string containing the hexadecimal representation of a number
+to an unsigned 32-bit integer.
 
 Syntax:
 
@@ -19,8 +20,11 @@ Parameters:
 Result:
 
 - A 32-bit unsigned integer representing the converted string.
-- Any non-hexadecimal characters in the string are ignored. HEXTOI returns a value representing the first complete set of characters that represents an integer.
-- Valid characters are "0" through "9", "A" through " F" and "a" through "f". If no valid characters are found, zero is returned as a result.
+- Any non-hexadecimal characters in the string are ignored. HEXTOI returns a
+  value representing the first complete set of characters that represents an
+  integer.
+- Valid characters are "0" through "9", "A" through " F" and "a" through "f". If
+  no valid characters are found, zero is returned as a result.
 
 Example:
 

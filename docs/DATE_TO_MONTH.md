@@ -20,7 +20,8 @@ Parameters:
 
 Result:
 
-- If successful, this function returns an integer (1-12) representing the month portion of the date string. If the specified date is invalid, –1 is returned.
+- If successful, this function returns an integer (1-12) representing the month
+  portion of the date string. If the specified date is invalid, –1 is returned.
 
 Example:
 

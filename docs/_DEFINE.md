@@ -4,7 +4,9 @@ title: _DEFINE
 
 # \#DEFINE
 
-This [Compiler Directive](Compiler_Directives.md) defines a symbol to be used only by [\#IF\_DEFINED](_IF_DEFINED.md) and [\#IF\_NOT\_DEFINED](_IF_NOT_DEFINED.md) directives.
+This [Compiler Directive](Compiler_Directives.md) defines a symbol to be used
+only by [\#IF_DEFINED](_IF_DEFINED.md) and
+[\#IF_NOT_DEFINED](_IF_NOT_DEFINED.md) directives.
 
 The form of the directive is:
 
@@ -12,8 +14,10 @@ The form of the directive is:
 #DEFINE <symbol> [<constant expression>]
 ```
 
-- The name of the symbol must be unique among all other identifiers in the program.
-- The symbol can be defined anywhere in the program file but cannot be used in any statement that appears before it is defined.
+- The name of the symbol must be unique among all other identifiers in the
+  program.
+- The symbol can be defined anywhere in the program file but cannot be used in
+  any statement that appears before it is defined.
 
 Example:
 

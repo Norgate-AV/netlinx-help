@@ -6,7 +6,8 @@ title: WC_FILE_WRITE
 
 This function writes a block of WIDECHAR data to the specified file.
 
-The data will overwrite or append to the current contents of the file depending on the current position of the file pointer.
+The data will overwrite or append to the current contents of the file depending
+on the current position of the file pointer.
 
 Syntax:
 
@@ -14,6 +15,7 @@ Syntax:
 SLONG WC_FILE_WRITE (LONG HFile, WIDECHAR Buffer\[ \], LONG BufLen)
 
 ```
+
 Parameters:
 
 -  HFile: Handle to the file returned by [WC_FILE_OPEN](WC_FILE_OPEN.md).
@@ -40,6 +42,7 @@ Example:
 WIDECHAR wcBuffer\[1024\]
 
 ```
+
 Result = WC_FILE_WRITE (HFile, wcBuffer, 1024)
 
 See Also
@@ -49,4 +52,3 @@ See Also
 - [Reading and Writing to Files](Reading_and_Writing_to_Files.md)
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

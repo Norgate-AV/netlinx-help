@@ -4,7 +4,8 @@ title: BAND_
 
 # BAND(&)
 
-This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise [AND](AND_.md) on two data items.
+This [Bitwise Operator](Bitwise_operators.md) performs a Bitwise [AND](AND_.md)
+on two data items.
 
 The data items can be constants or variables.
 

@@ -4,9 +4,12 @@ title: DATA_FIELD
 
 # DATA_FIELD
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the DATA_FIELD structure.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+DATA_FIELD structure._
 
-The DATA_FIELD structure contains information describing an individual data field within a [DATA_RECORD](DATA_RECORD.md) metadata or content.
+The DATA_FIELD structure contains information describing an individual data
+field within a [DATA_RECORD](DATA_RECORD.md) metadata or content.
 
 DATA_FIELD structure fields:
 

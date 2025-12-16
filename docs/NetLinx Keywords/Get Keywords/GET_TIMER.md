@@ -4,7 +4,8 @@ title: GET_TIMER
 
 # GET_TIMER
 
-This function returns an unsigned long integer representing the value currently held by the system timer.
+This function returns an unsigned long integer representing the value currently
+held by the system timer.
 
 - Time is measured in tenths of a second.
 
@@ -16,6 +17,7 @@ Example:
 SystemTime = GET_TIMER
 
 ```
+
 See Also
 
 - [GET Keywords](GET_Keywords.md)
@@ -23,4 +25,3 @@ See Also
 - [SET_TIMER](SET_TIMER.md)
 
 - [SET Keywords](SET_Keywords.md)
-

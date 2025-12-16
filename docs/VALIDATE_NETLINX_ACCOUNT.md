@@ -4,7 +4,10 @@ title: VALIDATE_NETLINX_ACCOUNT
 
 # VALIDATE_NETLINX_ACCOUNT
 
-This function validates the specified user name and password against the NetLinx Master Controller's internal user account database. For the account to be valid the user name must exist with the matching password and the specified user account must have been set up with ICSP Authorization.
+This function validates the specified user name and password against the NetLinx
+Master Controller's internal user account database. For the account to be valid
+the user name must exist with the matching password and the specified user
+account must have been set up with ICSP Authorization.
 
 Syntax:
 
@@ -16,7 +19,8 @@ Parameters:
 
 - username - A character array containing the user name to validate.
 - password - A character array containing the password to validate.
-- info - A return structure of type LAST_LOGIN_INFO which contains the following values:
+- info - A return structure of type LAST_LOGIN_INFO which contains the following
+  values:
 
 STRUCTURE LAST_LOGIN_INFO
 

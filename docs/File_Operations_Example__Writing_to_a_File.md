@@ -10,17 +10,23 @@ DEFINE_FUNCTION appendToFile (CHAR cFileName[],CHAR cLogString[])
 
 {
 
-   STACK_VAR SLONG slFileHandle     // stores the tag that represents the file (or and error code)
+   STACK_VAR SLONG slFileHandle     // stores the tag that represents the file
+(or and error code)
 
-   LOCAL_VAR SLONG slResult         // stores the number of bytes written (or an error code)
+   LOCAL_VAR SLONG slResult         // stores the number of bytes written (or an
+error code)
 
-   slFileHandle = [FILE_OPEN](FILE_OPEN.md)(cFileName,FILE_RW_APPEND) // OPEN OLD FILE (OR CREATE NEW ONE)
+   slFileHandle = [FILE_OPEN](FILE_OPEN.md)(cFileName,FILE_RW_APPEND) // OPEN
+OLD FILE (OR CREATE NEW ONE)
 
-   IF(slFileHandle\>0)               // A POSITIVE NUMBER IS RETURNED IF SUCCESSFUL
+   IF(slFileHandle\>0)               // A POSITIVE NUMBER IS RETURNED IF
+SUCCESSFUL
 
          {
 
-         slResult = [FILE_WRITE_LINE](FILE_WRITE_LINE.md)(slFileHandle,cLogString,LENGTH_STRING(cLogString)) // WRITE THE NEW
+         slResult =
+[FILE_WRITE_LINE](FILE_WRITE_LINE.md)(slFileHandle,cLogString,LENGTH_STRING(cLogString))
+// WRITE THE NEW
                                                                                          INFO
 
           [FILE_CLOSE](FILE_CLOSE.md)(slFileHandle)   // CLOSE THE LOG FILE
@@ -31,7 +37,8 @@ DEFINE_FUNCTION appendToFile (CHAR cFileName[],CHAR cLogString[])
 
          {
 
-         SEND_STRING 0,"'FILE OPEN ERROR:',ITOA(slFileHandle)" // IF THE LOG FILE COULD NOT BE CREATED
+         SEND_STRING 0,"'FILE OPEN ERROR:',ITOA(slFileHandle)" // IF THE LOG
+FILE COULD NOT BE CREATED
 
          }
 

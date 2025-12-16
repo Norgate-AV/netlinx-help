@@ -12,6 +12,7 @@ Syntax:
 WIDECHAR\[ \] WC_RIGHT_STRING (WIDECHAR STRING\[ \], LONG Count)
 
 ```
+
 Parameters:
 
 -  STRING: The string from which to extract the characters.
@@ -20,7 +21,8 @@ Parameters:
 
 Return:
 
-The return is a string containing a copy of the last Count characters from STRING.
+The return is a string containing a copy of the last Count characters from
+STRING.
 
 Example:
 
@@ -28,6 +30,7 @@ Example:
  WCSTRING = \_WC('ABCDEFG')
 
 ```
+
 wcSubstr = WC_RIGHT_STRING(wcSTRING, 3)
 
 // wcSubstr = 'EFG'
@@ -43,4 +46,3 @@ See Also
 - [WC_LOWER_STRING](WC_LOWER_STRING.md)
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

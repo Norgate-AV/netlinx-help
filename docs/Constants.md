@@ -10,9 +10,12 @@ DEFINE_CONSTANT
 
 <constant name> = <constant expression>
 
-- The scope of a constant extends throughout the module or program in which it is defined.
-- The name assigned to a constant must be unique among all other identifiers defined in the module or program.
-- Constants may be assigned expressions that consist only of other constants and Operators.
+- The scope of a constant extends throughout the module or program in which it
+  is defined.
+- The name assigned to a constant must be unique among all other identifiers
+  defined in the module or program.
+- Constants may be assigned expressions that consist only of other constants and
+  Operators.
 - Variables are not allowed in constant expressions.
 
 DEFINE_CONSTANT
@@ -25,17 +28,18 @@ STR1 = 'This is a string constant.'
 
 Constants can be used anywhere that a numeric or string constant is allowed.
 
-The value assigned to a constant can be specified in one the formats listed below:
+The value assigned to a constant can be specified in one the formats listed
+below:
 
-|                      |                      |            |
-|----------------------|----------------------|------------|
-| Type                 | Format               | Example    |
-| Decimal Integer      | 0000                 | 1500       |
-| Hexadecimal Integer  | \$000                | \$DE60     |
-| Floating Point       | 000.0                | 924.5      |
-| Exponential Notation | 0.0e0                | 1.5e-12    |
+|                      |                    |            |
+| -------------------- | ------------------ | ---------- |
+| Type                 | Format             | Example    |
+| Decimal Integer      | 0000               | 1500       |
+| Hexadecimal Integer  | \$000              | \$DE60     |
+| Floating Point       | 000.0              | 924.5      |
+| Exponential Notation | 0.0e0              | 1.5e-12    |
 | Character            | ‘c’ or <char code> | ‘R’ or 255 |
-| String Literal       | ‘ ssss’              | ‘Reverse’  |
+| String Literal       | ‘ ssss’            | ‘Reverse’  |
 
 See Also
 

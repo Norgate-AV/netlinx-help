@@ -15,4 +15,3 @@ See Also
 - [Clock Manager Keywords](Clock_Manager_Keywords.md)
 
 - [CLKMGR_SET_RESYNC_PERIOD](CLKMGR_SET_RESYNC_PERIOD.md)
-

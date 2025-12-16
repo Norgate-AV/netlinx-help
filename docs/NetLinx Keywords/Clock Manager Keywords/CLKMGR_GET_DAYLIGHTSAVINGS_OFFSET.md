@@ -4,7 +4,8 @@ title: CLKMGR_GET_DAYLIGHTSAVINGS_OFFSET
 
 # CLKMGR_GET_DAYLIGHTSAVINGS_OFFSET
 
-Populates the TIMEOFFSET structure with the current Daylight Savings Offset configured.
+Populates the TIMEOFFSET structure with the current Daylight Savings Offset
+configured.
 
 Syntax:
 
@@ -12,7 +13,9 @@ Syntax:
 CLKMGR_GET_DAYLIGHTSAVINGS_OFFSET ( CLKMGR_TIMEOFFSET_STRUCT T)
 
 ```
-The function returns a negative [SLONG](SLONG.md) value if it encounters an error.
+
+The function returns a negative [SLONG](SLONG.md) value if it encounters an
+error.
 
 See Also
 
@@ -29,4 +32,3 @@ See Also
 - [CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE](CLKMGR_SET_END_DAYLIGHTSAVINGS_RULE.md)
 
 - [CLKMGR_GET_END_DAYLIGHTSAVINGS_RULE](CLKMGR_GET_END_DAYLIGHTSAVINGS_RULE.md)
-

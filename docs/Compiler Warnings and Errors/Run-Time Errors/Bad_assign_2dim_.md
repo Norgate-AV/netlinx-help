@@ -4,9 +4,11 @@ title: Bad_assign_2dim_
 
 # Bad assign 2dim...
 
-These errors occur if an attempt is made to assign a two-dimensional array to a different type (such as a variable or one-dimensional array), and vice versa.
+These errors occur if an attempt is made to assign a two-dimensional array to a
+different type (such as a variable or one-dimensional array), and vice versa.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 
@@ -15,4 +17,3 @@ See Also
 - [Compiler Errors](Compilation_Errors.md)
 
 - [Run-Time Errors](Run_Time_Errors.md)
-

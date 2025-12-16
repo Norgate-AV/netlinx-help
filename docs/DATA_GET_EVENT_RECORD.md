@@ -4,9 +4,12 @@ title: DATA_GET_EVENT_RECORD
 
 # DATA_GET_EVENT_RECORD
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
-The DATA_GET_EVENT_RECORD function retrieves data feed event record values from a data feed custom event.
+The DATA_GET_EVENT_RECORD function retrieves data feed event record values from
+a data feed custom event.
 
 Syntax:
 
@@ -19,7 +22,8 @@ Parameters:
 - device : NetLinx device event is coming from
 - payloadID : Payload identifier supplied in custom event value1
 - fields : array of strings specifying what fields from the record to return
-- rec : [DATA_RECORD](DATA_RECORD.md) structure containing the desired field values from the data feed event
+- rec : [DATA_RECORD](DATA_RECORD.md) structure containing the desired field
+  values from the data feed event
 
 Result:
 

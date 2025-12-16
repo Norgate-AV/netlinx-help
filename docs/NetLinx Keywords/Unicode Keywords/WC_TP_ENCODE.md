@@ -4,7 +4,8 @@ title: WC_TP_ENCODE
 
 # WC_TP_ENCODE
 
-This function encodes a WIDECHAR array into a CHAR array formatted for the UNI and BAU user interface commands.
+This function encodes a WIDECHAR array into a CHAR array formatted for the UNI
+and BAU user interface commands.
 
 Syntax:
 
@@ -12,6 +13,7 @@ Syntax:
 CHAR\[ \] WC_TP_ENCODE (WIDECHAR STRING\[ \])
 
 ```
+
 Parameters:
 
 - STRING: The widechar string to send to a user interface.
@@ -26,6 +28,7 @@ Example:
 cString = WC_TP_ENCODE(wcSTRING)
 
 ```
+
 SEND_COMMAND dvTY,”’^UNI-1,0,’,cString”
 
 See Also
@@ -35,4 +38,3 @@ See Also
 - [Unicode Keywords](Unicode_Keywords.md)
 
 - [Encode / Decode Keywords](Encode___Decode_Keywords.md)
-

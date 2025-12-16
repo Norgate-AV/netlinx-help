@@ -4,7 +4,9 @@ title: __NAME__
 
 # \_\_NAME\_\_
 
-At compile time, this keyword is replaced by a string that contains the [PROGRAM\_NAME](PROGRAM_NAME.md) description found on the first line of the program.
+At compile time, this keyword is replaced by a string that contains the
+[PROGRAM_NAME](PROGRAM_NAME.md) description found on the first line of the
+program.
 
 Example:
 
@@ -12,7 +14,8 @@ Example:
 SEND_COMMAND TP, "'!T',1,__NAME__"
 ```
 
-Sends the PROGRAM\_NAME description of the currently executing program file to a variable text button on a touch panel.
+Sends the PROGRAM_NAME description of the currently executing program file to a
+variable text button on a touch panel.
 
 See Also
 

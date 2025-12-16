@@ -37,4 +37,3 @@ The NetLinx language supports the following GET keywords:
 See Also
 
 - [SET Keywords](SET_Keywords.md)
-

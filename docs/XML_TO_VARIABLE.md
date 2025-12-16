@@ -17,9 +17,14 @@ Where:
 - C is the next beginning encoding position. Encoding ended at B\[C-1\].
 - D are the decoding flags. They can be used together.
 
-Value $01 is "Force Types When Decoding". If the type in the XML does not match the variable typed being decoded to, the variable will not be written and the variable will be skipped in the XML. The constant XML_DECODE_TYPES can be used to specify this flag.
+Value $01 is "Force Types When Decoding". If the type in the XML does not match
+the variable typed being decoded to, the variable will not be written and the
+variable will be skipped in the XML. The constant XML_DECODE_TYPES can be used
+to specify this flag.
 
-Value $10 is "Do Not preserve current value of A". If set, A will be cleared if not explicitly set. The constant XML_DECODE_NO_PRESERVE can be used to specify this flag.
+Value $10 is "Do Not preserve current value of A". If set, A will be cleared if
+not explicitly set. The constant XML_DECODE_NO_PRESERVE can be used to specify
+this flag.
 
 Return:
 
@@ -28,7 +33,8 @@ Return:
 - 1 = structure too small, more members in XML decode string
 - 0 = decoded OK
 - -1 = decode variable type mismatch
-- -2 = decode data too small, decoder ran out of data. Most likely poorly formed XML.
+- -2 = decode data too small, decoder ran out of data. Most likely poorly formed
+  XML.
 - -3 = output character buffer was too small
 
 Example:
@@ -95,7 +101,7 @@ BUTTON_EVENT[TP,1]  //Convert And Save
     }
     RELEASE:
     {
-    
+
     }
 }
 

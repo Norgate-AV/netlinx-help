@@ -6,7 +6,8 @@ title: REMOVE_STRING
 
 This function removes characters from the specified string.
 
-All characters up to and including the first occurrence of the specified sequence are removed. The syntax:
+All characters up to and including the first occurrence of the specified
+sequence are removed. The syntax:
 
 CHAR[] REMOVE_STRING (CHAR STRING, CHAR Seq[], LONG Start)
 
@@ -20,7 +21,8 @@ Parameters:
 
 Result:
 
-- A string containing the removed characters. If the character sequence was not found, an empty string is returned.
+- A string containing the removed characters. If the character sequence was not
+  found, an empty string is returned.
 
 Example:
 

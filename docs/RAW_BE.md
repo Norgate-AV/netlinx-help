@@ -4,7 +4,8 @@ title: RAW_BE
 
 # RAW_BE
 
-This routine takes an intrinsic variable and converts the variable into a Character Array in Big Endian format that represents the variable.
+This routine takes an intrinsic variable and converts the variable into a
+Character Array in Big Endian format that represents the variable.
 
 Syntax:
 

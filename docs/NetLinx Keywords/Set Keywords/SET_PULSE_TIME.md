@@ -12,6 +12,7 @@ Syntax:
 SET_PULSE_TIME (TIME)
 
 ```
+
 Note: The default PULSE time is 5 (0.5 seconds).
 
 See Also
@@ -21,4 +22,3 @@ See Also
 - [GET_PULSE_TIME](GET_PULSE_TIME.md)
 
 - [GET Keywords](GET_Keywords.md)
-

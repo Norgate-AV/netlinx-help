@@ -4,9 +4,11 @@ title: VARIABLE_TO_STRING
 
 # VARIABLE_TO_STRING
 
-This routine takes the variable Encode and creates entries in the buffer to represent that variable.
+This routine takes the variable Encode and creates entries in the buffer to
+represent that variable.
 
-The variable passed in can be of any type including arrays, structures, and arrays of structures.
+The variable passed in can be of any type including arrays, structures, and
+arrays of structures.
 
 Syntax:
 
@@ -20,7 +22,10 @@ Parameters:
 
 - ENCODE - any type of variable. This is the variable to be encoded.
 - BUFFER - Must of char array type. This is where the encode data is placed.
-- POSITION - This is where the first byte of the encoding is placed. It is also modified to point to the next location after the last encoded byte. That means that successive calls to this function can be made without modifying position. Position should be set to one on the first call.
+- POSITION - This is where the first byte of the encoding is placed. It is also
+  modified to point to the next location after the last encoded byte. That means
+  that successive calls to this function can be made without modifying position.
+  Position should be set to one on the first call.
 
 Result:
 
@@ -34,7 +39,7 @@ Example:
 DEFINE_TYPE
 ```
 
-STRUCTURE \_AlbumStruct
+STRUCTURE _AlbumStruct
 
 {
 

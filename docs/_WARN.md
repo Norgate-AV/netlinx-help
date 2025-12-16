@@ -4,9 +4,11 @@ title: _WARN
 
 # \#WARN
 
-This [Compiler Directive](Compiler_Directives.md) forces a warning message to be displayed after the program is compiled.
+This [Compiler Directive](Compiler_Directives.md) forces a warning message to be
+displayed after the program is compiled.
 
-Its primary purpose is to remind you of certain conditions related to the program.
+Its primary purpose is to remind you of certain conditions related to the
+program.
 
 Example:
 

@@ -4,9 +4,11 @@ title: DYNAMIC_POLLED_PORT()
 
 # DYNAMIC_POLLED_PORT
 
-Designates a NetLinx serial port that should be polled for [Dynamic Device Discovery (DDD)](Dynamic_Device_Discovery_(DDD).htm).
+Designates a NetLinx serial port that should be polled for
+[Dynamic Device Discovery (DDD)](<Dynamic_Device_Discovery_(DDD).htm>).
 
-This API must be called for each serial port that can dynamically have a device plugged into it.
+This API must be called for each serial port that can dynamically have a device
+plugged into it.
 
 Syntax:
 

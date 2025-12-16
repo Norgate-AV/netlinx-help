@@ -4,7 +4,8 @@ title: FLOAT
 
 # FLOAT
 
-FLOAT defines an intrinsic data type representing a 64-bit signed floating-point value. It is used to store small real numbers with 5 digits of precision.
+FLOAT defines an intrinsic data type representing a 64-bit signed floating-point
+value. It is used to store small real numbers with 5 digits of precision.
 
 - Data Type: Floating Point
 - Sign: Signed

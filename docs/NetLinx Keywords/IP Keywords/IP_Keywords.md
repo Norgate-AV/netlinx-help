@@ -31,4 +31,3 @@ The NetLinx language supports the following IP keywords:
 See Also
 
 - [IP Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-

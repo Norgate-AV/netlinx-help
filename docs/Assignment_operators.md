@@ -7,7 +7,7 @@ title: Assignment_operators
 The Assignment Operators are described below:
 
 |          |                |
-|----------|----------------|
+| -------- | -------------- |
 | Operator | Function       |
 | =        | Assignment     |
 | ++       | Increment by 1 |

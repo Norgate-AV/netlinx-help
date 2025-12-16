@@ -4,9 +4,15 @@ title: Defining_a_Module
 
 # Defining a Module
 
-To use a module in a program, you must declare it using the [DEFINE_MODULE](DEFINE_MODULE.md) keyword. This tells the NetLinx compiler to add the module to the program, effectively merging the module’s event handling and mainline code with the containing program (or module). In other words, the program will have one event table and one mainline routine consisting of code from the main program and all modules declared using the MODULE statement.
+To use a module in a program, you must declare it using the
+[DEFINE_MODULE](DEFINE_MODULE.md) keyword. This tells the NetLinx compiler to
+add the module to the program, effectively merging the module’s event handling
+and mainline code with the containing program (or module). In other words, the
+program will have one event table and one mainline routine consisting of code
+from the main program and all modules declared using the MODULE statement.
 
-The example below demonstrates how a NetLinx module is incorporated into a main program. In this example the main program has no event table or mainline code.
+The example below demonstrates how a NetLinx module is incorporated into a main
+program. In this example the main program has no event table or mainline code.
 
 PROGRAM_NAME = 'Switcher Program'
 
@@ -38,11 +44,13 @@ DEVCHAN TakeDCSet[] = {{TP,13}}
 
 DEV[] Switchers = {SW1, SW2, SW3}
 
-DEFINE_MODULE 'XYZ Switcher' ModXYZ(nInputs, nOutputs, nLevels, InputDCSet, OutputDCSet,
+DEFINE_MODULE 'XYZ Switcher' ModXYZ(nInputs, nOutputs, nLevels, InputDCSet,
+OutputDCSet,
 
  LevelDCSet, TakeDCSet, Switchers)
 
-A module is defined by the [MODULE_NAME](MODULE_NAME.md) entry on the first line of the file.
+A module is defined by the [MODULE_NAME](MODULE_NAME.md) entry on the first line
+of the file.
 
 Syntax:
 
@@ -50,18 +58,30 @@ Syntax:
 MODULE_NAME = '<module name>' [(<parameter list>)]
 ```
 
-The MODULE_NAME entry identifies the file as containing a NetLinx module, as opposed to a standard NetLinx source code file. The module name is any valid string literal not to exceed 64 characters. A file can contain only one module and the file name must be the same as the module name with the addition of the ".AXS" extension.
+The MODULE_NAME entry identifies the file as containing a NetLinx module, as
+opposed to a standard NetLinx source code file. The module name is any valid
+string literal not to exceed 64 characters. A file can contain only one module
+and the file name must be the same as the module name with the addition of the
+".AXS" extension.
 
-Module parameters behave exactly like subroutine parameters; the parameter list is optional. The value for each parameter is set either by the main program or another module. If the value of a parameter is changed, both the main program and the module see the change.
+Module parameters behave exactly like subroutine parameters; the parameter list
+is optional. The value for each parameter is set either by the main program or
+another module. If the value of a parameter is changed, both the main program
+and the module see the change.
 
 - Constants and expressions cannot be used as arguments in the parameter list.
 - [Persistent variables](Persistent_Variables.md) do not work in Modules.
 
-All parameters to a module must be on of the intrinsic types: [CHAR](CHAR.md), [INTEGER](INTEGER.md), [SINTEGER](SINTEGER.md), [LONG](LONG.md), [SLONG](SLONG.md), [FLOAT](FLOAT.md), [DOUBLE](DOUBLE.md), [DEV](DEV.md), [DEVCHAN](DEVCHAN.md) or [DEVLEV](DEVLEV.md). Also, any array of any of the  intrinsic types can be used.
+All parameters to a module must be on of the intrinsic types: [CHAR](CHAR.md),
+[INTEGER](INTEGER.md), [SINTEGER](SINTEGER.md), [LONG](LONG.md),
+[SLONG](SLONG.md), [FLOAT](FLOAT.md), [DOUBLE](DOUBLE.md), [DEV](DEV.md),
+[DEVCHAN](DEVCHAN.md) or [DEVLEV](DEVLEV.md). Also, any array of any of the
+ intrinsic types can be used.
 
 The example below defines a module named ModuleExample.
 
-Aside from the MODULE_NAME entry, the code looks like any standard NetLinx source code file:
+Aside from the MODULE_NAME entry, the code looks like any standard NetLinx
+source code file:
 
 MODULE_NAME = 'Switcher' (INTEGER nInputs,
 
@@ -113,7 +133,8 @@ DEFINE_FUNCTION DoSwitch()
 
   }
 
-  SwitchStatus\[Output\]\[Input\]\[nLevel\] = SwitchPending\[Output\]\[Input\]\[nLevel\]
+  SwitchStatus\[Output\]\[Input\]\[nLevel\] =
+SwitchPending\[Output\]\[Input\]\[nLevel\]
 
   SwitchPending\[Output\]\[Input\]\[nLevel\] = 0
 
@@ -211,9 +232,14 @@ BUTTON_EVENT\[TakeDCSet\]
 
 }
 
-Technically, modules can contain declarations to other modules, provided that no circular references are involved.
+Technically, modules can contain declarations to other modules, provided that no
+circular references are involved.
 
-However, because different instances of the same module must not be separated by instances of a different module, it is highly recommended that you do not declare modules from within other modules if you have multiple declarations of the parent module they will then be separated by the declarations of the child module.
+However, because different instances of the same module must not be separated by
+instances of a different module, it is highly recommended that you do not
+declare modules from within other modules if you have multiple declarations of
+the parent module they will then be separated by the declarations of the child
+module.
 
 See Also
 

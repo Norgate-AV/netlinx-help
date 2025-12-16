@@ -14,9 +14,13 @@ Example:
 SLONG GET_SERIAL_NUMBER(DEV Device,CHAR SerialNumber\[ \] )
 
 ```
-Note: GET_SERIAL_NUMBER only returns the serial number of the local master, not other masters or devices.
 
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+Note: GET_SERIAL_NUMBER only returns the serial number of the local master, not
+other masters or devices.
+
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 Parameters:
 
@@ -36,6 +40,7 @@ Example:
 result = GET_SERIAL_NUMBER(128:1:0,serialNum)
 
 ```
+
 See Also
 
 - [GET Keywords](GET_Keywords.md)
@@ -43,4 +48,3 @@ See Also
 - [SET_SYSTEM_NUMBER](SET_SYSTEM_NUMBER.md)
 
 - [SET Keywords](SET_Keywords.md)
-

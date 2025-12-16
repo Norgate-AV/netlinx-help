@@ -4,9 +4,12 @@ title: Combining_and_Uncombining_Channels
 
 # Combining and Uncombining Channels
 
-The NetLinx functions [COMBINE_CHANNELS](COMBINE_CHANNELS.md) and [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md) are used within events and mainline code to dynamically change what levels are connected to each other.
+The NetLinx functions [COMBINE_CHANNELS](COMBINE_CHANNELS.md) and
+[UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md) are used within events and mainline
+code to dynamically change what levels are connected to each other.
 
-The 6 examples in the program below demonstrate the use of COMBINE_CHANNELS and UNCOMBINE_CHANNELS:
+The 6 examples in the program below demonstrate the use of COMBINE_CHANNELS and
+UNCOMBINE_CHANNELS:
 
 PROGRAM_NAME='CombineChannelsExample'
 
@@ -56,7 +59,8 @@ UNCOMBINE_CHANNELS (vdvControl,1)
 
 }
 
-BUTTON_EVENT\[vdvControl,1\] // this will work when the COMBINE_CHANNELS above is invoked
+BUTTON_EVENT\[vdvControl,1\] // this will work when the COMBINE_CHANNELS above
+is invoked
 
 {
 
@@ -106,7 +110,8 @@ UNCOMBINE_CHANNELS (vdvControl,2)
 
 }
 
-BUTTON_EVENT\[vdvControl,2\] // this will work when the COMBINE_CHANNELS above is invoked
+BUTTON_EVENT\[vdvControl,2\] // this will work when the COMBINE_CHANNELS above
+is invoked
 
 {
 
@@ -120,7 +125,8 @@ TO\[BUTTON.INPUT\]
 
 }
 
-// example of combining individual \[DEV,CHAN\] pairs to a virtual \[DEV,CHAN\] pair
+// example of combining individual \[DEV,CHAN\] pairs to a virtual \[DEV,CHAN\]
+pair
 
 DEFINE_VARIABLE
 
@@ -168,7 +174,8 @@ UNCOMBINE_CHANNELS (vdvControl,3)
 
 }
 
-BUTTON_EVENT\[vdvControl,3\] // this will work when the COMBINE_CHANNELS above is invoked
+BUTTON_EVENT\[vdvControl,3\] // this will work when the COMBINE_CHANNELS above
+is invoked
 
 {
 
@@ -220,7 +227,8 @@ UNCOMBINE_CHANNELS (vdc4)
 
 }
 
-BUTTON_EVENT\[vdc4\] // this will work when the COMBINE_CHANNELS above is invoked
+BUTTON_EVENT\[vdc4\] // this will work when the COMBINE_CHANNELS above is
+invoked
 
 {
 
@@ -272,7 +280,8 @@ UNCOMBINE_CHANNELS (vdc5)
 
 }
 
-BUTTON_EVENT\[vdc5\] // this will work when the COMBINE_CHANNELS above is invoked
+BUTTON_EVENT\[vdc5\] // this will work when the COMBINE_CHANNELS above is
+invoked
 
 {
 
@@ -336,7 +345,8 @@ UNCOMBINE_CHANNELS (vdc6)
 
 }
 
-BUTTON_EVENT\[vdc6\] // this will work when the COMBINE_CHANNELS above is invoked
+BUTTON_EVENT\[vdc6\] // this will work when the COMBINE_CHANNELS above is
+invoked
 
 {
 

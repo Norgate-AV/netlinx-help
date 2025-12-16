@@ -6,7 +6,8 @@ title: Marshalling_Protocol_Encoding_Notes
 
 - The encoding XML will not contain any white space. This includes CR,LF pairs.
 
-- The decoding XML may contain white spaces. They will be ignored according to standard XML rules (i.e. Spaces as between tags are read.)
+- The decoding XML may contain white spaces. They will be ignored according to
+  standard XML rules (i.e. Spaces as between tags are read.)
 
 - Array may be encoded or decoded as binary encoded data
 
@@ -21,4 +22,3 @@ See Also
 - [Marshalling Protocol (Group of Bytes)](Marshalling_Protocol_Group_of_Bytes_.md)
 
 - [Marshalling Protocol (Variables)](Marshalling_Protocol_Variables_.md)
-

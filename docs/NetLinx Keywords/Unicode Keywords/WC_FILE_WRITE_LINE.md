@@ -14,6 +14,7 @@ Syntax:
 SLONG FILE_WRITE_LINE (LONG HFile, WIDECHAR Line\[ \], LONG LineLen)
 
 ```
+
 Parameters:
 
 -  HFile: Handle to the file returned by [WC_FILE_OPEN](WC_FILE_OPEN.md).
@@ -40,6 +41,7 @@ Example:
 WIDECHAR wcLine\[80\]
 
 ```
+
 Result = FILE_WRITE_LINE (HFile, wcLine, 80)
 
 See Also
@@ -49,4 +51,3 @@ See Also
 - [Reading and Writing to Files](Reading_and_Writing_to_Files.md)
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

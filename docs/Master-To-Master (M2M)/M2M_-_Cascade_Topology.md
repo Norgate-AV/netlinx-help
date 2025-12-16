@@ -6,7 +6,8 @@ title: M2M_-_Cascade_Topology
 
 Cascade Topology
 
-The figure below shows 16 masters connected to each other such that any master is routeable to any other master using route mode direct:
+The figure below shows 16 masters connected to each other such that any master
+is routeable to any other master using route mode direct:
 
 ![](M2M%20-%20CascadeTopology.jpg)
 
@@ -14,7 +15,8 @@ In a Cascade topology, the URL Lists would be configured as shown below:
 
 ![](M2M%20-%20CascadeTopology%20URL%20Lists.jpg)
 
-Note: The system number is being used here for readability, the actual URL/IP address must be entered into the URL List.
+Note: The system number is being used here for readability, the actual URL/IP
+address must be entered into the URL List.
 
 This topology has many advantages over the previously listed methods:
 
@@ -22,19 +24,27 @@ This topology has many advantages over the previously listed methods:
 
 - No passing of messages, which reduces the processing load on the master
 
-- Robust, if one master goes down communication is lost with only that master and the devices connected to it
+- Robust, if one master goes down communication is lost with only that master
+  and the devices connected to it
 
 - Reduced network traffic
 
 Note:
 
-When multiple masters exist within a large NetLinx installation the significance of the System number component cannot be over emphasized.
+When multiple masters exist within a large NetLinx installation the significance
+of the System number component cannot be over emphasized.
 
-Out of habit it is easy to ignore the system field within NetLinx Studio because its value has not meant anything in standalone systems. A significant source of technical support phone calls will be directly related to invalid or unintentionally incorrect settings of the system number, URL List, or route mode.
+Out of habit it is easy to ignore the system field within NetLinx Studio because
+its value has not meant anything in standalone systems. A significant source of
+technical support phone calls will be directly related to invalid or
+unintentionally incorrect settings of the system number, URL List, or route
+mode.
 
-When NetLinx Studio connects to a single master, yet allows the user to access all other system masters it is inevitable that some confusion will occur.
+When NetLinx Studio connects to a single master, yet allows the user to access
+all other system masters it is inevitable that some confusion will occur.
 
-Therefore, it is a good idea to document each master’s system number and the topology of the interconnections!
+Therefore, it is a good idea to document each master’s system number and the
+topology of the interconnections!
 
 See Also
 
@@ -49,4 +59,3 @@ See Also
 - [M2M - Cluster Topology modified](M2M_-_Cluster_Topology_modified.md)
 
 - [M2M - Star Topology](M2M_-_Star_Topology.md)
-

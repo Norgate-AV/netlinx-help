@@ -4,7 +4,8 @@ title: SMTP_Keywords
 
 # SMTP Keywords
 
-Note: SMTP functionality is supported by NetLinx Controller firmware version 4 or higher.
+Note: SMTP functionality is supported by NetLinx Controller firmware version 4
+or higher.
 
 The NetLinx programming language supports the following SMTP keywords:
 

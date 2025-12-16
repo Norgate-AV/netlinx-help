@@ -4,9 +4,14 @@ title: FOR_loops
 
 # FOR Loops
 
-The FOR loop structure allows you to define initialization statements, statements to execute after each pass through the loop and a condition to test after each pass. If the condition evaluates to true, another pass is made. Otherwise, the loop is terminated.
+The FOR loop structure allows you to define initialization statements,
+statements to execute after each pass through the loop and a condition to test
+after each pass. If the condition evaluates to true, another pass is made.
+Otherwise, the loop is terminated.
 
-FOR loops can be used as an alternative to traditional loops. Functionally they do the same thing, but FOR loops are more readable. FOR loops, like [WHILE](WHILE.md) loops, do not process input changes from the message buffer.
+FOR loops can be used as an alternative to traditional loops. Functionally they
+do the same thing, but FOR loops are more readable. FOR loops, like
+[WHILE](WHILE.md) loops, do not process input changes from the message buffer.
 
 Syntax:
 
@@ -20,19 +25,27 @@ FOR (\<INITIAL\>; \<condition\>; \<after pass\>)
 }
 
 ```
+
 Parameters:
 
-- \<INITIAL\> - One or more statements that are executed one time before any FOR-loop statements are executed. Each statement must be separated with a comma; this is typically a FOR-loop index initialization statement.
+- \<INITIAL\> - One or more statements that are executed one time before any
+  FOR-loop statements are executed. Each statement must be separated with a
+  comma; this is typically a FOR-loop index initialization statement.
 
 &nbsp;
 
-- \<condition\> - A condition whose value is computed before each pass. If the condition evaluates to TRUE, the FOR-loop statements are executed. If the condition evaluates to FALSE, the loop is terminated.
+- \<condition\> - A condition whose value is computed before each pass. If the
+  condition evaluates to TRUE, the FOR-loop statements are executed. If the
+  condition evaluates to FALSE, the loop is terminated.
 
 &nbsp;
 
-- \<after pass\> - One or more statements that are executed after each pass through the statements. Each statement must be separated with a comma. This is typically a statement that increments the FOR-loop index.
+- \<after pass\> - One or more statements that are executed after each pass
+  through the statements. Each statement must be separated with a comma. This is
+  typically a statement that increments the FOR-loop index.
 
-The number of loop executions is usually stated at the beginning of the loop, unlike [WHILE](WHILE.md) and [LONG_WHILE](LONG_WHILE.md) loops.
+The number of loop executions is usually stated at the beginning of the loop,
+unlike [WHILE](WHILE.md) and [LONG_WHILE](LONG_WHILE.md) loops.
 
 In Axcess, a typical loop may look something like this:
 
@@ -48,7 +61,8 @@ COUNT = COUNT + 1
 
 }
 
-In NetLinx you can write the same loop with a FOR statement and clarify how the loop operates:
+In NetLinx you can write the same loop with a FOR statement and clarify how the
+loop operates:
 
 FOR (COUNT=0 ; COUNT\<10 ; COUNT++)
 
@@ -58,7 +72,8 @@ FOR (COUNT=0 ; COUNT\<10 ; COUNT++)
 
 }
 
-- By defining the loop like this, you clearly see how it is initialized and incremented.
+- By defining the loop like this, you clearly see how it is initialized and
+  incremented.
 
 - No errors appear if you forget to initialize the WHILE loop or counter.
 
@@ -69,4 +84,3 @@ See Also
 - [Conditional Keywords](Conditional_Keywords.md)
 
 - [FOR](FOR.md)
-

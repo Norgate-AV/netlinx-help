@@ -6,9 +6,11 @@ title: Wait_not_found
 
 A statement references a [WAIT](WAIT.md) by a name that does not exist.
 
-For example, CANCEL\_WAIT 'CASS' will produce this error if there is no WAIT named CASS.
+For example, CANCEL_WAIT 'CASS' will produce this error if there is no WAIT
+named CASS.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

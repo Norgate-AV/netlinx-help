@@ -4,7 +4,10 @@ title: _ELSE
 
 # \#ELSE
 
-This [Compiler Directive](Compiler_Directives.md) is used optionally in conjunction with [\#IF\_DEFINED](_IF_DEFINED.md) and [\#IF\_NOT\_DEFINED](_IF_NOT_DEFINED.md) directives to specify a counter condition.
+This [Compiler Directive](Compiler_Directives.md) is used optionally in
+conjunction with [\#IF_DEFINED](_IF_DEFINED.md) and
+[\#IF_NOT_DEFINED](_IF_NOT_DEFINED.md) directives to specify a counter
+condition.
 
 See Also
 

@@ -4,7 +4,8 @@ title: FTOA
 
 # FTOA
 
-This function converts a 64-bit floating-point value to an ASCII string containing the decimal representation of the number.
+This function converts a 64-bit floating-point value to an ASCII string
+containing the decimal representation of the number.
 
 Syntax:
 
@@ -18,11 +19,14 @@ Parameters:
 
 Result:
 
-- A character string that contains the decimal representation of the specified floating point number, rounded to 6 digits of precision.
+- A character string that contains the decimal representation of the specified
+  floating point number, rounded to 6 digits of precision.
 
-The character representation uses exponents as necessary, according to the following rule:
+The character representation uses exponents as necessary, according to the
+following rule:
 
-For 0.0001 \<= \| n\| \< 1000000, FTOA returns the result in non-exponential form; otherwise, it returns the result in exponential form.
+For 0.0001 \<= \| n\| \< 1000000, FTOA returns the result in non-exponential
+form; otherwise, it returns the result in exponential form.
 
 Examples:
 

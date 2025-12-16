@@ -4,11 +4,17 @@ title: Virtual_Devices
 
 # Virtual Devices
 
-NetLinx supports the concept of virtual devices. A virtual device is a device that does not physically exist but merely represents one or more devices.
+NetLinx supports the concept of virtual devices. A virtual device is a device
+that does not physically exist but merely represents one or more devices.
 
-- Virtual devices carry a device number ranging from 32,768 to 36,863, a port number of 1, and a system number of 0.
+- Virtual devices carry a device number ranging from 32,768 to 36,863, a port
+  number of 1, and a system number of 0.
 - Virtual devices are devices that cannot be taken off the bus.
-- By listing a virtual device as the first device in a [DEFINE_COMBINE](DEFINE_COMBINE.md) statement or as the first device in a [COMBINE_DEVICES](COMBINE_DEVICES.md), [COMBINE_LEVELS](COMBINE_LEVELS.md), or [COMBINE_CHANNELS](COMBINE_CHANNELS.md) statement, the abnormalities seen in Axcess DEFINE_COMBINE statements are eliminated.
+- By listing a virtual device as the first device in a
+  [DEFINE_COMBINE](DEFINE_COMBINE.md) statement or as the first device in a
+  [COMBINE_DEVICES](COMBINE_DEVICES.md), [COMBINE_LEVELS](COMBINE_LEVELS.md), or
+  [COMBINE_CHANNELS](COMBINE_CHANNELS.md) statement, the abnormalities seen in
+  Axcess DEFINE_COMBINE statements are eliminated.
 
 See Also
 

@@ -4,7 +4,8 @@ title: CANCEL_WAIT_UNTIL
 
 # CANCEL_WAIT_UNTIL
 
-This keyword cancels a specified [WAIT_UNTIL](WAIT_UNTIL.md) or [TIMED_WAIT_UNTIL](TIMED_WAIT_UNTIL.md).
+This keyword cancels a specified [WAIT_UNTIL](WAIT_UNTIL.md) or
+[TIMED_WAIT_UNTIL](TIMED_WAIT_UNTIL.md).
 
 Only named WAIT_UNTIL and named TIMED_WAIT_UNTIL commands can be canceled.
 

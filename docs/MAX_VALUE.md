@@ -6,7 +6,8 @@ title: MAX_VALUE
 
 This routine takes two variables and returns the value of the highest.
 
- It will take any intrinsic variable type and return the same type of the highest variable.
+ It will take any intrinsic variable type and return the same type of the
+highest variable.
 
 Example:
 

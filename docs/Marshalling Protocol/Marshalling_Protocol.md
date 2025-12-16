@@ -15,4 +15,3 @@ Select a Help Topic:
 - [String Encoding](String_Encoding.md)
 
 - [Binary Array Encoding](Binary_Array_Encoding.md)
-

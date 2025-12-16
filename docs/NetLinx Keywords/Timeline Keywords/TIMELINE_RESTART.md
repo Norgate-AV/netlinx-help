@@ -4,7 +4,8 @@ title: TIMELINE_RESTART
 
 # TIMELINE_RESTART
 
-This function is used to continue execution of a timeline that was suspended with [TIMELINE_PAUSE](TIMELINE_PAUSE.md).
+This function is used to continue execution of a timeline that was suspended
+with [TIMELINE_PAUSE](TIMELINE_PAUSE.md).
 
 **Syntax:**
 
@@ -14,7 +15,9 @@ INTEGER TIMELINE_RESTART(LONG Id)
 
 **Parameters:**
 
-- **Id** - A user defined value that uniquely identifies this timeline. Each timeline must be assigned a unique identifier starting with number one. Click [here](TIMELINE_IDs.md) for details on Timeline IDs.
+- **Id** - A user defined value that uniquely identifies this timeline. Each
+  timeline must be assigned a unique identifier starting with number one. Click
+  [here](TIMELINE_IDs.md) for details on Timeline IDs.
 
 **Returns:**
 
@@ -33,4 +36,3 @@ See Also
 - [TIMELINE IDs](TIMELINE_IDs.md)
 - [TIMELINE example](TIMELINE_example.md)
 - [TIMELINE Keywords](TIMELINE_Keywords.md)
-

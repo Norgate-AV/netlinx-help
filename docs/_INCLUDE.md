@@ -4,7 +4,9 @@ title: _INCLUDE
 
 # \#INCLUDE
 
-To include a file in a program, use the \#INCLUDE [Compiler Directive](Compiler_Directives.md), followed by the filename in single quotes.
+To include a file in a program, use the \#INCLUDE
+[Compiler Directive](Compiler_Directives.md), followed by the filename in single
+quotes.
 
 Example:
 
@@ -18,8 +20,10 @@ DEFINE_PROGRAM
 (\* More program statements can go here \*)
 ```
 
-- When the compiler reaches the \#INCLUDE statement, it jumps into the specified file and continues compiling.
-- When it has reached the end of that file, it comes back to the line following the \#INCLUDE statement and continues compiling.
+- When the compiler reaches the \#INCLUDE statement, it jumps into the specified
+  file and continues compiling.
+- When it has reached the end of that file, it comes back to the line following
+  the \#INCLUDE statement and continues compiling.
 
 See Also
 

@@ -4,11 +4,15 @@ title: WC_FILE_READ
 
 # WC_FILE_READ
 
-This function reads (from the current location of the file pointer) the number of characters specified by BufLen (or fewer bytes if the end of file is reached).
+This function reads (from the current location of the file pointer) the number
+of characters specified by BufLen (or fewer bytes if the end of file is
+reached).
 
-- The characters are read from the file identified by HFile and are stored in Buffer.
+- The characters are read from the file identified by HFile and are stored in
+  Buffer.
 
-- The file pointer will automatically be advanced the correct number of bytes so the next read operation continues where the last operation left off.
+- The file pointer will automatically be advanced the correct number of bytes so
+  the next read operation continues where the last operation left off.
 
 Syntax:
 
@@ -16,6 +20,7 @@ Syntax:
 SLONG WC_FILE_READ (LONG HFile, WIDECHAR Buffer\[ \], LONG BufLen)
 
 ```
+
 Parameters:
 
 -  HFile: Handle to the file returned by [WC_FILE_OPEN](WC_FILE_OPEN.md)
@@ -42,6 +47,7 @@ Example:
 WIDECHAR wcBuffer\[1024\]
 
 ```
+
 nBytes = WC_FILE_READ (HFile, wcBuffer, 1024)
 
 See Also
@@ -55,4 +61,3 @@ See Also
 - [Reading and Writing to Files](Reading_and_Writing_to_Files.md)
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

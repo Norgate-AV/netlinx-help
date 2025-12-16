@@ -4,9 +4,12 @@ title: WHILE
 
 # WHILE
 
-A `WHILE` statement executes its statement block as long as its associated condition evaluates to true.
+A `WHILE` statement executes its statement block as long as its associated
+condition evaluates to true.
 
-The condition is evaluated before the first pass through the statements. Therefore, if the conditional expression is never true the conditional statements will never be executed.
+The condition is evaluated before the first pass through the statements.
+Therefore, if the conditional expression is never true the conditional
+statements will never be executed.
 
 Syntax:
 
@@ -19,9 +22,13 @@ WHILE (<conditional expression>)
 
 Notes:
 
-- Statements are executed repeatedly while the conditional expression evaluates to true.
+- Statements are executed repeatedly while the conditional expression evaluates
+  to true.
 - The condition is tested before each pass through the conditional statements.
-- There is no timeout period as was the case with Axcess. The original intent of the timeout period was to prevent WHILE loops from locking out updates to/from the AxLink bus. The NetLinx Central Controller handles bus updates through a separate execution thread, thereby eliminating this potential problem.
+- There is no timeout period as was the case with Axcess. The original intent of
+  the timeout period was to prevent WHILE loops from locking out updates to/from
+  the AxLink bus. The NetLinx Central Controller handles bus updates through a
+  separate execution thread, thereby eliminating this potential problem.
 
 See Also
 

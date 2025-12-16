@@ -4,9 +4,12 @@ title: RETURN
 
 # RETURN
 
-This statement is used in a [DEFINE\_FUNCTION](DEFINE_FUNCTION.md) or [DEFINE\_CALL](DEFINE_CALL.md) subroutine to prematurely terminate execution and/or to return a value to the caller.
+This statement is used in a [DEFINE_FUNCTION](DEFINE_FUNCTION.md) or
+[DEFINE_CALL](DEFINE_CALL.md) subroutine to prematurely terminate execution
+and/or to return a value to the caller.
 
-Only DEFINE\_FUNCTION functions can return values using the [RETURN](RETURN.md) statement.
+Only DEFINE_FUNCTION functions can return values using the [RETURN](RETURN.md)
+statement.
 
 Syntax:
 
@@ -18,10 +21,13 @@ RETURN // DEFINE_CALL or function with no return value
 
 RETURN Value // function with return value
 
-Upon execution of the RETURN statement, program control is immediately returned to the caller.
+Upon execution of the RETURN statement, program control is immediately returned
+to the caller.
 
-- If the function containing the RETURN statement has a declared return type, the parameter Value must be included and must match the specified type.
-- If the function has no declared return type, the parameter Value must be omitted.
+- If the function containing the RETURN statement has a declared return type,
+  the parameter Value must be included and must match the specified type.
+- If the function has no declared return type, the parameter Value must be
+  omitted.
 
 See Also
 

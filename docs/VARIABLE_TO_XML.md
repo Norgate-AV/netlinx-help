@@ -16,9 +16,14 @@ SINTEGER VARIABLE_TO_XML(CONSTANT VARIANTARRAY A, CHAR B[], LONG C, LONG D)
 - **B** is the CHAR array to hold the resulting XML
 - **C** is the beginning encoding position. Encoding will start as B[C]
 - **D** is the encoding flag. These can be used together
-  - Value $01 is "Encode with Types". If the bit is set, types will be included for every variable being encoded. The default is to not include types. The constant XML_ENCODE_TYPES can be used to specify this flag.
-  - Value $10 is "Encoded CHAR arrays as using data list". The constant XML_ENCODE_CHAR_AS_LIST can be used to specify this flag. See the Encoding and Decoding: Binary and XML section on page 175.
-  - Value $20 is "Array Encoding is Little-Ending". The constant XML_ENCODE_LE can be used to specify this flag.
+    - Value $01 is "Encode with Types". If the bit is set, types will be
+      included for every variable being encoded. The default is to not include
+      types. The constant XML_ENCODE_TYPES can be used to specify this flag.
+    - Value $10 is "Encoded CHAR arrays as using data list". The constant
+      XML_ENCODE_CHAR_AS_LIST can be used to specify this flag. See the Encoding
+      and Decoding: Binary and XML section on page 175.
+    - Value $20 is "Array Encoding is Little-Ending". The constant XML_ENCODE_LE
+      can be used to specify this flag.
 
 **Return:**
 
@@ -27,7 +32,8 @@ SINTEGER VARIABLE_TO_XML(CONSTANT VARIANTARRAY A, CHAR B[], LONG C, LONG D)
 - 1 = structure too small, more members in XML decode string
 - 0 = decoded OK
 - -1 = decode variable type mismatch
-- -2 = decode data too small, decoder ran out of data. Most likely poorly formed XML
+- -2 = decode data too small, decoder ran out of data. Most likely poorly formed
+  XML
 - -3 = output character buffer was too small
 
 **Example:**

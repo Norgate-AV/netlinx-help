@@ -6,7 +6,8 @@ title: Identifier_is_not_an_array_type
 
 A non-array variable was treated as an array.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

@@ -4,9 +4,11 @@ title: IF
 
 # IF
 
-This keyword is used to define an IF statement. The IF statement provides a structure for conditional branching of program execution.
+This keyword is used to define an IF statement. The IF statement provides a
+structure for conditional branching of program execution.
 
-If a condition evaluates to true, the statement(s) associated with it are executed; otherwise statements are not executed.
+If a condition evaluates to true, the statement(s) associated with it are
+executed; otherwise statements are not executed.
 
 Example:
 
@@ -40,7 +42,8 @@ Regarding IF statements:
 
 - ELSE IF and ELSE are optional
 - [IF](IF.md) statements may be nested to any number of levels
-- The braces delimiting the statements associated with each condition are required only if there is more than one statement.
+- The braces delimiting the statements associated with each condition are
+  required only if there is more than one statement.
 
 For example, the following syntax is correct:
 

@@ -4,9 +4,12 @@ title: GET_UNIQUE_ID
 
 # GET_UNIQUE_ID
 
-Returns a 48-bit hardware constant that is guaranteed to be unique in the domain of NetLinx Masters.
+Returns a 48-bit hardware constant that is guaranteed to be unique in the domain
+of NetLinx Masters.
 
-Use GET_UNIQUE_ID to include identification of a particular system for the purpose of providing system specific capability or limiting the functionality of a NetLinx program to operate on a specific master.
+Use GET_UNIQUE_ID to include identification of a particular system for the
+purpose of providing system specific capability or limiting the functionality of
+a NetLinx program to operate on a specific master.
 
 Syntax:
 
@@ -14,6 +17,7 @@ Syntax:
 CHAR\[6\] GET_UNIQUE_ID ( )
 
 ```
+
 Parameters:
 
 - None
@@ -30,6 +34,7 @@ SYSID = GET_UNIQUE_ID()
               // get the master’s h/w ID
 
 ```
+
 Iffyness = "\$00,\$01,\$09,\$73,\$25,\$01")
 
 {
@@ -41,4 +46,3 @@ Iffyness = "\$00,\$01,\$09,\$73,\$25,\$01")
 See Also
 
 - [GET Keywords](GET_Keywords.md)
-

@@ -4,7 +4,8 @@ title: UPPER_STRING
 
 # UPPER_STRING
 
-Changes all alphabetic characters in the specified string to upper case. The syntax:
+Changes all alphabetic characters in the specified string to upper case. The
+syntax:
 
 CHAR[] UPPER_STRING (CHAR STRING[])
 

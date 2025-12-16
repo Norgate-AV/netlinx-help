@@ -4,15 +4,25 @@ title: LISTVIEW_ON_ROW_SELECT_EVENT
 
 # LISTVIEW_ON_ROW_SELECT_EVENT
 
-LISTVIEW_ON_ROW_SELECT_EVENT is a Custom Event that is raised in response to a user selection of an item in a Listview button.
+LISTVIEW_ON_ROW_SELECT_EVENT is a Custom Event that is raised in response to a
+user selection of an item in a Listview button.
 
-When the user selects an item on the Listview button, a LISTVIEW_ON_ROW_SELECT_EVENT is raised and the entire data feed record for that selection is sent to the master. The user can then use DATA_GET_EVENT_RECORD to retrieve the specific values of interest.
+When the user selects an item on the Listview button, a
+LISTVIEW_ON_ROW_SELECT_EVENT is raised and the entire data feed record for that
+selection is sent to the master. The user can then use DATA_GET_EVENT_RECORD to
+retrieve the specific values of interest.
 
-Note: "payloadId" specifies the data access identifier to be retrieved from the custom event object, and is predefined as "custom.value1". “payloadType” specifies the dataType to be retrieved from the custom event object and is predefined as “custom.value2”.
+Note: "payloadId" specifies the data access identifier to be retrieved from the
+custom event object, and is predefined as "custom.value1". “payloadType”
+specifies the dataType to be retrieved from the custom event object and is
+predefined as “custom.value2”.
 
-The following code example illustrates how the LISTVIEW_ON_ROW_SELECT_EVENT Custom Event is used to retrieve two data fields ('name' and 'number') when a listview item is selected.
+The following code example illustrates how the LISTVIEW_ON_ROW_SELECT_EVENT
+Custom Event is used to retrieve two data fields ('name' and 'number') when a
+listview item is selected.
 
-// The custom event that is raised whenever a listview item is selected on the panel
+// The custom event that is raised whenever a listview item is selected on the
+panel
 
 CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
 
@@ -32,7 +42,8 @@ CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
 
    CHAR number\[DATA_MAX_VALUE_LENGTH\]
 
-   //variable record, of type DATA_RECORD, to hold the record we retrieve from the custom event
+   //variable record, of type DATA_RECORD, to hold the record we retrieve from
+the custom event
 
    DATA_RECORD record
 
@@ -74,7 +85,8 @@ CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
 
       number = record.content\[2\].value
 
-      // Send the name & number that was retrieved to the appropriate buttons & show the popup
+      // Send the name & number that was retrieved to the appropriate buttons &
+show the popup
 
       SEND_COMMAND dvTP,"'^TXT-50,0,',name"
 

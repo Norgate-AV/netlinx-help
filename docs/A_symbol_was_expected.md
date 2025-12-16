@@ -6,7 +6,8 @@ title: A_symbol_was_expected
 
 The compiler is expecting a certain symbol at this particular place.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

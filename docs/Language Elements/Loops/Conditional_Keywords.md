@@ -29,4 +29,3 @@ The NetLinx language supports the following Conditional keywords:
 - [MEDIUM_WHILE](MEDIUM_WHILE.md)
 
 - [LONG_WHILE](LONG_WHILE.md)
-

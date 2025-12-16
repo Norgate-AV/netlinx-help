@@ -4,11 +4,15 @@ title: GET_DNS_LIST
 
 # GET_DNS_LIST
 
-Returns the domain name and list of DNS server IP addresses that the specified device is programmed to utilize. The order of the returned list is the preferred server order.
+Returns the domain name and list of DNS server IP addresses that the specified
+device is programmed to utilize. The order of the returned list is the preferred
+server order.
 
 SLONG GET_DNS_LIST(DEV Device,DNS_STRUCT DnsList )
 
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 Parameters:
 
@@ -48,6 +52,7 @@ Example:
 DNS_STRUCT DnsList
 
 ```
+
 result = GET_DNS_LIST(0:0:0,DnsList)
 
 See Also
@@ -57,4 +62,3 @@ See Also
 - [SET_DNS_LIST](SET_DNS_LIST.md)
 
 - [SET Keywords](SET_Keywords.md)
-

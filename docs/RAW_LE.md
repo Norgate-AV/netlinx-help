@@ -4,7 +4,8 @@ title: RAW_LE
 
 # RAW_LE
 
-This routine takes an intrinsic variable and converts the variable into a Character Array in Little Endian Format that represents the variable.
+This routine takes an intrinsic variable and converts the variable into a
+Character Array in Little Endian Format that represents the variable.
 
 Syntax:
 

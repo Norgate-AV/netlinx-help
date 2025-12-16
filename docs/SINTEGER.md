@@ -4,7 +4,8 @@ title: SINTEGER
 
 # SINTEGER
 
-SINTEGER is used to store signed integer values both greater than and less than zero.
+SINTEGER is used to store signed integer values both greater than and less than
+zero.
 
 - Data Type: Integer
 - Sign: Signed

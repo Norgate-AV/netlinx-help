@@ -4,7 +4,8 @@ title: DUET_MEM_SIZE_SET
 
 # DUET_MEM_SIZE_SET
 
-Set the amount of memory allocated for Duet Java pool (the current Java memory heap size), measured in MB.
+Set the amount of memory allocated for Duet Java pool (the current Java memory
+heap size), measured in MB.
 
 Syntax:
 
@@ -12,7 +13,9 @@ Syntax:
 DUET_MEM_SIZE_SET(int)
 ```
 
-This feature is used so that if a NetLinx program requires a certain size of memory be allotted for its currently used Duet Modules, it can be reserved on the target Master.
+This feature is used so that if a NetLinx program requires a certain size of
+memory be allotted for its currently used Duet Modules, it can be reserved on
+the target Master.
 
 This setting does not take effect until the next reboot.
 

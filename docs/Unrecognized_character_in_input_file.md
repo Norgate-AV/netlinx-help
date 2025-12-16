@@ -6,7 +6,8 @@ title: Unrecognized_character_in_input_file
 
 An invalid character was found during the build.
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

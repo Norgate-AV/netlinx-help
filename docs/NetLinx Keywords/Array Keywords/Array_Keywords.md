@@ -4,9 +4,12 @@ title: Array_Keywords
 
 # Array Keywords
 
-An [array](Arrays.md) is data structure that stores a collection of individual values that are of the same data type.
+An [array](Arrays.md) is data structure that stores a collection of individual
+values that are of the same data type.
 
-The NetLinx language allows arrays of any [Data Type](Data_Type_Keywords.md) supported by the language as well as arrays of user-defined structures and classes.
+The NetLinx language allows arrays of any [Data Type](Data_Type_Keywords.md)
+supported by the language as well as arrays of user-defined structures and
+classes.
 
 NetLinx supports the following Array keywords:
 

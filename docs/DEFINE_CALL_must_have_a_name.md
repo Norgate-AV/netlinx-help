@@ -8,7 +8,8 @@ title: DEFINE_CALL_must_have_a_name
 
 For example, DEFINE_CALL 'VHS' .
 
-Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your NetLinx program can be executed.
+Note: Unlike Compiler Warnings, Compiler Errors must be corrected before your
+NetLinx program can be executed.
 
 See Also
 

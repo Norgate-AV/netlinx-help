@@ -16,9 +16,11 @@ Syntax:
 SET_OUTDOOR_TEMPERATURE(INTEGER Temp)
 
 ```
+
 Parameters:
 
-- Temp - the outdoor temperature as it shall be displayed. It is up to the programmer to provide the correct temperature scale (Celsius or Fahrenheit).
+- Temp - the outdoor temperature as it shall be displayed. It is up to the
+  programmer to provide the correct temperature scale (Celsius or Fahrenheit).
 
 Returns:  None
 
@@ -28,7 +30,7 @@ Example:
 SET_OUTDOOR_TEMPERATURE (32) // show 32 degrees
 
 ```
+
 See Also
 
 - [SET Keywords](SET_Keywords.md)
-

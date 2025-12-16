@@ -14,7 +14,8 @@ IF (Y \< 10) Y = Y + 1 (\* IF Statement \*)
 
 \[TP, 5\] = \[VCR, 1\]    (\* Feedback Statement \*)
 
-Each of these statements compile, providing the referenced variables are defined.
+Each of these statements compile, providing the referenced variables are
+defined.
 
 Expressions, on the other hand, are sub-components of statements.
 
@@ -32,7 +33,10 @@ Y + 1                 (\* Arithmetic Expression \*)
 
 Expressions will not compile outside the context of a statement.
 
-Note: It is strongly recommended that each statement appear on a separate line. The compiler cannot enforce this since full backward compatibility with the previous Axcess language must be maintained. It is also strongly recommended that semicolons be used to terminate each statement (as in the C language).
+Note: It is strongly recommended that each statement appear on a separate line.
+The compiler cannot enforce this since full backward compatibility with the
+previous Axcess language must be maintained. It is also strongly recommended
+that semicolons be used to terminate each statement (as in the C language).
 
 See Also
 
@@ -71,4 +75,3 @@ See Also
 - [Timeline Functions](Timeline_Functions.md)
 
 - [Waits](Waits.md)
-

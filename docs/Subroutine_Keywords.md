@@ -4,9 +4,14 @@ title: Subroutine_Keywords
 
 # Subroutine Keywords
 
-A subroutine is a section of code that stands alone, and can be called from anywhere else in the program. The primary method of incorporating subroutines in NetLinx programming is via the [DEFINE_FUNCTION](DEFINE_FUNCTION.md) keyword.
+A subroutine is a section of code that stands alone, and can be called from
+anywhere else in the program. The primary method of incorporating subroutines in
+NetLinx programming is via the [DEFINE_FUNCTION](DEFINE_FUNCTION.md) keyword.
 
-Note: NetLinx also supports the primary method of incorporating subroutines in Axcess programming - the [DEFINE_CALL](DEFINE_CALL.md) keyword. DEFINE_FUNCTION differs from DEFINE_CALL by allowing values to be returned using the [RETURN](RETURN.md) statement.
+Note: NetLinx also supports the primary method of incorporating subroutines in
+Axcess programming - the [DEFINE_CALL](DEFINE_CALL.md) keyword. DEFINE_FUNCTION
+differs from DEFINE_CALL by allowing values to be returned using the
+[RETURN](RETURN.md) statement.
 
 - [CALL](CALL.md)
 - [DEFINE_CALL](DEFINE_CALL.md)

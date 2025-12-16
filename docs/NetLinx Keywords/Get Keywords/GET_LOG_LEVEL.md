@@ -23,4 +23,3 @@ See Also
 - [SET_LOG_LEVEL](SET_LOG_LEVEL.md)
 
 - AMX_LOG
-

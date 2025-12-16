@@ -4,9 +4,12 @@ title: DATA_PUBLISH_FEED
 
 # DATA_PUBLISH_FEED
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
-The DATA_PUBLISH_FEED function publishes the specified data feed to a file and returns a string containing the URL reference to the file.
+The DATA_PUBLISH_FEED function publishes the specified data feed to a file and
+returns a string containing the URL reference to the file.
 
 Syntax:
 
@@ -20,7 +23,8 @@ Parameters:
 
 Result:
 
-A string containing the URL of the published data feed file OR a textual error message indicating a publish failure
+A string containing the URL of the published data feed file OR a textual error
+message indicating a publish failure
 
 Example:
 

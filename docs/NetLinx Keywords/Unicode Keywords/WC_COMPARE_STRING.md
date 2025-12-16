@@ -6,7 +6,8 @@ title: WC_COMPARE_STRING
 
 This keyword compares two Unicode strings.
 
- If either string contains a '?' character, the matching character in the other string is not compared.
+ If either string contains a '?' character, the matching character in the other
+string is not compared.
 
 Note: The '?' is equivalent to a wildcard.
 
@@ -32,7 +33,7 @@ Example:
 See [COMPARE_STRING](COMPARE_STRING.md) for a code example.
 
 ```
+
 See Also
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

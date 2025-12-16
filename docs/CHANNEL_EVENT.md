@@ -6,8 +6,10 @@ title: CHANNEL_EVENT
 
 This keyword defines a channel event handler.
 
-- This type of handler is invoked when an output change occurs on the specified device-channel.
-- It can only be used in the [DEFINE\_EVENT](DEFINE_EVENT.md) section of the program.
+- This type of handler is invoked when an output change occurs on the specified
+  device-channel.
+- It can only be used in the [DEFINE_EVENT](DEFINE_EVENT.md) section of the
+  program.
 
 Example:
 

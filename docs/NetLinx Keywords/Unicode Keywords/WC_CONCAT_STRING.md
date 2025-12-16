@@ -12,6 +12,7 @@ Syntax:
 WIDECHAR\[\] WD_CONCAT_STRING(WIDECHAR STR1\[\], WIDECHAR STR2\[\])
 
 ```
+
 Parameters:
 
 - STR1 – the first WIDECHAR string to be concatenated.
@@ -28,7 +29,7 @@ Example:
 wcMyString = WC_CONCAT_STRING(wcString1,wcString2)
 
 ```
+
 See Also
 
 - [Unicode Keywords](Unicode_Keywords.md)
-

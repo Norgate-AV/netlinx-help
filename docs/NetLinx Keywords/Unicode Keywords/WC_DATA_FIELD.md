@@ -4,13 +4,17 @@ title: WC_DATA_FIELD
 
 # WC_DATA_FIELD
 
-*NOTE: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the WC_DATA_FIELD structure.*
+_NOTE: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+WC_DATA_FIELD structure._
 
-The WC_DATA_FIELD structure contains information describing an individual data field within a [WC_DATA_RECORD](WC_DATA_RECORD.md) metadata or content.
+The WC_DATA_FIELD structure contains information describing an individual data
+field within a [WC_DATA_RECORD](WC_DATA_RECORD.md) metadata or content.
 
 WC_DATA_FIELD structure fields:
 
-- ID – A [WIDECHAR](WIDECHAR.md) string containing a unique identifier for the field
+- ID – A [WIDECHAR](WIDECHAR.md) string containing a unique identifier for the
+  field
 
 - TYPE – A string containing the field type.  Valid data field types are:
 
@@ -43,4 +47,3 @@ DATA_FORMAT_ISO8601
 See Also
 
 - [DATA_FIELD](DATA_FIELD.md)
-

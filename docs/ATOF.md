@@ -4,9 +4,11 @@ title: ATOF
 
 # ATOF
 
-Converts a character representation of a number to a 64-bit floating-point value.
+Converts a character representation of a number to a 64-bit floating-point
+value.
 
-ATOF recognizes a character representation of a value that would be within the ranges of all intrinsic data types, with the exception of [CHAR](CHAR.md).
+ATOF recognizes a character representation of a value that would be within the
+ranges of all intrinsic data types, with the exception of [CHAR](CHAR.md).
 
 Syntax:
 
@@ -16,15 +18,20 @@ FLOAT ATOF (CHAR STRING[])
 
 Parameters:
 
-- STRING: An input string containing the character representation of the floating-point number. Valid input characters are "0" through "9", ".", the sign designators ("+" and "-"), and the exponent ("e" or "E"). If no valid characters are found, zero is returned as a result.
+- STRING: An input string containing the character representation of the
+  floating-point number. Valid input characters are "0" through "9", ".", the
+  sign designators ("+" and "-"), and the exponent ("e" or "E"). If no valid
+  characters are found, zero is returned as a result.
 
 Result:
 
 - 64-bit floating-point number representing the converted string.
 - Any non-numeric characters in the string are ignored.
-- ATOF returns the value representing the first complete set of characters that represents a floating-point value.
+- ATOF returns the value representing the first complete set of characters that
+  represents a floating-point value.
 
-Note: When assigning the result to a DOUBLE the effective range is ±2.22507E-1 to ±1.79769E+308.
+Note: When assigning the result to a DOUBLE the effective range is ±2.22507E-1
+to ±1.79769E+308.
 
 Example:
 

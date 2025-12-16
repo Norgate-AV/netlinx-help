@@ -12,15 +12,19 @@ Syntax:
 SLONG IP_SERVER_OPEN (INTEGER LocalPort,
 
 ```
+
     LONG ServerPort,
 
     INTEGER Protocol)
 
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive numbers.
+Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
+errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
+errors will be typecast to positive numbers.
 
 Parameters:
 
-- LocalPort - the local port number to open. This number must be passed to [IP_SERVER_CLOSE](IP_SERVER_CLOSE.md) to close the port.
+- LocalPort - the local port number to open. This number must be passed to
+  [IP_SERVER_CLOSE](IP_SERVER_CLOSE.md) to close the port.
 
 - ServerPort - the number of the server port to listen on.
 
@@ -30,7 +34,8 @@ Parameters:
 
 2 = UDP
 
-If this parameter is not specified, TCP (1) is assumed. The constants IP_TCP and IP_UDP can be used to specify this parameter.
+If this parameter is not specified, TCP (1) is assumed. The constants IP_TCP and
+IP_UDP can be used to specify this parameter.
 
 Result:
 
@@ -48,9 +53,9 @@ Example:
 IP_SERVER_OPEN (PORT1, SvPort, IP_TCP)
 
 ```
+
 See Also
 
 - [IP Keywords](IP_Keywords.md)
 
 - [IP Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)
-

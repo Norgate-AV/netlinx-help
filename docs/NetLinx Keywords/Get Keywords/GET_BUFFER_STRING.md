@@ -10,7 +10,8 @@ GET_BUFFER_STRING has a two-part operation:
 
 1.  Retrieve \<length\> number of characters from the buffer.
 
-2.  Remove the retrieved character from the buffer and shift the remaining characters up to fill the gap.
+2.  Remove the retrieved character from the buffer and shift the remaining
+    characters up to fill the gap.
 
 Syntax:
 
@@ -18,7 +19,9 @@ Syntax:
 Result = GET_BUFFER_STRING (Array, Length)
 
 ```
-- Array may be either a character array or wide character array; the operation is identical in either case. Length is the number of characters to remove.
+
+- Array may be either a character array or wide character array; the operation
+  is identical in either case. Length is the number of characters to remove.
 
 - Result is a CHAR or WIDECHAR value depending on the variable type of Array.
 
@@ -33,4 +36,3 @@ See Also
 - [CLEAR_BUFFER](CLEAR_BUFFER.md)
 
 - [GET_BUFFER_CHAR](GET_BUFFER_CHAR.md)
-

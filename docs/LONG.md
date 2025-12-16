@@ -4,7 +4,8 @@ title: LONG
 
 # LONG
 
-LONG defines an intrinsic data type representing a 32-bit unsigned value. It is used to store large integer values greater than 65535.
+LONG defines an intrinsic data type representing a 32-bit unsigned value. It is
+used to store large integer values greater than 65535.
 
 - Data Type: Long Integer
 - Sign: Unsigned

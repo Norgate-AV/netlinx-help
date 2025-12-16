@@ -4,9 +4,12 @@ title: DATA_GET_PUBLISHED_FEED
 
 # DATA_GET_PUBLISHED_FEED
 
-*Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5 Instruction Manual** for a detailed description of format and usage of the Listview data feed functions.*
+_Note: Please see the “Listview Buttons & Dynamic Data” section of the **TPD5
+Instruction Manual** for a detailed description of format and usage of the
+Listview data feed functions._
 
-The DATA_GET_PUBLISHED_FEED function returns the URL of an already published feed matching the specified data feed name.
+The DATA_GET_PUBLISHED_FEED function returns the URL of an already published
+feed matching the specified data feed name.
 
 Syntax:
 
@@ -20,7 +23,8 @@ Parameters:
 
 Result:
 
-A string containing the URL of the published data feed file OR a textual error message indicating an error
+A string containing the URL of the published data feed file OR a textual error
+message indicating an error
 
 Example:
 
