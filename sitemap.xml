@@ -117,10 +117,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Button_Events/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/CALL/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -201,10 +197,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Channel_Events/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Client_Programming/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -233,15 +225,7 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Compiler_Directives/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Compiler_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Conditional_Waits/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -258,14 +242,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Conversion_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Custom_Data_Types/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Custom_Events/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -417,18 +393,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Data_Events/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Data_Type_Conversion/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Data_Type_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Defining_a_Module/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -462,18 +426,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Evaluation_stack_underflow/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Event_Handler_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Event_Handlers/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Event_Parameters/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -565,10 +517,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Intrinsic_Data_Types/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Invalid_include_file_name/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -630,10 +578,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/LSHIFT_%28__%29/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Level_Events/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -973,10 +917,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/STRING_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/STRING_TO_VARIABLE/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -1025,19 +965,7 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Strings/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Structure_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Structures/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Subroutine_Keywords/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1045,23 +973,7 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Subroutines/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Subroutines_-_Calling_Parameters/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Subroutines_-_Return_Statements/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Syntax_error/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/System_Call_Subroutines/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1070,10 +982,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/TIMED_WAIT_UNTIL/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/TIMELINE_example/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1110,18 +1018,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Time_and_Date_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Timed_Conditional_Waits/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Timed_Waits/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Timeline_Functions/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1217,10 +1113,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/WAIT_Keywords/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/WAIT_UNTIL/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -1237,14 +1129,6 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Waits/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Wide_Strings/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Working_With_UniCode/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -1258,38 +1142,6 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/XOR_/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_DEFINE/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_DISABLE_WARNING_/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_ELSE/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_END_IF/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_IF_DEFINED/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_IF_NOT_DEFINED/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_INCLUDE/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://norgate-av.github.io/netlinx-help/_WARN/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1461,7 +1313,7 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Arrays/Arrays/</loc>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Arrays/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1469,11 +1321,95 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Assignments/Assignments/</loc>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Assignments/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Assignments/Output_channels/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_DEFINE/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_DISABLE_WARNING_/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_ELSE/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_END_IF/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_IF_DEFINED/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_IF_NOT_DEFINED/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_INCLUDE/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Compiler-Directives/_WARN/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Data-Types/Custom_Data_Types/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Data-Types/Data_Type_Conversion/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Data-Types/Data_Type_Keywords/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Data-Types/Intrinsic_Data_Types/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Button_Events/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Channel_Events/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Custom_Events/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Data_Events/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Event_Handler_Keywords/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Event_Parameters/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Event-Handlers/Level_Events/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
@@ -1509,6 +1445,50 @@
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Strings/STRING_Keywords/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Strings/Strings/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Strings/Wide_Strings/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Structures/Structures/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Subroutines-Functions/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Subroutines-Functions/Subroutine_Keywords/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Subroutines-Functions/Subroutines_-_Calling_Parameters/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Subroutines-Functions/Subroutines_-_Return_Statements/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Subroutines-Functions/System_Call_Subroutines/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Timelines/TIMELINE_example/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Timelines/Timeline_Functions/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
          <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
@@ -1538,6 +1518,26 @@
     </url>
     <url>
          <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Variables-and-Constants/Variables_Keywords/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Waits/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Waits/Conditional_Waits/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Waits/Timed_Conditional_Waits/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Waits/Timed_Waits/</loc>
+         <lastmod>2025-12-16</lastmod>
+    </url>
+    <url>
+         <loc>https://norgate-av.github.io/netlinx-help/Language%20Elements/Waits/WAIT_Keywords/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
