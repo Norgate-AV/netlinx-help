@@ -1,5 +1,5 @@
 ---
-title: NetLinx_Language_Help
+title: NetLinx Language Help
 ---
 
 # NetLinx Language Help
@@ -9,7 +9,8 @@ This help file is provided as a reference guide to the NetLinx Programming Langu
 -   Use the **Table of Contents** (left side of the help window) to quickly view topics
     (double-click a topic in the TOC to view the topic).
 -   Use the **Index** and **Search** tabs to perform more detailed searches.
--   Click the **AMX.COM** toolbar button to access the www.amx.com home page.
+-   Click the **AMX.COM** toolbar button to access the [www.amx.com](https://www.amx.com/en) home
+    page.
 
 ## NetLinx Programming Overview
 

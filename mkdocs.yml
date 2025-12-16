@@ -1,8 +1,8 @@
-site_name: NetLinx Help
-site_description: Documentation for NetLinx
+site_name: NetLinx Language Help
+site_description: Help reference for the NetLinx programming language.
 site_url: https://norgate-av.github.io/netlinx-help
 repo_url: https://github.com/Norgate-AV/netlinx-help
-repo_name: Norgate-AV/netlinx-help
+repo_name: norgate-av/netlinx-help
 
 plugins:
   - search
@@ -69,9 +69,9 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  - Home: ./NetLinx_Language_Help.md
+  - Home: index.md
   - Language Elements:
-      - Mainline: ./Language Elements/Mainline.md
-      - Statements and Expressions: ./Language Elements/Statements_and_Expressions.md
-      - Keywords: ./Language Elements/Keywords.md
-      - Devices: ./Language Elements/Devices.md
+      - Mainline: Language Elements/Mainline.md
+      - Statements and Expressions: Language Elements/Statements_and_Expressions.md
+      - Keywords: Language Elements/Keywords.md
+      - Devices: Language Elements/Devices.md
