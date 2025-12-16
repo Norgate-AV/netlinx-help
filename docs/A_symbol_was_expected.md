@@ -2,7 +2,7 @@
 title: A_symbol_was_expected
 ---
 
-# A "\<symbol\>" was expected
+# A "<symbol>" was expected
 
 The compiler is expecting a certain symbol at this particular place.
 

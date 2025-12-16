@@ -9,10 +9,10 @@ The BREAK command terminates execution of the current [WHILE](WHILE.md), [LONG_W
 Example:
 
 ```c linenums="1"
-WHILE (\<condition\>)
+WHILE (<condition>)
 {
     // statements
-    if (\<condition\>)
+    if (<condition>)
     {
         BREAK // Go to statement: X = X + 1
     }

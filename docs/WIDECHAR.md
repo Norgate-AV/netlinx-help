@@ -4,7 +4,7 @@ title: WIDECHAR
 
 # WIDECHAR
 
-WIDECHAR is an intrinsic data type representing a 16-bit unsigned integer. This data type is intended for use with [Unicode](Working_With_UniCode.md) fonts that use 16-bit character codes (and most Far-eastern fonts).
+`WIDECHAR` is an intrinsic data type representing a 16-bit unsigned integer. This data type is intended for use with [Unicode](Working_With_UniCode.md) fonts that use 16-bit character codes (and most Far-eastern fonts).
 
 - Data Type: Integer
 - Sign: Unsigned
@@ -12,20 +12,19 @@ WIDECHAR is an intrinsic data type representing a 16-bit unsigned integer. This 
 - Range: 0 - 65535
 - Sample of Stored Values: "'OFF',500"
 
-Converting between WIDECHAR and CHAR
+Converting between `WIDECHAR` and [CHAR](CHAR.md)
 
-On occasion, you may need to convert a  WIDECHAR array to a [CHAR](CHAR.md) array.  The [WC_TO_CH](WC_TO_CH.md) function can be used to accomplish this conversion.  
+On occasion, you may need to convert a `WIDECHAR` array to a [CHAR](CHAR.md) array.  The [WC_TO_CH](WC_TO_CH.md) function can be used to accomplish this conversion.
 
 Example:
 
 ```c linenums="1"
-cMyString = WC_TO_CH(\_WC('Any Unicode string'))
-
-```
+cMyString = WC_TO_CH(_WC('Any Unicode string'))
 cMyString = WC_TO_CH (wcMyString)
+```
 
-- When converting from WIDECHAR to CHAR, Unicode characters are converted to ‘?’.  
-- Any ASCII or extended ASCII characters, i.e. 8-bit characters, contained in the WIDECHAR array will appear in the CHAR array.
+- When converting from WIDECHAR to CHAR, Unicode characters are converted to ‘?’.
+- Any ASCII or extended ASCII characters, i.e. 8-bit characters, contained in the `WIDECHAR` array will appear in the [CHAR](CHAR.md) array.
 
 See Also:
 

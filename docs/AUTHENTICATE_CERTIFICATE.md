@@ -9,9 +9,9 @@ This function allows programs to authenticate/authorize an X.509 certificate aga
 Syntax:
 
 ```c linenums="1"
-sinteger AUTHENTICATE_CERTIFICATE(DEV handler, LONG id, LONG eventType, LONG transactionId, LONG authType, CHAR certificate\[\], CHAR ca\[\])
-
+sinteger AUTHENTICATE_CERTIFICATE(DEV handler, LONG id, LONG eventType, LONG transactionId, LONG authType, CHAR certificate[], CHAR ca[])
 ```
+
 Parameters:
 
 - handler - DPS (similar to IP sockets) that will handle the custom event.

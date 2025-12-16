@@ -15,8 +15,8 @@ Syntax:
 
 ```c linenums="1"
 CREATE_MULTI_BUFFER FirstDevice, LastDevice, Buffer
-
 ```
+
 Parameters:
 
 - FirstDevice - first number in the range of devices
@@ -30,7 +30,7 @@ Each command string placed in the multi-buffer has a 3-byte header associated wi
 - The second header byte is the number of the device (not the Port number) that received the string, and
 - The third byte is the length of the string, as shown below:
 
-\$FF, device number or DEV\[ \] index, length, \<string\>
+\$FF, device number or DEV[] index, length, <string>
 
 Note: Because of the DPS, CREATE_MULTI_BUFFER does not work. You must use DEV array and Data entry for backwards compatibility with a Controller using a single port 232 device.
 

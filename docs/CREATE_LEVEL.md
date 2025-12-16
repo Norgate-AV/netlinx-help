@@ -13,8 +13,8 @@ Syntax:
 
 ```c linenums="1"
 CREATE_LEVEL Device, Level, Value
-
 ```
+
 Parameters:
 
 - DEV - the device from which to read the level

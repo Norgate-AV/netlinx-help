@@ -9,9 +9,9 @@ Returns the day of the week for the specified date.
 Syntax:
 
 ```c linenums="1"
-SINTEGER DAY_OF_WEEK (CHAR LDATE\[ \])
-
+SINTEGER DAY_OF_WEEK (CHAR LDATE[])
 ```
+
 Parameters:
 
 - LDATE - string containing the date in mm/dd/yyyy format.
@@ -24,8 +24,8 @@ Example:
 
 ```c linenums="1"
 nDAY = DAY_OF_WEEK ('2/13/1999') // nDAY = 7 (Saturday)
-
 ```
+
 See Also
 
 - [DAY](DAY.md)

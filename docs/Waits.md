@@ -24,47 +24,37 @@ Example:
 
 ```c linenums="1"
 WAIT 10 'FIRST WAIT'
-
 {
+    (* FIRST WAIT statements *)
 
-(\* FIRST WAIT statements \*)
-
-```
- WAIT 5 'SECOND WAIT'
-
- {
-
- (\* SECOND WAIT statements \*)
-
- }
-
+    WAIT 5 'SECOND WAIT'
+    {
+        (* SECOND WAIT statements *)
+    }
 }
+```
 
 To execute the inner wait of a nested conditional wait, the conditions must be met in the order specified (condition 1, then condition 2) but not necessarily at the same time. Here’s an example:
 
-WAIT_UNTIL \<condition 1\> 'FIRST WAIT'
-
+```c linenums="1"
+WAIT_UNTIL <condition 1> 'FIRST WAIT'
 {
+    (* FIRST WAIT statements *)
 
-(\* FIRST WAIT statements \*)
-
- WAIT_UNTIL \<condition 2\> 'SECOND WAIT'
-
- {
-
- (\* SECOND WAIT statements \*)
-
- }
-
+    WAIT_UNTIL <condition 2> 'SECOND WAIT'
+    {
+        (* SECOND WAIT statements *)
+    }
 }
+```
 
 Using Waits - Limitations
 
-- References to [STACK_VAR](STACK_VAR.md) variables are not allowed within waits. STACK_VARs are temporary variables that cease to exist when the block in which they are declared is exited.
+- References to [STACK_VAR](STACK_VAR.md) variables are not allowed within waits. `STACK_VAR`s are temporary variables that cease to exist when the block in which they are declared is exited.
 - Variable copies are made of functions and subroutine parameters. This can have speed/execute penalties.
 - Within functions and subroutines, a [RETURN](RETURN.md) is not allowed within a [WAIT](WAIT.md).
-- A [BREAK](BREAK.md) or CONTINUE cannot appear within a WAIT if it takes execution out of the scope of the WAIT.
-- The code within a WAIT cannot reference a function or subroutine array parameter whose bounds are unspecified.
+- A [BREAK](BREAK.md) or `CONTINUE` cannot appear within a `WAIT` if it takes execution out of the scope of the WAIT.
+- The code within a `WAIT` cannot reference a function or subroutine array parameter whose bounds are unspecified.
 
 See Also
 

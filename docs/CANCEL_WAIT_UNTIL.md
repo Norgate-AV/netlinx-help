@@ -11,9 +11,9 @@ Only named WAIT_UNTIL and named TIMED_WAIT_UNTIL commands can be canceled.
 Syntax:
 
 ```c linenums="1"
-CANCEL_WAIT_UNTIL \<'name'\>
-
+CANCEL_WAIT_UNTIL <'name'>
 ```
+
 See Also
 
 - [Waits](Waits.md)

@@ -8,14 +8,14 @@ COMBINE_CHANNELS connects a single virtual device-channel to one or more channel
 
 Stated another way, COMBINE_CHANNELS combines a single virtual DEVCHAN or \[DEV,CHAN\] pair to one or more DEVCHANs or \[DEV,CHAN\] pairs.
 
-Any element in a DEVCHAN\[ \] set combined appears to come from the virtual device-channel representing the group, and output to the virtual device-channel is directed to all elements in the DEVCHAN\[\] set.
+Any element in a DEVCHAN[] set combined appears to come from the virtual device-channel representing the group, and output to the virtual device-channel is directed to all elements in the DEVCHAN[] set.
 
 Syntax:
 
 ```c linenums="1"
-COMBINE_CHANNELS (DEVCHAN VDC, DEVCHAN\[ \] DCSets)
-
+COMBINE_CHANNELS (DEVCHAN VDC, DEVCHAN[] DCSets)
 ```
+
 Parameters:
 
 - VDC -Virtual device-channel that represents one device-channel combine group.

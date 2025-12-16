@@ -11,9 +11,9 @@ ATOF recognizes a character representation of a value that would be within the r
 Syntax:
 
 ```c linenums="1"
-FLOAT ATOF (CHAR STRING\[ \])
-
+FLOAT ATOF (CHAR STRING[])
 ```
+
 Parameters:
 
 - STRING: An input string containing the character representation of the floating-point number. Valid input characters are "0" through "9", ".", the sign designators ("+" and "-"), and the exponent ("e" or "E"). If no valid characters are found, zero is returned as a result.
@@ -30,8 +30,8 @@ Example:
 
 ```c linenums="1"
 Num = ATOF('-1.25e-3')// Num = -0.00125
-
 ```
+
 See Also
 
 - [ATOI](ATOI.md)

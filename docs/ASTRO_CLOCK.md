@@ -9,9 +9,9 @@ This routine calculates the time of sunset and sunrise at a specified location (
 Syntax:
 
 ```c linenums="1"
-SINTEGER ASTRO_CLOCK(DOUBLE Longitude,DOUBLE Latitude,DOUBLE HoursFromGMT,CHAR\[\] Date,CHAR\[\] Sunrise,CHAR\[\] Sunset)
-
+SINTEGER ASTRO_CLOCK(DOUBLE Longitude,DOUBLE Latitude,DOUBLE HoursFromGMT,CHAR[] Date,CHAR[] Sunrise,CHAR[] Sunset)
 ```
+
 Parameters:
 
 - Longitude - Longitude in Degrees.Fraction of Degrees. West longitudes must be negative.

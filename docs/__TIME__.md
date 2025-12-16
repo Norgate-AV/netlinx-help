@@ -9,9 +9,9 @@ At compile time, this keyword is replaced by a string (hh:mm:ss) representing th
 Example:
 
 ```c linenums="1"
-SEND_COMMAND TP, "'!T',1,\_\_TIME\_\_"
-
+SEND_COMMAND TP, "'!T',1,__TIME__"
 ```
+
 Sends the time of compilation to a variable text button on a touch panel.
 
 See Also
@@ -21,8 +21,5 @@ See Also
 - [\_\_LDATE\_\_](__LDATE__.md)
 - [\_\_LINE\_\_](__LINE__.md)
 - [\_\_NAME\_\_](__NAME__.md)
-
-&nbsp;
-
 - [Compilation Warnings](Compiler_Warnings.md)
 - [Compilation Errors](Compilation_Errors.md)

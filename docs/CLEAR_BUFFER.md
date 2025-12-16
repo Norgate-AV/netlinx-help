@@ -14,8 +14,8 @@ Syntax:
 
 ```c linenums="1"
 CLEAR_BUFFER Buffer
-
 ```
+
 See Also
 
 - [Buffer Keywords](Buffer_Keywords.md)

@@ -15,8 +15,8 @@ Syntax:
 
 ```c linenums="1"
 CREATE_BUFFER DEV, Buffer
-
 ```
+
 See Also
 
 - [Buffer Keywords](Buffer_Keywords.md)

@@ -4,16 +4,16 @@ title: _WARN
 
 # \#WARN
 
-This [Compiler Directive](Compiler_Directives.md)  forces a warning message to be displayed after the program is compiled.
+This [Compiler Directive](Compiler_Directives.md) forces a warning message to be displayed after the program is compiled.
 
 Its primary purpose is to remind you of certain conditions related to the program.
 
 Example:
 
 ```c linenums="1"
-\#WARN 'This code is obsolete'
-
+#WARN 'This code is obsolete'
 ```
+
 See Also
 
 - [\#DEFINE](_DEFINE.md)
@@ -23,8 +23,5 @@ See Also
 - [\#IF_DEFINED](_IF_DEFINED.md)
 - [\#IF_NOT_DEFINED](_IF_NOT_DEFINED.md)
 - [\#INCLUDE](_INCLUDE.md)
-
-&nbsp;
-
 - [Compiler Keywords](Compiler_Keywords.md)
 - [Compilation Warnings](Compiler_Warnings.md)

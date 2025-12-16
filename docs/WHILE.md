@@ -4,21 +4,17 @@ title: WHILE
 
 # WHILE
 
-A WHILE statement executes its statement block as long as its associated condition evaluates to true.
+A `WHILE` statement executes its statement block as long as its associated condition evaluates to true.
 
 The condition is evaluated before the first pass through the statements. Therefore, if the conditional expression is never true the conditional statements will never be executed.
 
 Syntax:
 
 ```c linenums="1"
-WHILE (\<conditional expression\>)
-
+WHILE (<conditional expression>)
 {
-
-(\* conditional statements \*)
-
+    (* conditional statements *)
 }
-
 ```
 
 Notes:
