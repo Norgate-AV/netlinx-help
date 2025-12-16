@@ -88,3 +88,12 @@ nav:
           - Device-Level Arrays: Language Elements/Identifiers/Device_Level_Arrays.md
           - Data Sets: Language Elements/Identifiers/Data_Set_Structures.md
           - Virtual Devices: Language Elements/Virtual_Devices.md
+      - Variables & Constants:
+          - Language Elements/Variables-and-Constants/index.md
+          - Variables: Language Elements/Variables-and-Constants/Variables.md
+          - Local Variables: Language Elements/Variables-and-Constants/Local_Variables.md
+          - Global Variables: Language Elements/Variables-and-Constants/Global_Variables.md
+          - Persistant Variables: Language Elements/Variables-and-Constants/Persistent_Variables.md
+          - Variables Keywords: Language Elements/Variables-and-Constants/Variables_Keywords.md
+          - DEFINE_MUTUALLY_EXCLUSIVE and Variables: Language Elements/Variables-and-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables.md
+          - Constants: Language Elements/Variables-and-Constants/Constants.md
