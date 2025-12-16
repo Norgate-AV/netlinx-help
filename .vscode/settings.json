@@ -12,6 +12,7 @@
         "tag:yaml.org,2002:python/object/apply:pymdownx.slugs.slugify mapping"
     ],
     "github-actions.workflows.pinned.workflows": [
-        ".github/workflows/ci.yml"
+        ".github/workflows/ci.yml",
+        "dynamic/pages/pages-build-deployment"
     ]
 }
