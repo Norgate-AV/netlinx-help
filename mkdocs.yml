@@ -75,3 +75,14 @@ nav:
       - Statements and Expressions: Language Elements/Statements_and_Expressions.md
       - Keywords: Language Elements/Keywords.md
       - Devices: Language Elements/Devices.md
+      - Device Numbers - Supported Ranges by Device Type: Language Elements/Device_Numbers-_Supported_Ranges_by_Device_Type.md
+      - Virtual Devices: Language Elements/Virtual_Devices.md
+      - Comments: Language Elements/Comments.md
+      - Identifiers:
+          - Language Elements/Identifiers/index.md
+          - Devices: Language Elements/Devices.md
+          - Device Arrays: Language Elements/Identifiers/Device_Arrays.md
+          - Device-Channels and Device-Channel Arrays: Language Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays.md
+          - Device-Level Arrays: Language Elements/Identifiers/Device_Level_Arrays.md
+          - Data Sets: Language Elements/Identifiers/Data_Set_Structures.md
+          - Virtual Devices: Language Elements/Virtual_Devices.md
