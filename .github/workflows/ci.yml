@@ -38,8 +38,11 @@ jobs:
             mkdocs-material-${{ github.ref }}-
             mkdocs-material-
 
-      - name: Install mkdocs-material
-        run: pip install mkdocs-material
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install Dependencies
+        run: uv sync
 
       - name: Deploy Documentation
         run: mkdocs gh-deploy --force

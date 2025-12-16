@@ -5,6 +5,7 @@ repo_url: https://github.com/Norgate-AV/netlinx-help
 repo_name: norgate-av/netlinx-help
 
 plugins:
+  - optimize
   - search
   - social
   - tags
@@ -12,6 +13,7 @@ plugins:
 extra:
   version:
     provider: mike
+    default: stable
 
 theme:
   name: material
