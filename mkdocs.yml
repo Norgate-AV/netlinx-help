@@ -1,6 +1,16 @@
 site_name: NetLinx Help
 site_description: Documentation for NetLinx
 site_url: https://mydomain.org/mysite
+repo_url: https://github.com/Norgate-AV/netlinx-help
+repo_name: Norgate-AV/netlinx-help
+
+plugins:
+  - search
+  - tags
+
+extra:
+  version:
+    provider: mike
 
 theme:
   name: material
@@ -13,6 +23,11 @@ theme:
     - content.action.edit
     - content.code.copy
     - content.code.select
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - navigation.footer
 
   palette:
     # Dark Mode
@@ -39,3 +54,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+nav:
+  - Home: index.md
