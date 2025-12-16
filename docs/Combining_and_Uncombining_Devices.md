@@ -15,9 +15,9 @@ The UNCOMBINE_DEVICES statement requires only the first device in the COMBINE_DE
 
 The format for COMBINE_DEVICES and UNCOMBINE_DEVICES is:
 
-SLONG COMBINE_DEVICES (\<virtual device\>, \<device1\>, \<device2\>…)
+SLONG COMBINE_DEVICES (<virtual device>, <device1>, <device2>…)
 
-SLONG UNCOMBINE_DEVICES (\<virtual device\>)
+SLONG UNCOMBINE_DEVICES (<virtual device>)
 
 Devices combined with COMBINE_DEVICES respond like devices combined using the DEFINE_COMBINE section. The central controller recognizes any input from the devices in the combine list as the first device in the list.
 
@@ -35,11 +35,7 @@ TP3 = 130
 
 TP4 = 131
 
- 
-
 DEFINE_PROGRAM
-
- 
 
  (\* Activate dynamic device combine\*)
 
@@ -51,8 +47,6 @@ COMBINE_DEVICES(VIRTUAL1, TP1, TP2, TP3)
 
 }
 
- 
-
  (\*Remove dynamic device combine\*)
 
 PUSH\[TP4,1\]
@@ -62,8 +56,6 @@ PUSH\[TP4,1\]
 UNCOMBINE_DEVICES(VIRTUAL1)
 
 }
-
- 
 
  (\*Pushes come here when a combine is active\*)
 

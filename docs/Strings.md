@@ -10,13 +10,11 @@ Example:
 
 ```c linenums="1"
 DEFINE_VARIABLE
-
 ```
+
 CHAR MyString\[32\]
 
 INTEGER StrLen
-
- 
 
 DEFINE_START
 
@@ -36,8 +34,8 @@ Example:
 
 ```c linenums="1"
 SET_LENGTH_STRING(MyString, 3)
-
 ```
+
 This causes the contents of MyString to read ‘STO’, even though the character ‘P’ still resides in MYSTRING\[4\].
 
 A string expression is a string enclosed in double quotes containing a series of constants and/or variables evaluated at run-time to form a string result. String expressions can contain up to 16000 characters consisting of string literals, variables, arrays, and ASCII values between 0 and 255.
@@ -45,22 +43,22 @@ A string expression is a string enclosed in double quotes containing a series of
 Example:
 
 ```c linenums="1"
-CHAR StrExp\[6\]
-
+CHAR StrExp[6]
 ```
+
 StrExp = "STOP, 25, 'OFF', X"
 
-In the example above, the string expression contains the constant STOP, the value 25, the string literal ‘OFF’, and the variable X. Assuming STOP is 2 and X = 5, the string expression will evaluate to  
+In the example above, the string expression contains the constant STOP, the value 25, the string literal ‘OFF’, and the variable X. Assuming STOP is 2 and X = 5, the string expression will evaluate to
 "2, 25, ‘OFF’, 5".
 
 Note: While Axcess automatically converted data types to strings when necessary, in NetLinx, you must be more precise. NetLinx does not accommodate converting data types to strings, and requires that all strings be enclosed in double-quotes.
 
 For example,
 
-In Axcess, you could use:  
+In Axcess, you could use:
 ATOI(STRING)
 
-Where NetLinx requires:  
+Where NetLinx requires:
 ATOI("STRING")
 
 See Also

@@ -11,9 +11,9 @@ The DATA_DELETE_FEED function deletes the NetLinx data feed with the specified n
 Syntax:
 
 ```c linenums="1"
-SINTEGER DATA_CREATE_FEED (CHAR FEED\[\])
-
+SINTEGER DATA_CREATE_FEED (CHAR FEED[])
 ```
+
 Parameters:
 
 - FEED : A string containing the name of the data feed to delete
@@ -28,8 +28,8 @@ Example:
 
 ```c linenums="1"
 DATA_DELETE_FEED('phonelist')
-
 ```
+
 See Also
 
 - [DATA_FEED](DATA_FEED.md)

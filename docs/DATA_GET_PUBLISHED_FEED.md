@@ -11,9 +11,9 @@ The DATA_GET_PUBLISHED_FEED function returns the URL of an already published fee
 Syntax:
 
 ```c linenums="1"
-CHAR\[\] DATA_GET_PUBLISHED_FEED (CHAR FEED\[\])
-
+CHAR[] DATA_GET_PUBLISHED_FEED (CHAR FEED[])
 ```
+
 Parameters:
 
 - FEED : A string containing the name of the published data feed
@@ -26,8 +26,8 @@ Example:
 
 ```c linenums="1"
 DEFINE_VARIABLE
-
 ```
+
 STACKVAR CHAR publishedURL\[DATA_MAX_VALUE_LENGTH\]
 
 publishedURL = DATA_GET_PUBLISHED_FEED('phonelist')

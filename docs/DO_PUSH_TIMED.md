@@ -13,8 +13,8 @@ Syntax:
 
 ```c linenums="1"
 DO_PUSH_TIMED(DEV Device, INTEGER Channel, LONG Timeout)
-
 ```
+
 Parameters:
 
 - Device - the device to PUSH.
@@ -27,8 +27,8 @@ Example:
 
 ```c linenums="1"
 DO_PUSH_TIMED (dvTouchPanel, 5, 10) // push button 5 for 1.0S
-
 ```
+
 See Also
 
 - [DO_PUSH](DO_PUSH.md)

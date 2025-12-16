@@ -4,9 +4,9 @@ title: EXP_VALUE(X)
 
 # EXP_VALUE
 
-Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  
+Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.
 
-Returns the base-e exponential function of x, which is the e number raised to the power of x  
+Returns the base-e exponential function of x, which is the e number raised to the power of x
 
 EXP_VALUE(CONSTANT VARIANT X)
 

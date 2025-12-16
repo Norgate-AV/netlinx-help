@@ -9,9 +9,9 @@ Converts a 32-bit unsigned integer to an ASCII string containing the hexadecimal
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \] ITOHEX (LONG Num)
-
+CHAR[] ITOHEX (LONG Num)
 ```
+
 Parameters:
 
 - Num - an unsigned 32-bit integer to be converted to a hexadecimal string.
@@ -24,8 +24,8 @@ Example:
 
 ```c linenums="1"
 STRING = ITOHEX(1000) // STRING = '3E8'
-
 ```
+
 See Also
 
 - [ATOI](ATOI.md)

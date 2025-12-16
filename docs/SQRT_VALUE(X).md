@@ -4,9 +4,9 @@ title: SQRT_VALUE(X)
 
 # SQRT_VALUE
 
-Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  
+Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.
 
-Returns the square root of x.  
+Returns the square root of x.
 
 SQRT_VALUE(CONSTANT VARIANT X)
 

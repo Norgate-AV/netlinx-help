@@ -16,8 +16,8 @@ Syntax:
 
 ```c linenums="1"
 IP_SERVER_OPEN(LocalPort, ServerPort, Protocol)
-
 ```
+
 Parameters:
 
 - LocalPort - the local port number to open. This number must be passed to IP_SERVER_CLOSE to close the port.
@@ -44,8 +44,8 @@ Syntax:
 
 ```c linenums="1"
 IP_SERVER_CLOSE(LocalPort)
-
 ```
+
 Parameters:
 
 - LocalPort: the local port number to close.
@@ -74,8 +74,8 @@ Syntax:
 
 ```c linenums="1"
 IP_SERVER_CLOSE(LocalPort)
-
 ```
+
 Parameters:
 
 - LocalPort:  the local port number to close.
@@ -119,11 +119,11 @@ If an event handler is used, the data is located in the Text field of the DATA o
 Syntax:
 
 ```c linenums="1"
-DATA_EVENT\[0:LocalPort:0\]
+DATA_EVENT[0:LocalPort:0]
 
 {
-
 ```
+
 STRING:
 
 {
@@ -144,7 +144,7 @@ The device specification (0:LocalPort:0) is interpreted as follows:
 
 To send data to the client, use the [SEND_STRING](SEND_STRING.md) command.
 
-SEND_STRING 0:LocalPort:0, '\<string\>'
+SEND_STRING 0:LocalPort:0, '<string>'
 
 The device specification (0:LocalPort:0) is interpreted as follows:
 

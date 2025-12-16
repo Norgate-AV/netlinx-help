@@ -11,15 +11,15 @@ It is similar to [WAIT\_UNTIL](WAIT_UNTIL.md) except that this instruction provi
 Syntax:
 
 ```c linenums="1"
-TIMED_WAIT_UNTIL \<condition\> timeout \['\<name\>'\]
+TIMED_WAIT_UNTIL <condition> timeout ['<name>']
 
 {
 
 (\* wait statements \*)
 
 }
-
 ```
+
 See Also
 
 - [Waits](Waits.md)

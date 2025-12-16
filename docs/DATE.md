@@ -16,8 +16,8 @@ IF (DATE = '12/25/00')
 {
 
 }
-
 ```
+
 See Also
 
 - [LDATE](LDATE.md)

@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 REDIRECT_STRING (Number, Device1, Device2)
-
 ```
+
 Parameters:
 
 - Number -  identifies the particular redirection (1-8).

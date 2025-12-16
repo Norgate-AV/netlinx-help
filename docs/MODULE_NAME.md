@@ -11,9 +11,9 @@ This keyword is used to introduce the definition of a module.
 Syntax:
 
 ```c linenums="1"
-MODULE_NAME = '\<module name\>' (\<parameter list\>)
-
+MODULE_NAME = '<module name>' (<parameter list>)
 ```
+
 See Also
 
 - [DUET_MEM_SIZE_SET](DUET_MEM_SIZE_SET.md)

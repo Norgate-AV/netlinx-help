@@ -12,8 +12,8 @@ Syntax:
 
 ```c linenums="1"
 SINTEGER DATA_CREATE_FEED (DATA_FEED FEED)
-
 ```
+
 Parameters:
 
 - FEED : A [DATA_FEED](DATA_FEED.md) structure populated with the desired data feed identification values
@@ -34,8 +34,8 @@ STACK_VAR DATA_FEED datafeed
 // CREATE A NEW DATA FEED
 
 // --------------------------------------------------
-
 ```
+
 datafeed.name = 'phonelist'
 
 datafeed.description = 'Employees'

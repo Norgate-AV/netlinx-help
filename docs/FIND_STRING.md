@@ -6,9 +6,9 @@ title: FIND_STRING
 
 Searches through a string for a specified sequence of characters. The syntax:
 
-INTEGER FIND_STRING (CHAR STRING\[ \], CHAR Seq\[ \], INTEGER Start)
+INTEGER FIND_STRING (CHAR STRING[], CHAR Seq[], INTEGER Start)
 
-INTEGER FIND_STRING (WIDECHAR STRING\[ \], WIDECHAR Seq\[ \], INTEGER Start)
+INTEGER FIND_STRING (WIDECHAR STRING[], WIDECHAR Seq[], INTEGER Start)
 
 Parameters:
 
@@ -26,8 +26,8 @@ Example:
 
 ```c linenums="1"
 POS = FIND_STRING(STRING, 'ABC', 1)
-
 ```
+
 See Also
 
 - [STRING Keywords](STRING_Keywords.md)

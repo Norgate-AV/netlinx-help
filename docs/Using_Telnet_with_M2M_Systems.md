@@ -4,11 +4,11 @@ Once the master's system number has been configured via NetLinx Studio, a Telnet
 
 The first command to become familiar with is to set the routing mode on the master. The command is "route mode" followed by the desired mode, direct or normal. The routing mode on the master can be verified by sending the command "route mode" with no parameter, or with the command "show route". The "show route" command is described in a previous section of this document.
 
-To view the entries in the URL List use the command "show url". To modify the entries in the URL List use the command "set url".   Both of these commands will accept a \<D:P:S\> parameter to view or modify URL Lists on other masters.
+To view the entries in the URL List use the command "show url". To modify the entries in the URL List use the command "set url".   Both of these commands will accept a <D:P:S> parameter to view or modify URL Lists on other masters.
 
 The command "show system" will display all the systems and devices that are online and tracked in the device manager. The device manager tracks all devices defined in [DEFINE_DEVICE](DEFINE_DEVICE.md) or used in [DEFINE_EVENT](DEFINE_EVENT.md). The "show system" command supports two mutually exclusive parameters.
 
-- The "\<S\>" parameter displays the devices on the specified system. For example, when connected to system 1 issue the command "show system 2" to display the devices on System 2.
+- The "<S>" parameter displays the devices on the specified system. For example, when connected to system 1 issue the command "show system 2" to display the devices on System 2.
 - Using the "/min" parameter will limit the display to a minimal set of information.
 
 There are two commands that are similar yet remain unique, they are "show remote" and "show notify".

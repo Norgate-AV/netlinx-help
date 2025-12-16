@@ -4,7 +4,7 @@ title: LOG10_VALUE(X)
 
 # LOG10_VALUE
 
-Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  
+Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.
 
 Returns the common (base-10) logarithm of x.
 

@@ -27,7 +27,7 @@ A [DEVLEV](DEVLEV.md) array is declared in the [DEFINE_VARIABLE](DEFINE_VARIABLE
 1. Declare a DEVLEV array whose maximum length is determined by the number of elements in the initialization array on the right-hand side.
 
 ```netlinx
-DEVLEV DLName[ ] = {{Dev1,Level1}, {Dev2,Level2}, .}
+DEVLEV DLName[] = {{Dev1,Level1}, {Dev2,Level2}, .}
 ```
 
 2. Use MAXLEN to specify the maximum length of the array.

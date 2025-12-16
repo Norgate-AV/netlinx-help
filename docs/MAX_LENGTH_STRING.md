@@ -11,10 +11,10 @@ It provides the same information as [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md).
 Syntax:
 
 ```c linenums="1"
-LONG MAX_LENGTH_STRING (CHAR STRING\[ \])
-
+LONG MAX_LENGTH_STRING (CHAR STRING[])
 ```
-LONG MAX_LENGTH_STRING (WIDECHAR STRING\[ \])
+
+LONG MAX_LENGTH_STRING (WIDECHAR STRING[])
 
 Parameters:
 
@@ -28,11 +28,9 @@ Example:
 
 ```c linenums="1"
 MAXLEN = MAX_LENGTH_STRING(STRING)
-
 ```
-Len = LENGTH_STRING(STRING)
 
- 
+Len = LENGTH_STRING(STRING)
 
 IF (MAXLEN \> Len)
 

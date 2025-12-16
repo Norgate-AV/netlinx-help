@@ -12,8 +12,8 @@ Syntax:
 
 ```c linenums="1"
 DYNAMIC_POLLED_PORT (DEV netlinxDevice)
-
 ```
+
 See Also
 
 - [Port Keywords](Port_Keywords.md)

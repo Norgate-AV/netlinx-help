@@ -97,9 +97,6 @@ ON\[dvRelay,x\]       // This works as expected: only 1 relay of relays 1 
 See Also
 
 - [DEFINE_MUTUALLY_EXCLUSIVE](DEFINE_MUTUALLY_EXCLUSIVE.md)
-
-&nbsp;
-
 - [Variables & Constants](Variables_&_Constants.md)
 - [Variables](Variables.md)
 - [Local Variables](Local_Variables.md)

@@ -14,8 +14,8 @@ Syntax:
 STRUCTURE DEVCHAN
 
 {
-
 ```
+
 DEV Device
 
 INTEGER Channel
@@ -34,19 +34,13 @@ DEFINE_VARIABLE
 
 DEVCHAN dc1 = {128:1:0, 1}
 
-DEVCHAN dcset\[ \] = { {128:1:0, 1}, {128:1:0, 2}, {128:1:0, 3} }
-
- 
+DEVCHAN dcset[] = { {128:1:0, 1}, {128:1:0, 2}, {128:1:0, 3} }
 
 DEFINE_PROGRAM
 
- 
-
 If ( \[dc1\] \|\| \[128:1:0, 2\] ) // evaluation of 2 devchans
 
-\[dc1\] = 3    // feedback 
-
- 
+\[dc1\] = 3    // feedback
 
 dc1 = {129:1:0, 2}   // assigns a new value to dc1
 
@@ -56,13 +50,13 @@ An array of DEVCHANs, a DEVCHAN array, is declared in the [DEFINE_VARIABLE](DEFI
 
 1.  Declare a DEVCHAN array whose maximum length is determined by the number of elements in the initialization array on the right-hand side, as shown below:
 
-DEVCHAN DCSName\[ \]= {{Dev1,Chan1}, {Dev2,Chan2}, ...}
+DEVCHAN DCSName[]= {{Dev1,Chan1}, {Dev2,Chan2}, ...}
 
 2.  Use MAXLEN to specify the maximum length of the array, as shown below:
 
 DEVCHAN DCSName\[MAXLEN\] = {{Dev1,Chan1}, {Dev2,Chan2}, ...}
 
-In either case, the number of elements in the initialization array determines the effective length of the array. That value can be determined at run-time by calling [LENGTH_ARRAY](LENGTH_ARRAY.md). The maximum length available for a DEVCHAN\[ \] array can be determined by calling [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md).
+In either case, the number of elements in the initialization array determines the effective length of the array. That value can be determined at run-time by calling [LENGTH_ARRAY](LENGTH_ARRAY.md). The maximum length available for a DEVCHAN[] array can be determined by calling [MAX_LENGTH_ARRAY](MAX_LENGTH_ARRAY.md).
 
 The individual elements of a DEVCHAN array can be referenced by their defined names (Dev1, Chan1, Dev2, Chan2, etc.) or alternatively, by using array notation with the device-channel array name.
 

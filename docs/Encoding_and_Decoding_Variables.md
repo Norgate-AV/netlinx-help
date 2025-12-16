@@ -19,7 +19,7 @@ The Binary conversion routines are:
 The XML routines are:
 
 - [XML_TO_VARIABLE](XML_TO_VARIABLE.md),
-- [VARIABLE_TO_XML](VARIABLE_TO_XML.md) and  
+- [VARIABLE_TO_XML](VARIABLE_TO_XML.md) and
 - [LENGTH\_ VARIABLE_TO_XML](LENGTH_VARIABLE_TO_XML.md).
 
 Both sets of routines accomplish the same function but the encoded string differs in protocol. The binary conversion routines uses a compact binary representation of the variable while the XML represents the variable as a ASCII text only XML document.

@@ -4,7 +4,7 @@ title: Event_Parameters
 
 # Event Parameters
 
-[DEFINE_EVENT](DEFINE_EVENT.md) handlers are stored in an event table providing quick access to code that must be executed when an event is received.  
+[DEFINE_EVENT](DEFINE_EVENT.md) handlers are stored in an event table providing quick access to code that must be executed when an event is received.
 
 The event table keeps a list of all events in a sorted order to more quickly determine which code needs to be accessed for a giving incoming event.  The event table is built before [DEFINE_START](DEFINE_START.md) runs and it not changed anytime after that.  As a result, there are certain rules that must be applied to the parameters used in DEFINE_EVENTs.
 
@@ -84,9 +84,9 @@ BUTTON_EVENT\[dvTp,nMyChannel\]
 
 }
 
-You may be tempted to use a more traditional variable as the channel number, mainly [PUSH_CHANNEL](PUSH_CHANNEL.md) or [RELEASE_CHANNEL](RELEASE_CHANNEL.md).  It is important to realize that the identifiers are nothing more than global (system) variable.  At compile time, the values are defined and contain a value of 0.  
+You may be tempted to use a more traditional variable as the channel number, mainly [PUSH_CHANNEL](PUSH_CHANNEL.md) or [RELEASE_CHANNEL](RELEASE_CHANNEL.md).  It is important to realize that the identifiers are nothing more than global (system) variable.  At compile time, the values are defined and contain a value of 0.
 
-So, the following code will have the effect you expect but probably for a different reason than you expect.  
+So, the following code will have the effect you expect but probably for a different reason than you expect.
 
 DEFINE_EVENT
 
@@ -151,13 +151,11 @@ dvPanel5  = 132:1:0
 
 dvPanel6  = 133:1:0
 
- 
-
 DEFINE_VARIABLE
 
-DEV dvMyPanels\[\] = { dvPanel1, dvPanel2, dvPanel3, dvPanel4, dvPanel5, dvPanel6 }
+DEV dvMyPanels[] = { dvPanel1, dvPanel2, dvPanel3, dvPanel4, dvPanel5, dvPanel6 }
 
-INTEGER nMyButtons\[\] = { 4, 3, 2, 1 }
+INTEGER nMyButtons[] = { 4, 3, 2, 1 }
 
 INTEGER nPanelIndex
 

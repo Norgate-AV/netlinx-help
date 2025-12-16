@@ -4,9 +4,9 @@ title: POWER_VALUE(X,Y)
 
 # POWER_VALUE
 
-Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  
+Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.
 
-Returns BASE raised to the power EXPONENT.  
+Returns BASE raised to the power EXPONENT.
 
 POWER_VALUE(CONSTANT VARIANT BASE, CONSTANT VARIANT EXPONENT)
 

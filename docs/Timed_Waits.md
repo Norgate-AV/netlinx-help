@@ -6,7 +6,7 @@ title: Timed_Waits
 
 The syntax for Timed Waits is shown below:
 
-WAIT time \['\<name\>'\]
+WAIT time \['<name>'\]
 
 {
 
@@ -41,8 +41,8 @@ WAIT 50 'FIRST WAIT'
  (\* wait statements \*)
 
 }
-
 ```
+
 Note: If greater precision is required, the time parameter can be expressed as a decimal fraction, for example 0.1 to specify a wait time of 1/100th of a second. The range is 0.1 - 0.9.
 
 See Also

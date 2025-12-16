@@ -4,7 +4,7 @@ title: LOG_VALUE(X)
 
 # LOG_VALUE
 
-Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.  
+Note: Math functions are supported by NetLinx Controller firmware version 4 or higher.
 
 Returns the natural logarithm of x.  The natural logarithm is the base-e logarithm, the inverse of the natural exponential function (EXP_VALUE) .
 

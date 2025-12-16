@@ -9,15 +9,15 @@ This instruction is used to delay execution of one or more statements until a sp
 Syntax:
 
 ```c linenums="1"
-WAIT_UNTIL \<condition\> \['\<name\>'\]
+WAIT_UNTIL <condition> ['<name>']
 
 {
 
  (\* wait statements \*)
 
 }
-
 ```
+
 Note:  When it is a NetLinx function the ( ) are NOT OPTIONAL, even if there are no parameters.
 
 See Also

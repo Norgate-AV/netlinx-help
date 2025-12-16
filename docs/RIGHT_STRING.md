@@ -9,10 +9,10 @@ Returns the specified number of characters from the end of a string.
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \] RIGHT_STRING (CHAR STRING\[ \], LONG Count)
-
+CHAR[] RIGHT_STRING (CHAR STRING[], LONG Count)
 ```
-WIDECHAR\[ \] RIGHT_STRING (WIDECHAR STRING\[ \], LONG Count)
+
+WIDECHAR[] RIGHT_STRING (WIDECHAR STRING[], LONG Count)
 
 Parameters:
 
@@ -27,8 +27,8 @@ Example:
 
 ```c linenums="1"
 STRING = 'ABCDEFG'
-
 ```
+
 Substr = RIGHT_STRING(STRING, 3) // Substr = 'EFG'
 
 See Also

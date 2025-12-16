@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 SLONG UNCOMBINE_LEVELS (VDL)
-
 ```
+
 Parameters:
 
 - VDL - the virtual device-level passed to COMBINE\_LEVELS.
@@ -29,8 +29,8 @@ Result = COMBINE_LEVELS (VDL, DLSet)
 .
 
 .
-
 ```
+
 Result = UNCOMBINE_LEVELS (VDL)
 
 Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upon a button event, the combining and combining must be done on the release of the button (the active event must be complete before a  COMBINE_XXXX or UNCOMBINE_XXXX function is invoked).

@@ -12,8 +12,8 @@ Syntax:
 
 ```c linenums="1"
 RETURN // DEFINE_CALL or function with no return value
-
 ```
+
 -or-
 
 RETURN Value // function with return value

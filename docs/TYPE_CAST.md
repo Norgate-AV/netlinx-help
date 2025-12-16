@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 IntrinsicVariableNewType TYPE_CAST (IntrinsicVariableType)
-
 ```
+
 - It is possible to eliminate the compiler warnings related to type casting.
 - The TYPE_CAST library function converts any non-array intrinsic type to any other non-array intrinsic type.
 - The type conversion still happens and follows standard type conversion rules (see [Data Type Conversion](Data_Type_Conversion.md)), but any warnings related to the type cast are eliminated.

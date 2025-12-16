@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 SLONG UNCOMBINE_DEVICES (VDC)
-
 ```
+
 Parameters:
 
 - VDC - the virtual device-channel passed to COMBINE\_DEVICES.
@@ -29,8 +29,8 @@ Result = COMBINE_DEVICES (VDC, DCSet)
 .
 
 .
-
 ```
+
 Result = UNCOMBINE_DEVICES (VDC)
 
 Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upon a button event, the combining and combining must be done on the release of the button (the active event must be complete before a  COMBINE_XXXX or UNCOMBINE_XXXX function is invoked).

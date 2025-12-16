@@ -12,14 +12,14 @@ Syntax:
 
 ```c linenums="1"
  ABSVAL = ABS_VALUE (Value)
-
 ```
+
 Example:
 
 ```c linenums="1"
 DEFINE_VARIABLE
-
 ```
+
 SLONG Var1, Var2
 
 DEFINE_START

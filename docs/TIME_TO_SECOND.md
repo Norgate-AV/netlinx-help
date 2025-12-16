@@ -9,9 +9,9 @@ Returns an integer representing the second portion of a time string.
 Syntax:
 
 ```c linenums="1"
-SINTEGER TIME_TO_SECOND (CHAR TimeStr\[ \])
-
+SINTEGER TIME_TO_SECOND (CHAR TimeStr[])
 ```
+
 Note: The S in SINTEGER allows a negative value to be returned.
 
 Parameters:
@@ -25,9 +25,9 @@ Result:
 Example:
 
 ```c linenums="1"
-CCHAR TimeStr\[ \] = '9:30:08'
-
+CCHAR TimeStr[] = '9:30:08'
 ```
+
 SINTEGER nSecond
 
 nSecond = TIME_TO_SECOND (TimeStr) // nSecond = 8

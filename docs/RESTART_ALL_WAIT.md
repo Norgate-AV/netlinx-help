@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 RESTART_ALL_WAIT
-
 ```
+
 See Also
 
 - [Waits](Waits.md)

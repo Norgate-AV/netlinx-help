@@ -10,9 +10,7 @@ Example:
 
 ```c linenums="1"
 DEFINE_TYPE
-
 ```
- 
 
 STRUCTURE MyStruct
 

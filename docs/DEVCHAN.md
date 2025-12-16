@@ -12,8 +12,8 @@ Example:
 STRUCTURE DEVCHAN
 
 {
-
 ```
+
  DEV  Device
 
  INTEGER Channel

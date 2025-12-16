@@ -9,9 +9,9 @@ Returns an integer representing the hour portion of a time string.
 Syntax:
 
 ```c linenums="1"
-SINTEGER TIME_TO_HOUR (CHAR TimeStr\[ \])
-
+SINTEGER TIME_TO_HOUR (CHAR TimeStr[])
 ```
+
 Note: The S in SINTEGER allows a negative value to be returned.
 
 Parameters:
@@ -25,9 +25,9 @@ Result:
 Example:
 
 ```c linenums="1"
-CHAR TimeStr\[ \] = '9:30:08'
-
+CHAR TimeStr[] = '9:30:08'
 ```
+
 SINTEGER nHour
 
 nHour = TIME_TO_HOUR (TimeStr) // nHour = 9

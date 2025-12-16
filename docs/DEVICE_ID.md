@@ -14,8 +14,8 @@ Syntax:
 
 ```c linenums="1"
 DeviceID = DEVICE_ID(Device)
-
 ```
+
 Example:
 
 ```c linenums="1"
@@ -26,8 +26,8 @@ IF (DEVICE_ID(55:1:0) \<\> 0)
  // device 55 exists in the system
 
 }
-
 ```
+
 See Also
 
 - [DEVICE_ID_STRING](DEVICE_ID_STRING.md)

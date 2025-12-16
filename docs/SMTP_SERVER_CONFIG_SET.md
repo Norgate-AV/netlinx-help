@@ -14,8 +14,8 @@ Syntax:
 
 ```c linenums="1"
 SMTP_SERVER_CONFIG_SET(CONSTANT CHAR CONFIG_NAME, CONSTANT CHAR CONFIG_VALUE)
-
 ```
+
 Where CONFIG_NAME is one of the following:
 
 - SMTP_ADDRESS - Used to set the address of the SMTP server.  Ex. 'mail.amx.com'
@@ -34,8 +34,8 @@ Example:
 
 ```c linenums="1"
 SMTP_SERVER_CONFIG_SET(SMTP_ADDRESS,'mail.amx.com')
-
 ```
+
 SMTP_SERVER_CONFIG_SET(SMTP_PORT_NUMBER,'25')
 
 SMTP_SERVER_CONFIG_SET(SMTP_USERNAME,'john.doe@amx.com')

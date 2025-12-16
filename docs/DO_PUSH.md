@@ -18,8 +18,8 @@ Example:
 
 ```c linenums="1"
 DO_PUSH(DEVICE, CHANNEL)
-
 ```
+
 Parameters:
 
 - Device - the device to PUSH.

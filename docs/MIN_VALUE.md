@@ -12,14 +12,14 @@ Syntax:
 
 ```c linenums="1"
  MINVAL MIN_VALUE(Var1,Var2)
-
 ```
+
 Example:
 
 ```c linenums="1"
 DEFINE_VARIABLE
-
 ```
+
 SLONG Var1, Var2, VarMin
 
 DEFINE_START

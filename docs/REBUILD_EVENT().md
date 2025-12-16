@@ -4,7 +4,7 @@ title: REBUILD_EVENT()
 
 # REBUILD_EVENT()
 
-The NetLinx runtime supports the run-time library function REBUILD_EVENT(), which rebuilds the NetLinx event table for level, channel, button, timeline, and data events.  Modifications to variables used in event declarations affect NetLinx event handling when REBUILD_EVENT() is called after the variables are modified.  
+The NetLinx runtime supports the run-time library function REBUILD_EVENT(), which rebuilds the NetLinx event table for level, channel, button, timeline, and data events.  Modifications to variables used in event declarations affect NetLinx event handling when REBUILD_EVENT() is called after the variables are modified.
 
 - REBUILD_EVENT() works on a module-by-module basis (i.e. calling the function in one module does not affect the event table of another module).
 - REBUILD_EVENT() rebuilds the event table for variables modified in the same block of code in which it resides.
@@ -29,7 +29,7 @@ dvApoc3 = 1303:1:0
 
 DEFINE_CONSTANT
 
-DEV panel\[\] = {dvApoc1,dvApoc2}
+DEV panel[] = {dvApoc1,dvApoc2}
 
 (\*---------------------------------------------------------\*)
 
@@ -69,8 +69,6 @@ ON\[panel,1\]
 
 curModApoc = dvApoc2
 
- 
-
 // updates program event table to handle BUTTON_EVENT\[1505:1:0,5\]
 
 REBUILD_EVENT()
@@ -93,13 +91,9 @@ ON\[panel,2\]
 
 curModApoc = dvApoc3
 
- 
-
     // updates program event table to handle BUTTON_EVENT\[1303:1:0, 5\]
 
 REBUILD_EVENT()
-
- 
 
 // the following assignment has no affect on the program event table
 
@@ -127,15 +121,13 @@ BUTTON_EVENT\[curModApoc,5\]
 
 //  in the same block of code in which it resides.
 
-//  
+//
 
 //  With no braces a REBUILD_EVENT() in DEFINE_START should rebuild the
 
 //  event tables that use any variable modified in DEFINE_START, above
 
 //  the REBUILD_EVENT() statement.
-
- 
 
 //  You can reduce the scope of the REBUILD_EVENT() by delineating
 

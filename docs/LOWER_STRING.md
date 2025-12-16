@@ -9,10 +9,10 @@ Changes all alphabetic characters in the specified string to lower case.
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \]  LOWER_STRING (CHAR STRING\[ \])
-
+CHAR[]  LOWER_STRING (CHAR STRING[])
 ```
-WIDECHAR\[ \] LOWER_STRING (WIDECHAR STRING\[ \])
+
+WIDECHAR[] LOWER_STRING (WIDECHAR STRING[])
 
 Parameters:
 
@@ -26,8 +26,8 @@ Example:
 
 ```c linenums="1"
 LCString = LOWER_STRING(STRING)
-
 ```
+
 See Also
 
 - [UPPER_STRING](UPPER_STRING.md)

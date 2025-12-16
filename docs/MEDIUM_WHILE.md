@@ -11,15 +11,15 @@ The compiler accepts the statement but converts it internally to a [WHILE](WHILE
 Example:
 
 ```c linenums="1"
-MEDIUM_WHILE (\<conditional expression\>)
+MEDIUM_WHILE (<conditional expression>)
 
 {
 
  (\* conditional statements \*)
 
 }
-
 ```
+
 See Also
 
 - [Conditional Keywords](Conditional_Keywords.md)

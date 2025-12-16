@@ -6,7 +6,7 @@ title: DEVLEV
 
 A data type (structure) containing fields used to represent a specific device number, port, system and level.
 
-This structure is used to implement an array DEVLEV\[ \].
+This structure is used to implement an array DEVLEV[].
 
 Example:
 
@@ -14,8 +14,8 @@ Example:
 STRUCTURE DEVLEV
 
 {
-
 ```
+
  DEV  Device
 
  INTEGER Level

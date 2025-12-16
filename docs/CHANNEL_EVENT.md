@@ -12,10 +12,10 @@ This keyword defines a channel event handler.
 Example:
 
 ```c linenums="1"
-CHANNEL_EVENT\[DEVICE,CHANNEL\] or
-
+CHANNEL_EVENT[DEVICE,CHANNEL] or
 ```
-CHANNEL_EVENT\[DEVCHAN\[ \]\]
+
+CHANNEL_EVENT\[DEVCHAN[]\]
 
 {
 
@@ -46,14 +46,11 @@ Device – a single device number constant.
 D:P:S – a constant device specification such as TP:1:0.
 
 - CHANNEL refers to a single channel number constant.
-- DEVCHAN\[ \] refers to a device-channel array.
+- DEVCHAN[] refers to a device-channel array.
 
 See Also
 
 - [Event Handlers](Event_Handlers.md)
 - [Event Parameters](Event_Parameters.md)
 - [Channel Events](Channel_Events.md)
-
-&nbsp;
-
 - [Event Handler Keywords](Event_Handler_Keywords.md)

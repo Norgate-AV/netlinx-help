@@ -31,8 +31,8 @@ The following table lists the information contained in Custom events:
 | Custom.Value1 | [SLONG](SLONG.md) | The first value associated with the event |
 | Custom.Value2 | [SLONG](SLONG.md) | The second value associated with the event |
 | Custom.Value3 | [SLONG](SLONG.md) | The third value associated with the event |
-| Custom.Text | [CHAR\[ \]](CHAR.htm) | Text associated with the event |
-| Custom.Encode | [CHAR\[ \]](CHAR.htm) | A string encoded with VARIABLE_TO_STRING encoding for complex data types. |
+| Custom.Text | [CHAR[]](CHAR.htm) | Text associated with the event |
+| Custom.Encode | [CHAR[]](CHAR.htm) | A string encoded with VARIABLE_TO_STRING encoding for complex data types. |
 | Custom.SourceDev | [DEV](DEV.md) | Source device of custom event |
 | Custom.SourceDev.Number | [INTEGER](INTEGER.md) | Source device number |
 | Custom.SourceDev.Port | [INTEGER](INTEGER.md) | Source device port |

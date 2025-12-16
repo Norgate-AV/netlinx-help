@@ -12,8 +12,8 @@ Example:
 
 ```c linenums="1"
 DEVICE_WAKE (DEVICE, NORMAL_WAKE)
-
 ```
+
 Note: Due to the nature of [STANDBY](STANDBY.md) state, a device in standby sync’s with the master at regular intervals.  The request to wake will not be processed until one of these sync events.  So the [AWAKE](AWAKE.md) state will appear delayed.
 
 See Also

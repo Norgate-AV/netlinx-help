@@ -50,8 +50,8 @@ Example:
 
 ```c linenums="1"
 DEFINE_VARIABLE
-
 ```
+
 LONG TimeArray\[100\]
 
 DEFINE_CONSTANT

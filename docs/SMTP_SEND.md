@@ -13,18 +13,18 @@ If the mail transmission fails, an [ONERROR](ONERROR.md) DATA event will be sent
 Syntax:
 
 ```c linenums="1"
-SINTEGER SMTP_SEND(DEV DPS, CONSTANT CHAR TO_ADDRESS\[\], CONSTANT CHAR SUBJECT\[\], CONSTANT CHAR BODY\[\], CONSTANT CHAR TEXT_ATTACHMENT\[\]
-
+SINTEGER SMTP_SEND(DEV DPS, CONSTANT CHAR TO_ADDRESS[], CONSTANT CHAR SUBJECT[], CONSTANT CHAR BODY[], CONSTANT CHAR TEXT_ATTACHMENT[]
 ```
+
 Where
 
 - DPS - a DEV to receive asynchronous send status
 - TO_ADDRESS - a string containing the email address of the destination. String must be less than 127 characters.
 - SUBJECT - a string containing the email subject line
 - BODY - a string containing the email body text
-- TEXT_ATTACHMENT - a string containing the filename of a text file to be attached to the email.  
+- TEXT_ATTACHMENT - a string containing the filename of a text file to be attached to the email.
 
-Filename must be less than 256 characters and file size must be under 65536 bytes.  
+Filename must be less than 256 characters and file size must be under 65536 bytes.
 
 Can be specified as NULL_STR when no attachment is desired.
 
@@ -32,8 +32,8 @@ Example:
 
 ```c linenums="1"
 MAIL_IDX1 = SMTP_SEND (0:3:0, 'john.doe@acme.com','Mail Subject','This is the mail text','attachment.txt')
-
 ```
+
 MAIL_IDX2 = SMTP_SEND(0:3:0,'jane.doe@acme.com','Mail Alert','This is an email alert!',NULL_STR)
 
 DEFINE_EVENT

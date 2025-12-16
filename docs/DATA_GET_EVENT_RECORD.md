@@ -11,9 +11,9 @@ The DATA_GET_EVENT_RECORD function retrieves data feed event record values from 
 Syntax:
 
 ```c linenums="1"
-SINTEGER DATA_GET_EVENT_RECORD (DEV device, LONG payloadID, char fields\[\]\[\], DATA_RECORD rec)
-
+SINTEGER DATA_GET_EVENT_RECORD (DEV device, LONG payloadID, char fields[][], DATA_RECORD rec)
 ```
+
 Parameters:
 
 - device : NetLinx device event is coming from
@@ -30,11 +30,11 @@ Result:
 Example:
 
 ```c linenums="1"
-CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
+CUSTOM_EVENT[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT]
 
 {
-
 ```
+
 SLONG payloadID
 
 SLONG payloadType

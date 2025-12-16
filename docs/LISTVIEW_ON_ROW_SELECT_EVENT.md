@@ -8,7 +8,7 @@ LISTVIEW_ON_ROW_SELECT_EVENT is a Custom Event that is raised in response to a u
 
 When the user selects an item on the Listview button, a LISTVIEW_ON_ROW_SELECT_EVENT is raised and the entire data feed record for that selection is sent to the master. The user can then use DATA_GET_EVENT_RECORD to retrieve the specific values of interest.
 
-Note: "payloadId" specifies the data access identifier to be retrieved from the custom event object, and is predefined as "custom.value1". “payloadType” specifies the dataType to be retrieved from the custom event object and is predefined as “custom.value2”. 
+Note: "payloadId" specifies the data access identifier to be retrieved from the custom event object, and is predefined as "custom.value1". “payloadType” specifies the dataType to be retrieved from the custom event object and is predefined as “custom.value2”.
 
 The following code example illustrates how the LISTVIEW_ON_ROW_SELECT_EVENT Custom Event is used to retrieve two data fields ('name' and 'number') when a listview item is selected.
 
@@ -32,8 +32,6 @@ CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
 
    CHAR number\[DATA_MAX_VALUE_LENGTH\]
 
- 
-
    //variable record, of type DATA_RECORD, to hold the record we retrieve from the custom event
 
    DATA_RECORD record
@@ -49,8 +47,6 @@ CUSTOM_EVENT\[dvTP,btnListview,LISTVIEW_ON_ROW_SELECT_EVENT\]
    // variable is payloadType - custom.value2 is predefined
 
    payloadType = custom.value2
-
- 
 
    if (payloadId \> 0 && payloadType == DATA_STRUCTURE_DATARECORD)
 

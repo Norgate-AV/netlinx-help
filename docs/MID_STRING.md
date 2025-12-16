@@ -9,10 +9,10 @@ Returns the specified number of characters starting at the specified location in
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \] MID_STRING (CHAR STRING, LONG Start, LONG Count)
-
+CHAR[] MID_STRING (CHAR STRING, LONG Start, LONG Count)
 ```
-WIDECHAR\[ \] MID_STRING (WIDECHAR STRING, LONG Start, LONG Count)
+
+WIDECHAR[] MID_STRING (WIDECHAR STRING, LONG Start, LONG Count)
 
 Parameters:
 
@@ -28,11 +28,9 @@ Example:
 
 ```c linenums="1"
 STRING = 'ABCDEFGHIJK'
-
 ```
-Substr = MID_STRING(STRING, 5, 4)
 
- 
+Substr = MID_STRING(STRING, 5, 4)
 
 (\* Substr = 'EFGH' \*)
 

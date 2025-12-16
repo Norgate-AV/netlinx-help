@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 LONG RANDOM_NUMBER (LONG Max)
-
 ```
+
 Parameters:
 
 - Max - Unsigned long integer (must be greater than zero) that will serve as the upper limit for the random number generator.
@@ -24,8 +24,8 @@ Example:
 
 ```c linenums="1"
 Num = RANDOM_NUMBER(1000) // 0 \<= Num \< 1000
-
 ```
+
 See Also
 
 - [Variables Keywords](Variables_Keywords.md)

@@ -6,9 +6,9 @@ title: Combining_and_uncombining_device_channel_sets
 
 Combining [DEVCHAN](DEVCHAN.md) sets is unique to NetLinx. The format for [COMBINE_CHANNELS](COMBINE_CHANNELS.md) and [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md) is:
 
-SLONG COMBINE_CHANNELS (\<virtual DEVCHAN\[\]\>, \<DEVCHAN1\[\]\>, \<DEVCHAN2\[\]\>…)
+SLONG COMBINE_CHANNELS (<virtual DEVCHAN[]>, <DEVCHAN1[]>, <DEVCHAN2[]>…)
 
-SLONG UNCOMBINE_CHANNELS (\<virtual DEVCHAN\[\]\>)
+SLONG UNCOMBINE_CHANNELS (<virtual DEVCHAN[]>)
 
 To explain the concept of combining DEVCHAN sets, it is necessary to understand how the DEVCHAN sets are arranged. Rather than the DEVCHAN set being a set of like functions, such as a set of volume mute buttons across different devices, the DEVCHAN set should be a group of different functions on the same device, such as 5 lighting presets on an AXU-MSP16. For example:
 

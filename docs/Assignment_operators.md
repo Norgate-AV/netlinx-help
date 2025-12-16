@@ -29,8 +29,8 @@ Example:
 
 ```c linenums="1"
 FOR (I=1; I\<10; I++) // Legal
-
 ```
+
 I = j++              // Illegal
 
 See Also

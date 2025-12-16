@@ -9,9 +9,9 @@ Returns an integer representing the day portion of a date string.
 Syntax:
 
 ```c linenums="1"
-SINTEGER DATE_TO_DAY (CHAR LDATE\[ \])
-
+SINTEGER DATE_TO_DAY (CHAR LDATE[])
 ```
+
 Note: The S in SINTEGER allows a negative value to be returned.
 
 Parameters:
@@ -26,8 +26,8 @@ Example:
 
 ```c linenums="1"
 SINTEGER nDAY
-
 ```
+
 nDAY = DATE_TO_DAY ('2/9/1999') // nDAY = 9
 
 See Also

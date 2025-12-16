@@ -8,7 +8,7 @@ Constants are defined in the [DEFINE_CONSTANT](DEFINE_CONSTANT.md) section.
 
 DEFINE_CONSTANT
 
-\<constant name\> = \<constant expression\>
+<constant name> = <constant expression>
 
 - The scope of a constant extends throughout the module or program in which it is defined.
 - The name assigned to a constant must be unique among all other identifiers defined in the module or program.
@@ -34,7 +34,7 @@ The value assigned to a constant can be specified in one the formats listed belo
 | Hexadecimal Integer  | \$000                | \$DE60     |
 | Floating Point       | 000.0                | 924.5      |
 | Exponential Notation | 0.0e0                | 1.5e-12    |
-| Character            | ‘c’ or \<char code\> | ‘R’ or 255 |
+| Character            | ‘c’ or <char code> | ‘R’ or 255 |
 | String Literal       | ‘ ssss’              | ‘Reverse’  |
 
 See Also

@@ -16,7 +16,7 @@ This number represents a virtual port on the client machine; it is not the actua
 
 A local port number may not be used in another call to IP_CLIENT_OPEN until IP_CLIENT_CLOSE is called for that port number.
 
-- IP_BOUND_CLIENT_OPEN: Opens a port for IP communication with a server using a specific local IP port number.  
+- IP_BOUND_CLIENT_OPEN: Opens a port for IP communication with a server using a specific local IP port number.
 
 Similar to IP_CLIENT_OPEN, But where IP_CLIENT_OPEN uses the first available local IP Port number, IP_BOUND_CLIENT_OPEN allows the user to specify the local IP port number.
 
@@ -28,8 +28,8 @@ Syntax:
 
 ```c linenums="1"
 IP_Client_Close(LocalPort)
-
 ```
+
 - LocalPort: a non-zero unsigned integer representing the virtual port on the client machine used for this conversation.
 
 Sending Data (Client)
@@ -39,9 +39,9 @@ To send data to the server, use the [SEND_STRING](SEND_STRING.md) command.
 Syntax:
 
 ```c linenums="1"
-SEND_STRING 0:LocalPort:0, '\<string\>'
-
+SEND_STRING 0:LocalPort:0, '<string>'
 ```
+
 The device specification (0:LocalPort:0) is interpreted as follows:
 
 1.  - Device Number = 0: The master
@@ -56,11 +56,11 @@ To receive data from the server use a DATA event handler or a buffer created wit
 Syntax:
 
 ```c linenums="1"
-DATA_EVENT\[0:LocalPort:0\]
+DATA_EVENT[0:LocalPort:0]
 
  {
-
 ```
+
  STRING:
 
  {
@@ -97,26 +97,26 @@ To eliminate this delay, simply include and empty string event handler in the DA
 Example:
 
 ```c linenums="1"
-DATA_EVENT\[dvIP\]
+DATA_EVENT[dvIP]
 
 {
-
 ```
-   OFFLINE: 
 
-   { 
+   OFFLINE:
 
-      (\* PROCESS THE DATA HERE\*) 
+   {
 
-   } 
+      (\* PROCESS THE DATA HERE\*)
 
-   STRING: 
+   }
 
-   { 
+   STRING:
 
-      (\* DO NOT REMOVE ME! \*) 
+   {
 
-   } 
+      (\* DO NOT REMOVE ME! \*)
+
+   }
 
 }
 

@@ -8,21 +8,21 @@ Provides a mechanism similar to ‘C’s printf statement for formatting the dis
 
 This function is similar to [ITOA](ITOA.md) but infinitely more powerful.
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],CHAR Value)
+CHAR[] FORMAT(CHAR FormatLine[],CHAR Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],WIDECHAR Value)
+CHAR[] FORMAT(CHAR FormatLine[],WIDECHAR Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],INTEGER Value)
+CHAR[] FORMAT(CHAR FormatLine[],INTEGER Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],SINTEGER Value)
+CHAR[] FORMAT(CHAR FormatLine[],SINTEGER Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],LONG Value)
+CHAR[] FORMAT(CHAR FormatLine[],LONG Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],SLONG Value)
+CHAR[] FORMAT(CHAR FormatLine[],SLONG Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],FLOAT Value)
+CHAR[] FORMAT(CHAR FormatLine[],FLOAT Value)
 
-CHAR\[\] FORMAT(CHAR FormatLine\[\],DOUBLE Value)
+CHAR[] FORMAT(CHAR FormatLine[],DOUBLE Value)
 
 Parameters:
 
@@ -68,8 +68,8 @@ Example:
 
 ```c linenums="1"
 1.  fTemperature = 98.652
-
 ```
+
     STR = FORMAT('The current temperature is %3.2f',fTemperature)
 
     // Displays "The current temperature is 98.65"

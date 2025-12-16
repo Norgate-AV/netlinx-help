@@ -20,13 +20,11 @@ dvIO10 = 310:1:0
 
 vdvControl = 33000:1:0
 
- 
-
 // example of combining a DEVCHAN set to a virtual \[DEV,CHAN\] pair
 
 DEFINE_VARIABLE
 
-DEVCHAN dc1\[\] = {{dvIO10,1},{dvREL10,1},{dvTP,1}}
+DEVCHAN dc1[] = {{dvIO10,1},{dvREL10,1},{dvTP,1}}
 
 DEFINE_EVENT
 
@@ -72,13 +70,11 @@ TO\[BUTTON.INPUT\]
 
 }
 
- 
-
 // example of combining individual DEVCHANs to a virtual \[DEV,CHAN\] pair
 
 DEFINE_VARIABLE
 
-DEVCHAN dc2\[\] = {{dvIO10,2},{dvREL10,2},{dvTP,2}}
+DEVCHAN dc2[] = {{dvIO10,2},{dvREL10,2},{dvTP,2}}
 
 DEFINE_EVENT
 
@@ -124,13 +120,11 @@ TO\[BUTTON.INPUT\]
 
 }
 
- 
-
 // example of combining individual \[DEV,CHAN\] pairs to a virtual \[DEV,CHAN\] pair
 
 DEFINE_VARIABLE
 
-DEVCHAN dc3\[\] = {{dvIO10,3},{dvREL10,3},{dvTP,3}}
+DEVCHAN dc3[] = {{dvIO10,3},{dvREL10,3},{dvTP,3}}
 
 DEFINE_EVENT
 
@@ -188,15 +182,13 @@ TO\[BUTTON.INPUT\]
 
 }
 
- 
-
 // example of combining a DEVCHAN set to a virtual DEVCHAN
 
 DEFINE_VARIABLE
 
 DEVCHAN vdc4 = {vdvControl,4}
 
-DEVCHAN dc4\[\] = {{dvIO10,4},{dvREL10,4},{dvTP,4}}
+DEVCHAN dc4[] = {{dvIO10,4},{dvREL10,4},{dvTP,4}}
 
 DEFINE_EVENT
 
@@ -242,15 +234,13 @@ TO\[BUTTON.INPUT\]
 
 }
 
- 
-
 // example of combining individual DEVCHANs to a virtual DEVCHAN
 
 DEFINE_VARIABLE
 
 DEVCHAN vdc5 = {vdvControl,5}
 
-DEVCHAN dc5\[\] = {{dvIO10,5},{dvREL10,5},{dvTP,5}}
+DEVCHAN dc5[] = {{dvIO10,5},{dvREL10,5},{dvTP,5}}
 
 DEFINE_EVENT
 
@@ -296,15 +286,13 @@ TO\[BUTTON.INPUT\]
 
 }
 
- 
-
 // example of combining individual \[DEV,CHAN\] pairs to a virtual DEVCHAN
 
 DEFINE_VARIABLE
 
 DEVCHAN vdc6 = {vdvControl,6}
 
-DEVCHAN dc6\[\] = {{dvIO10,6},{dvREL10,6},{dvTP,6}}
+DEVCHAN dc6[] = {{dvIO10,6},{dvREL10,6},{dvTP,6}}
 
 DEFINE_EVENT
 

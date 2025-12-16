@@ -9,9 +9,9 @@ The keyword allows you to include programming instructions from an external file
 Syntax:
 
 ```c linenums="1"
-INCLUDE '\<filename\>'
-
+INCLUDE '<filename>'
 ```
+
 - The parameter filename can be any valid (long) filename.
 - If the file extension is omitted, "AXI" is assumed.
 - The contents of the file can be thought of as being copied to the location of the INCLUDE statement.

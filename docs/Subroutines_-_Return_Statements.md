@@ -12,9 +12,9 @@ DEFINE_FUNCTION also allows the use of the [RETURN](RETURN.md) keyword that serv
 
 The format of the return statement is:
 
-RETURN \[\<return value\>\]
+RETURN \[<return value>\]
 
-If a return statement is encountered anywhere in the function, execution of the function is terminated immediately and the value (if any) specified as the \<return value\> is returned to the caller.
+If a return statement is encountered anywhere in the function, execution of the function is terminated immediately and the value (if any) specified as the <return value> is returned to the caller.
 
 A function that returns a value through the RETURN keyword must be declared with a return type. Conversely, a function that is declared without a return type cannot return a value. The return type may only be one of the [8 intrinsic data types](Data_Type_Keywords.md). Strings, arrays, structures, classes and other user-defined types may not be returned.
 
@@ -36,7 +36,7 @@ LOCAL_VAR INTEGER BufSize = 0;
 
  .
 
- RETURN BufSize;  
+ RETURN BufSize;
 }
 
 To call this function and to retrieve the RETURN value, use the following syntax:

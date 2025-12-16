@@ -12,8 +12,8 @@ Example:
 
 ```c linenums="1"
 MaxVal MAX_VALUE(Var1,Var2)
-
 ```
+
 DEFINE_VARIABLE
 
 SLONG Var1, Var2, VarMax

@@ -12,7 +12,7 @@ This keyword defines a data event handler.
 Example:
 
 ```c linenums="1"
-DATA_EVENT\[DEVICE\]
+DATA_EVENT[DEVICE]
 
 {
 
@@ -73,8 +73,8 @@ DATA_EVENT\[DEVICE\]
  }
 
 }
-
 ```
+
 DEVICE refers to:
 
 - Device – a single device number constant.

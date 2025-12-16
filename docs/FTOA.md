@@ -9,9 +9,9 @@ This function converts a 64-bit floating-point value to an ASCII string containi
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \] FTOA (DOUBLE Num)
-
+CHAR[] FTOA (DOUBLE Num)
 ```
+
 Parameters:
 
 - Num: 64-bit Floating-point number to convert to a decimal string.

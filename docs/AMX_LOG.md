@@ -8,9 +8,11 @@ Note: This command is supported by NetLinx Controller firmware version 4 or high
 
 Sends the specified message to the NetLinx master’s logging facilities if the current log level setting is at least as large as LEVEL.  For example, if the current log level setting is AMX_WARNING, calling log with level of AMX_ERROR will cause a log, while AMX_INFO would not.
 
-The AMX_LOG function is meant to replace the "SEND_STRING 0,…" log method.
+The AMX_LOG function is meant to replace the `SEND_STRING 0,…` log method.
 
+```c linenums="1"
 AMX_LOG(CONSTANT INTEGER LEVEL, CHAR MSG[])
+```
 
 Where level is one of the following values:
 

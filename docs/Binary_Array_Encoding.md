@@ -13,15 +13,15 @@ Arrays can optionally be encoded/decoded as pairs of ASCII-encoded HEX.
 
 Any example of a 2-byte (signed or unsigned) array containing the value 1,2,3,4,1,12,13,14 is:
 
-\<encoded\>
+<encoded>
 
-\<style\>BE\</ style \> 
+<style>BE</ style >
 
-\<size\>2\</size\> 
+<size>2</size>
 
-\<data\>010203040B0C0D0E\</data\> 
+<data>010203040B0C0D0E</data>
 
-\</encoded\>
+</encoded>
 
 This is the default type of encoding for non-CHAR arrays but can be used to encode/decode char arrays as well.
 

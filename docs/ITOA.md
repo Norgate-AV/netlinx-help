@@ -9,9 +9,9 @@ Converts a 32-bit signed integer to a decimal ASCII string.
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \] ITOA (LONG Num)
-
+CHAR[] ITOA (LONG Num)
 ```
+
 Parameters:
 
 - Num - a 32-bit signed integer to convert to a decimal string.
@@ -24,8 +24,8 @@ Example:
 
 ```c linenums="1"
 STRING = ITOA(501) // STRING = '501'
-
 ```
+
 See Also
 
 - [ATOI](ATOI.md)

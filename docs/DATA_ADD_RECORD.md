@@ -11,9 +11,9 @@ The DATA_ADD_RECORD function adds a new record to a data feed.
 Syntax:
 
 ```c linenums="1"
-SINTEGER DATA_ADD_RECORD (CHAR FEED\[\], CHAR \[\] RECORDSET_ID, DATA_RECORD REC)
-
+SINTEGER DATA_ADD_RECORD (CHAR FEED[], CHAR [] RECORDSET_ID, DATA_RECORD REC)
 ```
+
 Parameters:
 
 - FEED : A string containing the name of the data feed to add the record to
@@ -31,13 +31,11 @@ Example:
 ```c linenums="1"
 STACK_VAR DATA_RECORD record
 
- 
-
 // Records can have metadata fields and content fields. In this
 
 // example we won't use any metadata
-
 ```
+
 SET_LENGTH_ARRAY(record.metadata, 0)
 
 // We will have 3 content fields per record: photo, name and phone number

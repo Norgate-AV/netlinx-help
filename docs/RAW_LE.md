@@ -9,9 +9,9 @@ This routine takes an intrinsic variable and converts the variable into a Charac
 Syntax:
 
 ```c linenums="1"
-CHAR\[\] RAW_LE(IntrinsicVariable)
-
+CHAR[] RAW_LE(IntrinsicVariable)
 ```
+
 See Also
 
 - [ATOI](ATOI.md)

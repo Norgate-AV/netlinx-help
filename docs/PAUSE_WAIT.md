@@ -9,9 +9,9 @@ This command suspends the specified (named) [WAIT](WAIT.md) until a [RESTART_WAI
 Syntax:
 
 ```c linenums="1"
-PAUSE_WAIT \<'name'\>
-
+PAUSE_WAIT <'name'>
 ```
+
 See Also
 
 - [Waits](Waits.md)

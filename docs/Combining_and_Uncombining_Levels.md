@@ -10,9 +10,9 @@ It is recommended that a Virtual [DEVLEV](DEVLEV.md) set be used as the first DE
 
 The format for COMBINE_LEVELS and UNCOMBINE_LEVELS is:
 
-SLONG COMBINE_LEVELS (\<virtual DEVLEV\>, \<DEVLEV1\>, \<DEVLEV2\> …)
+SLONG COMBINE_LEVELS (<virtual DEVLEV>, <DEVLEV1>, <DEVLEV2> …)
 
-SLONG UNCOMBINE_LEVELS (\<virtual DEVLEV\>)
+SLONG UNCOMBINE_LEVELS (<virtual DEVLEV>)
 
 DEVLEV structures defined within the COMBINE_LEVELS are either individual DEVLEV structures or one dimension of a DEVLEV array. Any reference to the levels is handled through the first device in the list.
 
@@ -28,11 +28,7 @@ TP2 = 129
 
 TP3 = 130
 
- 
-
 TP4 = 131
-
- 
 
 DEFINE_PROGRAM
 
@@ -45,8 +41,6 @@ PUSH\[TP4,1\]
 COMBINE_LEVELS(VIRTUAL1,1,TP1,1,TP2,1,TP3,1)
 
 }
-
- 
 
  (\*Remove dynamic device combine\*)
 

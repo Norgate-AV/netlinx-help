@@ -4,14 +4,14 @@ title: File_Operations_Example__Reading_to_a_File
 
 # File Operations Example: Reading to a File
 
-The code example below shows a framework for using the file operations to read the contents of a file.  
+The code example below shows a framework for using the file operations to read the contents of a file.
 
-- Nothing is said about parsing the actual file contents, as this is completely dependent on the information contained in the file.  
+- Nothing is said about parsing the actual file contents, as this is completely dependent on the information contained in the file.
 - Similar to serial or IP communications, the ability to interpret the data is all about knowing the format in which it is provided.
 
 Note: This example assumes that the data in the file is text that is broken up in to a number of lines (such as a CSV file).  For files that are not separated in to lines, [FILE_READ](FILE_READ.md) is a better candidate.
 
-DEFINE_FUNCTION readStuffFromFile(CHAR cFileName\[\])
+DEFINE_FUNCTION readStuffFromFile(CHAR cFileName[])
 
 {
 
@@ -25,8 +25,6 @@ DEFINE_FUNCTION readStuffFromFile(CHAR cFileName\[\])
 
    slFileHandle = [FILE_OPEN](FILE_OPEN.md)(cFileName,FILE_READ_ONLY) // OPEN FILE FROM THE BEGINNING
 
-    
-
    IF(slFileHandle\>0)               // A POSITIVE NUMBER IS RETURNED IF SUCCESSFUL
 
       {
@@ -37,7 +35,7 @@ DEFINE_FUNCTION readStuffFromFile(CHAR cFileName\[\])
 
          {
 
-            slResult = [FILE_READ_LINE](FILE_READ_LINE.md)(slFileHandle,oneline,MAX_LENGTH_STRING(oneline)) // grab one line  
+            slResult = [FILE_READ_LINE](FILE_READ_LINE.md)(slFileHandle,oneline,MAX_LENGTH_STRING(oneline)) // grab one line
                                                                                          from the file
 
             parseLineFromFile(oneline)
@@ -46,20 +44,20 @@ DEFINE_FUNCTION readStuffFromFile(CHAR cFileName\[\])
 
            [FILE_CLOSE](FILE_CLOSE.md)(slFileHandle)   // CLOSE THE LOG FILE
 
-      }           
+      }
 
       ELSE
 
          {
 
-             SEND_STRING 0,"'FILE OPEN ERROR:',ITOA(slFileHandle)"  // IF THE LOG FILE COULD NOT BE  
+             SEND_STRING 0,"'FILE OPEN ERROR:',ITOA(slFileHandle)"  // IF THE LOG FILE COULD NOT BE
                                                                       CREATED
 
          }
 
       }
 
-DEFINE_FUNCTION parseLineFromFile(CHAR aLine\[\])
+DEFINE_FUNCTION parseLineFromFile(CHAR aLine[])
 
 {
 

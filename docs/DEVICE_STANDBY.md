@@ -12,8 +12,8 @@ Example:
 
 ```c linenums="1"
 DEVICE_STANDBY(DEVICE, NORMAL_STANDBY)
-
 ```
+
 See Also
 
 - [DEVICE Keywords](DEVICE_Keywords.md)

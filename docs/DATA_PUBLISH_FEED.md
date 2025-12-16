@@ -11,9 +11,9 @@ The DATA_PUBLISH_FEED function publishes the specified data feed to a file and r
 Syntax:
 
 ```c linenums="1"
-CHAR\[\] DATA_PUBLISH_FEED (CHAR FEED\[\])
-
+CHAR[] DATA_PUBLISH_FEED (CHAR FEED[])
 ```
+
 Parameters:
 
 - FEED : A string containing the name of the data feed to publish
@@ -26,8 +26,8 @@ Example:
 
 ```c linenums="1"
 DEFINE_VARIABLE
-
 ```
+
 STACKVAR CHAR publishedURL\[DATA_MAX_VALUE_LENGTH\]
 
 publishedURL = DATA_PUBLISH_FEED('phonelist')

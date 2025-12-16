@@ -4,7 +4,7 @@ title: IP_SET_OPTION
 
 # IP_SET_OPTION
 
-Allows for specific option settings on IP client or server connections.  
+Allows for specific option settings on IP client or server connections.
 
 Syntax:
 
@@ -12,8 +12,8 @@ Syntax:
 IP_SET_OPTION
 
     (INTEGER LocalPort,
-
 ```
+
     INTEGER OptionID,
 
     INTEGER OptionValue)
@@ -21,11 +21,11 @@ IP_SET_OPTION
 Parameters:
 
 - LocalPort - a user-defined (non-zero) integer value representing the local port on the client machine to use for this conversation. This local port number was previously specified in an [IP_CLIENT_OPEN](IP_CLIENT_OPEN.md) or [IP_SERVER_OPEN](IP_SERVER_OPEN.md) call.
-- OptionID - Identifier value for the option to be set.   
+- OptionID - Identifier value for the option to be set.
 
 Valid option IDs are:
 
-IP_MULTICAST_TTL_OPTION - Set the time-to-live value for all outbound UDP Multicast packet transmissions on the specified port.  
+IP_MULTICAST_TTL_OPTION - Set the time-to-live value for all outbound UDP Multicast packet transmissions on the specified port.
 
 Predefined constant option values are:
 
@@ -49,8 +49,8 @@ Example:
 
 ```c linenums="1"
 IP_SET_OPTION(PORT1, IP_MULTICAST_TTL_OPTION,IP_TTL_REGION)
-
 ```
+
 See Also
 
 - [Internet Protocol (IP) Communication](Internet_Protocol_IP_Communication_Advanced_Programmers_.md)

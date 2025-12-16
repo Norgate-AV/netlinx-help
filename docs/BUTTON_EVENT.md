@@ -12,10 +12,10 @@ This keyword defines a button event handler.
 Example:
 
 ```c linenums="1"
-BUTTON_EVENT\[DEVICE,CHANNEL\] or
-
+BUTTON_EVENT[DEVICE,CHANNEL] or
 ```
-BUTTON_EVENT \[DEVCHAN\[ \]\]
+
+BUTTON_EVENT \[DEVCHAN[]\]
 
 {
 
@@ -54,7 +54,7 @@ Device – a single device number constant.
 D:P:S – a constant device specification such as TP:1:0.
 
 - CHANNEL refers to  a single channel number constant.
-- DEVCHAN\[ \] refers to a device-channel array.
+- DEVCHAN[] refers to a device-channel array.
 
 See Also
 

@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 DUET_MEM_SIZE_GET
-
 ```
+
 For example, a value of 5 = 5 MB.
 
 See Also

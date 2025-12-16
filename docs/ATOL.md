@@ -11,9 +11,9 @@ It recognizes a character representation of a value that would be within the ran
 Syntax:
 
 ```c linenums="1"
-SLONG ATOL (CHAR STRING\[ \])
-
+SLONG ATOL (CHAR STRING[])
 ```
+
 Parameters:
 
 - STRING - string containing the character representation of the integer. Valid input characters are "0" through "9" and the sign designators ("+" and "-"). If no valid characters are found, zero is returned as a result.
@@ -30,8 +30,8 @@ Example:
 
 ```c linenums="1"
 Vol = ATOL('Volume=100%') // Vol = 100
-
 ```
+
 Num = ATOL('-3758') // Num =-3758
 
 See Also

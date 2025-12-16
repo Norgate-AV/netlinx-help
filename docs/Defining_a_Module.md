@@ -10,8 +10,6 @@ The example below demonstrates how a NetLinx module is incorporated into a main 
 
 PROGRAM_NAME = 'Switcher Program'
 
- 
-
 DEFINE_DEVICE
 
 SW1 = 5
@@ -22,11 +20,7 @@ SW3 = 7
 
 TP = 128
 
- 
-
 DEFINE_VARIABLE
-
- 
 
 INTEGER nInputs = 5
 
@@ -34,21 +28,15 @@ INTEGER nOutputs = 4
 
 INTEGER nLevels = 3
 
- 
+DEVCHAN InputDCSet[] = {{TP,1}, {TP,2}, {TP,3}, {TP,4}, {TP,5}}
 
-DEVCHAN InputDCSet\[ \] = {{TP,1}, {TP,2}, {TP,3}, {TP,4}, {TP,5}}
+DEVCHAN OutputDCSet[] = {{TP,6}, {TP,7}, {TP,8}, {TP,9}}
 
-DEVCHAN OutputDCSet\[ \] = {{TP,6}, {TP,7}, {TP,8}, {TP,9}}
+DEVCHAN LevelDCSet[] = {{TP,10}, {TP,11}, {TP,12}}
 
-DEVCHAN LevelDCSet\[ \] = {{TP,10}, {TP,11}, {TP,12}}
+DEVCHAN TakeDCSet[] = {{TP,13}}
 
-DEVCHAN TakeDCSet\[ \] = {{TP,13}}
-
- 
-
-DEV\[ \] Switchers = {SW1, SW2, SW3}
-
- 
+DEV[] Switchers = {SW1, SW2, SW3}
 
 DEFINE_MODULE 'XYZ Switcher' ModXYZ(nInputs, nOutputs, nLevels, InputDCSet, OutputDCSet,
 
@@ -59,9 +47,9 @@ A module is defined by the [MODULE_NAME](MODULE_NAME.md) entry on the first line
 Syntax:
 
 ```c linenums="1"
-MODULE_NAME = '\<module name\>' \[(\<parameter list\>)\]
-
+MODULE_NAME = '<module name>' [(<parameter list>)]
 ```
+
 The MODULE_NAME entry identifies the file as containing a NetLinx module, as opposed to a standard NetLinx source code file. The module name is any valid string literal not to exceed 64 characters. A file can contain only one module and the file name must be the same as the module name with the addition of the ".AXS" extension.
 
 Module parameters behave exactly like subroutine parameters; the parameter list is optional. The value for each parameter is set either by the main program or another module. If the value of a parameter is changed, both the main program and the module see the change.
@@ -81,19 +69,15 @@ INTEGER nOutputs,
 
 INTEGER nLevels,
 
-DEVCHAN InputDCSet\[\],
+DEVCHAN InputDCSet[],
 
-DEVCHAN OutputDCSet\[\],
+DEVCHAN OutputDCSet[],
 
-DEVCHAN LevelDCSet\[\],
+DEVCHAN LevelDCSet[],
 
-DEVCHAN TakeDCSet\[\],
+DEVCHAN TakeDCSet[],
 
-DEV Switchers\[\])
-
- 
-
- 
+DEV Switchers[])
 
 DEFINE_CONSTANT
 
@@ -103,8 +87,6 @@ MaxOut = 10
 
 MaxLev = 10
 
- 
-
 DEFINE_VARIABLE
 
 INTEGER SwitchPending\[MaxOut\]\[MaxIn\]\[MaxLev\]
@@ -112,8 +94,6 @@ INTEGER SwitchPending\[MaxOut\]\[MaxIn\]\[MaxLev\]
 INTEGER SwitchStatus\[MaxOut\]\[MaxIn\]\[MaxLev\]
 
 INTEGER Input, nLevel
-
- 
 
 DEFINE_FUNCTION DoSwitch()
 
@@ -133,8 +113,6 @@ DEFINE_FUNCTION DoSwitch()
 
   }
 
- 
-
   SwitchStatus\[Output\]\[Input\]\[nLevel\] = SwitchPending\[Output\]\[Input\]\[nLevel\]
 
   SwitchPending\[Output\]\[Input\]\[nLevel\] = 0
@@ -145,8 +123,6 @@ DEFINE_FUNCTION DoSwitch()
 
 }
 
- 
-
 DEFINE_FUNCTION char\[10\] SwitchString(INTEGER In, INTEGER Out, INTEGER cLevel)
 
 {
@@ -154,8 +130,6 @@ DEFINE_FUNCTION char\[10\] SwitchString(INTEGER In, INTEGER Out, INTEGER cLevel)
  RETURN '' // return an empty string
 
 }
-
- 
 
 DEFINE_START
 
@@ -167,11 +141,7 @@ ON\[InputDCSet\[Input\]\]
 
 ON\[LevelDCSet\[nLevel\] \]
 
- 
-
 DEFINE_EVENT
-
- 
 
 BUTTON_EVENT\[InputDCSet\]
 
@@ -189,8 +159,6 @@ BUTTON_EVENT\[InputDCSet\]
 
 }
 
- 
-
 BUTTON_EVENT\[OutputDCSet\]
 
 {
@@ -203,19 +171,13 @@ BUTTON_EVENT\[OutputDCSet\]
 
    !SwitchPending\[get_last(OutputDCSet)\]\[Input\]\[nLevel\]
 
- 
-
   \[OutputDCSet\[get_last(OutputDCSet)\]\] =
 
    SwitchPending\[get_last(OutputDCSet)\]\[Input\]\[nLevel\]
 
- 
-
 }
 
 }
-
- 
 
 BUTTON_EVENT\[LevelDCSet\]
 
@@ -232,8 +194,6 @@ BUTTON_EVENT\[LevelDCSet\]
  }
 
 }
-
- 
 
 BUTTON_EVENT\[TakeDCSet\]
 

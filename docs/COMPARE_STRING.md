@@ -12,9 +12,9 @@ This keyword compares two character strings.
 Example:
 
 ```c linenums="1"
-DEFINE_LIBRARY_FUNCTION LONG COMPARE_STRING(CHAR A\[\], CHAR B\[\])
-
+DEFINE_LIBRARY_FUNCTION LONG COMPARE_STRING(CHAR A[], CHAR B[])
 ```
+
 Here is some useful debugging code:
 
 tstStr = 'ALEXERICRYAN'
@@ -29,8 +29,6 @@ else
 
  SEND_STRING DvDEBUG, 'ALEXERICRYAN == ALEX... BAD!'
 
- 
-
 tstStr = 'ALEXERICRYAN'
 
 ulError = COMPARE_STRING ( tstStr, 'ALEXERICRYAN' )
@@ -42,8 +40,6 @@ if ( ulError == 0 )
 else
 
  SEND_STRING DvDEBUG, 'ALEXERICRYAN == ALEXERICRYAN'
-
- 
 
 tstStr = 'ALEXERICRYAN'
 

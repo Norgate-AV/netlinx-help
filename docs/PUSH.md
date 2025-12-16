@@ -9,10 +9,10 @@ The PUSH keyword is used to declare a block of code to be executed when a push e
 Example:
 
 ```c linenums="1"
-PUSH \[DEVICE,CHANNEL\]
-
+PUSH [DEVICE,CHANNEL]
 ```
-PUSH \[DEVCHAN\[ \]\]
+
+PUSH \[DEVCHAN[]\]
 
 {
 
@@ -30,15 +30,15 @@ Dps – a DEV structure.
 
 D:P:S – a device specification such as TP:1:0.
 
-DEV\[ \] – a device array.
+DEV[] – a device array.
 
 - CHANNEL:
 
 Channel – a single channel number.
 
-CHAN\[ \] – a channel array.
+CHAN[] – a channel array.
 
-- [DEVCHAN](DEVCHAN.md)\[ \]:  a device-channel array.
+- [DEVCHAN](DEVCHAN.md)[]:  a device-channel array.
 - Variable: a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
 
 Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md) handler for processing [PUSH](PUSH.md) events.

@@ -22,8 +22,6 @@ All incoming events are stored in a queue pending processing. Messages are proce
 
 3.  If a handler is found, go to step 3.
 
-&nbsp;
-
 2.  Execute MAINLINE to process the event (this is how the current NetLinx system processes events). Go to step 5.
 
 3.  Execute the code in the event handler(s) pertaining to the type of event received.
@@ -40,19 +38,19 @@ DEVICE refers to a device specification:
 
 - DEVICE: A single device number constant
 - D:P:S: A constant device specification such as 128:1:0
-- DEV\[ \]: A device array
+- DEV[]: A device array
 
 CHANNEL refers to a device specification:
 
 - CHANNEL: A single channel number constant
-- CHAN \[ \]: An integer array of channel numbers
-- DEVCHAN\[ \]: A device-channel array
+- CHAN []: An integer array of channel numbers
+- DEVCHAN[]: A device-channel array
 
 LEVEL refers to a device specification:
 
 - LEVEL: A single level number constant
-- LEV \[ \]: An integer array of level numbers
-- DEVLEV\[ \]: A device-level array
+- LEV []: An integer array of level numbers
+- DEVLEV[]: A device-level array
 
 See Also
 

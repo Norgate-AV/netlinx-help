@@ -8,7 +8,7 @@ The RELEASE keyword is used to declare a block of code to be executed when a rel
 
 RELEASE \[DEVICE,CHANNEL\]
 
-RELEASE \[DEVCHAN\[ \]\]
+RELEASE \[DEVCHAN[]\]
 
 {
 
@@ -26,15 +26,15 @@ Dps – a DEV structure.
 
 D:P:S – a device specification such as TP:1:0.
 
-DEV\[ \] – a device array.
+DEV[] – a device array.
 
 - CHANNEL:
 
 Channel – a single channel number.
 
-CHAN\[ \] – a channel array.
+CHAN[] – a channel array.
 
-- [DEVCHAN](DEVCHAN.md)\[ \]: a device-channel array.
+- [DEVCHAN](DEVCHAN.md)[]: a device-channel array.
 
 Note: This keyword also defines a section in a [BUTTON_EVENT](BUTTON_EVENT.md) handler for processing [RELEASE](RELEASE.md) events.
 

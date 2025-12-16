@@ -11,9 +11,9 @@ It must appear on the first line of the program and cannot appear more than once
 Syntax:
 
 ```c linenums="1"
-PROGRAM_NAME = '\<program name\>'
-
+PROGRAM_NAME = '<program name>'
 ```
+
 See Also
 
 - [DEFINE Keywords](DEFINE_Keywords.md)

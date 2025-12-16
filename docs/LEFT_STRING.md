@@ -9,10 +9,10 @@ Returns the specified number of characters from the beginning of a string.
 Syntax:
 
 ```c linenums="1"
-CHAR\[ \] LEFT_STRING (CHAR STRING\[ \], LONG Count)
-
+CHAR[] LEFT_STRING (CHAR STRING[], LONG Count)
 ```
-WIDECHAR\[ \] LEFT_STRING (WIDECHAR STRING\[ \], LONG Count)
+
+WIDECHAR[] LEFT_STRING (WIDECHAR STRING[], LONG Count)
 
 Parameters:
 
@@ -27,8 +27,8 @@ Example:
 
 ```c linenums="1"
 STRING = 'ABCDEFG'
-
 ```
+
 Substr = LEFT_STRING(STRING, 3) // Substr = 'ABC'
 
 See Also

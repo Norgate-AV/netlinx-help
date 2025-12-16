@@ -128,8 +128,8 @@ Example:
 
 ```c linenums="1"
 The following example shows basic code for tracking a touch panel page.
-
 ```
+
 - Assume that the variables have been properly defined in the DEFINE_VARIABLE section.
 - The DEFINE_START section contains the creation of the buffer and the DEFINE_PROGRAM section contains the string evaluation.
 

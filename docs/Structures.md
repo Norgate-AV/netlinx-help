@@ -10,8 +10,8 @@ Example:
 
 ```c linenums="1"
 DEFINE_TYPE
-
 ```
+
 STRUCTURE NEWSTRUCT
 
 {
@@ -40,8 +40,6 @@ MyNewStruct.Number = 0
 
 MyNewStruct.Text= 'Copyright by Company X'
 
- 
-
 MyNewStructArray\[1\].Number = 1
 
 MyNewStructArray\[1\].Text = 'Line 1'
@@ -64,13 +62,13 @@ SET_LENGTH_STRING (MyNewStruct.Text, 16)
 
 A syntax sample for a structure definition is shown below:
 
-STRUCTURE \<name\>
+STRUCTURE <name>
 
 {
 
- \[\<type\>\] \<Data1\>
+ \[<type>\] <Data1>
 
- \[\<type\>\] \<Data2\>
+ \[<type>\] <Data2>
 
  .
 

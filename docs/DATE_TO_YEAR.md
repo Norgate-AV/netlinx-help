@@ -6,7 +6,7 @@ title: DATE_TO_YEAR
 
 Returns an integer representing the year portion of a date string. The syntax:
 
-SINTEGER DATE_TO_YEAR (CHAR LDATE\[ \])
+SINTEGER DATE_TO_YEAR (CHAR LDATE[])
 
 Note: The S in SINTEGER allows a negative value to be returned.
 
@@ -22,8 +22,8 @@ Example:
 
 ```c linenums="1"
 SINTEGER nYear
-
 ```
+
 nYear = DATE_TO_YEAR ('2/9/1999') // nYear = 1999
 
 See Also

@@ -11,10 +11,10 @@ If used with a variable, ON sets it to 1.
 Syntax:
 
 ```c linenums="1"
-ON\[DEVICE,CHANNEL\]
-
+ON[DEVICE,CHANNEL]
 ```
-ON\[DEVCHAN\[ \]\]
+
+ON\[DEVCHAN[]\]
 
 ON\[Variable\]
 
@@ -28,15 +28,15 @@ Dps – a DEV structure.
 
 D:P:S – a device specification such as TP:1:0.
 
-DEV\[ \] – a device array.
+DEV[] – a device array.
 
 - CHANNEL refers to:
 
 Channel – a single channel number.
 
-CHAN\[ \] – a channel array.
+CHAN[] – a channel array.
 
-- DEVCHAN\[ \] refers to a device-channel array.
+- DEVCHAN[] refers to a device-channel array.
 - Variable refers to a variable defined under the [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
 
 See Also
@@ -51,8 +51,5 @@ See Also
 - [PUSH_DEVCHAN](PUSH_DEVCHAN.md)
 - [RELEASE_DEVCHAN](RELEASE_DEVCHAN.md)
 - [PULSE](PULSE.md)
-
-&nbsp;
-
 - [COMBINE_CHANNELS](COMBINE_CHANNELS.md)
 - [UNCOMBINE_CHANNELS](UNCOMBINE_CHANNELS.md)

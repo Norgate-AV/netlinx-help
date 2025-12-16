@@ -24,7 +24,7 @@ MyFunc() // calling a function with no parameters
 
 To specify an array as a function or subroutine parameter, one set of brackets for each array dimension must follow the variable name, as shown in the following example:
 
-DEFINE_CALL 'Process Array' (CHAR Array\[ \]\[ \])
+DEFINE_CALL 'Process Array' (CHAR Array[][])
 
 {
 

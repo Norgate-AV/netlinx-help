@@ -8,9 +8,9 @@ This function removes characters from the specified string.
 
 All characters up to and including the first occurrence of the specified sequence are removed. The syntax:
 
-CHAR\[ \] REMOVE_STRING (CHAR STRING, CHAR Seq\[ \], LONG Start)
+CHAR[] REMOVE_STRING (CHAR STRING, CHAR Seq[], LONG Start)
 
-WIDECHAR\[ \] REMOVE_STRING (WIDECHAR STRING, WIDECHAR Seq\[ \], LONG Start)
+WIDECHAR[] REMOVE_STRING (WIDECHAR STRING, WIDECHAR Seq[], LONG Start)
 
 Parameters:
 
@@ -26,11 +26,9 @@ Example:
 
 ```c linenums="1"
 STRING = 'ABCDEF'
-
 ```
-Substr = REMOVE_STRING(STRING, 'BC', 1)
 
- 
+Substr = REMOVE_STRING(STRING, 'BC', 1)
 
 (\* Substr = 'ABC' \*)
 

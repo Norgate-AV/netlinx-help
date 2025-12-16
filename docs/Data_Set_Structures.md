@@ -36,7 +36,7 @@ STRUCTURE DEVCHAN
 
 {
 
-DEV DEVICE 
+DEV DEVICE
 
 INTEGER CHANNEL
 
@@ -68,13 +68,13 @@ DEVLEV LEVEL_2 = { 128:1:0, 2 }
 
 DEV, DEVCHAN, and DEVLEV are structures built into the NetLinx language. You can do more with DEV, DEVCHAN, and DEVLEV than you could with structures you create within the code.
 
-DEV PANEL_GROUP1\[\] = { 128:1:0, 129:1:0, 130:1:0 }
+DEV PANEL_GROUP1[] = { 128:1:0, 129:1:0, 130:1:0 }
 
 DEV MSP_GROUP\[5\] = { MSP1, MSP2, MSP3 }
 
 DEVCHAN PRESET1_BUTTONS\[5\] = { {TP1, 21}, {MSP1, 1}, {134:1:0, 1} }
 
-DEVLEV VOL1_LEVEL\[\] = { {TP1, 1}, {MSP1, 1}, {192:1:0, 1} }
+DEVLEV VOL1_LEVEL[] = { {TP1, 1}, {MSP1, 1}, {192:1:0, 1} }
 
 You can use the structures and arrays of the structures within many commands and situations where you would use a device number, a device and channel combination, or a device and level combination. These data sets allow you to combine devices, devices and channels, and devices and levels without using the [DEFINE_COMBINE](DEFINE_COMBINE.md) or [DEFINE_CONNECT_LEVEL](DEFINE_CONNECT_LEVEL.md) sections. This gives you the ability to combine certain pages of panels or to combine panels under certain conditions. In Axcess, once the panels were combined you were locked into that system configuration.
 

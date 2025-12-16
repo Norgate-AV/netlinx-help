@@ -18,8 +18,6 @@ LOCAL_VAR INTEGER INT2
 
 }
 
- 
-
 DEFINE_CALL 'My Subroutine' (INTEGER INT1)
 
 {
@@ -42,8 +40,8 @@ Example:
 IF (X \> 10)
 
 {
-
 ```
+
  LOCAL_VAR INTEGER INT2  // static (permanent)
 
  STACK_VAR CHAR ARRAY1\[10\] // non-static (temporary)
@@ -60,8 +58,8 @@ Example:
 WAIT 10, 'My Wait Name'
 
 {
-
 ```
+
  LOCAL_VAR CHAR TempBuf\[80\]
 
  (\* statements \*)
@@ -76,11 +74,9 @@ Example:
 DEFINE_FUNCTION integer MyFunc(INTEGER nFlag)
 
 {
-
 ```
- LOCAL_VAR INTEGER n
 
- 
+ LOCAL_VAR INTEGER n
 
  IF (nFlag \> 0)
 
@@ -99,8 +95,6 @@ DEFINE_FUNCTION integer MyFunc(INTEGER nFlag)
 .
 
 }
-
- 
 
 DEFINE_FUNCTION integer MyFunc(INTEGER nFlag)
 
@@ -134,11 +128,11 @@ The general form of a static local variable declaration is:
 
 \[LOCAL_VAR\] \[VOLATILE \| PERSISTENT\] \[CONSTANT\]
 
-\[\<type\>\] name \[= \<value\>\]
+\[<type>\] name \[= <value>\]
 
 The general form of the non-static local variable declaration is:
 
-\[STACK_VAR\] \[\<type\>\] name \[= \<value\>\]
+\[STACK_VAR\] \[<type>\] name \[= <value>\]
 
 Since non-static local variables are allocated on the program stack (a block of memory reserved for allocation of temporary variables), the keywords [VOLATILE](VOLATILE.md), [PERSISTENT](PERSISTENT.md) and [CONSTANT](CONSTANT.md) do not apply.
 

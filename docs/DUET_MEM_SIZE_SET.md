@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 DUET_MEM_SIZE_SET(int)
-
 ```
+
 This feature is used so that if a NetLinx program requires a certain size of memory be allotted for its currently used Duet Modules, it can be reserved on the target Master.
 
 This setting does not take effect until the next reboot.

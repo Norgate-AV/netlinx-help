@@ -16,8 +16,8 @@ IF (TIME = '23:59:59')
 {
 
 }
-
 ```
+
 See Also
 
 - [TIME_TO_HOUR](TIME_TO_HOUR.md)

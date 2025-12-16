@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 DEVICE_INFO(DEV Device, DEV_INFO_STRUCT Info)
-
 ```
+
 Parameters:
 
 - Device: The device to query.
@@ -19,7 +19,7 @@ Parameters:
 
 Result:
 
-- DEVICE_INFO does not return a result.  However, if the DEVICE_INFO call is successful, the DEVICE_ID element of the structure will be non-zero.  
+- DEVICE_INFO does not return a result.  However, if the DEVICE_INFO call is successful, the DEVICE_ID element of the structure will be non-zero.
 - If DEVICE_ID is zero, the structure contains no useful information.
 
 The DEV_INFO_STRUCT contains the following information:
@@ -49,8 +49,8 @@ Example:
 
 ```c linenums="1"
 DEFINE_DEVICE
-
 ```
+
 dvNL = 0:1:0
 
 DEFINE_VARIABLE

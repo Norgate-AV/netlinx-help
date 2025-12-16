@@ -34,10 +34,10 @@ If the event handler is specified using an array for DEV, CHANNEL, or a DEVCHAN 
 Example:
 
 ```c linenums="1"
-BUTTON_EVENT\[DEVICE,CHANNEL\] or
-
+BUTTON_EVENT[DEVICE,CHANNEL] or
 ```
-BUTTON_EVENT\[(DEVCHAN\[ \])\]
+
+BUTTON_EVENT\[(DEVCHAN[])\]
 
 {
 

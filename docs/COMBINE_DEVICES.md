@@ -20,7 +20,7 @@ The example below is equivalent to the first except for the use of a device arra
 
 COMBINE_DEVICES
 
-(VIRTUAL1, DEV \[ \])
+(VIRTUAL1, DEV [])
 
 An advantage of using a device array is that the array can be manipulated at run-time to add or remove devices. A device that is added to the array is combined with the others and a device that is removed is uncombined. The process of adding or removing devices does not require the system to be powered down and restarted.
 

@@ -14,17 +14,17 @@ CHAR is used to store single-byte values and character strings. This data type i
 
 Converting between CHAR and WIDECHAR
 
-On occasion, you may need to convert a CHAR array to a [WIDECHAR](WIDECHAR.md) array.  The [CH_TO_WC](CH_TO_WC.md)  function can be used to accomplish this conversion.  
+On occasion, you may need to convert a CHAR array to a [WIDECHAR](WIDECHAR.md) array.  The [CH_TO_WC](CH_TO_WC.md)  function can be used to accomplish this conversion.
 
 Example:
 
 ```c linenums="1"
 wcMyString = CH_TO_WC('Any ASCII string')
-
 ```
+
 wcMyString = CH_TO_WC(cMyString)
 
-- Any ASCII or extended ASCII characters, i.e. 8-bit characters, contained in the WIDECHAR array will appear in the CHAR array.  
+- Any ASCII or extended ASCII characters, i.e. 8-bit characters, contained in the WIDECHAR array will appear in the CHAR array.
 - Converting from CHAR to WIDECHAR never results in loss of data.
 
 See Also:

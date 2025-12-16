@@ -10,8 +10,8 @@ Syntax:
 
 ```c linenums="1"
 UNCOMBINE_CHANNELS (DEVCHAN VDC)
-
 ```
+
 Parameters:
 
 - VDC -Virtual device-channel that represents one device-channel combine group.

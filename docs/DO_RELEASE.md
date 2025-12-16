@@ -12,8 +12,8 @@ Example:
 
 ```c linenums="1"
 DO_RELEASE(DEVICE, CHANNEL)
-
 ```
+
 Parameters:
 
 - Device - the device to RELEASE.

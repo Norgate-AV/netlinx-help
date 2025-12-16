@@ -15,9 +15,9 @@ Example:
 SELECT
 
 {
-
 ```
- ACTIVE (\<condition 1\>) :
+
+ ACTIVE (<condition 1>) :
 
  {
 
@@ -25,7 +25,7 @@ SELECT
 
  }
 
- ACTIVE (\<condition 2\>) :
+ ACTIVE (<condition 2>) :
 
  {
 
@@ -33,7 +33,7 @@ SELECT
 
  }
 
- ACTIVE (\<condition n\>) :
+ ACTIVE (<condition n>) :
 
  {
 

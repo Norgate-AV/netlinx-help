@@ -11,16 +11,16 @@ If a condition evaluates to true, the statement(s) associated with it are execut
 Example:
 
 ```c linenums="1"
-IF (\<conditional expression 1\>)
+IF (<conditional expression 1>)
 
 {
 
 (\* statements for condition 1 \*)
 
 }
-
 ```
-ELSE IF (\<conditional expression 2\>)
+
+ELSE IF (<conditional expression 2>)
 
 {
 

@@ -11,15 +11,15 @@ This message must be processed before another one is retrieved either at the sta
 Example:
 
 ```c linenums="1"
-LONG_WHILE (\<conditional expression\>)
+LONG_WHILE (<conditional expression>)
 
 {
 
  (\* conditional statements \*)
 
 }
-
 ```
+
 Notes:
 
 - DEFINE_EVENTs events are still processed even if mainline is in a LONG_WHILE.

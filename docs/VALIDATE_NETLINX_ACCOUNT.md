@@ -9,9 +9,9 @@ This function validates the specified user name and password against the NetLinx
 Syntax:
 
 ```c linenums="1"
-sinteger VALIDATE_NETLINX_ACCOUNT(CHAR USERNAME\[\], CHAR PASSWORD\[\],LAST_LOGIN_INFO INFO)
-
+sinteger VALIDATE_NETLINX_ACCOUNT(CHAR USERNAME[], CHAR PASSWORD[],LAST_LOGIN_INFO INFO)
 ```
+
 Parameters:
 
 - username - A character array containing the user name to validate.

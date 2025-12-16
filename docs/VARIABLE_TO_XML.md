@@ -76,17 +76,17 @@ BUTTON_EVENT[TP,1]  // Convert And Save
         lPos = 1
         slReturn = VARIABLE_TO_STRING(MyAlbumStruct, sBinaryString, lPos)
         SEND_STRING 0,"'POSITION=',ITOA(lPos),' – Result = ',ITOA(slReturn)"
-        
+
         // Convert To XML
         lPos = 1
         slReturn = VARIABLE_TO_XML(MyAlbumStruct, sXMLString, lPos, 0)
         SEND_STRING 0,"'POSITION=',ITOA(lPos),' – Result = ',ITOA(slReturn)"
-        
+
         // Save Structure to Disk - Binary
         slFile = FILE_OPEN('BinaryEncode.xml', 2)
         slReturn = FILE_WRITE(slFile, sBinaryString, LENGTH_STRING(sBinaryString))
         slReturn = FILE_CLOSE(slFile)
-        
+
         // Save Structure To Disk – XML
         slFile = FILE_OPEN('xmlEncode.xml', 2)
         slReturn = FILE_WRITE(slFile, sXMLString, LENGTH_STRING(sXMLString))
@@ -105,16 +105,16 @@ BUTTON_EVENT[TP,2]  // Read and Decode
         slFile = FILE_OPEN('BinaryEncode.xml',1)
         slResult = FILE_READ(slFile, sBinaryString, MAX_LENGTH_STRING(sBinaryString)
         slResult = FILE_CLOSE (slFile)
-        
+
         // Read XML File
         slFile = FILE_OPEN('XMLEncode.xml',1)
         slResult = FILE_READ(slFile, sXMLString, MAX_LENGTH_STRING(sXMLString))
         slResult = FILE_CLOSE (slFile)
-        
+
         // Convert To Binary
         lPos = 1
         slReturn = STRING_TO_VARIABLE(MyAlbumStruct, sBinaryString, slPos)
-        
+
         // OR Convert To XML
         slPos = 1
         slReturn = XML_TO_VARIABLE (MyAlbumStruct, sXMLString, slPos, 0)

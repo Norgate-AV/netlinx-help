@@ -9,9 +9,9 @@ Converts an ASCII string containing the hexadecimal representation of a number t
 Syntax:
 
 ```c linenums="1"
-LONG HEXTOI (CHAR STRING\[ \])
-
+LONG HEXTOI (CHAR STRING[])
 ```
+
 Parameters:
 
 - STRING - hexadecimal formatted string to be converted to an integer.
@@ -26,8 +26,8 @@ Example:
 
 ```c linenums="1"
 Num = HEXTOI('126EC') // Num = 75500
-
 ```
+
 See Also
 
 - [ATOI](ATOI.md)
