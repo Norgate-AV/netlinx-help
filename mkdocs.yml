@@ -99,3 +99,14 @@ nav:
           - Constants: Language-Elements/Variables-Constants/Constants.md
       - Subroutines (Functions):
           - Language-Elements/Subroutines-Functions/index.md
+      - Compiler Directives:
+          - Language-Elements/Compiler-Directives/index.md
+          - "#DEFINE": Language-Elements/Compiler-Directives/_DEFINE.md
+          - "#DISABLE_WARNING": Language-Elements/Compiler-Directives/_DISABLE_WARNING_.md
+          - "#ELSE": Language-Elements/Compiler-Directives/_ELSE.md
+          - "#END_IF": Language-Elements/Compiler-Directives/_END_IF.md
+          - "#IF_DEFINED": Language-Elements/Compiler-Directives/_IF_DEFINED.md
+          - "#IF_NOT_DEFINED": Language-Elements/Compiler-Directives/_IF_NOT_DEFINED.md
+          - "#INCLUDE": Language-Elements/Compiler-Directives/_INCLUDE.md
+          - "#WARN": Language-Elements/Compiler-Directives/_WARN.md
+
