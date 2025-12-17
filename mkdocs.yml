@@ -113,4 +113,6 @@ nav:
           - "#IF_NOT_DEFINED": Language-Elements/Compiler-Directives/_IF_NOT_DEFINED.md
           - "#INCLUDE": Language-Elements/Compiler-Directives/_INCLUDE.md
           - "#WARN": Language-Elements/Compiler-Directives/_WARN.md
-
+      - Arrays:
+          - Language-Elements/Arrays/index.md
+          - Multi-Dimensional Arrays: Language-Elements/Arrays/Multi_Dimensional_Arrays.md
