@@ -10,15 +10,17 @@
       
       
       
-        <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/NetLinx-Keywords/">
+        <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/">
       
       
+      
+        <link rel="next" href="Language-Elements/Mainline/">
       
       
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -27,10 +29,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,17 +59,17 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="NetLinx Language Help - NetLinx Language Help" />
+<meta property="og:title" content="NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
-<meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/NetLinx-Keywords/index.png" />
+<meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/index.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://norgate-av.github.io/netlinx-help/NetLinx-Keywords/" />
+<meta property="og:url" content="https://norgate-av.github.io/netlinx-help/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="NetLinx Language Help - NetLinx Language Help" />
+<meta property="twitter:title" content="NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
-<meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/NetLinx-Keywords/index.png" />
+<meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/index.png" />
 </head>
   
   
@@ -107,7 +109,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="NetLinx Language Help" class="md-header__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
+    <a href="." title="NetLinx Language Help" class="md-header__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -250,7 +252,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="NetLinx Language Help" class="md-nav__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
+    <a href="." title="NetLinx Language Help" class="md-nav__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -277,10 +279,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../index.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
         
   
   
@@ -296,6 +325,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#netlinx-programming-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NetLinx Programming Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#select-a-help-topic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select a Help Topic
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -354,7 +425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Mainline/" class="md-nav__link">
+      <a href="Language-Elements/Mainline/" class="md-nav__link">
         
   
   
@@ -382,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Statements_and_Expressions/" class="md-nav__link">
+      <a href="Language-Elements/Statements_and_Expressions/" class="md-nav__link">
         
   
   
@@ -410,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Keywords/" class="md-nav__link">
+      <a href="Language-Elements/Keywords/" class="md-nav__link">
         
   
   
@@ -438,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Devices/" class="md-nav__link">
+      <a href="Language-Elements/Devices/" class="md-nav__link">
         
   
   
@@ -466,7 +537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Device_Numbers-_Supported_Ranges_by_Device_Type/" class="md-nav__link">
+      <a href="Language-Elements/Device_Numbers-_Supported_Ranges_by_Device_Type/" class="md-nav__link">
         
   
   
@@ -494,7 +565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Virtual_Devices/" class="md-nav__link">
+      <a href="Language-Elements/Virtual_Devices/" class="md-nav__link">
         
   
   
@@ -522,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Comments/" class="md-nav__link">
+      <a href="Language-Elements/Comments/" class="md-nav__link">
         
   
   
@@ -597,7 +668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Identifiers/" class="md-nav__link">
+      <a href="Language-Elements/Identifiers/" class="md-nav__link">
         
   
   
@@ -625,7 +696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Devices/" class="md-nav__link">
+      <a href="Language-Elements/Devices/" class="md-nav__link">
         
   
   
@@ -653,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Identifiers/Device_Arrays/" class="md-nav__link">
+      <a href="Language-Elements/Identifiers/Device_Arrays/" class="md-nav__link">
         
   
   
@@ -681,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
+      <a href="Language-Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
         
   
   
@@ -709,7 +780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Identifiers/Device_Level_Arrays/" class="md-nav__link">
+      <a href="Language-Elements/Identifiers/Device_Level_Arrays/" class="md-nav__link">
         
   
   
@@ -737,7 +808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Identifiers/Data_Set_Structures/" class="md-nav__link">
+      <a href="Language-Elements/Identifiers/Data_Set_Structures/" class="md-nav__link">
         
   
   
@@ -765,7 +836,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Virtual_Devices/" class="md-nav__link">
+      <a href="Language-Elements/Virtual_Devices/" class="md-nav__link">
         
   
   
@@ -848,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/" class="md-nav__link">
         
   
   
@@ -876,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/Variables/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/Variables/" class="md-nav__link">
         
   
   
@@ -904,7 +975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/Local_Variables/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/Local_Variables/" class="md-nav__link">
         
   
   
@@ -932,7 +1003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/Global_Variables/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/Global_Variables/" class="md-nav__link">
         
   
   
@@ -960,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/Persistent_Variables/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/Persistent_Variables/" class="md-nav__link">
         
   
   
@@ -988,7 +1059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/Variables_Keywords/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/Variables_Keywords/" class="md-nav__link">
         
   
   
@@ -1016,7 +1087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables/" class="md-nav__link">
         
   
   
@@ -1044,7 +1115,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Variables-Constants/Constants/" class="md-nav__link">
+      <a href="Language-Elements/Variables-Constants/Constants/" class="md-nav__link">
         
   
   
@@ -1127,7 +1198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Language-Elements/Subroutines-Functions/" class="md-nav__link">
+      <a href="Language-Elements/Subroutines-Functions/" class="md-nav__link">
         
   
   
@@ -1135,6 +1206,313 @@
     
   
     Subroutines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compiler Directives
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compiler Directives
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compiler_Directives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_DEFINE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #DEFINE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_DISABLE_WARNING_/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #DISABLE_WARNING
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_ELSE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #ELSE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_END_IF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #END_IF
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_IF_DEFINED/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #IF_DEFINED
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_IF_NOT_DEFINED/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #IF_NOT_DEFINED
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_INCLUDE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #INCLUDE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Language-Elements/Compiler-Directives/_WARN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    #WARN
   
 
     
@@ -1226,6 +1604,8 @@
 
 
 
+  
+
 
               
               <article class="md-content__inner md-typeset">
@@ -1234,7 +1614,7 @@
 
 
   
-    <a href="https://github.com/Norgate-AV/netlinx-help/edit/master/docs/NetLinx-Keywords/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Norgate-AV/netlinx-help/edit/master/docs/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1313,6 +1693,28 @@ happens to wrap.</p>
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+        
+          
+          <a href="Language-Elements/Mainline/" class="md-footer__link md-footer__link--next" aria-label="Next: Mainline">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Mainline
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1341,10 +1743,10 @@ happens to wrap.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "content.action.edit", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "content.action.edit", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="assets/javascripts/bundle.e71a0d61.min.js"></script>
       
     
   </body>
