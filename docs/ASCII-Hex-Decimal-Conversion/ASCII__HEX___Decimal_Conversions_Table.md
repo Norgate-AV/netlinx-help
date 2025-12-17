@@ -1,12 +1,11 @@
 ---
-title: ASCII__HEX___Decimal_Conversions_Table
+title: ASCII / HEX / Decimal Conversions Table
 ---
 
-# ASCII /HEX / Decimal Conversions Table
+# ASCII / HEX / Decimal Conversions Table
 
-|     |     |     |
-| --- | --- | --- |
 | CHR | HEX | DEC |
+| --- | --- | --- |
 | nul | 00  | 0   |
 | soh | 01  | 1   |
 | stx | 02  | 2   |
@@ -43,7 +42,7 @@ title: ASCII__HEX___Decimal_Conversions_Table
 | !   | 21  | 33  |
 | "   | 22  | 34  |
 | \#  | 23  | 35  |
-| \$  | 24  | 36  |
+| $   | 24  | 36  |
 | %   | 25  | 37  |
 | &   | 26  | 38  |
 | '   | 27  | 39  |

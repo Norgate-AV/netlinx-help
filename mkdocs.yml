@@ -99,6 +99,10 @@ nav:
           - Constants: Language-Elements/Variables-Constants/Constants.md
       - Subroutines (Functions):
           - Language-Elements/Subroutines-Functions/index.md
+          - Subroutines - Calling Paramaters: Language-Elements/Subroutines-Functions/Subroutines_-_Calling_Parameters.md
+          - Subroutines - Return Statements: Language-Elements/Subroutines-Functions/Subroutines_-_Return_Statements.md
+          - SYSTEM_CALL Subroutines: Language-Elements/Subroutines-Functions/System_Call_Subroutines.md
+          - Subroutine Keywords: Language-Elements/Subroutines-Functions/Subroutine_Keywords.md
       - Compiler Directives:
           - Language-Elements/Compiler-Directives/index.md
           - "#DEFINE": Language-Elements/Compiler-Directives/_DEFINE.md
