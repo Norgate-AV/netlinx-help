@@ -16,7 +16,7 @@
         <link rel="prev" href="../Variables-Constants/Constants/">
       
       
-        <link rel="next" href="../Compiler-Directives/">
+        <link rel="next" href="Subroutines_-_Calling_Parameters/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Subroutines - NetLinx Language Help</title>
+        <title>Subroutines (Functions) - NetLinx Language Help</title>
       
     
     
@@ -61,7 +61,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Subroutines - NetLinx Language Help" />
+<meta property="og:title" content="Subroutines (Functions) - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Language-Elements/Subroutines-Functions/index.png" />
 <meta property="og:image:type" content="image/png" />
@@ -69,7 +69,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Language-Elements/Subroutines-Functions/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Subroutines - NetLinx Language Help" />
+<meta property="twitter:title" content="Subroutines (Functions) - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Language-Elements/Subroutines-Functions/index.png" />
 </head>
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Subroutines
+              Subroutines (Functions)
             
           </span>
         </div>
@@ -1151,7 +1151,7 @@
   <span class="md-ellipsis">
     
   
-    Subroutines
+    Subroutines (Functions)
   
 
     
@@ -1169,7 +1169,7 @@
   <span class="md-ellipsis">
     
   
-    Subroutines
+    Subroutines (Functions)
   
 
     
@@ -1220,6 +1220,118 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Subroutines_-_Calling_Parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subroutines - Calling Paramaters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Subroutines_-_Return_Statements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subroutines - Return Statements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="System_Call_Subroutines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SYSTEM_CALL Subroutines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Subroutine_Keywords/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subroutine Keywords
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1687,15 +1799,14 @@
 
 
 <h1 id="subroutines-functions">Subroutines (Functions)</h1>
-<p>A subroutine is a section of code that stands alone, and can be called from anywhere else in the
+<p>A <em>subroutine</em> is a section of code that stands alone, and can be called from anywhere else in the
 program. The primary method of incorporating subroutines in NetLinx programming is via the
 <a href="DEFINE_FUNCTION.md">DEFINE_FUNCTION</a> keyword.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><!-- markdownlint-disable-line -->
 NetLinx also supports the primary method of incorporating subroutines in Axcess programming -
-the <a href="DEFINE_CALL.md">DEFINE_CALL</a> keyword. DEFINE_FUNCTION differs from DEFINE_CALL by allowing
-values to be returned using the <a href="RETURN.md">RETURN</a> statement.</p>
+the <a href="DEFINE_CALL.md">DEFINE_CALL</a> keyword. <a href="DEFINE_FUNCTION.md">DEFINE_FUNCTION</a> differs from <a href="DEFINE_CALL.md">DEFINE_CALL</a> by allowing values to be returned using the <a href="RETURN.md">RETURN</a> statement.</p>
 </div>
 <h2 id="rules">Rules</h2>
 <ul>
@@ -1703,7 +1814,7 @@ values to be returned using the <a href="RETURN.md">RETURN</a> statement.</p>
     buffer or a wait.</li>
 <li>You cannot declare and initialize variables in the same line.</li>
 <li>You must group the declarations first, followed by the initialization.</li>
-<li>Function names are not case sensitive.</li>
+<li>Function names are <em>not</em> case sensitive.</li>
 </ul>
 <h2 id="see-also">See Also</h2>
 <ul>
@@ -1761,13 +1872,13 @@ values to be returned using the <a href="RETURN.md">RETURN</a> statement.</p>
         
         
           
-          <a href="../Compiler-Directives/" class="md-footer__link md-footer__link--next" aria-label="Next: Compiler_Directives">
+          <a href="Subroutines_-_Calling_Parameters/" class="md-footer__link md-footer__link--next" aria-label="Next: Subroutines - Calling Paramaters">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Compiler_Directives
+                Subroutines - Calling Paramaters
               </div>
             </div>
             <div class="md-footer__button md-icon">
