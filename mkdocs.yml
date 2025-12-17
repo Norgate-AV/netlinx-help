@@ -73,29 +73,29 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Language Elements:
-      - Mainline: Language Elements/Mainline.md
-      - Statements and Expressions: Language Elements/Statements_and_Expressions.md
-      - Keywords: Language Elements/Keywords.md
-      - Devices: Language Elements/Devices.md
-      - Device Numbers - Supported Ranges by Device Type: Language Elements/Device_Numbers-_Supported_Ranges_by_Device_Type.md
-      - Virtual Devices: Language Elements/Virtual_Devices.md
-      - Comments: Language Elements/Comments.md
+      - Mainline: Language-Elements/Mainline.md
+      - Statements and Expressions: Language-Elements/Statements_and_Expressions.md
+      - Keywords: Language-Elements/Keywords.md
+      - Devices: Language-Elements/Devices.md
+      - Device Numbers - Supported Ranges by Device Type: Language-Elements/Device_Numbers-_Supported_Ranges_by_Device_Type.md
+      - Virtual Devices: Language-Elements/Virtual_Devices.md
+      - Comments: Language-Elements/Comments.md
       - Identifiers:
-          - Language Elements/Identifiers/index.md
-          - Devices: Language Elements/Devices.md
-          - Device Arrays: Language Elements/Identifiers/Device_Arrays.md
-          - Device-Channels and Device-Channel Arrays: Language Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays.md
-          - Device-Level Arrays: Language Elements/Identifiers/Device_Level_Arrays.md
-          - Data Sets: Language Elements/Identifiers/Data_Set_Structures.md
-          - Virtual Devices: Language Elements/Virtual_Devices.md
+          - Language-Elements/Identifiers/index.md
+          - Devices: Language-Elements/Devices.md
+          - Device Arrays: Language-Elements/Identifiers/Device_Arrays.md
+          - Device-Channels and Device-Channel Arrays: Language-Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays.md
+          - Device-Level Arrays: Language-Elements/Identifiers/Device_Level_Arrays.md
+          - Data Sets: Language-Elements/Identifiers/Data_Set_Structures.md
+          - Virtual Devices: Language-Elements/Virtual_Devices.md
       - Variables & Constants:
-          - Language Elements/Variables-and-Constants/index.md
-          - Variables: Language Elements/Variables-and-Constants/Variables.md
-          - Local Variables: Language Elements/Variables-and-Constants/Local_Variables.md
-          - Global Variables: Language Elements/Variables-and-Constants/Global_Variables.md
-          - Persistant Variables: Language Elements/Variables-and-Constants/Persistent_Variables.md
-          - Variables Keywords: Language Elements/Variables-and-Constants/Variables_Keywords.md
-          - DEFINE_MUTUALLY_EXCLUSIVE and Variables: Language Elements/Variables-and-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables.md
-          - Constants: Language Elements/Variables-and-Constants/Constants.md
+          - Language-Elements/Variables-Constants/index.md
+          - Variables: Language-Elements/Variables-Constants/Variables.md
+          - Local Variables: Language-Elements/Variables-Constants/Local_Variables.md
+          - Global Variables: Language-Elements/Variables-Constants/Global_Variables.md
+          - Persistant Variables: Language-Elements/Variables-Constants/Persistent_Variables.md
+          - Variables Keywords: Language-Elements/Variables-Constants/Variables_Keywords.md
+          - DEFINE_MUTUALLY_EXCLUSIVE and Variables: Language-Elements/Variables-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables.md
+          - Constants: Language-Elements/Variables-Constants/Constants.md
       - Subroutines (Functions):
-          - Language Elements/Subroutines-Functions/index.md
+          - Language-Elements/Subroutines-Functions/index.md
