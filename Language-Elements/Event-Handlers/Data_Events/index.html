@@ -27,7 +27,7 @@
     
     
       
-        <title>Data_Events - NetLinx Language Help</title>
+        <title>Data Events - NetLinx Language Help</title>
       
     
     
@@ -61,7 +61,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Data_Events - NetLinx Language Help" />
+<meta property="og:title" content="Data Events - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Language-Elements/Event-Handlers/Data_Events.png" />
 <meta property="og:image:type" content="image/png" />
@@ -69,7 +69,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Language-Elements/Event-Handlers/Data_Events/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Data_Events - NetLinx Language Help" />
+<meta property="twitter:title" content="Data Events - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Language-Elements/Event-Handlers/Data_Events.png" />
 </head>
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data_Events
+              Data Events
             
           </span>
         </div>
@@ -2259,6 +2259,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Events
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2275,6 +2293,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Object
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Objects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2428,6 +2509,58 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Object
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Objects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2519,131 +2652,145 @@
 
 <h1 id="data-events">Data Events</h1>
 <p>Data Events provide the ability to receive strings of data from a device.</p>
-<p>The structure for a DATA_EVENT is:</p>
-<p>DATA_EVENT[DEVICE]</p>
-<p>{</p>
-<p>COMMAND:</p>
-<p>{</p>
-<p>// Command processing goes here</p>
-<p>}</p>
-<p>STRING:</p>
-<p>{</p>
-<p>// String processing goes here</p>
-<p>}</p>
-<p>ONLINE:</p>
-<p>{</p>
-<p>// OnLine processing goes here</p>
-<p>}</p>
-<p>OFFLINE:</p>
-<p>{</p>
-<p>// OffLine processing goes here</p>
-<p>}</p>
-<p>ONERROR:</p>
-<p>{</p>
-<p>// OnError processing goes here</p>
-<p>}</p>
-<p>STANDBY:</p>
-<p>{</p>
-<p>// Standby processing goes here</p>
-<p>}</p>
-<p>AWAKE:</p>
-<p>{</p>
-<p>// Awake processing goes here</p>
-<p>}</p>
-<p>}</p>
-<p>Data Object</p>
+<p>The structure for a <code>DATA_EVENT</code> is:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span>
+<span class="normal"><a href="#__codelineno-0-13">13</a></span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span>
+<span class="normal"><a href="#__codelineno-0-15">15</a></span>
+<span class="normal"><a href="#__codelineno-0-16">16</a></span>
+<span class="normal"><a href="#__codelineno-0-17">17</a></span>
+<span class="normal"><a href="#__codelineno-0-18">18</a></span>
+<span class="normal"><a href="#__codelineno-0-19">19</a></span>
+<span class="normal"><a href="#__codelineno-0-20">20</a></span>
+<span class="normal"><a href="#__codelineno-0-21">21</a></span>
+<span class="normal"><a href="#__codelineno-0-22">22</a></span>
+<span class="normal"><a href="#__codelineno-0-23">23</a></span>
+<span class="normal"><a href="#__codelineno-0-24">24</a></span>
+<span class="normal"><a href="#__codelineno-0-25">25</a></span>
+<span class="normal"><a href="#__codelineno-0-26">26</a></span>
+<span class="normal"><a href="#__codelineno-0-27">27</a></span>
+<span class="normal"><a href="#__codelineno-0-28">28</a></span>
+<span class="normal"><a href="#__codelineno-0-29">29</a></span>
+<span class="normal"><a href="#__codelineno-0-30">30</a></span>
+<span class="normal"><a href="#__codelineno-0-31">31</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="n">DEVICE</span><span class="p">]</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="nl">COMMAND</span><span class="p">:</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">        </span><span class="c1">// Command processing goes here</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="nl">STRING</span><span class="p">:</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">        </span><span class="c1">// String processing goes here</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">    </span><span class="nl">ONLINE</span><span class="p">:</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">        </span><span class="c1">// OnLine processing goes here</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">    </span><span class="nl">OFFLINE</span><span class="p">:</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="w">        </span><span class="c1">// OffLine processing goes here</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="w">    </span><span class="nl">ONERROR</span><span class="p">:</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="w">        </span><span class="c1">// OnError processing goes here</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="w">    </span><span class="nl">STANDBY</span><span class="p">:</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25"></a><span class="w">        </span><span class="c1">// Standby processing goes here</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27"></a><span class="w">    </span><span class="nl">AWAKE</span><span class="p">:</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29"></a><span class="w">        </span><span class="c1">// Awake processing goes here</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="data-object">Data Object</h2>
 <p>The Data Object is available to the data event handler as a local variable.</p>
 <p>The following table lists the information contained in Data Objects:</p>
-<p>Data Objects</p>
+<h2 id="data-objects">Data Objects</h2>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
+<th>Property Name</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Property Name</td>
-<td>Type</td>
-<td>Description</td>
-</tr>
-<tr>
-<td>Data.Device</td>
+<td><code>Data.Device</code></td>
 <td><a href="DEV.md">DEV</a></td>
 <td>Device</td>
 </tr>
 <tr>
-<td>Data.Device.Number</td>
+<td><code>Data.Device.Number</code></td>
 <td><a href="INTEGER.md">INTEGER</a></td>
 <td>Device number</td>
 </tr>
 <tr>
-<td>Data.Device.Port</td>
+<td><code>Data.Device.Port</code></td>
 <td><a href="INTEGER.md">INTEGER</a></td>
 <td>Device port</td>
 </tr>
 <tr>
-<td>Data.Device.System</td>
+<td><code>Data.Device.System</code></td>
 <td><a href="INTEGER.md">INTEGER</a></td>
 <td>System number</td>
 </tr>
 <tr>
-<td>Data.Number</td>
+<td><code>Data.Number</code></td>
 <td><a href="LONG.md">LONG</a></td>
 <td>Event number</td>
 </tr>
 <tr>
-<td>Data.Text</td>
+<td><code>Data.Text</code></td>
 <td><a href="CHAR.md">CHAR</a> Array</td>
 <td>Text associated with the event</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>The event number is a number associated with a command or error condition or
-  the device ID associated with an online/offline event.</li>
-<li>The numeric value is stored either as a floating point number or integer as
-  appropriate, but the value can be assigned to a variable of any numeric type.
-  This field could be a value associated with a command event or error
-  condition.</li>
-<li>Text associated with the event is text associated with a command, string, or
-  error notification. It can also be the device ID string in the case of an
-  online/offline event.</li>
+<li>The <em>event number</em> is a number associated with a command or error condition or the device ID
+    associated with an online/offline event.</li>
+<li>The numeric value is stored either as a floating point number or integer as appropriate, but the
+    value can be assigned to a variable of any numeric type. This field could be a value associated
+    with a command event or error condition.</li>
+<li><em>Text associated with the event</em> is text associated with a command, string, or error
+    notification. It can also be the device ID string in the case of an online/offline event.</li>
 </ul>
-<p>The following table shows the fields that contain relevant information for data
-or notifications received via Internet protocol (IP):</p>
+<p>The following table shows the fields that contain relevant information for data or notifications
+received via Internet protocol (IP):</p>
 <p>[TABLE]</p>
-<p>Not all fields in the DATA object apply to all types of events. The following
-table shows which fields apply to which events.</p>
+<p>Not all fields in the DATA object apply to all types of events. The following table shows which
+fields apply to which events.</p>
 <p>An ‘X’ indicates that the field applies (or could apply) to the given event.</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Property Name</th>
+<th>Command</th>
+<th>String</th>
+<th>OnLine</th>
+<th>OffLine</th>
+<th>OnError</th>
+<th>AWAKE</th>
+<th>STANDBY</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Property Name</td>
-<td>Command</td>
-<td>String</td>
-<td>OnLine</td>
-<td>OffLine</td>
-<td>OnError</td>
-<td>AWAKE</td>
-<td>STANDBY</td>
-</tr>
-<tr>
-<td>Data.Device</td>
+<td><code>Data.Device</code></td>
 <td>X</td>
 <td>X</td>
 <td>X</td>
@@ -2653,7 +2800,7 @@ table shows which fields apply to which events.</p>
 <td>X</td>
 </tr>
 <tr>
-<td>Data.Number</td>
+<td><code>Data.Number</code></td>
 <td> </td>
 <td> </td>
 <td>X</td>
@@ -2663,7 +2810,7 @@ table shows which fields apply to which events.</p>
 <td>X</td>
 </tr>
 <tr>
-<td>Data.Text</td>
+<td><code>Data.Text</code></td>
 <td>X</td>
 <td>X</td>
 <td>X</td>
@@ -2673,7 +2820,7 @@ table shows which fields apply to which events.</p>
 <td>X</td>
 </tr>
 <tr>
-<td>Data.SourceIPAddress</td>
+<td><code>Data.SourceIPAddress</code></td>
 <td>X</td>
 <td>X</td>
 <td>X</td>
@@ -2683,7 +2830,7 @@ table shows which fields apply to which events.</p>
 <td>X</td>
 </tr>
 <tr>
-<td>Data.ServerIPAddress</td>
+<td><code>Data.ServerIPAddress</code></td>
 <td>X</td>
 <td>X</td>
 <td>X</td>
@@ -2693,7 +2840,7 @@ table shows which fields apply to which events.</p>
 <td>X</td>
 </tr>
 <tr>
-<td>Data.SourcePort</td>
+<td><code>Data.SourcePort</code></td>
 <td>X</td>
 <td>X</td>
 <td>X</td>
@@ -2704,94 +2851,127 @@ table shows which fields apply to which events.</p>
 </tr>
 </tbody>
 </table>
-<p>NetLinx processes data received by a DATA_EVENT in real time. When data is
-received, it enters the message queue and triggers a data event. If a buffer has
-been created for the device, the data is placed within the buffer and can be
-used by either the DATA_EVENT or mainline.</p>
+<p>NetLinx processes data received by a DATA_EVENT in real time. When data is received, it enters the
+message queue and triggers a data event. If a buffer has been created for the device, the data is
+placed within the buffer and can be used by either the DATA_EVENT or mainline.</p>
 <p>The data can be evaluated in two ways:</p>
 <ol>
 <li>
-<p>The actual string that is received by the message queue can be evaluated
-    using the DATA.TEXT object within the event. The string in DATA.TEXT is also
-    added to the end of the device's buffer. This becomes a factor when
-    receiving large strings, or when receiving strings with an embedded string
-    length or start and end characters.</p>
+<p>The actual string that is received by the message queue can be evaluated using the DATA.TEXT
+    object within the event. The string in DATA.TEXT is also added to the end of the device's
+    buffer. This becomes a factor when receiving large strings, or when receiving strings with an
+    embedded string length or start and end characters.</p>
 </li>
 <li>
-<p>DATA_EVENT then evaluates the buffer to see if the entire string has been
-    received before processing it; however, the evaluation is done immediately
-    upon receipt of another chunk of data, and is only done when data is
-    received. For example, DATA.TEXT may equal {'over the lazy brown dog',ETX}
-    and the DATA_BUFFER[500] might equal {STX,'The quick gray fox jumps over
-    the lazy brown dog',ETX}. By evaluating the buffer value, you can evaluate
-    the entire string at once.</p>
+<p>DATA_EVENT then evaluates the buffer to see if the entire string has been received before
+    processing it; however, the evaluation is done immediately upon receipt of another chunk of
+    data, and is only done when data is received. For example, DATA.TEXT may equal {'over the lazy
+    brown dog',ETX} and the DATA_BUFFER[500] might equal {STX,'The quick gray fox jumps over the
+    lazy brown dog',ETX}. By evaluating the buffer value, you can evaluate the entire string at
+    once.</p>
 </li>
 </ol>
-<p>Two other important aspects of the DATA_EVENT are the <a href="ONLINE.md">ONLINE</a> and
-<a href="OFFLINE.md">OFFLINE</a> event handlers. ONLINE and OFFLINE events are triggered
-when the master recognizes a device has come on the bus or has dropped off the
-bus.</p>
-<p>NetLinx handles all device initializations and offline warning through the
-DATA_EVENT. Since every device triggers an ONLINE event when the master is
-reset, this not only ensures that the device will be initialized on startup, but
-also insures that the device will be initialized any time the device comes
-online.</p>
-<p>The DATA_EVENT is evaluated on a need to know basis, rather than on each pass
-through mainline.</p>
-<p>Example:</p>
-<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">The</span><span class="w"> </span><span class="n">following</span><span class="w"> </span><span class="n">example</span><span class="w"> </span><span class="n">shows</span><span class="w"> </span><span class="n">basic</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">tracking</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">touch</span><span class="w"> </span><span class="n">panel</span><span class="w"> </span><span class="n">page</span><span class="p">.</span>
-</span></code></pre></div></td></tr></table></div>
+<p>Two other important aspects of the DATA_EVENT are the <a href="ONLINE.md">ONLINE</a> and <a href="OFFLINE.md">OFFLINE</a>
+event handlers. ONLINE and OFFLINE events are triggered when the master recognizes a device has come
+on the bus or has dropped off the bus.</p>
+<p>NetLinx handles all device initializations and offline warning through the <code>DATA_EVENT</code>. Since every
+device triggers an ONLINE event when the master is reset, this not only ensures that the device will
+be initialized on startup, but also insures that the device will be initialized any time the device
+comes online.</p>
+<p>The <code>DATA_EVENT</code> is evaluated on a need to know basis, rather than on each pass through mainline.</p>
+<h2 id="example">Example</h2>
+<p>The following example shows basic code for tracking a touch panel page.</p>
 <ul>
-<li>Assume that the variables have been properly defined in the DEFINE_VARIABLE
-  section.</li>
-<li>The DEFINE_START section contains the creation of the buffer and the
-  DEFINE_PROGRAM section contains the string evaluation.</li>
+<li>Assume that the variables have been properly defined in the DEFINE_VARIABLE section.</li>
+<li>The <a href="DEFINE_START.md">DEFINE_START</a> section contains the creation of the buffer and the
+    <a href="DEFINE_PROGRAM.md">DEFINE_PROGRAM</a> section contains the string evaluation.</li>
 </ul>
-<p>DEFINE_START</p>
-<p>CREATE_BUFFER TP1, TP1_BUFFER</p>
-<p>.</p>
-<p>.</p>
-<p>DEFINE_EVENT</p>
-<p>..</p>
-<p>DATA_EVENT[TP1](* EVALUATE TP1 DATA *)</p>
-<p>{</p>
-<p>STRING:</p>
-<p>{</p>
-<p>SELECT</p>
-<p>{</p>
-<p>ACTIVE (FIND_STRING (DATA.TEXT,'PAGE-',1)):</p>
-<p>{</p>
-<p>JUNK = REMOVE_STRING (DATA.TEXT,'PAGE-',1)</p>
-<p>CUR_PAGE = DATA.TEXT</p>
-<p>}</p>
-<p>ACTIVE (FIND_STRING (DATA.TEXT,'KEYP-',1)):</p>
-<p>{</p>
-<p>(* keypad code *)</p>
-<p>}</p>
-<p>ACTIVE (FIND_STRING (DATA.TEXT,'KEYB-',1)):</p>
-<p>{</p>
-<p>(* keyboard code *)</p>
-<p>}</p>
-<p>ACTIVE (1):</p>
-<p>{</p>
-<p>(* default code *)</p>
-<p>}</p>
-<p>}</p>
-<p>CLEAR_BUFFER TP1_BUFFER</p>
-<p>}</p>
-<p>ONLINE:</p>
-<p>{</p>
-<p>SEND_COMMAND TP1, 'TPAGEON'</p>
-<p>}</p>
-<p>}</p>
-<p>.</p>
-<p>.</p>
-<p>Each event handler contains several imbedded data objects that pass data values
-into the event handler code.</p>
-<p>See Also</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-1-10">10</a></span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span>
+<span class="normal"><a href="#__codelineno-1-12">12</a></span>
+<span class="normal"><a href="#__codelineno-1-13">13</a></span>
+<span class="normal"><a href="#__codelineno-1-14">14</a></span>
+<span class="normal"><a href="#__codelineno-1-15">15</a></span>
+<span class="normal"><a href="#__codelineno-1-16">16</a></span>
+<span class="normal"><a href="#__codelineno-1-17">17</a></span>
+<span class="normal"><a href="#__codelineno-1-18">18</a></span>
+<span class="normal"><a href="#__codelineno-1-19">19</a></span>
+<span class="normal"><a href="#__codelineno-1-20">20</a></span>
+<span class="normal"><a href="#__codelineno-1-21">21</a></span>
+<span class="normal"><a href="#__codelineno-1-22">22</a></span>
+<span class="normal"><a href="#__codelineno-1-23">23</a></span>
+<span class="normal"><a href="#__codelineno-1-24">24</a></span>
+<span class="normal"><a href="#__codelineno-1-25">25</a></span>
+<span class="normal"><a href="#__codelineno-1-26">26</a></span>
+<span class="normal"><a href="#__codelineno-1-27">27</a></span>
+<span class="normal"><a href="#__codelineno-1-28">28</a></span>
+<span class="normal"><a href="#__codelineno-1-29">29</a></span>
+<span class="normal"><a href="#__codelineno-1-30">30</a></span>
+<span class="normal"><a href="#__codelineno-1-31">31</a></span>
+<span class="normal"><a href="#__codelineno-1-32">32</a></span>
+<span class="normal"><a href="#__codelineno-1-33">33</a></span>
+<span class="normal"><a href="#__codelineno-1-34">34</a></span>
+<span class="normal"><a href="#__codelineno-1-35">35</a></span>
+<span class="normal"><a href="#__codelineno-1-36">36</a></span>
+<span class="normal"><a href="#__codelineno-1-37">37</a></span>
+<span class="normal"><a href="#__codelineno-1-38">38</a></span>
+<span class="normal"><a href="#__codelineno-1-39">39</a></span>
+<span class="normal"><a href="#__codelineno-1-40">40</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">DEFINE_START</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="n">CREATE_BUFFER</span><span class="w"> </span><span class="n">TP1</span><span class="p">,</span><span class="w"> </span><span class="n">TP1_BUFFER</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="p">.</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="p">.</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="n">DEFINE_EVENT</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="p">..</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="n">TP1</span><span class="p">](</span><span class="o">*</span><span class="w"> </span><span class="n">EVALUATE</span><span class="w"> </span><span class="n">TP1</span><span class="w"> </span><span class="n">DATA</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="p">{</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="w">    </span><span class="nl">STRING</span><span class="p">:</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="w">        </span><span class="n">SELECT</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="w">        </span><span class="p">{</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="w">            </span><span class="n">ACTIVE</span><span class="w"> </span><span class="p">(</span><span class="n">FIND_STRING</span><span class="w"> </span><span class="p">(</span><span class="n">DATA</span><span class="p">.</span><span class="n">TEXT</span><span class="p">,</span><span class="err">&#39;</span><span class="n">PAGE</span><span class="o">-</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span><span class="o">:</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="w">            </span><span class="p">{</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="w">                </span><span class="n">JUNK</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">REMOVE_STRING</span><span class="w"> </span><span class="p">(</span><span class="n">DATA</span><span class="p">.</span><span class="n">TEXT</span><span class="p">,</span><span class="err">&#39;</span><span class="n">PAGE</span><span class="o">-</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="w">                </span><span class="n">CUR_PAGE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">DATA</span><span class="p">.</span><span class="n">TEXT</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="w">            </span><span class="n">ACTIVE</span><span class="w"> </span><span class="p">(</span><span class="n">FIND_STRING</span><span class="w"> </span><span class="p">(</span><span class="n">DATA</span><span class="p">.</span><span class="n">TEXT</span><span class="p">,</span><span class="err">&#39;</span><span class="n">KEYP</span><span class="o">-</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span><span class="o">:</span>
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20"></a><span class="w">            </span><span class="p">{</span>
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21"></a><span class="w">                </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">keypad</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23"></a><span class="w">            </span><span class="n">ACTIVE</span><span class="w"> </span><span class="p">(</span><span class="n">FIND_STRING</span><span class="w"> </span><span class="p">(</span><span class="n">DATA</span><span class="p">.</span><span class="n">TEXT</span><span class="p">,</span><span class="err">&#39;</span><span class="n">KEYB</span><span class="o">-</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span><span class="o">:</span>
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24"></a><span class="w">            </span><span class="p">{</span>
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25"></a><span class="w">                </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">keyboard</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27"></a><span class="w">            </span><span class="n">ACTIVE</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">:</span>
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28"></a><span class="w">            </span><span class="p">{</span>
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29"></a><span class="w">                </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-1-32"><a id="__codelineno-1-32" name="__codelineno-1-32"></a><span class="w">        </span><span class="n">CLEAR_BUFFER</span><span class="w"> </span><span class="n">TP1_BUFFER</span>
+</span><span id="__span-1-33"><a id="__codelineno-1-33" name="__codelineno-1-33"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-34"><a id="__codelineno-1-34" name="__codelineno-1-34"></a><span class="w">    </span><span class="nl">ONLINE</span><span class="p">:</span>
+</span><span id="__span-1-35"><a id="__codelineno-1-35" name="__codelineno-1-35"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-1-36"><a id="__codelineno-1-36" name="__codelineno-1-36"></a><span class="w">        </span><span class="n">SEND_COMMAND</span><span class="w"> </span><span class="n">TP1</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;</span><span class="n">TPAGEON</span><span class="err">&#39;</span>
+</span><span id="__span-1-37"><a id="__codelineno-1-37" name="__codelineno-1-37"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-38"><a id="__codelineno-1-38" name="__codelineno-1-38"></a><span class="p">}</span>
+</span><span id="__span-1-39"><a id="__codelineno-1-39" name="__codelineno-1-39"></a><span class="p">.</span>
+</span><span id="__span-1-40"><a id="__codelineno-1-40" name="__codelineno-1-40"></a><span class="p">.</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Each event handler contains several imbedded data objects that pass data values into the event
+handler code.</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="../Button_Events/">Button Events</a></li>
-<li><a href="../Channel_Events/">Channel Events</a></li>
+<li><a href="../Channel_Events/">Channel Events</a>`</li>
 </ul>
 
 
