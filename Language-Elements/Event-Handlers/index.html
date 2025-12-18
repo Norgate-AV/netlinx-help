@@ -27,7 +27,7 @@
     
     
       
-        <title>Event_Handlers - NetLinx Language Help</title>
+        <title>Event Handlers - NetLinx Language Help</title>
       
     
     
@@ -61,7 +61,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Event_Handlers - NetLinx Language Help" />
+<meta property="og:title" content="Event Handlers - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Language-Elements/Event-Handlers/index.png" />
 <meta property="og:image:type" content="image/png" />
@@ -69,7 +69,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Language-Elements/Event-Handlers/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Event_Handlers - NetLinx Language Help" />
+<meta property="twitter:title" content="Event Handlers - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Language-Elements/Event-Handlers/index.png" />
 </head>
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Event_Handlers
+              Event Handlers
             
           </span>
         </div>
@@ -2182,7 +2182,7 @@
   <span class="md-ellipsis">
     
   
-    Event_Handlers
+    Event Handlers
   
 
     
@@ -2518,35 +2518,32 @@
 
 
 <h1 id="event-handlers">Event Handlers</h1>
-<p>The NetLinx language provides a special program section called
-<a href="DEFINE_EVENT.md">DEFINE_EVENT</a> to define handlers for incoming
-events/notifications. These handlers are stored in an event table providing
-quick access to code that must be executed when an event is received. There are
-handlers to support five types of events:</p>
+<p>The NetLinx language provides a special program section called <a href="DEFINE_EVENT.md">DEFINE_EVENT</a> to
+define handlers for incoming events/notifications. These handlers are stored in an event table
+providing quick access to code that must be executed when an event is received. There are handlers
+to support five types of events:</p>
 <ul>
-<li><a href="Button_Events/">Button events</a> - include pushes, releases and holds. These
-  events are associated with a push or release on a particular device-channel.
-  Button events may include an optional feedback handler that runs immediately
-  after the event handler finishes. The feedback handler is also executed every
-  time mainline runs.</li>
-<li><a href="Channel_Events/">Channel events</a> - occur when an output change (on/off) is
-  detected on a device-channel.</li>
-<li><a href="Data_Events/">Data events</a> - include commands, strings, status and error
-  messages. These events are associated with a device only.</li>
-<li><a href="Level_Events/">Level events</a> - are received as a result of a level change
-  on a particular device.</li>
-<li><a href="Timeline_Functions.md">Timeline events</a> - trigger events based on a sequence
-  of times.</li>
+<li><a href="Button_Events/">Button events</a> - include pushes, releases and holds. These events are
+    associated with a push or release on a particular device-channel. Button events may include an
+    optional feedback handler that runs immediately after the event handler finishes. The feedback
+    handler is also executed every time mainline runs.</li>
+<li><a href="Channel_Events/">Channel events</a> - occur when an output change (on/off) is detected on a
+    device-channel.</li>
+<li><a href="Data_Events/">Data events</a> - include commands, strings, status and error messages. These
+    events are associated with a device only.</li>
+<li><a href="Level_Events/">Level events</a> - are received as a result of a level change on a particular
+    device.</li>
+<li><a href="Timeline_Functions.md">Timeline events</a> - trigger events based on a sequence of times.</li>
 </ul>
-<p>Note: The processing of an event associated with a given member of a device,
-channel, device-channel, level or device-array must be completed before
-processing can begin on another event associated with the same array.</p>
-<p>All incoming events are stored in a queue pending processing. Messages are
-processed in the order they are received. The steps in processing an event are:</p>
+<p>Note: The processing of an event associated with a given member of a device, channel,
+device-channel, level or device-array must be completed before processing can begin on another event
+associated with the same array.</p>
+<p>All incoming events are stored in a queue pending processing. Messages are processed in the order
+they are received. The steps in processing an event are:</p>
 <ol>
 <li>
-<p>Check the event table for a handler(s) matching the specified device,
-    device-channel or device-level associated with the event.</p>
+<p>Check the event table for a handler(s) matching the specified device, device-channel or
+    device-level associated with the event.</p>
 </li>
 <li>
 <p>If no handler is found, go to step 2.</p>
@@ -2555,23 +2552,22 @@ processed in the order they are received. The steps in processing an event are:<
 <p>If a handler is found, go to step 3.</p>
 </li>
 <li>
-<p>Execute MAINLINE to process the event (this is how the current NetLinx
-    system processes events). Go to step 5.</p>
+<p>Execute MAINLINE to process the event (this is how the current NetLinx system processes events).
+    Go to step 5.</p>
 </li>
 <li>
-<p>Execute the code in the event handler(s) pertaining to the type of event
-    received.</p>
+<p>Execute the code in the event handler(s) pertaining to the type of event received.</p>
 </li>
 <li>
-<p>If the event is a button event, execute code (if any) found in the
-    corresponding FEEDBACK section.</p>
+<p>If the event is a button event, execute code (if any) found in the corresponding FEEDBACK
+    section.</p>
 </li>
 <li>
 <p>Stop – message processing complete.</p>
 </li>
 </ol>
-<p>Note: More than one handler can be defined for the same event. In this case, the
-handlers are executed in the order in which they are defined in the program.</p>
+<p>Note: More than one handler can be defined for the same event. In this case, the handlers are
+executed in the order in which they are defined in the program.</p>
 <p>The Event Handler descriptions are:</p>
 <p>DEVICE refers to a device specification:</p>
 <ul>
