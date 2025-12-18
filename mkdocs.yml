@@ -116,3 +116,25 @@ nav:
       - Arrays:
           - Language-Elements/Arrays/index.md
           - Multi-Dimensional Arrays: Language-Elements/Arrays/Multi_Dimensional_Arrays.md
+          - Device Arrays: Language-Elements/Arrays/Device_Arrays.md
+          - Device-Level Arrays: Language-Elements/Arrays/Device_Level_Arrays.md
+          - Device-Channels and Device-Channel Arrays: Language-Elements/Arrays/Device_Channels_and_Device_Channel_Arrays.md
+          - Array Keywords: Language-Elements/Arrays/Array_Keywords.md
+      - Assignments:
+          - Language-Elements/Assignments/index.md
+          - Variables: Language-Elements/Assignments/Variables.md
+          - Output Channels: Language-Elements/Assignments/Output_channels.md
+      - Data Types:
+          - Intrinsic Data Types: Language-Elements/Data-Types/Intrinsic_Data_Types.md
+          - Custom Data Types: Language-Elements/Data-Types/Custom_Data_Types.md
+          - Data Type Conversion: Language-Elements/Data-Types/Data_Type_Conversion.md
+          - Data Type Keywords: Language-Elements/Data-Types/Data_Type_Keywords.md
+      - Event Handlers:
+          - Language-Elements/Event-Handlers/index.md
+          - Button Events: Language-Elements/Event-Handlers/Button_Events.md
+          - Channel Events: Language-Elements/Event-Handlers/Channel_Events.md
+          - Data Events: Language-Elements/Event-Handlers/Data_Events.md
+          - Level Events: Language-Elements/Event-Handlers/Level_Events.md
+          - Event Parameters: Language-Elements/Event-Handlers/Event_Parameters.md
+          - Custom Events: Language-Elements/Event-Handlers/Custom_Events.md
+          - Event Handler Keywords: Language-Elements/Event-Handlers/Event_Handler_Keywords.md

@@ -1,31 +1,27 @@
 ---
-title: Custom_Data_Types
+title: Custom Data Types
 ---
 
 # Custom Data Types
 
-Custom data types such as structures and classes are defined in the
-[DEFINE_TYPE](DEFINE_TYPE.md) section.
+Custom data types such as structures and classes are defined in the [DEFINE_TYPE](DEFINE_TYPE.md)
+section.
 
 Example:
 
 ```c linenums="1"
 DEFINE_TYPE
-```
 
 STRUCTURE MyStruct
-
 {
-
- LONG Num
-
- CHAR Name\[30\]
-
+    LONG Num
+    CHAR Name[30]
 }
+```
 
-See Also
+## See Also
 
-- [Intrinsic Data Types](Intrinsic_Data_Types.md)
-- Structured Data Types
-- [Data Type Conversion](Data_Type_Conversion.md)
-- [Data Type Keywords](Data_Type_Keywords.md)
+-   [Intrinsic Data Types](Intrinsic_Data_Types.md)
+-   Structured Data Types
+-   [Data Type Conversion](Data_Type_Conversion.md)
+-   [Data Type Keywords](Data_Type_Keywords.md)
