@@ -80,7 +80,3 @@ Len = LENGTH_ARRAY(My3Darray[1][3]) (* Len = 3, the number of columns in table 1
 -   [Device-Level Arrays](Device_Level_Arrays.md)
 -   [Device-Channels and Device-Channel Arrays](Device_Channels_and_Device_Channel_Arrays.md)
 -   [Array Keywords](Array_Keywords.md)
-
-```
-
-```
