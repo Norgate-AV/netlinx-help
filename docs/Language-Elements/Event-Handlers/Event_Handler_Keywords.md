@@ -1,5 +1,5 @@
 ---
-title: Event_Handler_Keywords
+title: Event Handler Keywords
 ---
 
 # Event Handler Keywords
@@ -17,7 +17,7 @@ The NetLinx programming language supports the following [Event Handler](Event_Ha
 -   [REBUILD_EVENT()](<REBUILD_EVENT().htm>)
 -   [REPEAT](REPEAT.md)
 
-See Also
+## See Also
 
 -   [Event Handlers](Event_Handlers.md)
 -   [Event Parameters](Event_Parameters.md)
