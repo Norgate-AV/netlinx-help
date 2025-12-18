@@ -23,7 +23,7 @@
     
     
       
-        <title>M2M_-_Design_Considerations,_Constraints,_and_Topologies - NetLinx Language Help</title>
+        <title>M2M - Design Considerations, Constraints, and Topologies - NetLinx Language Help</title>
       
     
     
@@ -57,7 +57,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="M2M_-_Design_Considerations,_Constraints,_and_Topologies - NetLinx Language Help" />
+<meta property="og:title" content="M2M - Design Considerations, Constraints, and Topologies - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +65,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="M2M_-_Design_Considerations,_Constraints,_and_Topologies - NetLinx Language Help" />
+<meta property="twitter:title" content="M2M - Design Considerations, Constraints, and Topologies - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies.png" />
 </head>
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              M2M_-_Design_Considerations,_Constraints,_and_Topologies
+              M2M - Design Considerations, Constraints, and Topologies
             
           </span>
         </div>
@@ -1750,6 +1750,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Design Topologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-a-help-topic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select a Help Topic
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1757,6 +1774,17 @@
     <span class="md-ellipsis">
       
         General Issues
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
       
     </span>
   </a>
@@ -1798,145 +1826,90 @@
 
 <h1 id="m2m-design-considerations-constraints-and-topologies">M2M - Design Considerations, Constraints, and Topologies</h1>
 <h2 id="design-considerations">Design Considerations</h2>
-<p>When designing a system that will utilize the M2M functionality, there are
-multiple points to consider.</p>
+<p>When designing a system that will utilize the M2M functionality, there are multiple points to
+consider.</p>
 <p>The first thing to consider is the reason for using M2M.</p>
 <ul>
-<li>
-<p>The most common reasons are:</p>
-</li>
-<li>
-<p>Expansion of a system to add device ports.</p>
-</li>
-<li>
-<p>Expansion of a system to an area the main system cannot reach.</p>
-</li>
-<li>
-<p>Sharing of processing load.</p>
-</li>
-<li>
-<p>Standalone capability of system areas.</p>
-</li>
-<li>
-<p>Isolation of areas for security reasons.</p>
-</li>
-<li>
-<p>Dedicate a master to common/shared devices located in a central location.</p>
-</li>
-<li>
-<p>etc…</p>
-</li>
-<li>
-<p>A combination of the above.</p>
-</li>
+<li>The most common reasons are:</li>
+<li>Expansion of a system to add device ports.</li>
+<li>Expansion of a system to an area the main system cannot reach.</li>
+<li>Sharing of processing load.</li>
+<li>Standalone capability of system areas.</li>
+<li>Isolation of areas for security reasons.</li>
+<li>Dedicate a master to common/shared devices located in a central location.</li>
+<li>etc…</li>
+<li>A combination of the above.</li>
 </ul>
 <p>The second thing to consider is the code requirements for each master:</p>
 <ul>
-<li>
-<p>Masters that are only being used to add device ports must have an empty ".TKN"
-  file loaded, otherwise the devices will not be accessible.</p>
-</li>
-<li>
-<p>Masters that are used to share the processing load or are intended to provide
-  standalone capability must define its local devices and the specific remote
-  devices needed on the other masters in DEFINE_DEVICE.</p>
-</li>
-<li>
-<p>Ports on remote devices declared in DEFINE_DEVICE must exist! For example,
-  adding touch panel port 80 when the panel file that has been loaded only
-  specifies 20 will cause errors in the negotiation.</p>
-</li>
-<li>
-<p>Events must be written for remote devices for the program to hear them.
-  Writing events causes the master to negotiate for the transmission of these
-  events over M2M (as reflected in SHOW NOTIFY)</p>
-</li>
+<li>Masters that are only being used to add device ports must have an empty ".TKN" file loaded,
+    otherwise the devices will not be accessible.</li>
+<li>Masters that are used to share the processing load or are intended to provide standalone
+    capability must define its local devices and the specific remote devices needed on the other
+    masters in DEFINE_DEVICE.</li>
+<li>Ports on remote devices declared in DEFINE_DEVICE must exist! For example, adding touch panel
+    port 80 when the panel file that has been loaded only specifies 20 will cause errors in the
+    negotiation.</li>
+<li>Events must be written for remote devices for the program to hear them. Writing events causes
+    the master to negotiate for the transmission of these events over M2M (as reflected in SHOW
+    NOTIFY)</li>
 </ul>
 <p>The third thing to consider is the connection topology:</p>
 <ul>
-<li>
-<p>Is there a main master who all other masters must connect with?</p>
-</li>
-<li>
-<p>Do all the masters need to talk to each other?</p>
-</li>
-<li>
-<p>Or is there some combination of the above?</p>
-</li>
+<li>Is there a main master who all other masters must connect with?</li>
+<li>Do all the masters need to talk to each other?</li>
+<li>Or is there some combination of the above?</li>
 </ul>
 <h2 id="design-constraints">Design Constraints</h2>
-<p>To properly configure the URL Lists in a multi-master system, there must be an
-understanding of 3 hard constraints.</p>
+<p>To properly configure the URL Lists in a multi-master system, there must be an understanding of 3
+hard constraints.</p>
 <ol>
+<li>The first constraint is the maximum number of 200 entries in a URL List. This limit although
+    important will most likely never pertain as the second constraint is far more relevant.</li>
 <li>
-<p>The first constraint is the maximum number of 200 entries in a URL List.
-    This limit although important will most likely never pertain as the second
-    constraint is far more relevant.</p>
+<p>The second constraint is the maximum number of 250 simultaneous TCP/IP connections supported by
+    a single master. The maximum number of simultaneous TCP/IP ICSP (NetLinx device) connections
+    supported by a single master is 200. The top ~25 of the remaining 50 are intended to be used for
+    internal services i.e. FTP, Telnet, HTTP, etc…</p>
+<p>The next 25 are intended to be used for IP connections used in the NetLinx code via
+IP_CLIENT_OPEN, IP_SERVER_OPEN, and Duet modules.</p>
+<p>If there are more than 25 IP connections made from within the code they will utilize the
+required number of remaining 200 IP sockets which reduces the number of available socket
+connections and subsequently the number of available NetLinx device connections which will
+reduce the number of available entries within the URL List.</p>
 </li>
 <li>
-<p>The second constraint is the maximum number of 250 simultaneous TCP/IP
-    connections supported by a single master. The maximum number of simultaneous
-    TCP/IP ICSP (NetLinx device) connections supported by a single master
-    is 200. The top ~25 of the remaining 50 are intended to be used for internal
-    services i.e. FTP, Telnet, HTTP, etc…</p>
+<p>The third constraint is the routing metric limit of 15 usable hops on the topology of the
+    interconnected NetLinx masters. While the limit of 15 hops may seem very limiting, this is not
+    really the case if you carefully design the topology.</p>
 </li>
 </ol>
-<p>The next 25 are intended to be used for IP connections used in the NetLinx code
-via IP_CLIENT_OPEN, IP_SERVER_OPEN, and Duet modules.</p>
-<p>If there are more than 25 IP connections made from within the code they will
-utilize the required number of remaining 200 IP sockets which reduces the number
-of available socket connections and subsequently the number of available NetLinx
-device connections which will reduce the number of available entries within the
-URL List.</p>
-<ol>
-<li>The third constraint is the routing metric limit of 15 usable hops on the
-    topology of the interconnected NetLinx masters. While the limit of 15 hops
-    may seem very limiting, this is not really the case if you carefully design
-    the topology.</li>
-</ol>
-<p><img alt="" src="M2M%20-15%20hop%20limit.jpg" /></p>
+<p><img alt="" src="../../../assets/img/M2M%20-15%20hop%20limit.jpg" /></p>
 <h2 id="design-topologies">Design Topologies</h2>
-<p>Select a Help Topic:</p>
+<h3 id="select-a-help-topic">Select a Help Topic</h3>
 <ul>
-<li>
-<p><a href="M2M_-_Chain_Topology.md">M2M - Chain Topology</a></p>
-</li>
-<li>
-<p><a href="M2M_-_Star_Topology.md">M2M - Star Topology</a></p>
-</li>
-<li>
-<p><a href="M2M_-_Cluster_Topology.md">M2M - Cluster Topology</a></p>
-</li>
-<li>
-<p><a href="M2M_-_Cascade_Topology.md">M2M - Cascade Topology</a></p>
-</li>
-<li>
-<p><a href="M2M_-_Cluster_Topology_modified.md">M2M - Cluster Topology modified</a></p>
-</li>
+<li><a href="M2M_-_Chain_Topology.md">M2M - Chain Topology</a></li>
+<li><a href="M2M_-_Star_Topology.md">M2M - Star Topology</a></li>
+<li><a href="M2M_-_Cluster_Topology.md">M2M - Cluster Topology</a></li>
+<li><a href="M2M_-_Cascade_Topology.md">M2M - Cascade Topology</a></li>
+<li><a href="M2M_-_Cluster_Topology_modified.md">M2M - Cluster Topology modified</a></li>
 </ul>
 <h2 id="general-issues">General Issues</h2>
-<p>When multiple masters exist within a large NetLinx installation the significance
-of the System number component cannot be over emphasized.</p>
-<p>Out of habit it is easy to ignore the system field within NetLinx Studio because
-its value has not meant anything in standalone systems. A significant source of
-technical support phone calls will be directly related to invalid or
-unintentionally incorrect settings of the system number, URL List, or route
-mode.</p>
-<p>When NetLinx Studio connects to a single master, yet allows the user to access
-all other system masters it is inevitable that some confusion will occur.</p>
-<p>Therefore, it is a good idea to document each master’s system number and the
-topology of the interconnections!</p>
-<p>See Also</p>
+<p>When multiple masters exist within a large NetLinx installation the significance of the System
+number component cannot be over emphasized.</p>
+<p>Out of habit it is easy to ignore the system field within NetLinx Studio because its value has not
+meant anything in standalone systems. A significant source of technical support phone calls will be
+directly related to invalid or unintentionally incorrect settings of the system number, URL List, or
+route mode.</p>
+<p>When NetLinx Studio connects to a single master, yet allows the user to access all other system
+masters it is inevitable that some confusion will occur.</p>
+<p>Therefore, it is a good idea to document each master’s system number and the topology of the
+interconnections!</p>
+<h2 id="see-also">See Also</h2>
 <ul>
-<li>
-<p><a href="M2M_-_Master_Routing.md">M2M - Master Routing</a></p>
-</li>
-<li>
-<p><a href="M2M_-_Route_Modes_(Normal_and_Direct).htm">M2M - Route Modes (Normal and Direct)</a></p>
-</li>
-<li>
-<p><a href="Configuring_and_Programming_M2M_Systems.md">Configuring and Programming M2M Systems</a></p>
-</li>
+<li><a href="M2M_-_Master_Routing.md">M2M - Master Routing</a></li>
+<li><a href="M2M_-_Route_Modes_(Normal_and_Direct).htm">M2M - Route Modes (Normal and Direct)</a></li>
+<li><a href="Configuring_and_Programming_M2M_Systems.md">Configuring and Programming M2M Systems</a></li>
 </ul>
 
 

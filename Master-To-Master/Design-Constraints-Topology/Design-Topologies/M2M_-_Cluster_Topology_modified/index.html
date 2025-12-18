@@ -23,7 +23,7 @@
     
     
       
-        <title>M2M_-_Cluster_Topology_modified - NetLinx Language Help</title>
+        <title>M2M - Cluster Topology modified - NetLinx Language Help</title>
       
     
     
@@ -57,7 +57,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="M2M_-_Cluster_Topology_modified - NetLinx Language Help" />
+<meta property="og:title" content="M2M - Cluster Topology modified - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/Design-Topologies/M2M_-_Cluster_Topology_modified.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +65,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Master-To-Master/Design-Constraints-Topology/Design-Topologies/M2M_-_Cluster_Topology_modified/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="M2M_-_Cluster_Topology_modified - NetLinx Language Help" />
+<meta property="twitter:title" content="M2M - Cluster Topology modified - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/Design-Topologies/M2M_-_Cluster_Topology_modified.png" />
 </head>
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              M2M_-_Cluster_Topology_modified
+              M2M - Cluster Topology modified
             
           </span>
         </div>
@@ -1713,6 +1713,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1745,69 +1764,47 @@
 
 
 <h1 id="m2m-cluster-topology-modified">M2M - Cluster Topology modified</h1>
-<p>Using <a href="M2M_-_Route_Modes_(Normal_and_Direct).htm">route mode direct</a> with the
-appropriate topology helps to accomplish this goal because it is the most
-efficient routing method since it will reduce network traffic and master
-processing of messages. The figure below uses the
-<a href="../M2M_-_Cluster_Topology/">Cluster</a> concept and direct mode to link specific
-masters, yet remain isolated from other masters on the network:</p>
-<p><img alt="" src="M2M%20-%20Clustered%20Master%20Topology.jpg" /></p>
+<p>Using <a href="M2M_-_Route_Modes_(Normal_and_Direct).htm">route mode direct</a> with the appropriate topology
+helps to accomplish this goal because it is the most efficient routing method since it will reduce
+network traffic and master processing of messages. The figure below uses the
+<a href="../M2M_-_Cluster_Topology/">Cluster</a> concept and direct mode to link specific masters, yet remain
+isolated from other masters on the network:</p>
+<p><img alt="" src="../../../../assets/img/M2M%20-%20Clustered%20Master%20Topology.jpg" /></p>
 <p>The URL Lists would be configured like this:</p>
-<p><img alt="" src="M2M%20-%20Clustered%20Master%20Topology%20URL%20Lists.jpg" /></p>
-<p>Note: The system number is being used here for readability, the actual URL/IP
-address must be entered into the URL List.</p>
-<p>Although this topology looks similar to the <a href="../M2M_-_Cluster_Topology/">Cluster</a>
-topology, by using route mode the communication connections are very specific.
-Masters will only be able to communicate with masters that have an arrow between
-them.</p>
+<p><img alt="" src="../../../../assets/img/M2M%20-%20Clustered%20Master%20Topology%20URL%20Lists.jpg" /></p>
+<p>Note: The system number is being used here for readability, the actual URL/IP address must be
+entered into the URL List.</p>
+<p>Although this topology looks similar to the <a href="../M2M_-_Cluster_Topology/">Cluster</a> topology, by using
+route mode the communication connections are very specific. Masters will only be able to communicate
+with masters that have an arrow between them.</p>
 <p>For example:</p>
 <ul>
-<li>
-<p>The master with system 1 will only be able to communicate with masters 2, 3,
-  4, 5, 6, and 11, but will not connect with masters 7, 8, 9, 10, 12, 13, 14,
-  15, and 16.</p>
-</li>
-<li>
-<p>The connection, indicated with the red arrow, between master 10 and master 16
-  may appear to create a routing loop, but since the masters are configured to
-  use route mode direct a loop is avoided.</p>
-</li>
-<li>
-<p>Master 10 will only be able to connect with masters 6 and 16.</p>
-</li>
+<li>The master with system 1 will only be able to communicate with masters 2, 3, 4, 5, 6, and 11,
+    but will not connect with masters 7, 8, 9, 10, 12, 13, 14, 15, and 16.</li>
+<li>The connection, indicated with the red arrow, between master 10 and master 16 may appear to
+    create a routing loop, but since the masters are configured to use route mode direct a loop is
+    avoided.</li>
+<li>Master 10 will only be able to connect with masters 6 and 16.</li>
 </ul>
 <p>Note:</p>
-<p>When multiple masters exist within a large NetLinx installation the significance
-of the System number component cannot be over emphasized.</p>
-<p>Out of habit it is easy to ignore the system field within NetLinx Studio because
-its value has not meant anything in standalone systems. A significant source of
-technical support phone calls will be directly related to invalid or
-unintentionally incorrect settings of the system number, URL List, or route
-mode.</p>
-<p>When NetLinx Studio connects to a single master, yet allows the user to access
-all other system masters it is inevitable that some confusion will occur.</p>
-<p>Therefore, it is a good idea to document each master’s system number and the
-topology of the interconnections!</p>
-<p>See Also</p>
+<p>When multiple masters exist within a large NetLinx installation the significance of the System
+number component cannot be over emphasized.</p>
+<p>Out of habit it is easy to ignore the system field within NetLinx Studio because its value has not
+meant anything in standalone systems. A significant source of technical support phone calls will be
+directly related to invalid or unintentionally incorrect settings of the system number, URL List, or
+route mode.</p>
+<p>When NetLinx Studio connects to a single master, yet allows the user to access all other system
+masters it is inevitable that some confusion will occur.</p>
+<p>Therefore, it is a good idea to document each master’s system number and the topology of the
+interconnections!</p>
+<h2 id="see-also">See Also</h2>
 <ul>
-<li>
-<p><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Design_Topologies/">M2M - Design Topologies</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Cascade_Topology/">M2M - Cascade Topology</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Chain_Topology/">M2M - Chain Topology</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Cluster_Topology/">M2M - Cluster Topology</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Star_Topology/">M2M - Star Topology</a></p>
-</li>
+<li><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></li>
+<li><a href="../M2M_-_Design_Topologies/">M2M - Design Topologies</a></li>
+<li><a href="../M2M_-_Cascade_Topology/">M2M - Cascade Topology</a></li>
+<li><a href="../M2M_-_Chain_Topology/">M2M - Chain Topology</a></li>
+<li><a href="../M2M_-_Cluster_Topology/">M2M - Cluster Topology</a></li>
+<li><a href="../M2M_-_Star_Topology/">M2M - Star Topology</a></li>
 </ul>
 
 

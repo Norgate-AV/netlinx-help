@@ -23,7 +23,7 @@
     
     
       
-        <title>M2M_-_Route_Modes_(Normal_and_Direct) - NetLinx Language Help</title>
+        <title>M2M - Route Modes (Normal and Direct) - NetLinx Language Help</title>
       
     
     
@@ -57,7 +57,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="M2M_-_Route_Modes_(Normal_and_Direct) - NetLinx Language Help" />
+<meta property="og:title" content="M2M - Route Modes (Normal and Direct) - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Master-Routing/M2M_-_Route_Modes_%28Normal_and_Direct%29.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +65,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Master-To-Master/Master-Routing/M2M_-_Route_Modes_%28Normal_and_Direct%29/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="M2M_-_Route_Modes_(Normal_and_Direct) - NetLinx Language Help" />
+<meta property="twitter:title" content="M2M - Route Modes (Normal and Direct) - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Master-Routing/M2M_-_Route_Modes_%28Normal_and_Direct%29.png" />
 </head>
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              M2M_-_Route_Modes_(Normal_and_Direct)
+              M2M - Route Modes (Normal and Direct)
             
           </span>
         </div>
@@ -1713,6 +1713,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1745,31 +1764,28 @@
 
 
 <h1 id="m2m-route-modes-normal-and-direct">M2M - Route Modes (Normal and Direct)</h1>
-<p>There are two route modes in which masters can be configured to share their
-routing table.</p>
+<p>There are two route modes in which masters can be configured to share their routing table.</p>
 <ul>
 <li>
-<p>The first and default is "normal", in this mode the master will share the
-  entire routing table built from all interconnected masters.</p>
+<p>The first and default is "normal", in this mode the master will share the entire routing table
+    built from all interconnected masters.</p>
 </li>
 <li>
-<p>The second is "direct"; in this mode the master will share a routing table
-  that only contains itself. When using "direct" mode the master will only
-  connect with the masters that are one hop away.</p>
+<p>The second is "direct"; in this mode the master will share a routing table that only contains
+    itself. When using "direct" mode the master will only connect with the masters that are one hop
+    away.</p>
 </li>
 </ul>
 <p>Consider the following system of interconnected NetLinx masters:</p>
-<p><img alt="" src="M2M%20-%20System%201%20System%202.jpg" /></p>
-<p>In the figure above, arrows depict the direction of the initiated connection.
-I.e. System #1 initiated the connection to System #2 by having the IP address
-of System #2 in its URL List.</p>
-<p>As a diagnostic aid, the "show route" command can be issued from a Telnet
-session to show paths to other masters. The following sample output is from a
-Telnet session connected to System #5.</p>
+<p><img alt="" src="../../../assets/img/M2M%20-%20System%201%20System%202.jpg" /></p>
+<p>In the figure above, arrows depict the direction of the initiated connection. I.e. System #1
+initiated the connection to System #2 by having the IP address of System #2 in its URL List.</p>
+<p>As a diagnostic aid, the "show route" command can be issued from a Telnet session to show paths to
+other masters. The following sample output is from a Telnet session connected to System #5.</p>
 <p>&gt;show route</p>
 <p>Route Data:</p>
 <p>System Route  Metric    PhyAddress</p>
-<p>--------------------------------------------------------------</p>
+<hr />
 <p>1       2       2      TCP Socket=18 IP=192.168.12.76 Index=3</p>
 <p>2       2       1      TCP Socket=18 IP=192.168.12.76 Index=3</p>
 <p>3       2       2      TCP Socket=18 IP=192.168.12.76 Index=3</p>
@@ -1778,34 +1794,24 @@ Telnet session connected to System #5.</p>
 <p>106     106     1      TCP Socket=19 IP=192.168.12.106 Index=2</p>
 <p>111    106      2      TCP Socket=19 IP=192.168.12.106 Index=2</p>
 <p>[TABLE]</p>
-<p>"Show route" supports the "/v" (verbose) parameter which will enable additional
-information about the routing table.</p>
-<p>This information is typically meaningful only to firmware engineering when
-diagnosing issues involving route table transmissions. The additional
-information available is described as:</p>
+<p>"Show route" supports the "/v" (verbose) parameter which will enable additional information about
+the routing table.</p>
+<p>This information is typically meaningful only to firmware engineering when diagnosing issues
+involving route table transmissions. The additional information available is described as:</p>
 <p>[TABLE]</p>
-<p>The end result of all this routing and connection data is that a device or
-master can communicate with other devices or masters regardless of the physical
-connection of the device.</p>
-<p>Note that masters may only be "connected" to each other via Ethernet/TCP/IP. As
-an example, NetLinx Studio is running on a PC that is connected to System #7 as
-device number 32002.</p>
-<p>The routing capabilities of the NetLinx master allow NetLinx Studio to download
-IR codes to the NXC-IRS4 (S=7 D=24), download a master firmware upgrade to
-NetLinx master #1, and download new touch panel pages to the touch panel on
-master #1. All of this is possible simply by having NetLinx Studio connected to
-a NetLinx master with M2M firmware.</p>
-<p>See Also</p>
+<p>The end result of all this routing and connection data is that a device or master can communicate
+with other devices or masters regardless of the physical connection of the device.</p>
+<p>Note that masters may only be "connected" to each other via Ethernet/TCP/IP. As an example, NetLinx
+Studio is running on a PC that is connected to System #7 as device number 32002.</p>
+<p>The routing capabilities of the NetLinx master allow NetLinx Studio to download IR codes to the
+NXC-IRS4 (S=7 D=24), download a master firmware upgrade to NetLinx master #1, and download new
+touch panel pages to the touch panel on master #1. All of this is possible simply by having NetLinx
+Studio connected to a NetLinx master with M2M firmware.</p>
+<h2 id="see-also">See Also</h2>
 <ul>
-<li>
-<p><a href="../M2M_-_Master_Routing/">M2M - Master Routing</a></p>
-</li>
-<li>
-<p><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></p>
-</li>
-<li>
-<p><a href="Configuring_and_Programming_M2M_Systems.md">Configuring and Programming M2M Systems</a></p>
-</li>
+<li><a href="../M2M_-_Master_Routing/">M2M - Master Routing</a></li>
+<li><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></li>
+<li><a href="Configuring_and_Programming_M2M_Systems.md">Configuring and Programming M2M Systems</a></li>
 </ul>
 
 

@@ -23,7 +23,7 @@
     
     
       
-        <title>M2M_-_Chain_Topology - NetLinx Language Help</title>
+        <title>M2M - Chain Topology - NetLinx Language Help</title>
       
     
     
@@ -57,7 +57,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="M2M_-_Chain_Topology - NetLinx Language Help" />
+<meta property="og:title" content="M2M - Chain Topology - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/Design-Topologies/M2M_-_Chain_Topology.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +65,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Master-To-Master/Design-Constraints-Topology/Design-Topologies/M2M_-_Chain_Topology/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="M2M_-_Chain_Topology - NetLinx Language Help" />
+<meta property="twitter:title" content="M2M - Chain Topology - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/Design-Topologies/M2M_-_Chain_Topology.png" />
 </head>
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              M2M_-_Chain_Topology
+              M2M - Chain Topology
             
           </span>
         </div>
@@ -1713,6 +1713,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1746,58 +1765,42 @@
 
 <h1 id="m2m-chain-topology">M2M - Chain Topology</h1>
 <p>Chain Topology</p>
-<p>This topology shows 16 masters connected to each other such that any master is
-routeable to any other master.</p>
+<p>This topology shows 16 masters connected to each other such that any master is routeable to any
+other master.</p>
 <p>The URL Lists would be configured like this:</p>
-<p><img alt="" src="M2M%20-%20System%20Number%20table.jpg" /></p>
-<p>Note: The system number is being used here for readability, the actual URL/IP
-address must be entered into the URL List.</p>
-<p>Using this topology can be both network and processor intensive as a message
-from system 1 to a device/port on system 16 must be passed between the 14
-masters. For example, a serial string sent from within the code on system 1 to
-5001:1:16 will be passed to system 2, and then to 3, etc. until it reaches
-system 16. Therefore the single serial string results in 15 messages across the
-network.</p>
-<p>With an IO pulse from system 1 to a port on system 16 the following occurs; an
-ON message is passed to system 2, then to 3, … until it reaches system 16, then
-the feedback on message sent back down the chain from system 16 to system 1,
-then a PUSH message from system 16 to system 1 following the same chain, then
-the OFF would be sent from system 1 to system 16, followed by a feedback off
-message from system 16 to system 1, then the RELEASE message from system 16 to
-system 1. Therefore that single pulse becomes 90 messages across the network.</p>
-<p>Another drawback to this topology is if a single master loses communication than
-all subsequent masters will cease communicating.</p>
-<p>Note: When multiple masters exist within a large NetLinx installation the
-significance of the System number component cannot be over emphasized.</p>
-<p>Out of habit it is easy to ignore the system field within NetLinx Studio because
-its value has not meant anything in standalone systems. A significant source of
-technical support phone calls will be directly related to invalid or
-unintentionally incorrect settings of the system number, URL List, or route
-mode.</p>
-<p>When NetLinx Studio connects to a single master, yet allows the user to access
-all other system masters it is inevitable that some confusion will occur.</p>
-<p>Therefore, it is a good idea to document each master’s system number and the
-topology of the interconnections!</p>
-<p>See Also</p>
+<p><img alt="" src="../../../../assets/img/M2M%20-%20System%20Number%20table.jpg" /></p>
+<p>Note: The system number is being used here for readability, the actual URL/IP address must be
+entered into the URL List.</p>
+<p>Using this topology can be both network and processor intensive as a message from system 1 to a
+device/port on system 16 must be passed between the 14 masters. For example, a serial string sent
+from within the code on system 1 to 5001:1:16 will be passed to system 2, and then to 3, etc. until
+it reaches system 16. Therefore the single serial string results in 15 messages across the network.</p>
+<p>With an IO pulse from system 1 to a port on system 16 the following occurs; an ON message is passed
+to system 2, then to 3, … until it reaches system 16, then the feedback on message sent back down
+the chain from system 16 to system 1, then a PUSH message from system 16 to system 1 following the
+same chain, then the OFF would be sent from system 1 to system 16, followed by a feedback off
+message from system 16 to system 1, then the RELEASE message from system 16 to system 1. Therefore
+that single pulse becomes 90 messages across the network.</p>
+<p>Another drawback to this topology is if a single master loses communication than all subsequent
+masters will cease communicating.</p>
+<p>Note: When multiple masters exist within a large NetLinx installation the significance of the System
+number component cannot be over emphasized.</p>
+<p>Out of habit it is easy to ignore the system field within NetLinx Studio because its value has not
+meant anything in standalone systems. A significant source of technical support phone calls will be
+directly related to invalid or unintentionally incorrect settings of the system number, URL List, or
+route mode.</p>
+<p>When NetLinx Studio connects to a single master, yet allows the user to access all other system
+masters it is inevitable that some confusion will occur.</p>
+<p>Therefore, it is a good idea to document each master’s system number and the topology of the
+interconnections!</p>
+<h2 id="see-also">See Also</h2>
 <ul>
-<li>
-<p><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Design_Topologies/">M2M - Design Topologies</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Cascade_Topology/">M2M - Cascade Topology</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Cluster_Topology/">M2M - Cluster Topology</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Cluster_Topology_modified/">M2M - Cluster Topology modified</a></p>
-</li>
-<li>
-<p><a href="../M2M_-_Star_Topology/">M2M - Star Topology</a></p>
-</li>
+<li><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></li>
+<li><a href="../M2M_-_Design_Topologies/">M2M - Design Topologies</a></li>
+<li><a href="../M2M_-_Cascade_Topology/">M2M - Cascade Topology</a></li>
+<li><a href="../M2M_-_Cluster_Topology/">M2M - Cluster Topology</a></li>
+<li><a href="../M2M_-_Cluster_Topology_modified/">M2M - Cluster Topology modified</a></li>
+<li><a href="../M2M_-_Star_Topology/">M2M - Star Topology</a></li>
 </ul>
 
 
