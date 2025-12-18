@@ -51,7 +51,7 @@ The illustration below illustrates message and mainline processing as it appears
 system. Note that bus servicing is taken care of by a separate process thread (_Connection Manager &
 Message Dispatcher_) and therefore is not a task that must follow mainline as in an Axcess system.
 
-![../../assets/img/Message_and_Mainline_processing.gif](./../../assets/img/Message_and_Mainline_processing.gif "../../assets/img/Message_and_Mainline_processing.gif")
+![Message_and_Mainline_processing](../assets/img/Message_and_Mainline_processing.gif "Message_and_Mainline_processing.gif")
 
 ## See Also
 
