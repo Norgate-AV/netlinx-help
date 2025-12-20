@@ -2265,6 +2265,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2505,6 +2516,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2615,7 +2637,7 @@ on a particular device-channel.</p>
     (specified in 0.1 second increments).</li>
 <li>The <a href="REPEAT.md">REPEAT</a> keyword is used to specify that the event notification should be
     repeated in TIME increments as long as the button is held.</li>
-<li>The BUTTON object is available to the button event handler as a local variable.</li>
+<li>The <code>BUTTON</code> object is available to the button event handler as a local variable.</li>
 </ul>
 <p>The following table lists the information contained in Button Objects.</p>
 <h2 id="button-objects">Button Objects</h2>
@@ -2685,9 +2707,10 @@ on a particular device-channel.</p>
 </tr>
 </tbody>
 </table>
-<p>If the event handler is specified using an array for DEV, CHANNEL, or a DEVCHAN array,
-<a href="GET_LAST.md">GET_LAST</a> can determine which index in the array caused the event to run.</p>
-<p>Example:</p>
+<p>If the event handler is specified using an array for <a href="DEV.md">DEV</a>, <a href="CHANNEL.md">CHANNEL</a>, or a
+<a href="DEVCHAN.md">DEVCHAN</a> array, <a href="GET_LAST.md">GET_LAST</a> can determine which index in the array caused
+the event to run.</p>
+<h2 id="example">Example</h2>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>

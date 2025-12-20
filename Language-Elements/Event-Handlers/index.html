@@ -2175,6 +2175,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Event Handlers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2191,6 +2209,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2428,6 +2476,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2523,37 +2590,39 @@ define handlers for incoming events/notifications. These handlers are stored in 
 providing quick access to code that must be executed when an event is received. There are handlers
 to support five types of events:</p>
 <ul>
-<li><a href="Button_Events/">Button events</a> - include pushes, releases and holds. These events are
+<li><a href="Button_Events/"><strong>Button events</strong></a> - include pushes, releases and holds. These events are
     associated with a push or release on a particular device-channel. Button events may include an
     optional feedback handler that runs immediately after the event handler finishes. The feedback
     handler is also executed every time mainline runs.</li>
-<li><a href="Channel_Events/">Channel events</a> - occur when an output change (on/off) is detected on a
+<li><a href="Channel_Events/"><strong>Channel events</strong></a> - occur when an output change (on/off) is detected on a
     device-channel.</li>
-<li><a href="Data_Events/">Data events</a> - include commands, strings, status and error messages. These
+<li><a href="Data_Events/"><strong>Data events</strong></a> - include commands, strings, status and error messages. These
     events are associated with a device only.</li>
-<li><a href="Level_Events/">Level events</a> - are received as a result of a level change on a particular
+<li><a href="Level_Events/"><strong>Level events</strong></a> - are received as a result of a level change on a particular
     device.</li>
-<li><a href="Timeline_Functions.md">Timeline events</a> - trigger events based on a sequence of times.</li>
+<li><a href="Timeline_Functions.md"><strong>Timeline events</strong></a> - trigger events based on a sequence of times.</li>
 </ul>
-<p>Note: The processing of an event associated with a given member of a device, channel,
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><!-- markdownlint-disable-line -->
+The processing of an event associated with a given member of a device, channel,
 device-channel, level or device-array must be completed before processing can begin on another event
 associated with the same array.</p>
+</div>
 <p>All incoming events are stored in a queue pending processing. Messages are processed in the order
 they are received. The steps in processing an event are:</p>
 <ol>
 <li>
 <p>Check the event table for a handler(s) matching the specified device, device-channel or
     device-level associated with the event.</p>
+<ul>
+<li>If no handler is found, go to step 2.</li>
+<li>If a handler is found, go to step 3.</li>
+</ul>
 </li>
 <li>
-<p>If no handler is found, go to step 2.</p>
-</li>
-<li>
-<p>If a handler is found, go to step 3.</p>
-</li>
-<li>
-<p>Execute MAINLINE to process the event (this is how the current NetLinx system processes events).
-    Go to step 5.</p>
+<p>Execute <a href="MAINLINE.md">MAINLINE</a> to process the event (this is how the current NetLinx system
+    processes events). Go to step 5.</p>
 </li>
 <li>
 <p>Execute the code in the event handler(s) pertaining to the type of event received.</p>
@@ -2566,28 +2635,32 @@ they are received. The steps in processing an event are:</p>
 <p>Stop – message processing complete.</p>
 </li>
 </ol>
-<p>Note: More than one handler can be defined for the same event. In this case, the handlers are
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><!-- markdownlint-disable-line -->
+More than one handler can be defined for the same event. In this case, the handlers are
 executed in the order in which they are defined in the program.</p>
+</div>
 <p>The Event Handler descriptions are:</p>
-<p>DEVICE refers to a device specification:</p>
+<p><strong>DEVICE</strong> refers to a device specification:</p>
 <ul>
 <li>DEVICE: A single device number constant</li>
-<li>D:P:S: A constant device specification such as 128:1:0</li>
+<li>D:P:S: A constant device specification such as <code>128:1:0</code></li>
 <li>DEV[]: A device array</li>
 </ul>
-<p>CHANNEL refers to a device specification:</p>
+<p><strong>CHANNEL</strong> refers to a device specification:</p>
 <ul>
 <li>CHANNEL: A single channel number constant</li>
 <li>CHAN []: An integer array of channel numbers</li>
 <li>DEVCHAN[]: A device-channel array</li>
 </ul>
-<p>LEVEL refers to a device specification:</p>
+<p><strong>LEVEL</strong> refers to a device specification:</p>
 <ul>
 <li>LEVEL: A single level number constant</li>
 <li>LEV []: An integer array of level numbers</li>
 <li>DEVLEV[]: A device-level array</li>
 </ul>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="Event_Parameters/">Event Parameters</a></li>
 <li><a href="Event_Handler_Keywords/">Event Handler Keywords</a></li>
