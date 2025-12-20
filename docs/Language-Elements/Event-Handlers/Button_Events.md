@@ -12,7 +12,7 @@ on a particular device-channel.
     (specified in 0.1 second increments).
 -   The [REPEAT](REPEAT.md) keyword is used to specify that the event notification should be
     repeated in TIME increments as long as the button is held.
--   The BUTTON object is available to the button event handler as a local variable.
+-   The `BUTTON` object is available to the button event handler as a local variable.
 
 The following table lists the information contained in Button Objects.
 
@@ -32,10 +32,11 @@ The following table lists the information contained in Button Objects.
 | `Button.SourceDev.Port`      | [INTEGER](INTEGER.md) | Source device port                                     |
 | `Button.SourceDev.System`    | [INTEGER](INTEGER.md) | Source device system.                                  |
 
-If the event handler is specified using an array for DEV, CHANNEL, or a DEVCHAN array,
-[GET_LAST](GET_LAST.md) can determine which index in the array caused the event to run.
+If the event handler is specified using an array for [DEV](DEV.md), [CHANNEL](CHANNEL.md), or a
+[DEVCHAN](DEVCHAN.md) array, [GET_LAST](GET_LAST.md) can determine which index in the array caused
+the event to run.
 
-Example:
+## Example
 
 ```c linenums="1"
 BUTTON_EVENT[DEVICE,CHANNEL] or
