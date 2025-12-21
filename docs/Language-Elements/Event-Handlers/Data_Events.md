@@ -89,9 +89,9 @@ An ‘X’ indicates that the field applies (or could apply) to the given event.
 | `Data.ServerIPAddress` | X       | X      | X      | X       | X       | X     | X       |
 | `Data.SourcePort`      | X       | X      | X      | X       | X       | X     | X       |
 
-NetLinx processes data received by a DATA_EVENT in real time. When data is received, it enters the
+NetLinx processes data received by a `DATA_EVENT` in real time. When data is received, it enters the
 message queue and triggers a data event. If a buffer has been created for the device, the data is
-placed within the buffer and can be used by either the DATA_EVENT or mainline.
+placed within the buffer and can be used by either the `DATA_EVENT` or [mainline](MAINLINE.md).
 
 The data can be evaluated in two ways:
 

@@ -138,3 +138,7 @@ nav:
           - Event Parameters: Language-Elements/Event-Handlers/Event_Parameters.md
           - Custom Events: Language-Elements/Event-Handlers/Custom_Events.md
           - Event Handler Keywords: Language-Elements/Event-Handlers/Event_Handler_Keywords.md
+      - Loops:
+          - Language-Elements/Loops/index.md
+          - FOR Loops: Language-Elements/Loops/FOR_loops.md
+          - Conditional Keywords: Language-Elements/Loops/Conditional_Keywords.md
