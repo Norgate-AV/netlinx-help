@@ -8,13 +8,13 @@ The level object is available to the level event handler as a local variable. Le
 triggered by a level change on a particular device. This eliminates having to constantly evaluate a
 level against a previous value.
 
-LEVEL.VALUE is an embedded object value in the LEVEL_EVENT statement. The LEVEL.VALUE object
+`LEVEL.VALUE` is an embedded object value in the `LEVEL_EVENT` statement. The `LEVEL.VALUE` object
 eliminates the need to create a level for the TEMP device.
 
 Syntax:
 
 ```c linenums="1"
-LEVEL_EVENT[DEVICE,LEVEL] or LEVEL_EVENT[([DEVLEV[])]
+LEVEL_EVENT[DEVICE,LEVEL] or LEVEL_EVENT[(DEVLEV[])]
 {
     // level event handler
 }
@@ -41,29 +41,19 @@ It contains the information shown in the table below:
 The numeric value is stored either as a floating-point number or integer as appropriate, but the
 value can be assigned to a variable of any numeric type.
 
-Button Event example:
+## Example
 
 ```c linenums="1"
-LEVEL_EVENT \[TEMP, 1\]
-
+LEVEL_EVENT[TEMP, 1]
 {
-
-IF (LEVEL.VALUE\>= COOL_POINT)
-
-{
-
-ON\[RELAY,FAN\]
-
-}
-
-ELSE IF (LEVEL.VALUE \<= HEAT_POINT)
-
-{
-
-OFF\[RELAY,FAN\]
-
-}
-
+    IF (LEVEL.VALUE >= COOL_POINT)
+    {
+        ON[RELAY,FAN]
+    }
+    ELSE IF (LEVEL.VALUE  <= HEAT_POINT)
+    {
+        OFF[RELAY,FAN]
+    }
 }
 ```
 
