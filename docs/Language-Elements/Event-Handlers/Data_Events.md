@@ -70,9 +70,12 @@ The following table lists the information contained in Data Objects:
 The following table shows the fields that contain relevant information for data or notifications
 received via Internet protocol (IP):
 
-[TABLE]
+| Property Name     | Type                       | Description                                                                                                       |
+| ----------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `Data.SourceIP`   | [CHAR](CHAR.md) <br> Array | IP address of the client/source application <br> **_Note_**: _The returned IP address appears as an IPv6 address_ |
+| `Data.SourcePort` | [LONG](LONG.md)            | Server/source port number                                                                                         |
 
-Not all fields in the DATA object apply to all types of events. The following table shows which
+Not all fields in the `DATA` object apply to all types of events. The following table shows which
 fields apply to which events.
 
 An ‘X’ indicates that the field applies (or could apply) to the given event.
@@ -92,26 +95,26 @@ placed within the buffer and can be used by either the DATA_EVENT or mainline.
 
 The data can be evaluated in two ways:
 
-1.  The actual string that is received by the message queue can be evaluated using the DATA.TEXT
-    object within the event. The string in DATA.TEXT is also added to the end of the device's
+1.  The actual string that is received by the message queue can be evaluated using the `DATA.TEXT`
+    object within the event. The string in `DATA.TEXT` is also added to the end of the device's
     buffer. This becomes a factor when receiving large strings, or when receiving strings with an
     embedded string length or start and end characters.
 
-2.  DATA_EVENT then evaluates the buffer to see if the entire string has been received before
+2.  `DATA_EVENT` then evaluates the buffer to see if the entire string has been received before
     processing it; however, the evaluation is done immediately upon receipt of another chunk of
-    data, and is only done when data is received. For example, DATA.TEXT may equal {'over the lazy
-    brown dog',ETX} and the DATA_BUFFER\[500\] might equal {STX,'The quick gray fox jumps over the
-    lazy brown dog',ETX}. By evaluating the buffer value, you can evaluate the entire string at
-    once.
+    data, and is only done when data is received. For example, `DATA.TEXT` may equal
+    `{'over the lazy brown dog',ETX}` and the `DATA_BUFFER[500]` might equal
+    `{STX,'The quick gray fox jumps over the lazy brown dog',ETX}`. By evaluating the buffer value,
+    you can evaluate the entire string at once.
 
-Two other important aspects of the DATA_EVENT are the [ONLINE](ONLINE.md) and [OFFLINE](OFFLINE.md)
-event handlers. ONLINE and OFFLINE events are triggered when the master recognizes a device has come
-on the bus or has dropped off the bus.
+Two other important aspects of the `DATA_EVENT` are the [ONLINE](ONLINE.md) and
+[OFFLINE](OFFLINE.md) event handlers. [ONLINE](ONLINE.md) and [OFFLINE](OFFLINE.md) events are
+triggered when the master recognizes a device has come on the bus or has dropped off the bus.
 
 NetLinx handles all device initializations and offline warning through the `DATA_EVENT`. Since every
-device triggers an ONLINE event when the master is reset, this not only ensures that the device will
-be initialized on startup, but also insures that the device will be initialized any time the device
-comes online.
+device triggers an [ONLINE](ONLINE.md) event when the master is reset, this not only ensures that
+the device will be initialized on startup, but also insures that the device will be initialized any
+time the device comes online.
 
 The `DATA_EVENT` is evaluated on a need to know basis, rather than on each pass through mainline.
 
@@ -119,7 +122,8 @@ The `DATA_EVENT` is evaluated on a need to know basis, rather than on each pass 
 
 The following example shows basic code for tracking a touch panel page.
 
--   Assume that the variables have been properly defined in the DEFINE_VARIABLE section.
+-   Assume that the variables have been properly defined in the
+    [DEFINE_VARIABLE](DEFINE_VARIABLE.md) section.
 -   The [DEFINE_START](DEFINE_START.md) section contains the creation of the buffer and the
     [DEFINE_PROGRAM](DEFINE_PROGRAM.md) section contains the string evaluation.
 
