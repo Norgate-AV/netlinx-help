@@ -2771,8 +2771,28 @@
 </ul>
 <p>The following table shows the fields that contain relevant information for data or notifications
 received via Internet protocol (IP):</p>
-<p>[TABLE]</p>
-<p>Not all fields in the DATA object apply to all types of events. The following table shows which
+<table>
+<thead>
+<tr>
+<th>Property Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Data.SourceIP</code></td>
+<td><a href="CHAR.md">CHAR</a> <br> Array</td>
+<td>IP address of the client/source application <br> <strong><em>Note</em></strong>: <em>The returned IP address appears as an IPv6 address</em></td>
+</tr>
+<tr>
+<td><code>Data.SourcePort</code></td>
+<td><a href="LONG.md">LONG</a></td>
+<td>Server/source port number</td>
+</tr>
+</tbody>
+</table>
+<p>Not all fields in the <code>DATA</code> object apply to all types of events. The following table shows which
 fields apply to which events.</p>
 <p>An ‘X’ indicates that the field applies (or could apply) to the given event.</p>
 <table>
@@ -2857,32 +2877,33 @@ placed within the buffer and can be used by either the DATA_EVENT or mainline.</
 <p>The data can be evaluated in two ways:</p>
 <ol>
 <li>
-<p>The actual string that is received by the message queue can be evaluated using the DATA.TEXT
-    object within the event. The string in DATA.TEXT is also added to the end of the device's
+<p>The actual string that is received by the message queue can be evaluated using the <code>DATA.TEXT</code>
+    object within the event. The string in <code>DATA.TEXT</code> is also added to the end of the device's
     buffer. This becomes a factor when receiving large strings, or when receiving strings with an
     embedded string length or start and end characters.</p>
 </li>
 <li>
-<p>DATA_EVENT then evaluates the buffer to see if the entire string has been received before
+<p><code>DATA_EVENT</code> then evaluates the buffer to see if the entire string has been received before
     processing it; however, the evaluation is done immediately upon receipt of another chunk of
-    data, and is only done when data is received. For example, DATA.TEXT may equal {'over the lazy
-    brown dog',ETX} and the DATA_BUFFER[500] might equal {STX,'The quick gray fox jumps over the
-    lazy brown dog',ETX}. By evaluating the buffer value, you can evaluate the entire string at
-    once.</p>
+    data, and is only done when data is received. For example, <code>DATA.TEXT</code> may equal
+    <code>{'over the lazy brown dog',ETX}</code> and the <code>DATA_BUFFER[500]</code> might equal
+    <code>{STX,'The quick gray fox jumps over the lazy brown dog',ETX}</code>. By evaluating the buffer value,
+    you can evaluate the entire string at once.</p>
 </li>
 </ol>
-<p>Two other important aspects of the DATA_EVENT are the <a href="ONLINE.md">ONLINE</a> and <a href="OFFLINE.md">OFFLINE</a>
-event handlers. ONLINE and OFFLINE events are triggered when the master recognizes a device has come
-on the bus or has dropped off the bus.</p>
+<p>Two other important aspects of the <code>DATA_EVENT</code> are the <a href="ONLINE.md">ONLINE</a> and
+<a href="OFFLINE.md">OFFLINE</a> event handlers. <a href="ONLINE.md">ONLINE</a> and <a href="OFFLINE.md">OFFLINE</a> events are
+triggered when the master recognizes a device has come on the bus or has dropped off the bus.</p>
 <p>NetLinx handles all device initializations and offline warning through the <code>DATA_EVENT</code>. Since every
-device triggers an ONLINE event when the master is reset, this not only ensures that the device will
-be initialized on startup, but also insures that the device will be initialized any time the device
-comes online.</p>
+device triggers an <a href="ONLINE.md">ONLINE</a> event when the master is reset, this not only ensures that
+the device will be initialized on startup, but also insures that the device will be initialized any
+time the device comes online.</p>
 <p>The <code>DATA_EVENT</code> is evaluated on a need to know basis, rather than on each pass through mainline.</p>
 <h2 id="example">Example</h2>
 <p>The following example shows basic code for tracking a touch panel page.</p>
 <ul>
-<li>Assume that the variables have been properly defined in the DEFINE_VARIABLE section.</li>
+<li>Assume that the variables have been properly defined in the
+    <a href="DEFINE_VARIABLE.md">DEFINE_VARIABLE</a> section.</li>
 <li>The <a href="DEFINE_START.md">DEFINE_START</a> section contains the creation of the buffer and the
     <a href="DEFINE_PROGRAM.md">DEFINE_PROGRAM</a> section contains the string evaluation.</li>
 </ul>
