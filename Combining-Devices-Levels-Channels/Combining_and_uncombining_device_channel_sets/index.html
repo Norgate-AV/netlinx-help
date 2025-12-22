@@ -23,7 +23,7 @@
     
     
       
-        <title>Combining and uncombining device channel sets - NetLinx Language Help</title>
+        <title>Combining and Uncombining Device/Channel Sets - NetLinx Language Help</title>
       
     
     
@@ -57,7 +57,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Combining and uncombining device channel sets - NetLinx Language Help" />
+<meta property="og:title" content="Combining and Uncombining Device/Channel Sets - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Combining-Devices-Levels-Channels/Combining_and_uncombining_device_channel_sets.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +65,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Combining-Devices-Levels-Channels/Combining_and_uncombining_device_channel_sets/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Combining and uncombining device channel sets - NetLinx Language Help" />
+<meta property="twitter:title" content="Combining and Uncombining Device/Channel Sets - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Combining-Devices-Levels-Channels/Combining_and_uncombining_device_channel_sets.png" />
 </head>
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Combining and uncombining device channel sets
+              Combining and Uncombining Device/Channel Sets
             
           </span>
         </div>
@@ -3383,6 +3383,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3417,31 +3436,53 @@
 <h1 id="combining-and-uncombining-devicechannel-sets">Combining and Uncombining Device/Channel Sets</h1>
 <p>Combining <a href="DEVCHAN.md">DEVCHAN</a> sets is unique to NetLinx. The format for
 <a href="COMBINE_CHANNELS.md">COMBINE_CHANNELS</a> and <a href="UNCOMBINE_CHANNELS.md">UNCOMBINE_CHANNELS</a> is:</p>
-<p>SLONG COMBINE_CHANNELS (<virtual DEVCHAN[]>, <DEVCHAN1[]>, <DEVCHAN2[]>…)</p>
-<p>SLONG UNCOMBINE_CHANNELS (<virtual DEVCHAN[]>)</p>
-<p>To explain the concept of combining DEVCHAN sets, it is necessary to understand how the DEVCHAN sets
-are arranged. Rather than the DEVCHAN set being a set of like functions, such as a set of volume
-mute buttons across different devices, the DEVCHAN set should be a group of different functions on
-the same device, such as 5 lighting presets on an AXU-MSP16. For example:</p>
-<p>DEVCHAN dcMSP1 =</p>
-<p>{{MSP1,PRESET1},{MSP1,PRESET2},{MSP1,PRESET3},{MSP1,PRESET4},{MSP1,PRESET5}}</p>
-<p>DEVCHAN dcMSP2 =</p>
-<p>{{MSP2,PRESET1},{MSP2,PRESET2},{MSP2,PRESET3},{MSP2,PRESET4},{MSP2,PRESET5}}</p>
-<p>DEVCHAN dcMSP3 =</p>
-<p>{{MSP3,PRESET1},{MSP3,PRESET2},{MSP3,PRESET3},{MSP3,PRESET4},{MSP3,PRESET5}}</p>
-<p>Similar to COMBINE_DEVICES and COMBINE_LEVELS, the first DEVCHAN set in a COMBINE_CHANNEL function
-needs to be referenced to a Virtual Device, as shown below:</p>
-<p>DEVCHAN dcVDEV =</p>
-<p>{{VDEV,PRESET1},{VDEV,PRESET2},{VDEV,PRESET3},{VDEV,PRESET4},{VDEV,PRESET5}}</p>
-<p>All of the DEVCHAN sets in the COMBINE_CHANNELS function must have the same number of array
-elements. The actual COMBINE_CHANNELS statement is:</p>
-<p>COMBINE_CHANNELS (dcVDEV, dcMSP1, dcMSP2, dcMSP3)</p>
-<p>The actual element positions of the DEVCHAN arrays are combined within the program. In essence, all
-of the PRESET1 channels are handled through [VDEV,PRESET1] defined as dcVDEV[1].</p>
-<p>Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upon a button event,
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">SLONG</span><span class="w"> </span><span class="n">COMBINE_CHANNELS</span><span class="w"> </span><span class="p">(</span><span class="o">&lt;</span><span class="n">virtual</span><span class="w"> </span><span class="n">DEVCHAN</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="o">&lt;</span><span class="n">DEVCHAN1</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="o">&lt;</span><span class="n">DEVCHAN2</span><span class="p">[]</span><span class="o">&gt;</span><span class="err">…</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">SLONG</span><span class="w"> </span><span class="n">UNCOMBINE_CHANNELS</span><span class="w"> </span><span class="p">(</span><span class="o">&lt;</span><span class="n">virtual</span><span class="w"> </span><span class="n">DEVCHAN</span><span class="p">[]</span><span class="o">&gt;</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>To explain the concept of combining <a href="DEVCHAN.md">DEVCHAN</a> sets, it is necessary to understand how
+the <a href="DEVCHAN.md">DEVCHAN</a> sets are arranged. Rather than the <a href="DEVCHAN.md">DEVCHAN</a> set being a set
+of like functions, such as a set of volume mute buttons across different devices, the
+<a href="DEVCHAN.md">DEVCHAN</a> set should be a group of different functions on the same device, such as 5
+lighting presets on an AXU-MSP16. For example:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span>
+<span class="normal"><a href="#__codelineno-1-5">5</a></span>
+<span class="normal"><a href="#__codelineno-1-6">6</a></span>
+<span class="normal"><a href="#__codelineno-1-7">7</a></span>
+<span class="normal"><a href="#__codelineno-1-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">DEVCHAN</span><span class="w"> </span><span class="n">dcMSP1</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="p">{{</span><span class="n">MSP1</span><span class="p">,</span><span class="n">PRESET1</span><span class="p">},{</span><span class="n">MSP1</span><span class="p">,</span><span class="n">PRESET2</span><span class="p">},{</span><span class="n">MSP1</span><span class="p">,</span><span class="n">PRESET3</span><span class="p">},{</span><span class="n">MSP1</span><span class="p">,</span><span class="n">PRESET4</span><span class="p">},{</span><span class="n">MSP1</span><span class="p">,</span><span class="n">PRESET5</span><span class="p">}}</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="n">DEVCHAN</span><span class="w"> </span><span class="n">dcMSP2</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="p">{{</span><span class="n">MSP2</span><span class="p">,</span><span class="n">PRESET1</span><span class="p">},{</span><span class="n">MSP2</span><span class="p">,</span><span class="n">PRESET2</span><span class="p">},{</span><span class="n">MSP2</span><span class="p">,</span><span class="n">PRESET3</span><span class="p">},{</span><span class="n">MSP2</span><span class="p">,</span><span class="n">PRESET4</span><span class="p">},{</span><span class="n">MSP2</span><span class="p">,</span><span class="n">PRESET5</span><span class="p">}}</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="n">DEVCHAN</span><span class="w"> </span><span class="n">dcMSP3</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="p">{{</span><span class="n">MSP3</span><span class="p">,</span><span class="n">PRESET1</span><span class="p">},{</span><span class="n">MSP3</span><span class="p">,</span><span class="n">PRESET2</span><span class="p">},{</span><span class="n">MSP3</span><span class="p">,</span><span class="n">PRESET3</span><span class="p">},{</span><span class="n">MSP3</span><span class="p">,</span><span class="n">PRESET4</span><span class="p">},{</span><span class="n">MSP3</span><span class="p">,</span><span class="n">PRESET5</span><span class="p">}}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Similar to <a href="COMBINE_DEVICES.md">COMBINE_DEVICES</a> and <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a>, the first
+<a href="DEVCHAN.md[">DEVCHAN</a> set in a <a href="COMBINE_CHANNEL.md">COMBINE_CHANNEL</a> function needs to be
+referenced to a Virtual Device, as shown below:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">DEVCHAN</span><span class="w"> </span><span class="n">dcVDEV</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="p">{{</span><span class="n">VDEV</span><span class="p">,</span><span class="n">PRESET1</span><span class="p">},{</span><span class="n">VDEV</span><span class="p">,</span><span class="n">PRESET2</span><span class="p">},{</span><span class="n">VDEV</span><span class="p">,</span><span class="n">PRESET3</span><span class="p">},{</span><span class="n">VDEV</span><span class="p">,</span><span class="n">PRESET4</span><span class="p">},{</span><span class="n">VDEV</span><span class="p">,</span><span class="n">PRESET5</span><span class="p">}}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>All of the <a href="DEVCHAN.md">DEVCHAN</a> sets in the <a href="COMBINE_CHANNELS.md">COMBINE_CHANNELS</a> function must
+have the same number of array elements. The actual <a href="COMBINE_CHANNELS.md">COMBINE_CHANNELS</a> statement
+is:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">COMBINE_CHANNELS</span><span class="w"> </span><span class="p">(</span><span class="n">dcVDEV</span><span class="p">,</span><span class="w"> </span><span class="n">dcMSP1</span><span class="p">,</span><span class="w"> </span><span class="n">dcMSP2</span><span class="p">,</span><span class="w"> </span><span class="n">dcMSP3</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>The actual element positions of the <a href="DEVCHAN.md">DEVCHAN</a> arrays are combined within the program. In
+essence, all of the <code>PRESET1</code> channels are handled through <code>[VDEV,PRESET1]</code> defined as <code>dcVDEV[1]</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><!--markdownlint-disable-line-->
+When using <code>COMBINE_XXXX</code> and <code>UNCOMBINE_XXXX</code> functions dynamically based upon a button event,
 the combining and combining must be done on the release of the button (the active event must be
-complete before a  COMBINE_XXXX or UNCOMBINE_XXXX function is invoked).</p>
-<p>See Also:</p>
+complete before a  <code>COMBINE_XXXX</code> or <code>UNCOMBINE_XXXX</code> function is invoked).</p>
+</div>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="Intrinsic_Data_Types.md">Intrinsic Data Types</a></li>
 <li><a href="Conversion_Keywords.md">Conversion Keywords</a></li>

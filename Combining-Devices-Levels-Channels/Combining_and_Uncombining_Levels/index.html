@@ -3294,6 +3294,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combining and Uncombining Levels
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3310,6 +3328,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3399,6 +3447,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3474,34 +3541,57 @@
 <p>The NetLinx functions <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a> and
 <a href="UNCOMBINE_LEVELS.md">UNCOMBINE_LEVELS</a> are used within events and mainline code to dynamically
 change what levels are connected to each other.</p>
-<p>It is recommended that a Virtual <a href="DEVLEV.md">DEVLEV</a> set be used as the first DEVLEV set in the
-COMBINE_LEVELS function.</p>
-<p>The format for COMBINE_LEVELS and UNCOMBINE_LEVELS is:</p>
-<p>SLONG COMBINE_LEVELS (<virtual DEVLEV>, <DEVLEV1>, <DEVLEV2> …)</p>
-<p>SLONG UNCOMBINE_LEVELS (<virtual DEVLEV>)</p>
-<p>DEVLEV structures defined within the COMBINE_LEVELS are either individual DEVLEV structures or one
-dimension of a DEVLEV array. Any reference to the levels is handled through the first device in the
-list.</p>
+<p>It is recommended that a Virtual <a href="DEVLEV.md">DEVLEV</a> set be used as the first <a href="DEVLEV.md">DEVLEV</a>
+set in the <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a> function.</p>
+<p>The format for <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a> and <a href="UNCOMBINE_LEVELS.md">UNCOMBINE_LEVELS</a> is:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">SLONG</span><span class="w"> </span><span class="n">COMBINE_LEVELS</span><span class="w"> </span><span class="p">(</span><span class="o">&lt;</span><span class="n">virtual</span><span class="w"> </span><span class="n">DEVLEV</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="o">&lt;</span><span class="n">DEVLEV1</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="o">&lt;</span><span class="n">DEVLEV2</span><span class="o">&gt;</span><span class="w"> </span><span class="err">…</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">SLONG</span><span class="w"> </span><span class="n">UNCOMBINE_LEVELS</span><span class="w"> </span><span class="p">(</span><span class="o">&lt;</span><span class="n">virtual</span><span class="w"> </span><span class="n">DEVLEV</span><span class="o">&gt;</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p><a href="DEVLEV.md">DEVLEV</a> structures defined within the <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a> are either
+individual <a href="DEVLEV.md">DEVLEV</a> structures or one dimension of a <a href="DEVLEV.md">DEVLEV</a> array. Any
+reference to the levels is handled through the first device in the list.</p>
 <p>The following example code illustrates how to dynamically combine and uncombine levels utilizing
- the COMBINE_LEVELS and UNCOMBINE_LEVELS keywords.</p>
-<p>DEFINE_DEVICE</p>
-<p>VIRTUAL1 = 33000</p>
-<p>TP1 = 128</p>
-<p>TP2 = 129</p>
-<p>TP3 = 130</p>
-<p>TP4 = 131</p>
-<p>DEFINE_PROGRAM</p>
-<p>(*Activate dynamic device combine*)</p>
-<p>PUSH[TP4,1]</p>
-<p>{</p>
-<p>COMBINE_LEVELS(VIRTUAL1,1,TP1,1,TP2,1,TP3,1)</p>
-<p>}</p>
-<p>(*Remove dynamic device combine*)</p>
-<p>PUSH[TP4,1]</p>
-<p>{</p>
-<p>UNCOMBINE_LEVELS(VIRTUAL1,1)</p>
-<p>}</p>
-<p>See Also</p>
+ the <a href="COMBINE_LEVELS.md">COMBINE_LEVELS</a> and <a href="UNCOMBINE_LEVELS.md">UNCOMBINE_LEVELS</a> keywords.</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-1-10">10</a></span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span>
+<span class="normal"><a href="#__codelineno-1-12">12</a></span>
+<span class="normal"><a href="#__codelineno-1-13">13</a></span>
+<span class="normal"><a href="#__codelineno-1-14">14</a></span>
+<span class="normal"><a href="#__codelineno-1-15">15</a></span>
+<span class="normal"><a href="#__codelineno-1-16">16</a></span>
+<span class="normal"><a href="#__codelineno-1-17">17</a></span>
+<span class="normal"><a href="#__codelineno-1-18">18</a></span>
+<span class="normal"><a href="#__codelineno-1-19">19</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">DEFINE_DEVICE</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="n">VIRTUAL1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">33000</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="n">TP1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">128</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="n">TP2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">129</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="n">TP3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">130</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="n">TP4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">131</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="n">DEFINE_PROGRAM</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="p">(</span><span class="o">*</span><span class="n">Activate</span><span class="w"> </span><span class="n">dynamic</span><span class="w"> </span><span class="n">device</span><span class="w"> </span><span class="n">combine</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="n">PUSH</span><span class="p">[</span><span class="n">TP4</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="p">{</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="w">    </span><span class="n">COMBINE_LEVELS</span><span class="p">(</span><span class="n">VIRTUAL1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">TP1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">TP2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">TP3</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="p">}</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14"></a>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="p">(</span><span class="o">*</span><span class="n">Remove</span><span class="w"> </span><span class="n">dynamic</span><span class="w"> </span><span class="n">device</span><span class="w"> </span><span class="n">combine</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="n">PUSH</span><span class="p">[</span><span class="n">TP4</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="p">{</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="w">    </span><span class="n">UNCOMBINE_LEVELS</span><span class="p">(</span><span class="n">VIRTUAL1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="../Combining_and_Uncombining_Channels/">Combining and Uncombining Channels</a></li>
 <li><a href="../Combining_and_Uncombining_Devices/">Combining and Uncombining Devices</a></li>
