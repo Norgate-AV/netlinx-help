@@ -1,12 +1,12 @@
 ---
-title: TIMELINE_example
+title: TIMELINE example
 ---
 
 # TIMELINE example
 
-The following code is an example of using
-[TIMELINE functions](Timeline_Functions.md).
+The following code is an example of using [TIMELINE functions](Timeline_Functions.md).
 
+```c linenums="1"
 PROGRAM_NAME='TimelineExample'
 
 (\*{{PS_SOURCE_INFO(PROGRAM STATS)                          \*)
@@ -97,27 +97,26 @@ TIMELINE_EVENT\[MY_LINE_1\]
 
 {
 
-  switch(Timeline.Sequence)
+switch(Timeline.Sequence)
 
-  {
+{
 
-   case 1: { SEND_COMMAND dvPanel,"'TEXT1-1 1'"  }
+case 1: { SEND_COMMAND dvPanel,"'TEXT1-1 1'"  }
 
-   case 2: { SEND_COMMAND dvPanel,"'TEXT1-1 2'"  }
+case 2: { SEND_COMMAND dvPanel,"'TEXT1-1 2'"  }
 
-   case 3: { SEND_COMMAND dvPanel,"'TEXT1-1 3'"  }
+case 3: { SEND_COMMAND dvPanel,"'TEXT1-1 3'"  }
 
-   case 4: { SEND_COMMAND dvPanel,"'TEXT1-1 4'"  }
+case 4: { SEND_COMMAND dvPanel,"'TEXT1-1 4'"  }
 
-   case 5: { SEND_COMMAND dvPanel,"'TEXT1-1 5'"  }
+case 5: { SEND_COMMAND dvPanel,"'TEXT1-1 5'"  }
 
-  }
+}
 
-  SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event
-',ITOA(Timeline.Sequence), ' Time= ',ITOA(Timeline.Time),
+SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event ',ITOA(Timeline.Sequence), ' Time=
+',ITOA(Timeline.Time),
 
-            'Repetition = ',ITOA(Timeline.Repetition),' Relative =
-',ITOA(Timeline.Relative)"
+'Repetition = ',ITOA(Timeline.Repetition),' Relative = ',ITOA(Timeline.Relative)"
 
 }
 
@@ -125,27 +124,26 @@ TIMELINE_EVENT\[MY_LINE_2\]
 
 {
 
-  switch(Timeline.Sequence)
+switch(Timeline.Sequence)
 
-  {
+{
 
-   case 1: { SEND_COMMAND dvPanel,"'TEXT2-2 1'"  }
+case 1: { SEND_COMMAND dvPanel,"'TEXT2-2 1'"  }
 
-   case 2: { SEND_COMMAND dvPanel,"'TEXT2-2 2'"  }
+case 2: { SEND_COMMAND dvPanel,"'TEXT2-2 2'"  }
 
-   case 3: { SEND_COMMAND dvPanel,"'TEXT2-2 3'"  }
+case 3: { SEND_COMMAND dvPanel,"'TEXT2-2 3'"  }
 
-   case 4: { SEND_COMMAND dvPanel,"'TEXT2-2 4'"  }
+case 4: { SEND_COMMAND dvPanel,"'TEXT2-2 4'"  }
 
-   case 5: { SEND_COMMAND dvPanel,"'TEXT2-2 5'"  }
+case 5: { SEND_COMMAND dvPanel,"'TEXT2-2 5'"  }
 
-  }
+}
 
-SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event
-',ITOA(Timeline.Sequence), ' Time = ',ITOA(Timeline.Time),
+SEND_STRING  DvDEBUG,"'Timer ',ITOA(Timeline.ID),' Event ',ITOA(Timeline.Sequence), ' Time =
+',ITOA(Timeline.Time),
 
-           ' Repetition = ',ITOA(Timeline.Repetition),' Relative =
-',ITOA(Timeline.Relative)"
+' Repetition = ',ITOA(Timeline.Repetition),' Relative = ',ITOA(Timeline.Relative)"
 
 }
 
@@ -189,17 +187,17 @@ PUSH\[dvPanel,2\]
 
 {
 
-  TimeArray\[1\] = 1000
+TimeArray\[1\] = 1000
 
-  TimeArray\[2\] = 2000
+TimeArray\[2\] = 2000
 
-  TimeArray\[3\] = 3000
+TimeArray\[3\] = 3000
 
-  TimeArray\[4\] = 4000
+TimeArray\[4\] = 4000
 
-  TimeArray\[5\] = 5000
+TimeArray\[5\] = 5000
 
-    TIMELINE_CREATE(MY_LINE_2,TimeArray,5,TIMELINE_ABSOLUTE,TIMELINE_REPEAT)
+TIMELINE_CREATE(MY_LINE_2,TimeArray,5,TIMELINE_ABSOLUTE,TIMELINE_REPEAT)
 
 }
 
@@ -213,9 +211,9 @@ PUSH\[dvPanel,3\]
 
 {
 
-  IF(TIMELINE_ACTIVE(MY_LINE_1))TIMELINE_KILL(MY_LINE_1)
+IF(TIMELINE_ACTIVE(MY_LINE_1))TIMELINE_KILL(MY_LINE_1)
 
-  IF(TIMELINE_ACTIVE(MY_LINE_2))TIMELINE_KILL(MY_LINE_2)
+IF(TIMELINE_ACTIVE(MY_LINE_2))TIMELINE_KILL(MY_LINE_2)
 
 }
 
@@ -223,9 +221,9 @@ PUSH\[dvPanel,4\]
 
 {
 
-  IF(TIMELINE_ACTIVE(MY_LINE_1))TIMELINE_PAUSE(MY_LINE_1)
+IF(TIMELINE_ACTIVE(MY_LINE_1))TIMELINE_PAUSE(MY_LINE_1)
 
-  IF(TIMELINE_ACTIVE(MY_LINE_2))TIMELINE_PAUSE(MY_LINE_2)
+IF(TIMELINE_ACTIVE(MY_LINE_2))TIMELINE_PAUSE(MY_LINE_2)
 
 }
 
@@ -233,9 +231,9 @@ PUSH\[dvPanel,5\]
 
 {
 
-  IF(TIMELINE_ACTIVE(MY_LINE_1))TIMELINE_RESTART(MY_LINE_1)
+IF(TIMELINE_ACTIVE(MY_LINE_1))TIMELINE_RESTART(MY_LINE_1)
 
-  IF(TIMELINE_ACTIVE(MY_LINE_2))TIMELINE_RESTART(MY_LINE_2)
+IF(TIMELINE_ACTIVE(MY_LINE_2))TIMELINE_RESTART(MY_LINE_2)
 
 }
 
@@ -249,9 +247,9 @@ PUSH\[dvPanel,6\]
 
 {
 
-  IF (TIMELINE_ACTIVE(MY_LINE_1))
+IF (TIMELINE_ACTIVE(MY_LINE_1))
 
-   TIMELINE_SET(MY_LINE_1,2000)
+TIMELINE_SET(MY_LINE_1,2000)
 
 }
 
@@ -281,17 +279,17 @@ PUSH\[dvPanel,8\]
 
 {
 
-  TIMELINE_PAUSE(MY_LINE_1)
+TIMELINE_PAUSE(MY_LINE_1)
 
-  TIMELINE_PAUSE(MY_LINE_2)
+TIMELINE_PAUSE(MY_LINE_2)
 
-  TIMELINE_SET(MY_LINE_1,0)
+TIMELINE_SET(MY_LINE_1,0)
 
-  TIMELINE_SET(MY_LINE_2,0)
+TIMELINE_SET(MY_LINE_2,0)
 
-  TIMELINE_RESTART(MY_LINE_1)
+TIMELINE_RESTART(MY_LINE_1)
 
-  TIMELINE_RESTART(MY_LINE_2)
+TIMELINE_RESTART(MY_LINE_2)
 
 }
 
@@ -302,9 +300,10 @@ PUSH\[dvPanel,8\]
 (\*        DO NOT PUT ANY CODE BELOW THIS COMMENT           \*)
 
 (\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*)
+```
 
-See Also
+## See Also
 
-- [Timeline Functions](Timeline_Functions.md)
-- [TIMELINE IDs](TIMELINE_IDs.md)
-- [TIMELINE Keywords](TIMELINE_Keywords.md)
+-   [Timeline Functions](Timeline_Functions.md)
+-   [TIMELINE IDs](TIMELINE_IDs.md)
+-   [TIMELINE Keywords](TIMELINE_Keywords.md)

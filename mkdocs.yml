@@ -142,3 +142,21 @@ nav:
           - Language-Elements/Loops/index.md
           - FOR Loops: Language-Elements/Loops/FOR_loops.md
           - Conditional Keywords: Language-Elements/Loops/Conditional_Keywords.md
+      - Strings:
+          - Language-Elements/Strings/index.md
+          - Wide strings: Language-Elements/Strings/Wide_Strings.md
+          - STRING Keywords: Language-Elements/Strings/STRING_Keywords.md
+      - Structures:
+          - Language-Elements/Structures/index.md
+          - Data Set Structures: Language-Elements/Structures/Data_Set_Structures.md
+      - Timelines:
+          - Timeline Functions: Language-Elements/Timelines/Timeline_Functions.md
+          - TIMELINE IDs: Language-Elements/Timelines/TIMELINE_IDs.md
+          - TIMELINE Example: Language-Elements/Timelines/TIMELINE_example.md
+          - TIMELINE Keywords: Language-Elements/Timelines/TIMELINE_Keywords.md
+      - Waits:
+          - Language-Elements/Waits/index.md
+          - Timed Waits: Language-Elements/Waits/Timed_Waits.md
+          - Conitional Waits: Language-Elements/Waits/Conditional_Waits.md
+          - Timed Conditional Waits: Language-Elements/Waits/Timed_Conditional_Waits.md
+          - WAIT Keywords: Language-Elements/Waits/WAIT_Keywords.md

@@ -1,6 +1,9 @@
 {
     "yaml.schemas": {
-        "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+        "https://squidfunk.github.io/mkdocs-material/schema.json": [
+            "mkdocs.yml",
+            "file:///Users/damienbutt/Projects/netlinx-help/mkdocs.yml"
+        ]
     },
     "yaml.customTags": [
         "!ENV scalar",
