@@ -1,5 +1,5 @@
 ---
-title: Combining and Uncombining_Channels
+title: Combining and Uncombining Channels
 ---
 
 # Combining and Uncombining Channels
@@ -89,12 +89,12 @@ BUTTON_EVENT[dvTP,15] // COMBINE_CHANNELS 3
     RELEASE:
     {
         COMBINE_CHANNELS (vdvControl,3,
-            dc3\[1\].DEVICE,
-            dc3\[1\].CHANNEL,
-            dc3\[2\].DEVICE,
-            dc3\[2\].CHANNEL,
-            dc3\[3\].DEVICE,
-            dc3\[3\].CHANNEL)
+            dc3[1].DEVICE,
+            dc3[1].CHANNEL,
+            dc3[2].DEVICE,
+            dc3[2].CHANNEL,
+            dc3[3].DEVICE,
+            dc3[3].CHANNEL)
     }
 }
 
