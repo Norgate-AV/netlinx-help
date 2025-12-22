@@ -41,10 +41,10 @@ The Keywords used to **Uncombine** Devices, Levels and Channels are:
 
     <!--markdownlint-disable-line-->
     -   If you have combined Devices, Levels and/or Channels, they must be uncombined before they can be
-        added as part of a new Combine function.
+        added as part of a new Combine function. <br>
     -   When using `COMBINE_XXXX` and `UNCOMBINE_XXXX` functions dynamically based upon a button event, the
         combining and combining must be done on the **release** of the button (the active event must be
-        complete before a  `COMBINE_XXXX` or `UNCOMBINE_XXXX` function is invoked).
+        complete before a  `COMBINE_XXXX` or `UNCOMBINE_XXXX` function is invoked). <br>
     -   Input and output changes occurring on non-combined panels will not affect combined panels, and
         vice versa.
 
