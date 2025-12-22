@@ -27,9 +27,10 @@ StrExp = {STOP, 500, 'OFF', X}
 StrLen = LENGTH_STRING(StrExp)
 ```
 
-In the example above, if STOP is 2 and X is a wide character whose value is 1000, the string
-expression will evaluate to "2, 500, 79, 70, 70, 1000" and StrLen is 6. Each array element can now
-assume a value of up to 65,535 rather than the 255 limit imposed by the standard character string.
+In the example above, if `STOP` is `2` and `X` is a wide character whose value is `1000`, the string
+expression will evaluate to `"2, 500, 79, 70, 70, 1000"` and `StrLen` is `6`. Each array element can
+now assume a value of up to 65,535 rather than the 255 limit imposed by the standard character
+string.
 
 A [CHAR](CHAR.md) string may be assigned or compared to a wide character string.
 

@@ -4,8 +4,8 @@ title: Structures
 
 # Structures
 
-A structure provides the ability to create a new data type composed of other data types arranged in
-a specified order.
+A _structure_ provides the ability to create a new data type composed of other data types arranged
+in a specified order.
 
 Example:
 
@@ -43,6 +43,7 @@ members of each structure as well as the entire array are enclosed in braces.
 ```c linenums="1"
 MyNewStruct.Number = 0
 MyNewStruct.Text= 'Copyright by Company X'
+
 MyNewStructArray[1].Number = 1
 MyNewStructArray[1].Text = 'Line 1'
 MyNewStructArray[2].Number = 2

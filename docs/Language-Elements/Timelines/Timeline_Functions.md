@@ -5,11 +5,11 @@ title: Timeline Functions
 # Timeline Functions
 
 NetLinx Timeline functions provide a mechanism for triggering events based upon a sequence of times.
-The sequence of times is passed into the timeline functions as an array of LONG values, with each
-value representing a time period (in milliseconds) that is either relative to the start time of the
-timeline or to the previously triggered event. Timelines provide the capability to dynamically set
-up a timed sequence, providing a mechanism to modify the sequence, and allow the user to create,
-delete, and modify sequences.
+The sequence of times is passed into the timeline functions as an array of [LONG](LONG.md) values,
+with each value representing a time period (in milliseconds) that is either relative to the start
+time of the timeline or to the previously triggered event. Timelines provide the capability to
+dynamically set up a timed sequence, providing a mechanism to modify the sequence, and allow the
+user to create, delete, and modify sequences.
 
 Timelines are represented by the illustration below:
 
@@ -38,13 +38,13 @@ STRUCTURE TIMELINE
 
 Each TIMELINE data member is defined as follows:
 
-|              |                                                                                                                                                                                                                                                                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ID`         | The ID that the user assigned to the timeline in the TIMELINE_CREATE function. <br> Click here for details on timeline IDs.                                                                                                                                                                                                                          |
-| `SEQUENCE`   | The index of the time in the Times array that was passed to the TIMELINE_CREATE function. The SEQUENCE data member is used to determine what action to take for the event and is normally decoded with a SWITCH/CASE structure (as shown in the example below).                                                                                      |
-| `TIME`       | The amount of time that has elapsed since the timeline started. <br> For repeating Timelines, the TIME and REPETITION data members can be used to calculate the total amount of time it has been running.                                                                                                                                            |
-| `RELATIVE`   | If the timeline is operating in relative mode, this data member is equal to TIMELINE_RELATIVE. If the timeline is absolute, it is equal to TIMELINE_ABSOLUTE.                                                                                                                                                                                        |
-| `REPETITION` | If the timeline was created with TIMELINE_REPEAT, this data member holds the number of times the timeline has been executed. REPETITION contains zero for the first pass through the timeline. <br> Thus, the calculation to determine the total amount of time the timeline has been running is simply: <br> `TIMELINE.TIME * TIMELINE.REPETITION`. |
+|              |                                                                                                                                                                                                                                                                                                                                                          |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ID`         | The ID that the user assigned to the timeline in the [TIMELINE_CREATE](TIMELINE_CREATE.md) function. <br> Click [here](TIMELINE_IDs.md) for details on timeline IDs.                                                                                                                                                                                     |
+| `SEQUENCE`   | The index of the time in the Times array that was passed to the [TIMELINE_CREATE](TIMELINE_CREATE.md) function. The `SEQUENCE` data member is used to determine what action to take for the event and is normally decoded with a `SWITCH/CASE` structure (as shown in the example below).                                                                |
+| `TIME`       | The amount of time that has elapsed since the timeline started. <br> For repeating Timelines, the `TIME` and `REPETITION` data members can be used to calculate the total amount of time it has been running.                                                                                                                                            |
+| `RELATIVE`   | If the timeline is operating in relative mode, this data member is equal to `TIMELINE_RELATIVE`. If the timeline is absolute, it is equal to `TIMELINE_ABSOLUTE`.                                                                                                                                                                                        |
+| `REPETITION` | If the timeline was created with `TIMELINE_REPEAT`, this data member holds the number of times the timeline has been executed. `REPETITION` contains zero for the first pass through the timeline. <br> Thus, the calculation to determine the total amount of time the timeline has been running is simply: <br> `TIMELINE.TIME * TIMELINE.REPETITION`. |
 
 ## Returns
 
@@ -52,7 +52,7 @@ Each TIMELINE data member is defined as follows:
 | --- | --------------------------------------------------------------- |
 | `0` | Successful                                                      |
 | `1` | Timeline ID already in use                                      |
-| `2` | Specified array is not an array of LONGs                        |
+| `2` | Specified array is not an array of [LONG](LONG.md)s             |
 | `3` | Specified length is greater than the length of the passed array |
 | `4` | Out of memory                                                   |
 
@@ -113,16 +113,16 @@ PUSH[dvPanel,2]
 }
 ```
 
-The example above creates two Timelines (TL1 and TL2) that trigger events at the same rate (once per
-second).
+The example above creates two Timelines (`TL1` and `TL2`) that trigger events at the same rate (once
+per second).
 
--   TL1 uses TIMELINE_ABSOLUTE to specify that the times in TimeArray are absolute with respect to
-    the start of the timeline. Since TL1 specifies the TIMELINE_REPEAT, it is also repeating and
-    will generate a TIMELINE_EVENT every second iterating through all five times in a round-robin
-    fashion: 1,2,3,4,5,1,2,3,4,5,1,2,3, and so on.
--   TL2 uses TIMELINE_RELATIVE to specify that the times in TimeArray are relative to each other
-    (i.e. each events occurs 1000 milliseconds after the previous). Since TL2 specifies the
-    TIMELINE_ONCE parameter, it will execute the entire timeline once, then stop: 1,2,3,4,5.
+-   `TL1` uses `TIMELINE_ABSOLUTE` to specify that the times in `TimeArray` are absolute with
+    respect to the start of the timeline. Since `TL1` specifies the `TIMELINE_REPEAT`, it is also
+    repeating and will generate a `TIMELINE_EVENT` every second iterating through all five times in
+    a round-robin fashion: `1,2,3,4,5,1,2,3,4,5,1,2,3`, and so on.
+-   `TL2` uses `TIMELINE_RELATIVE` to specify that the times in `TimeArray` are relative to each
+    other (i.e. each events occurs 1000 milliseconds after the previous). Since `TL2` specifies the
+    `TIMELINE_ONCE` parameter, it will execute the entire timeline once, then stop: `1,2,3,4,5`.
 
 ## See Also
 
