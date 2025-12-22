@@ -3145,6 +3145,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3232,6 +3254,28 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
@@ -3337,7 +3381,7 @@
 
 <h1 id="timed-conditional-waits">Timed Conditional Waits</h1>
 <p><a href="TIMED_WAIT_UNTIL.md">TIMED_WAIT_UNTIL</a> is a timed conditional Wait request.</p>
-<p>Syntax:</p>
+<h2 id="syntax">Syntax</h2>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
@@ -3346,14 +3390,15 @@
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Parameters:</p>
+<h2 id="parameters">Parameters</h2>
 <ul>
-<li><code>&lt;condition&gt;</code> - Any single or compound expression that can be evaluated as a Logical (Boolean)
-    expression. The Wait statements are executed if and when the Wait condition becomes true.</li>
-<li>timeout - A constant or variable indicating the timeout value in 1/10th seconds. If the Wait
+<li><strong><code>&lt;condition&gt;</code></strong> - Any single or compound expression that can be evaluated as a Logical
+    (Boolean) expression. The Wait statements are executed if and when the Wait condition becomes
+    true.</li>
+<li><strong>timeout</strong> - A constant or variable indicating the timeout value in 1/10th seconds. If the Wait
     condition is not met within the time indicated by this parameter, the Wait is cancelled, in
     which case no wait statements are executed.</li>
-<li>name - The name to assign to the Wait. This name must be a literal string. The Wait name is
+<li><strong>name</strong> - The name to assign to the Wait. This name must be a literal string. The Wait name is
     optional, although unless a Wait is named it cannot be individually cancelled, paused or
     restarted.</li>
 </ul>

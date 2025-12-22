@@ -2644,39 +2644,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3267,39 +3234,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3404,7 +3338,7 @@
 <h1 id="strings">Strings</h1>
 <p>A string is an array of characters of known length. This length may be less than the dimensioned
 length.</p>
-<h2 id="example">Example</h2>
+<p><strong>Example</strong></p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
@@ -3420,13 +3354,13 @@ length.</p>
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="n">StrLen</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">LENGTH_STRING</span><span class="p">(</span><span class="n">MyString</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <p>In the example above, <code>StrLen</code> holds the value <code>4</code>, the length of <code>MyString</code>.</p>
-<p>The length of <code>MyString</code> can be anywhere from <code>0</code> to <code>32</code>.</p>
+<p>The length of <code>MyString</code> can be anywhere from 0 to 32.</p>
 <p>If an attempt is made to assign a string longer than the capacity of the destination string, the
 copied string is truncated to fit. The string length is implicitly set when a string literal, string
 expression or variable is assigned to the string.</p>
 <p>The function <a href="SET_LENGTH_STRING.md">SET_LENGTH_STRING</a> can be used to explicitly set the length of a
 string to any arbitrary length between 0 and the dimension of the character array.</p>
-<h2 id="example_1">Example</h2>
+<p><strong>Example</strong></p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">SET_LENGTH_STRING</span><span class="p">(</span><span class="n">MyString</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <p>This causes the contents of <code>MyString</code> to read <code>STO</code>, even though the character <code>P</code> still resides in
@@ -3434,7 +3368,7 @@ string to any arbitrary length between 0 and the dimension of the character arra
 <p>A string expression is a string enclosed in double quotes containing a series of constants and/or
 variables evaluated at run-time to form a string result. String expressions can contain up to 16000
 characters consisting of string literals, variables, arrays, and ASCII values between 0 and 255.</p>
-<h2 id="example_2">Example</h2>
+<p><strong>Example</strong></p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
 <span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">CHAR</span><span class="w"> </span><span class="n">StrExp</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="n">StrExp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;STOP, 25, &#39;OFF&#39;, X&quot;</span>
@@ -3450,8 +3384,12 @@ must be more precise. NetLinx does not accommodate converting data types to stri
 that all strings be enclosed in double-quotes.</p>
 </div>
 <p>For example,</p>
-<p>In Axcess, you could use: <code>ATOI(STRING)</code></p>
-<p>Where NetLinx requires: <code>ATOI("STRING")</code></p>
+<p>In Axcess, you could use:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">ATOI</span><span class="p">(</span><span class="n">STRING</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Where NetLinx requires:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="n">ATOI</span><span class="p">(</span><span class="s">&quot;STRING&quot;</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
 <h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="Wide_Strings/">Wide Strings</a></li>

@@ -3010,6 +3010,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waits
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3026,6 +3044,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#naming-waits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Naming WAITs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nesting-waits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nesting Waits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-waits-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Waits - Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3179,6 +3271,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#naming-waits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Naming WAITs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nesting-waits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nesting Waits
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-waits-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Waits - Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3274,26 +3429,26 @@ is executed, it is added to a list of currently active wait requests and the pro
 running.</p>
 <p>Types of Wait statements include:</p>
 <ul>
-<li><a href="Timed_Waits/">Timed Wait</a>: A timed wait request has an associated parameter that indicates
-    that amount of time that must elapse before the associated wait instruction(s) are to be
-    executed.</li>
-<li><a href="Conditional_Waits/">Conditional Wait</a>: Conditional waits require that a specified condition
-    be met before the instructions are executed. <a href="WAIT_UNTIL.md">WAIT_UNTIL</a> is a conditional Wait
-    request.</li>
-<li><a href="Timed_Conditional_Waits/">Timed Conditional Wait</a>: Timed conditional waits are conditional
-    waits with a timeout parameter; if the condition is not met before the specified time elapses,
-    the wait request is cancelled.</li>
+<li><a href="Timed_Waits/"><strong>Timed Wait</strong></a>: A timed wait request has an associated parameter that
+    indicates that amount of time that must elapse before the associated wait instruction(s) are to
+    be executed.</li>
+<li><a href="Conditional_Waits/"><strong>Conditional Wait</strong></a>: Conditional waits require that a specified
+    condition be met before the instructions are executed. <a href="WAIT_UNTIL.md">WAIT_UNTIL</a> is a
+    conditional Wait request.</li>
+<li><a href="Timed_Conditional_Waits/"><strong>Timed Conditional Wait</strong></a>: Timed conditional waits are
+    conditional waits with a timeout parameter; if the condition is not met before the specified
+    time elapses, the wait request is cancelled.</li>
 </ul>
-<p>Naming WAITs</p>
+<h2 id="naming-waits">Naming WAITs</h2>
 <p>Supplying a unique name in the wait statement allows the wait to be identified for purposes of
 canceling, pausing or restarting the wait request. The name must not conflict with previously
 defined constants, variables, buffers, subroutines, or functions. Unlike other NetLinx identifiers,
 wait names may contain spaces.</p>
-<p>Nesting Waits</p>
+<h2 id="nesting-waits">Nesting Waits</h2>
 <p>The wait time for a nested wait is the sum of it’s own wait time, plus that of the enclosing waits.
-In the example below, SECOND WAIT occurs 0.5 seconds after FIRST WAIT is executed, or 1.5 seconds
-after FIRST WAIT is added to the wait list.</p>
-<p>Example:</p>
+In the example below, <code>SECOND WAIT</code> occurs <code>0.5</code> seconds after <code>FIRST WAIT</code> is executed, or <code>1.5</code>
+seconds after <code>FIRST WAIT</code> is added to the wait list.</p>
+<h2 id="example">Example</h2>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
@@ -3332,19 +3487,20 @@ specified (condition 1, then condition 2) but not necessarily at the same time. 
 </span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="w">    </span><span class="p">}</span>
 </span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Using Waits - Limitations</p>
+<h2 id="using-waits-limitations">Using Waits - Limitations</h2>
 <ul>
-<li>References to <a href="STACK_VAR.md">STACK_VAR</a> variables are not allowed within waits. <code>STACK_VAR</code>s are
-    temporary variables that cease to exist when the block in which they are declared is exited.</li>
+<li>References to <a href="STACK_VAR.md">STACK_VAR</a> variables are not allowed within waits.
+    <a href="STACK_VAR.md">STACK_VAR</a>s are temporary variables that cease to exist when the block in which
+    they are declared is exited.</li>
 <li>Variable copies are made of functions and subroutine parameters. This can have speed/execute
     penalties.</li>
 <li>Within functions and subroutines, a <a href="RETURN.md">RETURN</a> is not allowed within a <a href="WAIT.md">WAIT</a>.</li>
-<li>A <a href="BREAK.md">BREAK</a> or <code>CONTINUE</code> cannot appear within a <code>WAIT</code> if it takes execution out of the
-    scope of the WAIT.</li>
-<li>The code within a <code>WAIT</code> cannot reference a function or subroutine array parameter whose bounds
-    are unspecified.</li>
+<li>A <a href="BREAK.md">BREAK</a> or <a href="CONTINUE.md">CONTINUE</a> cannot appear within a <a href="WAIT.md">WAIT</a> if it
+    takes execution out of the scope of the <a href="WAIT.md">WAIT</a>.</li>
+<li>The code within a <a href="WAIT.md">WAIT</a> cannot reference a function or subroutine array parameter
+    whose bounds are unspecified.</li>
 </ul>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="WAIT_Keywords/">WAIT Keywords</a></li>
 </ul>

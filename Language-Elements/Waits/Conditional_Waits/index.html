@@ -3343,15 +3343,16 @@
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
 <span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">WAIT_UNTIL</span><span class="w"> </span><span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span><span class="w"> </span><span class="p">[</span><span class="err">&#39;</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="err">&#39;</span><span class="p">]</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="p">{</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="p">(</span><span class="err">\</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="err">\</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
 <p>Parameters:</p>
 <ul>
-<li><code>&lt;condition&gt;</code> - Any single or compound expression that can be evaluated as a Logical (Boolean)
-    expression. The Wait statements are executed if and when the wait condition becomes True.</li>
-<li><code>&lt;name&gt;</code> - The name to assign to the Wait. This name must be a literal string. The Wait name is
-    optional, although unless a Wait is named it cannot be individually cancelled, paused or
+<li><strong><code>&lt;condition&gt;</code></strong> - Any single or compound expression that can be evaluated as a Logical
+    (Boolean) expression. The Wait statements are executed if and when the wait condition becomes
+    True.</li>
+<li><strong><code>&lt;name&gt;</code></strong> - The name to assign to the Wait. This name must be a literal string. The Wait name
+    is optional, although unless a Wait is named it cannot be individually cancelled, paused or
     restarted.</li>
 </ul>
 <h2 id="see-also">See Also</h2>

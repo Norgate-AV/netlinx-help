@@ -2922,6 +2922,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3234,6 +3245,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3339,16 +3361,12 @@
 <p>When creating a <a href="TIMELINE_EVENT.md">TIMELINE_EVENT</a>,  the timeline ID must be a user defined long
 constant.</p>
 <ul>
-<li>
-<p>The NetLinx compiler will not semantic check the type of the timeline ID, and the NetLinx
+<li>The NetLinx compiler will not semantic check the type of the timeline ID, and the NetLinx
     runtime system will attempt to cast the contents of the timeline ID constant, to a long
-    constant.</p>
-</li>
-<li>
-<p>A runtime error will occur if the cast is unsuccessful.</p>
-</li>
+    constant.</li>
+<li>A runtime error will occur if the cast is unsuccessful.</li>
 </ul>
-<p>Example:</p>
+<h2 id="example">Example</h2>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
@@ -3383,43 +3401,41 @@ constant.</p>
 <span class="normal"><a href="#__codelineno-0-32">32</a></span>
 <span class="normal"><a href="#__codelineno-0-33">33</a></span>
 <span class="normal"><a href="#__codelineno-0-34">34</a></span>
-<span class="normal"><a href="#__codelineno-0-35">35</a></span>
-<span class="normal"><a href="#__codelineno-0-36">36</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">DEFINE_VARIABLE</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="n">LONG</span><span class="w"> </span><span class="n">TimeArray</span><span class="err">\</span><span class="p">[</span><span class="mi">4</span><span class="err">\</span><span class="p">]</span><span class="w"> </span><span class="o">=</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="p">{</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="mi">1000</span><span class="p">,</span><span class="w"> </span><span class="c1">// 1 second</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="mi">2000</span><span class="p">,</span><span class="w"> </span><span class="c1">// 2 seconds</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="mi">3000</span><span class="p">,</span><span class="w"> </span><span class="c1">// 3 seconds</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="mi">4000</span><span class="w">  </span><span class="c1">// 4 seconds</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="p">}</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="n">DEFINE_START</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_1</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_2</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_3</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_4</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="n">DEFINE_EVENT</span>
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="c1">// typical TIMELINE_EVENT statement</span>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="n">TIMELINE_EVENT</span><span class="err">\</span><span class="p">[</span><span class="n">TimelineID_1</span><span class="err">\</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 1</span>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24"></a><span class="p">{</span>
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25"></a><span class="n">SEND_STRING</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="s">&quot;&#39;TL ID = &#39;, itoa(timeline.id),&#39;, sequence = &#39;,itoa(timeline.sequence)&quot;</span>
-</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26"></a><span class="p">}</span>
-</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27"></a>
-</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28"></a><span class="c1">// example of &quot;stacked&quot; TIMELINE_EVENT statements</span>
-</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29"></a><span class="n">TIMELINE_EVENT</span><span class="err">\</span><span class="p">[</span><span class="n">TimelineID_2</span><span class="err">\</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 2</span>
-</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30"></a><span class="n">TIMELINE_EVENT</span><span class="err">\</span><span class="p">[</span><span class="n">TimelineID_3</span><span class="err">\</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 3</span>
-</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31"></a><span class="n">TIMELINE_EVENT</span><span class="err">\</span><span class="p">[</span><span class="n">TimelineID_4</span><span class="err">\</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 4</span>
-</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32"></a><span class="p">{</span>
-</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33"></a><span class="n">SEND_STRING</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="s">&quot;&#39;TL ID = &#39;, itoa(timeline.id),&#39;, sequence = &#39;,itoa(timeline.sequence)&quot;</span>
-</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34"></a><span class="p">}</span>
-</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35"></a>
-</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36"></a><span class="c1">// end</span>
+<span class="normal"><a href="#__codelineno-0-35">35</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">DEFINE_VARIABLE</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="n">CONSTANT</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">TimelineID_4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="n">LONG</span><span class="w"> </span><span class="n">TimeArray</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="p">{</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="mi">1000</span><span class="p">,</span><span class="w"> </span><span class="c1">// 1 second</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">    </span><span class="mi">2000</span><span class="p">,</span><span class="w"> </span><span class="c1">// 2 seconds</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="mi">3000</span><span class="p">,</span><span class="w"> </span><span class="c1">// 3 seconds</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">    </span><span class="mi">4000</span><span class="w">  </span><span class="c1">// 4 seconds</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="p">}</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="n">DEFINE_START</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_1</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_2</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_3</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="n">TIMELINE_CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">TimelineID_4</span><span class="p">,</span><span class="n">TimeArray</span><span class="p">,</span><span class="n">LENGTH_ARRAY</span><span class="p">(</span><span class="n">TimeArray</span><span class="p">),</span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="n">TIMELINE_REPEAT</span><span class="p">)</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="n">DEFINE_EVENT</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="c1">// typical TIMELINE_EVENT statement</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="n">TIMELINE_EVENT</span><span class="p">[</span><span class="n">TimelineID_1</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 1</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="p">{</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24"></a><span class="w">    </span><span class="n">SEND_STRING</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="s">&quot;&#39;TL ID = &#39;, itoa(timeline.id),&#39;, sequence = &#39;,itoa(timeline.sequence)&quot;</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25"></a><span class="p">}</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26"></a>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27"></a><span class="c1">// example of &quot;stacked&quot; TIMELINE_EVENT statements</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28"></a><span class="n">TIMELINE_EVENT</span><span class="p">[</span><span class="n">TimelineID_2</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 2</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29"></a><span class="n">TIMELINE_EVENT</span><span class="p">[</span><span class="n">TimelineID_3</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 3</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30"></a><span class="n">TIMELINE_EVENT</span><span class="p">[</span><span class="n">TimelineID_4</span><span class="p">]</span><span class="w"> </span><span class="c1">// capture all events for Timeline 4</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31"></a><span class="p">{</span>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32"></a><span class="w">    </span><span class="n">SEND_STRING</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="s">&quot;&#39;TL ID = &#39;, itoa(timeline.id),&#39;, sequence = &#39;,itoa(timeline.sequence)&quot;</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33"></a><span class="p">}</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34"></a>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35"></a><span class="c1">// end</span>
 </span></code></pre></div></td></tr></table></div>
 <h2 id="see-also">See Also</h2>
 <ul>

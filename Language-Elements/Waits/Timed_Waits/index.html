@@ -3089,6 +3089,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3234,6 +3256,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3340,44 +3384,44 @@
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
-<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">WAIT</span><span class="w"> </span><span class="n">time</span><span class="w"> </span><span class="err">\</span><span class="p">[</span><span class="err">&#39;</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="err">&#39;\</span><span class="p">]</span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">WAIT</span><span class="w"> </span><span class="n">time</span><span class="w"> </span><span class="p">[</span><span class="err">&#39;</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="err">&#39;</span><span class="p">]</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="p">{</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w"> </span><span class="p">(</span><span class="err">\</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="err">\</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Parameters:</p>
+<h2 id="parameters">Parameters</h2>
 <ul>
-<li>time - A constant or variable indicating the wait time. Time is expressed in 1/10th second
-    units. The statement below specifies a wait time of 5 seconds for the wait named FIRST WAIT.</li>
-<li>name - The name to assign to the wait. This name must be a literal string. The wait name is
+<li><strong>time</strong> - A constant or variable indicating the wait time. Time is expressed in 1/10th second
+    units. The statement below specifies a wait time of 5 seconds for the wait named <code>FIRST WAIT</code>.</li>
+<li><strong>name</strong> - The name to assign to the wait. This name must be a literal string. The wait name is
     optional, although unless a wait is named it cannot be individually cancelled, paused or
     restarted.</li>
 </ul>
-<p>The NetLinx interpreter accepts any type of number (including Floats and Doubles) for WAIT times but
-it casts them to an unsigned 32-bit number, i.e. a long.</p>
-<p>So the max wait time 2^32 or 4294967295 100th's of a second, as written in code:</p>
+<p>The NetLinx interpreter accepts any type of number (including Floats and Doubles) for
+<a href="WAIT.md">WAIT</a> times but it casts them to an unsigned 32-bit number, i.e. a long.</p>
+<p>So the max wait time <code>2^32</code> or <code>4294967295</code> 100th's of a second, as written in code:</p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
 <span class="normal"><a href="#__codelineno-1-2">2</a></span>
 <span class="normal"><a href="#__codelineno-1-3">3</a></span>
 <span class="normal"><a href="#__codelineno-1-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">WAIT</span><span class="w"> </span><span class="mf">42949672l9.5</span><span class="w"> </span><span class="c1">// wait ~1.36 years</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="p">{</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="c1">// do something a long time from now</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">    </span><span class="c1">// do something a long time from now</span>
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Example:</p>
+<h2 id="example">Example</h2>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
 <span class="normal"><a href="#__codelineno-2-2">2</a></span>
 <span class="normal"><a href="#__codelineno-2-3">3</a></span>
 <span class="normal"><a href="#__codelineno-2-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">WAIT</span><span class="w"> </span><span class="mi">50</span><span class="w"> </span><span class="err">&#39;</span><span class="n">FIRST</span><span class="w"> </span><span class="n">WAIT</span><span class="err">&#39;</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="p">{</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w"> </span><span class="p">(</span><span class="err">\</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="err">\</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w">    </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">wait</span><span class="w"> </span><span class="n">statements</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><!-- markdownlint-disable-line -->
 If greater precision is required, the time parameter can be expressed as a decimal fraction,
-for example 0.1 to specify a wait time of 1/100th of a second. The range is 0.1 - 0.9.</p>
+for example <code>0.1</code> to specify a wait time of 1/100th of a second. The range is <code>0.1</code> - <code>0.9</code>.</p>
 </div>
 <h2 id="see-also">See Also</h2>
 <ul>

@@ -3381,11 +3381,11 @@
 
 <h1 id="timeline-functions">Timeline Functions</h1>
 <p>NetLinx Timeline functions provide a mechanism for triggering events based upon a sequence of times.
-The sequence of times is passed into the timeline functions as an array of LONG values, with each
-value representing a time period (in milliseconds) that is either relative to the start time of the
-timeline or to the previously triggered event. Timelines provide the capability to dynamically set
-up a timed sequence, providing a mechanism to modify the sequence, and allow the user to create,
-delete, and modify sequences.</p>
+The sequence of times is passed into the timeline functions as an array of <a href="LONG.md">LONG</a> values,
+with each value representing a time period (in milliseconds) that is either relative to the start
+time of the timeline or to the previously triggered event. Timelines provide the capability to
+dynamically set up a timed sequence, providing a mechanism to modify the sequence, and allow the
+user to create, delete, and modify sequences.</p>
 <p>Timelines are represented by the illustration below:</p>
 <p><img alt="" src="../../../assets/img/Timelines.jpg" /></p>
 <ul>
@@ -3425,23 +3425,23 @@ delete, and modify sequences.</p>
 <tbody>
 <tr>
 <td><code>ID</code></td>
-<td>The ID that the user assigned to the timeline in the TIMELINE_CREATE function. <br> Click here for details on timeline IDs.</td>
+<td>The ID that the user assigned to the timeline in the <a href="TIMELINE_CREATE.md">TIMELINE_CREATE</a> function. <br> Click <a href="../TIMELINE_IDs/">here</a> for details on timeline IDs.</td>
 </tr>
 <tr>
 <td><code>SEQUENCE</code></td>
-<td>The index of the time in the Times array that was passed to the TIMELINE_CREATE function. The SEQUENCE data member is used to determine what action to take for the event and is normally decoded with a SWITCH/CASE structure (as shown in the example below).</td>
+<td>The index of the time in the Times array that was passed to the <a href="TIMELINE_CREATE.md">TIMELINE_CREATE</a> function. The <code>SEQUENCE</code> data member is used to determine what action to take for the event and is normally decoded with a <code>SWITCH/CASE</code> structure (as shown in the example below).</td>
 </tr>
 <tr>
 <td><code>TIME</code></td>
-<td>The amount of time that has elapsed since the timeline started. <br> For repeating Timelines, the TIME and REPETITION data members can be used to calculate the total amount of time it has been running.</td>
+<td>The amount of time that has elapsed since the timeline started. <br> For repeating Timelines, the <code>TIME</code> and <code>REPETITION</code> data members can be used to calculate the total amount of time it has been running.</td>
 </tr>
 <tr>
 <td><code>RELATIVE</code></td>
-<td>If the timeline is operating in relative mode, this data member is equal to TIMELINE_RELATIVE. If the timeline is absolute, it is equal to TIMELINE_ABSOLUTE.</td>
+<td>If the timeline is operating in relative mode, this data member is equal to <code>TIMELINE_RELATIVE</code>. If the timeline is absolute, it is equal to <code>TIMELINE_ABSOLUTE</code>.</td>
 </tr>
 <tr>
 <td><code>REPETITION</code></td>
-<td>If the timeline was created with TIMELINE_REPEAT, this data member holds the number of times the timeline has been executed. REPETITION contains zero for the first pass through the timeline. <br> Thus, the calculation to determine the total amount of time the timeline has been running is simply: <br> <code>TIMELINE.TIME * TIMELINE.REPETITION</code>.</td>
+<td>If the timeline was created with <code>TIMELINE_REPEAT</code>, this data member holds the number of times the timeline has been executed. <code>REPETITION</code> contains zero for the first pass through the timeline. <br> Thus, the calculation to determine the total amount of time the timeline has been running is simply: <br> <code>TIMELINE.TIME * TIMELINE.REPETITION</code>.</td>
 </tr>
 </tbody>
 </table>
@@ -3464,7 +3464,7 @@ delete, and modify sequences.</p>
 </tr>
 <tr>
 <td><code>2</code></td>
-<td>Specified array is not an array of LONGs</td>
+<td>Specified array is not an array of <a href="LONG.md">LONG</a>s</td>
 </tr>
 <tr>
 <td><code>3</code></td>
@@ -3581,16 +3581,16 @@ delete, and modify sequences.</p>
 </span><span id="__span-1-51"><a id="__codelineno-1-51" name="__codelineno-1-51"></a><span class="w">    </span><span class="n">TIMELINE_CREATE</span><span class="p">(</span><span class="n">TL2</span><span class="p">,</span><span class="w"> </span><span class="n">TimeArray</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">TIMELINE_RELATIVE</span><span class="p">,</span><span class="w"> </span><span class="n">TIMELINE_ONCE</span><span class="p">)</span>
 </span><span id="__span-1-52"><a id="__codelineno-1-52" name="__codelineno-1-52"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>The example above creates two Timelines (TL1 and TL2) that trigger events at the same rate (once per
-second).</p>
+<p>The example above creates two Timelines (<code>TL1</code> and <code>TL2</code>) that trigger events at the same rate (once
+per second).</p>
 <ul>
-<li>TL1 uses TIMELINE_ABSOLUTE to specify that the times in TimeArray are absolute with respect to
-    the start of the timeline. Since TL1 specifies the TIMELINE_REPEAT, it is also repeating and
-    will generate a TIMELINE_EVENT every second iterating through all five times in a round-robin
-    fashion: 1,2,3,4,5,1,2,3,4,5,1,2,3, and so on.</li>
-<li>TL2 uses TIMELINE_RELATIVE to specify that the times in TimeArray are relative to each other
-    (i.e. each events occurs 1000 milliseconds after the previous). Since TL2 specifies the
-    TIMELINE_ONCE parameter, it will execute the entire timeline once, then stop: 1,2,3,4,5.</li>
+<li><code>TL1</code> uses <code>TIMELINE_ABSOLUTE</code> to specify that the times in <code>TimeArray</code> are absolute with
+    respect to the start of the timeline. Since <code>TL1</code> specifies the <code>TIMELINE_REPEAT</code>, it is also
+    repeating and will generate a <code>TIMELINE_EVENT</code> every second iterating through all five times in
+    a round-robin fashion: <code>1,2,3,4,5,1,2,3,4,5,1,2,3</code>, and so on.</li>
+<li><code>TL2</code> uses <code>TIMELINE_RELATIVE</code> to specify that the times in <code>TimeArray</code> are relative to each
+    other (i.e. each events occurs 1000 milliseconds after the previous). Since <code>TL2</code> specifies the
+    <code>TIMELINE_ONCE</code> parameter, it will execute the entire timeline once, then stop: <code>1,2,3,4,5</code>.</li>
 </ul>
 <h2 id="see-also">See Also</h2>
 <ul>
