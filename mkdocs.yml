@@ -167,3 +167,5 @@ nav:
       - Combining and Uncombining Levels: Combining-Devices-Levels-Channels/Combining_and_Uncombining_Levels.md
       - Combine and Uncombine Keywords: Combining-Devices-Levels-Channels/COMBINE_&_UNCOMBINE_Keywords.md
       - Virtual Devices: Combining-Devices-Levels-Channels/Virtual_Devices.md
+  - IP Communication:
+      - IP-Communication/index.md
