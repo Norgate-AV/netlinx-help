@@ -23,7 +23,7 @@
     
     
       
-        <title>Combining_and_uncombining_device_channel_sets - NetLinx Language Help</title>
+        <title>Combining and uncombining device channel sets - NetLinx Language Help</title>
       
     
     
@@ -57,7 +57,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Combining_and_uncombining_device_channel_sets - NetLinx Language Help" />
+<meta property="og:title" content="Combining and uncombining device channel sets - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Combining-Devices-Levels-Channels/Combining_and_uncombining_device_channel_sets.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +65,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Combining-Devices-Levels-Channels/Combining_and_uncombining_device_channel_sets/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Combining_and_uncombining_device_channel_sets - NetLinx Language Help" />
+<meta property="twitter:title" content="Combining and uncombining device channel sets - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Combining-Devices-Levels-Channels/Combining_and_uncombining_device_channel_sets.png" />
 </head>
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Combining_and_uncombining_device_channel_sets
+              Combining and uncombining device channel sets
             
           </span>
         </div>
@@ -3216,6 +3216,146 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Combining_and_Uncombining_Channels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combining and Uncombining Channels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Combining_and_Uncombining_Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combining and Uncombining Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Combining_and_Uncombining_Levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combining and Uncombining Levels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Combine_and_Uncombine_Keywords.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combine and Uncombine Keywords
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Virtual_Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtual Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3276,36 +3416,31 @@
 
 <h1 id="combining-and-uncombining-devicechannel-sets">Combining and Uncombining Device/Channel Sets</h1>
 <p>Combining <a href="DEVCHAN.md">DEVCHAN</a> sets is unique to NetLinx. The format for
-<a href="COMBINE_CHANNELS.md">COMBINE_CHANNELS</a> and
-<a href="UNCOMBINE_CHANNELS.md">UNCOMBINE_CHANNELS</a> is:</p>
+<a href="COMBINE_CHANNELS.md">COMBINE_CHANNELS</a> and <a href="UNCOMBINE_CHANNELS.md">UNCOMBINE_CHANNELS</a> is:</p>
 <p>SLONG COMBINE_CHANNELS (<virtual DEVCHAN[]>, <DEVCHAN1[]>, <DEVCHAN2[]>…)</p>
 <p>SLONG UNCOMBINE_CHANNELS (<virtual DEVCHAN[]>)</p>
-<p>To explain the concept of combining DEVCHAN sets, it is necessary to understand
-how the DEVCHAN sets are arranged. Rather than the DEVCHAN set being a set of
-like functions, such as a set of volume mute buttons across different devices,
-the DEVCHAN set should be a group of different functions on the same device,
-such as 5 lighting presets on an AXU-MSP16. For example:</p>
+<p>To explain the concept of combining DEVCHAN sets, it is necessary to understand how the DEVCHAN sets
+are arranged. Rather than the DEVCHAN set being a set of like functions, such as a set of volume
+mute buttons across different devices, the DEVCHAN set should be a group of different functions on
+the same device, such as 5 lighting presets on an AXU-MSP16. For example:</p>
 <p>DEVCHAN dcMSP1 =</p>
 <p>{{MSP1,PRESET1},{MSP1,PRESET2},{MSP1,PRESET3},{MSP1,PRESET4},{MSP1,PRESET5}}</p>
 <p>DEVCHAN dcMSP2 =</p>
 <p>{{MSP2,PRESET1},{MSP2,PRESET2},{MSP2,PRESET3},{MSP2,PRESET4},{MSP2,PRESET5}}</p>
 <p>DEVCHAN dcMSP3 =</p>
 <p>{{MSP3,PRESET1},{MSP3,PRESET2},{MSP3,PRESET3},{MSP3,PRESET4},{MSP3,PRESET5}}</p>
-<p>Similar to COMBINE_DEVICES and COMBINE_LEVELS, the first DEVCHAN set in a
-COMBINE_CHANNEL function needs to be referenced to a Virtual Device, as shown
-below:</p>
+<p>Similar to COMBINE_DEVICES and COMBINE_LEVELS, the first DEVCHAN set in a COMBINE_CHANNEL function
+needs to be referenced to a Virtual Device, as shown below:</p>
 <p>DEVCHAN dcVDEV =</p>
 <p>{{VDEV,PRESET1},{VDEV,PRESET2},{VDEV,PRESET3},{VDEV,PRESET4},{VDEV,PRESET5}}</p>
-<p>All of the DEVCHAN sets in the COMBINE_CHANNELS function must have the same
-number of array elements. The actual COMBINE_CHANNELS statement is:</p>
+<p>All of the DEVCHAN sets in the COMBINE_CHANNELS function must have the same number of array
+elements. The actual COMBINE_CHANNELS statement is:</p>
 <p>COMBINE_CHANNELS (dcVDEV, dcMSP1, dcMSP2, dcMSP3)</p>
-<p>The actual element positions of the DEVCHAN arrays are combined within the
-program. In essence, all of the PRESET1 channels are handled through
-[VDEV,PRESET1] defined as dcVDEV[1].</p>
-<p>Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based
-upon a button event, the combining and combining must be done on the release of
-the button (the active event must be complete before a  COMBINE_XXXX or
-UNCOMBINE_XXXX function is invoked).</p>
+<p>The actual element positions of the DEVCHAN arrays are combined within the program. In essence, all
+of the PRESET1 channels are handled through [VDEV,PRESET1] defined as dcVDEV[1].</p>
+<p>Note: When using COMBINE_XXXX and UNCOMBINE_XXXX functions dynamically based upon a button event,
+the combining and combining must be done on the release of the button (the active event must be
+complete before a  COMBINE_XXXX or UNCOMBINE_XXXX function is invoked).</p>
 <p>See Also:</p>
 <ul>
 <li><a href="Intrinsic_Data_Types.md">Intrinsic Data Types</a></li>
