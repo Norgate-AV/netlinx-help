@@ -160,3 +160,5 @@ nav:
           - Conitional Waits: Language-Elements/Waits/Conditional_Waits.md
           - Timed Conditional Waits: Language-Elements/Waits/Timed_Conditional_Waits.md
           - WAIT Keywords: Language-Elements/Waits/WAIT_Keywords.md
+  - Combining Devices, Levels, and Channels:
+      - Combining-Devices-Levels-Channels/index.md
