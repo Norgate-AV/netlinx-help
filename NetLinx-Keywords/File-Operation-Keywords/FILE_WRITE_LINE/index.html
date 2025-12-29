@@ -3465,6 +3465,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Result
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3498,59 +3561,41 @@
 
 <h1 id="file_write_line">FILE_WRITE_LINE</h1>
 <p>Writes a line of data to the specified file.</p>
-<p>Syntax:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>SLONG FILE_WRITE_LINE (LONG HFile, CHAR Line\[ \], LONG LineLen)
-</span></code></pre></div>
-<p>Note: The <a href="LONG.md">LONG</a> command cannot pass negative numbers, so if you have
-errors these will never be recognized. <a href="SLONG.md">SLONG</a> must be assigned or
-errors will be typecast to positive numbers.</p>
-<p>Parameters:</p>
+<h2 id="syntax">Syntax</h2>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">SLONG</span><span class="w"> </span><span class="n">FILE_WRITE_LINE</span><span class="w"> </span><span class="p">(</span><span class="n">LONG</span><span class="w"> </span><span class="n">HFile</span><span class="p">,</span><span class="w"> </span><span class="n">CHAR</span><span class="w"> </span><span class="n">Line</span><span class="p">[],</span><span class="w"> </span><span class="n">LONG</span><span class="w"> </span><span class="n">LineLen</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>Note: The <a href="LONG.md">LONG</a> command cannot pass negative numbers, so if you have errors these will
+never be recognized. <a href="SLONG.md">SLONG</a> must be assigned or errors will be typecast to positive
+numbers.</p>
+</blockquote>
+<h2 id="parameters">Parameters</h2>
 <ul>
-<li>
-<p>HFile - handle to the file returned by <a href="../FILE_OPEN/">FILE_OPEN</a></p>
-</li>
-<li>
-<p>Line - buffer containing the line of data to write</p>
-</li>
-<li>
-<p>LineLen - number of bytes to write</p>
-</li>
+<li><strong>HFile</strong> - handle to the file returned by <a href="../FILE_OPEN/">FILE_OPEN</a></li>
+<li><strong>Line</strong> - buffer containing the line of data to write</li>
+<li><strong>LineLen</strong> - number of bytes to write</li>
 </ul>
-<p>Result:</p>
+<h2 id="result">Result</h2>
 <ul>
-<li>
-<p>&gt; 0 = the number of bytes actually written</p>
-</li>
-<li>
-<p>-1 = invalid file handle</p>
-</li>
-<li>
-<p>-5 = disk I/O error</p>
-</li>
-<li>
-<p>-6 = invalid parameter (LineLen must be greater than zero)</p>
-</li>
-<li>
-<p>-11 = disk full</p>
-</li>
+<li><code>&gt;0</code> = the number of bytes actually written</li>
+<li><code>-1</code> = invalid file handle</li>
+<li><code>-5</code> = disk I/O error</li>
+<li><code>-6</code> = invalid parameter (LineLen must be greater than zero)</li>
+<li><code>-11</code> = disk full</li>
 </ul>
-<p>Example:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>CHAR Line\[80\]
-</span></code></pre></div>
-<p>Result = FILE_WRITE_LINE (HFile, Line, 80)</p>
-<p>Note: A \&lt;CR&gt;\&lt;LF&gt; character string is automatically appended to the end of
-the line.</p>
-<p>See Also</p>
+<h2 id="example">Example</h2>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">CHAR</span><span class="w"> </span><span class="n">Line</span><span class="err">\</span><span class="p">[</span><span class="mi">80</span><span class="err">\</span><span class="p">]</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="n">Result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FILE_WRITE_LINE</span><span class="w"> </span><span class="p">(</span><span class="n">HFile</span><span class="p">,</span><span class="w"> </span><span class="n">Line</span><span class="p">,</span><span class="w"> </span><span class="mi">80</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<blockquote>
+<p>Note: A <code>&lt;CR&gt;&lt;LF&gt;</code> character string is automatically appended to the end of the line.</p>
+</blockquote>
+<h2 id="see-also">See Also</h2>
 <ul>
-<li>
-<p><a href="../File_Operation_Keywords/">File Operation Keywords</a></p>
-</li>
-<li>
-<p><a href="../FILE_WRITE/">FILE_WRITE</a></p>
-</li>
-<li>
-<p><a href="File_Operations_Example__Writing_to_a_File.md">File Operations Example: Writing to a File</a></p>
-</li>
+<li><a href="../File_Operation_Keywords/">File Operation Keywords</a></li>
+<li><a href="../FILE_WRITE/">FILE_WRITE</a></li>
+<li><a href="File_Operations_Example__Writing_to_a_File.md">File Operations Example: Writing to a File</a></li>
 </ul>
 
 
