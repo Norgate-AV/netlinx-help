@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/IP-Communication/Server_Programming/">
       
       
+        <link rel="prev" href="../Client_Programming/">
+      
+      
+        <link rel="next" href="../Receiving_Data_with_UDP/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>Server_Programming - NetLinx Language Help</title>
+        <title>Server Programming - NetLinx Language Help</title>
       
     
     
@@ -57,7 +61,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Server_Programming - NetLinx Language Help" />
+<meta property="og:title" content="Server Programming - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/IP-Communication/Server_Programming.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +69,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/IP-Communication/Server_Programming/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Server_Programming - NetLinx Language Help" />
+<meta property="twitter:title" content="Server Programming - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/IP-Communication/Server_Programming.png" />
 </head>
@@ -127,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Server_Programming
+              Server Programming
             
           </span>
         </div>
@@ -3367,18 +3371,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -3399,7 +3405,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3425,6 +3431,298 @@
     
   
     IP Communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Client_Programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Server Programming
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Server Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#listening-for-client-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Listening for Client Requests
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiple-client-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Client Connections
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing-a-local-port" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Closing a Local Port
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connection-oriented-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connection-Oriented Notifications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receiving-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Receiving Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Receiving_Data_with_UDP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Data with UDP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multicast_UDP_Messages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multicast UDP Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Example_IP_Code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example IP Code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IP_Keywords/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IP Keywords
   
 
     
@@ -3537,6 +3835,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -3555,6 +3864,46 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    IP Communication
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -3572,115 +3921,136 @@
 
 <h1 id="server-programming">Server Programming</h1>
 <h2 id="listening-for-client-requests">Listening for Client Requests</h2>
-<p>A client gains access to a service by sending a request to the server specifying
-the port assigned to the service. For the request to be acknowledged, the server
-must be listening on that port. To do this, the server calls
-<a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a>. This opens the port and allows the server
-to listen for requests from client applications.</p>
-<p>IP_SERVER_OPEN requires the caller to supply a local port number. This local
-port number is a virtual port as opposed to an actual physical port on the
-server. When TCP is the transport protocol, the local port represents a single
-client connection on the server’s physical port. When UDP is the transport
-protocol, it represents a single point where all client requests on the
-associated port are routed.</p>
-<p>The local port number is the key to identifying data sent to or received from a
-client application. A local port number may not be used in another call to
-IP_SERVER_OPEN until <a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a> is called for that
-port number.</p>
-<p>Syntax:</p>
+<p>A client gains access to a service by sending a request to the server specifying the port assigned
+to the service. For the request to be acknowledged, the server must be listening on that port. To do
+this, the server calls <a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a>. This opens the port and allows the
+server to listen for requests from client applications.</p>
+<p><a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> requires the caller to supply a local port number. This local
+port number is a virtual port as opposed to an actual physical port on the server. When TCP is the
+transport protocol, the local port represents a single client connection on the server’s physical
+port. When UDP is the transport protocol, it represents a single point where all client requests on
+the associated port are routed.</p>
+<p>The local port number is the key to identifying data sent to or received from a client application.
+A local port number may not be used in another call to <a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> until
+<a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a> is called for that port number.</p>
+<p><strong>Syntax</strong></p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">IP_SERVER_OPEN</span><span class="p">(</span><span class="n">LocalPort</span><span class="p">,</span><span class="w"> </span><span class="n">ServerPort</span><span class="p">,</span><span class="w"> </span><span class="n">Protocol</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Parameters:</p>
+<p><strong>Parameters</strong></p>
 <ul>
-<li>LocalPort - the local port number to open. This number must be passed to
-  IP_SERVER_CLOSE to close the port.</li>
-<li>ServerPort - the number of the server port to listen on.</li>
-<li>Protocol - The transport protocol to use (1 = TCP, 2 = UDP).</li>
-</ul>
+<li><strong>LocalPort</strong> - the local port number to open. This number must be passed to
+    <a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a> to close the port.</li>
+<li><strong>ServerPort</strong> - the number of the server port to listen on.</li>
+<li>
+<p><strong>Protocol</strong> - The transport protocol to use (1 = TCP, 2 = UDP).</p>
 <p>If this parameter is not specified, TCP (1) is assumed.</p>
-<p>The constants IP_TCP and IP_UDP can be used to specify this parameter.</p>
-<p>With connection-oriented I/O (TCP), more than one client could request a
-connection with the server at the same time. To support concurrent requests, the
-server must call IP_SERVER_OPEN once for each simultaneous connection allowed.
-For example,</p>
-<p>IP_SERVER_OPEN (PORT_80, 10510, PROTOCOL_TCP)</p>
-<p>IP_SERVER_OPEN (PORT_80 + 1, 10510, PROTOCOL_TCP)</p>
-<p>IP_SERVER_OPEN (PORT_80 + 2, 10510, PROTOCOL_TCP)</p>
-<p>This allows three simultaneous connections on port 80. Note that each call to
-IP_SERVER_OPEN uses a different local port number. Support for multiple client
-connections applies only to connection-oriented I/O, that is, where the protocol
-is TCP. Opening multiple ports using UDP as the protocol serves no purpose. In
-that case, any additional open commands will fail.</p>
-<p>To close a local port, the server application must call IP_SERVER_CLOSE. Once
-IP_SERVER_CLOSE is called, no I/O can be handled using the specified local port.</p>
-<p>Syntax:</p>
-<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">IP_SERVER_CLOSE</span><span class="p">(</span><span class="n">LocalPort</span><span class="p">)</span>
+<p>The constants <strong><code>IP_TCP</code></strong> and <strong><code>IP_UDP</code></strong> can be used to specify this parameter.</p>
+</li>
+</ul>
+<p>With connection-oriented I/O (TCP), more than one client could request a connection with the server
+at the same time. To support concurrent requests, the server must call
+<a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> once for each simultaneous connection allowed. For example,</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">IP_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">PORT_80</span><span class="p">,</span><span class="w"> </span><span class="mi">10510</span><span class="p">,</span><span class="w"> </span><span class="n">PROTOCOL_TCP</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="n">IP_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">PORT_80</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">10510</span><span class="p">,</span><span class="w"> </span><span class="n">PROTOCOL_TCP</span><span class="p">)</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="n">IP_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">PORT_80</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">10510</span><span class="p">,</span><span class="w"> </span><span class="n">PROTOCOL_TCP</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Parameters:</p>
+<p>This allows three simultaneous connections on port 80. Note that each call to
+<a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> uses a different local port number. Support for multiple client
+connections applies only to connection-oriented I/O, that is, where the protocol is TCP. Opening
+multiple ports using UDP as the protocol serves no purpose. In that case, any additional open
+commands will fail.</p>
+<p>To close a local port, the server application must call <a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a>. Once
+<a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a> is called, no I/O can be handled using the specified local
+port.</p>
+<p><strong>Syntax</strong></p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">IP_SERVER_CLOSE</span><span class="p">(</span><span class="n">LocalPort</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p><strong>Parameters</strong></p>
 <ul>
 <li>LocalPort: the local port number to close.</li>
 </ul>
 <h2 id="multiple-client-connections">Multiple Client Connections</h2>
-<p>With connection-oriented I/O (TCP), more than one client could request a
-connection with the server at the same time. Support for multiple client
-connections applies only to connection-oriented I/O, that is, TCP protocol.
-Opening multiple ports using UDP as the protocol serves no purpose. In that
+<p>With connection-oriented I/O (TCP), more than one client could request a connection with the server
+at the same time. Support for multiple client connections applies only to connection-oriented I/O,
+that is, TCP protocol. Opening multiple ports using UDP as the protocol serves no purpose. In that
 case, any additional open commands will fail.</p>
-<p>To support concurrent requests, the server must call
-<a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> once for each simultaneous connection
-allowed. For example:</p>
-<p>IP_SERVER_OPEN (FIRST_LOCAL_PORT, 10510, IP_TCP)</p>
-<p>IP_SERVER_OPEN (FIRST_LOCAL_PORT, 10510, IP_TCP)</p>
-<p>IP_SERVER_OPEN (FIRST_LOCAL_PORT, 10510, IP_TCP)</p>
-<p>This allows three simultaneous connections on port 10510.</p>
-<p>Note: Each call to IP_SERVER_OPEN uses a different local port number.</p>
-<h2 id="closing-a-local-port">Closing a Local Port</h2>
-<p>To close a local port, the server application must call
-<a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a>. Once that is called, no I/O can be
-handled using the specified local port.</p>
-<p>Syntax:</p>
-<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">IP_SERVER_CLOSE</span><span class="p">(</span><span class="n">LocalPort</span><span class="p">)</span>
-</span></code></pre></div></td></tr></table></div>
-<p>Parameters:</p>
-<ul>
-<li>LocalPort:  the local port number to close.</li>
-</ul>
-<h2 id="connection-oriented-notifications">Connection-Oriented Notifications</h2>
-<p>The following notifications are received by the server when a client connects or
-disconnects.</p>
-<p>Note: The protocol in this case must be TCP.</p>
-<p>DATA[Device]</p>
-<p>{</p>
-<p>ONLINE:</p>
-<p>{</p>
-<p>// client has connected</p>
-<p>}</p>
-<p>OFFLINE:</p>
-<p>{</p>
-<p>// client has disconnected</p>
-<p>}</p>
-<p>}</p>
-<p>where Device is (or contains as part of an array) the device representing the
-conversation (0:LocalPort:0).</p>
-<h2 id="receiving-data">Receiving Data</h2>
-<p>To receive data from a client, use a DATA event handler or a buffer created with
-<a href="CREATE_BUFFER.md">CREATE_BUFFER</a> or
-<a href="CREATE_MULTI_BUFFER.md">CREATE_MULTI_BUFFER</a>.</p>
-<p>If an event handler is used, the data is located in the Text field of the DATA
-object.</p>
-<p>Syntax:</p>
+<p>To support concurrent requests, the server must call <a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> once for
+each simultaneous connection allowed. For example:</p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
 <span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="mi">0</span><span class="o">:</span><span class="n">LocalPort</span><span class="o">:</span><span class="mi">0</span><span class="p">]</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">{</span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">IP_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">FIRST_LOCAL_PORT</span><span class="p">,</span><span class="w"> </span><span class="mi">10510</span><span class="p">,</span><span class="w"> </span><span class="n">IP_TCP</span><span class="p">)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="n">IP_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">FIRST_LOCAL_PORT</span><span class="p">,</span><span class="w"> </span><span class="mi">10510</span><span class="p">,</span><span class="w"> </span><span class="n">IP_TCP</span><span class="p">)</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="n">IP_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">FIRST_LOCAL_PORT</span><span class="p">,</span><span class="w"> </span><span class="mi">10510</span><span class="p">,</span><span class="w"> </span><span class="n">IP_TCP</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
-<p>STRING:</p>
-<p>{</p>
-<p>// process incoming string (Data.Text)</p>
-<p>}</p>
-<p>}</p>
-<p>The device specification (0:LocalPort:0) is interpreted as follows:</p>
+<p>This allows three simultaneous connections on port <code>10510</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><!--markdownlint-disable-line-->
+Each call to <a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a> uses a different local port number.</p>
+</div>
+<h2 id="closing-a-local-port">Closing a Local Port</h2>
+<p>To close a local port, the server application must call <a href="IP_SERVER_CLOSE.md">IP_SERVER_CLOSE</a>. Once
+that is called, no I/O can be handled using the specified local port.</p>
+<p><strong>Syntax</strong></p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="n">IP_SERVER_CLOSE</span><span class="p">(</span><span class="n">LocalPort</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p><strong>Parameters</strong></p>
+<ul>
+<li><strong>LocalPort</strong>:  the local port number to close.</li>
+</ul>
+<h2 id="connection-oriented-notifications">Connection-Oriented Notifications</h2>
+<p>The following notifications are received by the server when a client connects or disconnects.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><!--markdownlint-disable-line-->
+The protocol in this case must be TCP.</p>
+</div>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-5-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-5-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-5-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-5-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-5-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-5-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-5-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-5-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-5-10">10</a></span>
+<span class="normal"><a href="#__codelineno-5-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="n">Device</span><span class="p">]</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="p">{</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="w">    </span><span class="nl">ONLINE</span><span class="p">:</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="w">        </span><span class="c1">// client has connected</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="w">    </span><span class="nl">OFFLINE</span><span class="p">:</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="w">        </span><span class="c1">// client has disconnected</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>where <code>Device</code> is (or contains as part of an array) the device representing the conversation
+(<code>0:LocalPort:0</code>).</p>
+<h2 id="receiving-data">Receiving Data</h2>
+<p>To receive data from a client, use a DATA event handler or a buffer created with
+<a href="CREATE_BUFFER.md">CREATE_BUFFER</a> or <a href="CREATE_MULTI_BUFFER.md">CREATE_MULTI_BUFFER</a>.</p>
+<p>If an event handler is used, the data is located in the <code>Text</code> field of the <code>DATA</code> object.</p>
+<p><strong>Syntax</strong></p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span>
+<span class="normal"><a href="#__codelineno-6-3">3</a></span>
+<span class="normal"><a href="#__codelineno-6-4">4</a></span>
+<span class="normal"><a href="#__codelineno-6-5">5</a></span>
+<span class="normal"><a href="#__codelineno-6-6">6</a></span>
+<span class="normal"><a href="#__codelineno-6-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="mi">0</span><span class="o">:</span><span class="n">LocalPort</span><span class="o">:</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="p">{</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="w">    </span><span class="nl">STRING</span><span class="p">:</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="w">        </span><span class="c1">// process incoming string (Data.Text)</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>The device specification (<code>0:LocalPort:0</code>) is interpreted as follows:</p>
 <ul>
 <li>Device Number = 0: The master</li>
 <li>Port = LocalPort: The local port number</li>
@@ -3688,21 +4058,22 @@ object.</p>
 </ul>
 <h2 id="sending-data">Sending Data</h2>
 <p>To send data to the client, use the <a href="SEND_STRING.md">SEND_STRING</a> command.</p>
-<p>SEND_STRING 0:LocalPort:0, '<string>'</p>
-<p>The device specification (0:LocalPort:0) is interpreted as follows:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="n">SEND_STRING</span><span class="w"> </span><span class="mi">0</span><span class="o">:</span><span class="n">LocalPort</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="err">&#39;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>The device specification (<code>0:LocalPort:0</code>) is interpreted as follows:</p>
 <ul>
 <li>Device Number = 0: The master</li>
 <li>Port = LocalPort: The local port number</li>
 <li>System = 0: This system (the client)</li>
 </ul>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="Internet_Protocol_IP_Communication_Advanced_Programmers_.md">IP Communication</a></li>
 <li><a href="../Client_Programming/">Client Programming</a></li>
 <li><a href="../Receiving_Data_with_UDP/">Receiving Data with UDP</a></li>
 <li><a href="../Multicast_UDP_Messages/">Multicast UDP Messages</a></li>
 <li><a href="../Example_IP_Code/">Example IP Code</a></li>
-<li><a href="IP_Keywords.md">IP Keywords</a></li>
+<li><a href="../IP_Keywords/">IP Keywords</a></li>
 </ul>
 
 
@@ -3731,6 +4102,44 @@ object.</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Client_Programming/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Client Programming">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Client Programming
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Receiving_Data_with_UDP/" class="md-footer__link md-footer__link--next" aria-label="Next: Receiving Data with UDP">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Receiving Data with UDP
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">

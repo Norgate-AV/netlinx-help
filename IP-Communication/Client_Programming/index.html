@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/IP-Communication/Client_Programming/">
       
       
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../Server_Programming/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>Client_Programming - NetLinx Language Help</title>
+        <title>Client Programming - NetLinx Language Help</title>
       
     
     
@@ -57,7 +61,7 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Client_Programming - NetLinx Language Help" />
+<meta property="og:title" content="Client Programming - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
 <meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/IP-Communication/Client_Programming.png" />
 <meta property="og:image:type" content="image/png" />
@@ -65,7 +69,7 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://norgate-av.github.io/netlinx-help/IP-Communication/Client_Programming/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Client_Programming - NetLinx Language Help" />
+<meta property="twitter:title" content="Client Programming - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
 <meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/IP-Communication/Client_Programming.png" />
 </head>
@@ -127,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Client_Programming
+              Client Programming
             
           </span>
         </div>
@@ -3367,18 +3371,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -3399,7 +3405,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3425,6 +3431,344 @@
     
   
     IP Communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client Programming
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initiating-a-conversation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Initiating a Conversation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminating-a-conversation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminating a Conversation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Terminating a Conversation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-data-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Data (Client)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending Data (Client)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receiving-data-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Receiving Data (Client)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Receiving Data (Client)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntax">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Server_Programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Server Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Receiving_Data_with_UDP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Data with UDP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Multicast_UDP_Messages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multicast UDP Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Example_IP_Code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example IP Code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IP_Keywords/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IP Keywords
   
 
     
@@ -3465,6 +3809,137 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initiating-a-conversation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Initiating a Conversation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminating-a-conversation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terminating a Conversation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Terminating a Conversation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-data-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending Data (Client)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending Data (Client)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receiving-data-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Receiving Data (Client)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Receiving Data (Client)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntax
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntax">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3480,6 +3955,46 @@
 
   
 
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    IP Communication
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
 
               
               <article class="md-content__inner md-typeset">
@@ -3497,138 +4012,129 @@
 
 
 <h1 id="client-programming">Client Programming</h1>
-<p>Initiating a Conversation</p>
+<h2 id="initiating-a-conversation">Initiating a Conversation</h2>
 <p>To initiate a conversation with a server, the client can call either
-<a href="IP_CLIENT_OPEN.md">IP_CLIENT_OPEN</a>, or
-<a href="IP_BOUND_CLIENT_OPEN.md">IP_BOUND_CLIENT_OPEN</a>:</p>
+<a href="IP_CLIENT_OPEN.md">IP_CLIENT_OPEN</a>, or <a href="IP_BOUND_CLIENT_OPEN.md">IP_BOUND_CLIENT_OPEN</a>:</p>
 <ul>
-<li>IP_CLIENT_OPEN: Provides either the IP address or domain name of the server
-  and a port number for the requested service.</li>
+<li>
+<p><a href="IP_CLIENT_OPEN.md"><strong><code>IP_CLIENT_OPEN</code></strong></a>: Provides either the IP address or domain name of the
+    server and a port number for the requested service.</p>
+<p>The client must also specify a local port number to use for sending and receiving data.</p>
+<p>This number represents a virtual port on the client machine; it is not the actual port number
+used to create the client-end socket.</p>
+<p>A local port number may not be used in another call to IP_CLIENT_OPEN until IP_CLIENT_CLOSE is
+called for that port number.</p>
+</li>
+<li>
+<p><a href="IP_BOUND_CLIENT_OPEN.md"><strong><code>IP_BOUND_CLIENT_OPEN</code></strong></a>: Opens a port for IP communication with a
+    server using a specific local IP port number.</p>
+<p>Similar to IP_CLIENT_OPEN, But where IP_CLIENT_OPEN uses the first available local IP Port
+number, IP_BOUND_CLIENT_OPEN allows the user to specify the local IP port number.</p>
+</li>
 </ul>
-<p>The client must also specify a local port number to use for sending and
-receiving data.</p>
-<p>This number represents a virtual port on the client machine; it is not the
-actual port number used to create the client-end socket.</p>
-<p>A local port number may not be used in another call to IP_CLIENT_OPEN until
-IP_CLIENT_CLOSE is called for that port number.</p>
-<ul>
-<li>IP_BOUND_CLIENT_OPEN: Opens a port for IP communication with a server using a
-  specific local IP port number.</li>
-</ul>
-<p>Similar to IP_CLIENT_OPEN, But where IP_CLIENT_OPEN uses the first available
-local IP Port number, IP_BOUND_CLIENT_OPEN allows the user to specify the local
-IP port number.</p>
-<p>Terminating a Conversation</p>
-<p>To terminate a conversation you must call <a href="IP_CLIENT_CLOSE.md">IP_CLIENT_CLOSE</a>
-passing the number of the local port used for the conversation.</p>
-<p>Syntax:</p>
+<h2 id="terminating-a-conversation">Terminating a Conversation</h2>
+<p>To terminate a conversation you must call <a href="IP_CLIENT_CLOSE.md">IP_CLIENT_CLOSE</a> passing the number
+of the local port used for the conversation.</p>
+<h3 id="syntax">Syntax</h3>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">IP_Client_Close</span><span class="p">(</span><span class="n">LocalPort</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <ul>
-<li>LocalPort: a non-zero unsigned integer representing the virtual port on the
-  client machine used for this conversation.</li>
+<li><strong>LocalPort</strong>: a non-zero unsigned integer representing the virtual port on the client machine
+    used for this conversation.</li>
 </ul>
-<p>Sending Data (Client)</p>
+<h2 id="sending-data-client">Sending Data (Client)</h2>
 <p>To send data to the server, use the <a href="SEND_STRING.md">SEND_STRING</a> command.</p>
-<p>Syntax:</p>
+<h3 id="syntax_1">Syntax</h3>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">SEND_STRING</span><span class="w"> </span><span class="mi">0</span><span class="o">:</span><span class="n">LocalPort</span><span class="o">:</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span><span class="err">&#39;</span>
 </span></code></pre></div></td></tr></table></div>
-<p>The device specification (0:LocalPort:0) is interpreted as follows:</p>
-<ol>
-<li>
+<p>The device specification (<code>0:LocalPort:0</code>) is interpreted as follows:</p>
 <ul>
-<li>
-<p>Device Number = 0: The master</p>
-</li>
-<li>
-<p>Port = LocalPort: The local port number</p>
-</li>
+<li>Device Number = 0: The master</li>
+<li>Port = LocalPort: The local port number</li>
 <li>System = 0: This system (the client)</li>
 </ul>
-</li>
-</ol>
-<p>Receiving Data (Client)</p>
-<p>To receive data from the server use a DATA event handler or a buffer created
-with <a href="CREATE_BUFFER.md">CREATE_BUFFER</a> or
-<a href="CREATE_MULTI_BUFFER.md">CREATE_MULTI_BUFFER</a>. If an event handler is used, the
-data is located in the Text field of the DATA object.</p>
-<p>Syntax:</p>
+<h2 id="receiving-data-client">Receiving Data (Client)</h2>
+<p>To receive data from the server use a DATA event handler or a buffer created with
+<a href="CREATE_BUFFER.md">CREATE_BUFFER</a> or <a href="CREATE_MULTI_BUFFER.md">CREATE_MULTI_BUFFER</a>. If an event
+handler is used, the data is located in the Text field of the DATA object.</p>
+<h3 id="syntax_2">Syntax</h3>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
 <span class="normal"><a href="#__codelineno-2-2">2</a></span>
-<span class="normal"><a href="#__codelineno-2-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="mi">0</span><span class="o">:</span><span class="n">LocalPort</span><span class="o">:</span><span class="mi">0</span><span class="p">]</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w"> </span><span class="p">{</span>
+<span class="normal"><a href="#__codelineno-2-3">3</a></span>
+<span class="normal"><a href="#__codelineno-2-4">4</a></span>
+<span class="normal"><a href="#__codelineno-2-5">5</a></span>
+<span class="normal"><a href="#__codelineno-2-6">6</a></span>
+<span class="normal"><a href="#__codelineno-2-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="mi">0</span><span class="o">:</span><span class="n">LocalPort</span><span class="o">:</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="p">{</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w">    </span><span class="nl">STRING</span><span class="p">:</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="w">        </span><span class="c1">// process incoming string (Data.Text)</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>STRING:</p>
-<p>{</p>
-<p>// process incoming string (Data.Text)</p>
-<p>}</p>
-<p>}</p>
-<p>Parameters:</p>
+<h4 id="parameters">Parameters</h4>
 <ul>
-<li>Device - represents (or contains as part of an array) the device representing
-  the conversation (0:LocalPort:0).</li>
+<li><strong>Device</strong> - represents (or contains as part of an array) the device representing the
+    conversation (<code>0:LocalPort:0</code>).</li>
 </ul>
-<p>The device specification (0:LocalPort:0) is interpreted as follows:</p>
-<ol>
-<li>
+<p>The device specification (<code>0:LocalPort:0</code>) is interpreted as follows:</p>
 <ul>
-<li>
-<p>Device Number = 0: The master</p>
-</li>
-<li>
-<p>Port = LocalPort: The local port number</p>
-</li>
+<li>Device Number = 0: The master</li>
+<li>Port = LocalPort: The local port number</li>
 <li>System = 0: This system (the client)</li>
 </ul>
-</li>
-</ol>
 <p>When using IP sockets in NetLinx, it is not uncommon to create a buffer using a
-CREATE_BUFFER keyword and processing the buffer in the
+<a href="CREATE_BUFFER.md">CREATE_BUFFER</a> keyword and processing the buffer in the
 <a href="DATA_EVENT.md">DATA_EVENT</a>... <a href="OFFLINE.md">OFFLINE</a> event.</p>
-<p>NetLinx has an important behavior than can affect the performance of IP socket
-code. This is not a bug but a feature. If you are aware of it, you can write
-your code to take maximum advantage of the speed NetLinx offers.</p>
-<p>When processing string data from a device, whether it is a regular device or an
-IP socket, the master will attempt to copy this data to a buffer, if one has
-been created using the CREATE_BUFFER keyword, and then try to run a DATA_EVENT…
-STRING handler for this device. If a DATA_EVENT…STRING handler does not exists,
-NetLinx will run mainline to allow for any buffer processing that might occur in
-mainline.</p>
-<p>At the end of a conversation with an IP device, there will usually be an
-incoming string event followed by an offline event. The NetLinx master will copy
-the string to a buffer, if it exists, check for a string event handler, run
-mainline if one does not exist, then process the offline event.</p>
-<p>If you are processing that data in an offline event for an IP device, you will
-see a time delay between the IP device or server closing the connection and the
-processing of the offline event. This delay will vary with the size and
-complexity of mainline.</p>
+<p>NetLinx has an important behavior than can affect the performance of IP socket code. This is not a
+bug but a feature. If you are aware of it, you can write your code to take maximum advantage of the
+speed NetLinx offers.</p>
+<p>When processing string data from a device, whether it is a regular device or an IP socket, the
+master will attempt to copy this data to a buffer, if one has been created using the
+<a href="CREATE_BUFFER.md">CREATE_BUFFER</a> keyword, and then try to run a <a href="DATA_EVENT.md">DATA_EVENT</a>...
+<a href="STRING.md">STRING</a> handler for this device. If a <a href="DATA_EVENT.md">DATA_EVENT</a>...<a href="STRING.md">STRING</a>
+handler does not exists, NetLinx will run mainline to allow for any buffer processing that might
+occur in mainline.</p>
+<p>At the end of a conversation with an IP device, there will usually be an incoming string event
+followed by an offline event. The NetLinx master will copy the string to a buffer, if it exists,
+check for a string event handler, run mainline if one does not exist, then process the offline
+event.</p>
+<p>If you are processing that data in an offline event for an IP device, you will see a time delay
+between the IP device or server closing the connection and the processing of the offline event. This
+delay will vary with the size and complexity of mainline.</p>
 <p>To eliminate this delay, simply include and empty string event handler in the
-DATA_EVENT section. This will keep NetLinx from running mainline between the
-last incoming string and the offline event.</p>
+<a href="DATA_EVENT.md">DATA_EVENT</a> section. This will keep NetLinx from running mainline between the last
+incoming string and the offline event.</p>
 <p>Example:</p>
-<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
-<span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="n">dvIP</span><span class="p">]</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">{</span>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-3-10">10</a></span>
+<span class="normal"><a href="#__codelineno-3-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">DATA_EVENT</span><span class="p">[</span><span class="n">dvIP</span><span class="p">]</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">    </span><span class="nl">OFFLINE</span><span class="p">:</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">        </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">PROCESS</span><span class="w"> </span><span class="n">THE</span><span class="w"> </span><span class="n">DATA</span><span class="w"> </span><span class="n">HERE</span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">    </span><span class="nl">STRING</span><span class="p">:</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="w">        </span><span class="p">(</span><span class="o">*</span><span class="w"> </span><span class="n">DO</span><span class="w"> </span><span class="n">NOT</span><span class="w"> </span><span class="n">REMOVE</span><span class="w"> </span><span class="n">ME</span><span class="o">!</span><span class="w"> </span><span class="o">*</span><span class="p">)</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>OFFLINE:</p>
-<p>{</p>
-<p>(* PROCESS THE DATA HERE*)</p>
-<p>}</p>
-<p>STRING:</p>
-<p>{</p>
-<p>(* DO NOT REMOVE ME! *)</p>
-<p>}</p>
-<p>}</p>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="../Server_Programming/">Server Programming</a></li>
 <li><a href="../Receiving_Data_with_UDP/">Receiving Data with UDP</a></li>
 <li><a href="../Multicast_UDP_Messages/">Multicast UDP Messages</a></li>
 <li><a href="../Example_IP_Code/">Example IP Code</a></li>
-<li><a href="IP_Keywords.md">IP Keywords</a></li>
+<li><a href="../IP_Keywords/">IP Keywords</a></li>
 </ul>
 
 
@@ -3657,6 +4163,44 @@ last incoming string and the offline event.</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: IP Communication">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                IP Communication
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Server_Programming/" class="md-footer__link md-footer__link--next" aria-label="Next: Server Programming">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Server Programming
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">

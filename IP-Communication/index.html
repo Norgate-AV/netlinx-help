@@ -16,6 +16,8 @@
         <link rel="prev" href="../Combining-Devices-Levels-Channels/Virtual_Devices/">
       
       
+        <link rel="next" href="Client_Programming/">
+      
       
         
       
@@ -3500,6 +3502,174 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Client_Programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Server_Programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Server Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Receiving_Data_with_UDP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Data with UDP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Multicast_UDP_Messages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multicast UDP Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Example_IP_Code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example IP Code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="IP_Keywords/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IP Keywords
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3618,41 +3788,44 @@
 
 
 <h1 id="ip-communication">IP Communication</h1>
-<p>Clients and servers communicate over Internet Protocol (IP) using either a connection-oriented or
+<p>Clients and servers communicate over <em>Internet Protocol</em> (IP) using either a connection-oriented or
 connection less protocol. Connection-oriented input/output (I/O) channels require a connection or
-virtual circuit to be established between the client and server before data can be transmitted or
-received. Transmission Control Protocol (TCP) is the transport protocol typically used for
+<em>virtual circuit</em> to be established between the client and server before data can be transmitted or
+received. <em>Transmission Control Protocol</em> (TCP) is the transport protocol typically used for
 connection-oriented I/O. With TCP, delivery of the data is guaranteed.</p>
 <p>With connectionless I/O, a connection is not established between the client and server before data
 is exchanged. Instead, the identity of the client and server is established each time data is sent
 or received. This type of communication is usually recommended for applications that transfer only
-small amounts of data. User Datagram Protocol (UDP) is a transport protocol used for connectionless
-I/O. With UDP, delivery of the data is not guaranteed.</p>
+small amounts of data. <em>User Datagram Protocol</em> (UDP) is a transport protocol used for
+connectionless I/O. With UDP, delivery of the data is not guaranteed.</p>
 <p>Both the client and the server must be able to identify incoming and outgoing data for a particular
 conversation. To achieve this, each application assigns a unique number to the conversation. This
-number is the local port number. A local port is not a physical port but rather a virtual port that
-identifies the source or destination for data exchanged during the conversation. Local ports are
-specific to either the client or the server; they need not match across applications.</p>
+number is the <em>local port</em> number. A local port is not a physical port but rather a virtual port
+that identifies the source or destination for data exchanged during the conversation. Local ports
+are specific to either the client or the server; they need not match across applications.</p>
 <p>The purpose behind having the application assign the number for the local port as opposed to letting
 the system assign it (for instance, as the return value for <a href="IP_CLIENT_OPEN.md">IP_CLIENT_OPEN</a> or
 <a href="IP_SERVER_OPEN.md">IP_SERVER_OPEN</a>), is to satisfy the static nature of
 <a href="DEFINE_EVENT.md">DEFINE_EVENT</a> handlers. All event handlers must specify a device, port and system
 that identifies the source of events for which that handler was created. This device information
-must be constant; that is, it cannot change at run-time. Using a local port number, a constant IP
+must be constant; that is, it cannot change at run-time. Using a local port number, a <em>constant</em> IP
 device specification can be defined. For example:</p>
-<p>Device Number = 0 The master</p>
-<p>Port = LocalPort The local port number</p>
-<p>System = 0  This system (where the application is running)</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">Device</span><span class="w"> </span><span class="n">Number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="n">The</span><span class="w"> </span><span class="n">master</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">Port</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">LocalPort</span><span class="w"> </span><span class="n">The</span><span class="w"> </span><span class="n">local</span><span class="w"> </span><span class="n">port</span><span class="w"> </span><span class="n">number</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">System</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w">  </span><span class="n">This</span><span class="w"> </span><span class="n">system</span><span class="w"> </span><span class="p">(</span><span class="n">where</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">application</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">running</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
 <p>To make sure that this IP device naming convention does not interfere with future naming schemes, a
 range of numbers are reserved for local port numbers. The program must only assign local port
 numbers at or above the value of the keyword, <code>FIRST_LOCAL_PORT</code>. For example,</p>
-<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span>
-<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">DEFINE_CONSTANT</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">PORT_REMOTE_MASTER1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FIRST_LOCAL_PORT</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">PORT_REMOTE_MASTER2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FIRST_LOCAL_PORT</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="n">PORT_REMOTE_MASTER3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FIRST_LOCAL_PORT</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">DEFINE_CONSTANT</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="n">PORT_REMOTE_MASTER1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FIRST_LOCAL_PORT</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="n">PORT_REMOTE_MASTER2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FIRST_LOCAL_PORT</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="n">PORT_REMOTE_MASTER3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FIRST_LOCAL_PORT</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span>
 </span></code></pre></div></td></tr></table></div>
 <p>All port numbers below <code>FIRST_LOCAL_PORT</code> are reserved for future use.</p>
 <p>The sections below describe the IP communication support provided by NetLinx. The first section
@@ -3663,7 +3836,7 @@ programming from the server (service provider).</p>
 <li><a href="Client_Programming/">Client Programming</a></li>
 <li><a href="Server_Programming/">Server Programming</a></li>
 <li><a href="Example_IP_Code/">Example IP Code</a></li>
-<li><a href="IP_Keywords.md">IP Keywords</a></li>
+<li><a href="IP_Keywords/">IP Keywords</a></li>
 </ul>
 
 
@@ -3712,6 +3885,22 @@ programming from the server (service provider).</p>
             </div>
           </a>
         
+        
+          
+          <a href="Client_Programming/" class="md-footer__link md-footer__link--next" aria-label="Next: Client Programming">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Client Programming
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
