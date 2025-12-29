@@ -3544,6 +3544,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multicast UDP Messages
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3560,6 +3578,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3649,6 +3697,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3724,13 +3791,15 @@
 <p>NetLinx can send and receive multi-cast UDP messages.</p>
 <p>To send a multi-cast UDP message, specify a multi-cast address and port in the
 <a href="IP_CLIENT_OPEN.md">IP_CLIENT_OPEN</a> function such as the following:</p>
-<p>IP_CLIENT_OPEN (dvIPClient.Port,'239.255.255.250',1900,IP_UDP)</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">IP_CLIENT_OPEN</span><span class="w"> </span><span class="p">(</span><span class="n">dvIPClient</span><span class="p">.</span><span class="n">Port</span><span class="p">,</span><span class="err">&#39;</span><span class="mf">239.255.255.250</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">1900</span><span class="p">,</span><span class="n">IP_UDP</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
 <p>To receive multi-cast UDP messages, you must call the <a href="IP_MC_SERVER_OPEN.md">IP_MC_SERVER_OPEN</a>
 function:</p>
-<p>IP_MC_SERVER_OPEN ( dvIPServer,'239.255.255.250',1900)</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">IP_MC_SERVER_OPEN</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="n">dvIPServer</span><span class="p">,</span><span class="err">&#39;</span><span class="mf">239.255.255.250</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">1900</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
 <p>The NetLinx master will join the multi-cast session and allow you to receive and transmit UDP
 multi-cast messages.</p>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="Internet_Protocol_IP_Communication_Advanced_Programmers_.md">IP Communication</a></li>
 <li><a href="../Client_Programming/">Client Programming</a></li>

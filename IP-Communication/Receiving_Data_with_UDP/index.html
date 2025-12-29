@@ -3516,6 +3516,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Data with UDP
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3532,6 +3550,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3649,6 +3697,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3732,24 +3799,28 @@ receive this message along with the IP address and UDP/IP of the client who sent
 by sending a response back to the IP address and UDP/IP from where the message originated. Although
 the UDP protocol does not specify that the client must expect to receive messages in this way, many
 UDP/IP require the client to listening for response after sending a message.</p>
-<p>NetLinx has two UDP client implementations. These are UDP (2) and UDP With Receive (3). The first
-implementation only sends message and cannot receive messages. UDP with Receive will send and
+<p>NetLinx has two UDP client implementations. These are <strong>UDP (2)</strong> and <strong>UDP With Receive (3)</strong>. The
+first implementation only sends message and cannot receive messages. UDP with Receive will send and
 receive messages on a single UDP/IP port.</p>
 <p>It may seem like UDP (2) is not needed; however, it still serves and important purpose. Imagine you
 wanted to send a UDP message and expect a response. The proper way to open this type of socket,
 assuming you want to send a UDP message to 192.168.0.1 on UDP/IP port 6000, is:</p>
-<p>IP_CLIENT_OPEN(dvUDPClient,'192.168.0.1',6000, IP_UDP_2WAY)</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">IP_CLIENT_OPEN</span><span class="p">(</span><span class="n">dvUDPClient</span><span class="p">,</span><span class="err">&#39;</span><span class="mf">192.168.0.1</span><span class="err">&#39;</span><span class="p">,</span><span class="mi">6000</span><span class="p">,</span><span class="w"> </span><span class="n">IP_UDP_2WAY</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
 <p>Now, if you were also writing the code for 192.168.0.1, you would need to have opened a UDP server
 using the following:</p>
-<p>IP_SERVER_OPEN(dvUDPServer,6000,IP_UDP)</p>
-<p>When the message is received at 192.168.0.1, the message will be delivered to the DATA_EVENT for
-dvUDPServer and the IP address UDP/IP port of the sender of the message will be available in the
-DATA.SOURCEIP and DATA.SOURCEPORT variables. A UDP (2) socket would be used in this case to send a
-response to the client. Since we will no longer need to listen after sending the response, since
-there would be no response to the response, we would open the socket using the following:</p>
-<p>IP_CLIENT_OPEN(dvUDPClient,DATA.SOURCEIP,DATA.SOURCEPORT,IP_UDP)</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">IP_SERVER_OPEN</span><span class="p">(</span><span class="n">dvUDPServer</span><span class="p">,</span><span class="mi">6000</span><span class="p">,</span><span class="n">IP_UDP</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
+<p>When the message is received at 192.168.0.1, the message will be delivered to the
+<a href="DATA_EVENT.md">DATA_EVENT</a> for <code>dvUDPServer</code> and the IP address UDP/IP port of the sender of the
+message will be available in the <strong><code>DATA.SOURCEIP</code></strong> and <strong><code>DATA.SOURCEPORT</code></strong> variables. A UDP (2)
+socket would be used in this case to send a response to the client. Since we will no longer need to
+listen after sending the response, since there would be no response to the response, we would open
+the socket using the following:</p>
+<div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">IP_CLIENT_OPEN</span><span class="p">(</span><span class="n">dvUDPClient</span><span class="p">,</span><span class="n">DATA</span><span class="p">.</span><span class="n">SOURCEIP</span><span class="p">,</span><span class="n">DATA</span><span class="p">.</span><span class="n">SOURCEPORT</span><span class="p">,</span><span class="n">IP_UDP</span><span class="p">)</span>
+</span></code></pre></div></td></tr></table></div>
 <p>Note that UDP with Receive (3) is only available when calling <a href="IP_CLIENT_OPEN.md">IP_CLIENT_OPEN</a>.</p>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="Internet_Protocol_IP_Communication_Advanced_Programmers_.md">IP Communication</a></li>
 <li><a href="../Client_Programming/">Client Programming</a></li>
