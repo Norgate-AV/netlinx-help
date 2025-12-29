@@ -175,3 +175,7 @@ nav:
       - Multicast UDP Messages: IP-Communication/Multicast_UDP_Messages.md
       - Example IP Code: IP-Communication/Example_IP_Code.md
       - IP Keywords: IP-Communication/IP_Keywords.md
+  - NetLinx Modules:
+      - NetLinx-Modules/index.md
+      - Defining a Module: NetLinx-Modules/Defining_a_Module.md
+      - Module Keywords: NetLinx-Modules/Module_Keywords.md
