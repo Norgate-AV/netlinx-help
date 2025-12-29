@@ -169,3 +169,9 @@ nav:
       - Virtual Devices: Combining-Devices-Levels-Channels/Virtual_Devices.md
   - IP Communication:
       - IP-Communication/index.md
+      - Client Programming: IP-Communication/Client_Programming.md
+      - Server Programming: IP-Communication/Server_Programming.md
+      - Receiving Data with UDP: IP-Communication/Receiving_Data_with_UDP.md
+      - Multicast UDP Messages: IP-Communication/Multicast_UDP_Messages.md
+      - Example IP Code: IP-Communication/Example_IP_Code.md
+      - IP Keywords: IP-Communication/IP_Keywords.md
