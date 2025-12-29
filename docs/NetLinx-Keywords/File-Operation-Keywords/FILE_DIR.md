@@ -6,65 +6,49 @@ title: FILE_DIR
 
 Returns a list of files located at the specified path.
 
-Syntax:
+## Syntax
 
+```c linenums="1"
+SLONG FILE_DIR (CHAR DirPath[], CHAR Buffer[ ], LONG Entry)
 ```
-SLONG FILE_DIR (CHAR DirPath\[ \], CHAR Buffer\[ \], LONG Entry)
 
-```
+## Parameters
 
-Parameters:
+-   **DirPath** - string containing the path to the requested directory.
+-   **Buffer** - buffer to hold the directory list.
+-   **Entry** - requested directory entry.
 
-- DirPath - string containing the path to the requested directory.
-
-- Buffer - buffer to hold the directory list.
-
-- Entry - requested directory entry.
-
-Result:
+## Result
 
 This function returns the number of remaining files in the directory, or:
 
-- -4 = invalid directory path
+-   `-4` = invalid directory path
+-   `-5` = Disk I/O error
+-   `-6` = invalid parameter (i.e. Entry points beyond the end of the directory)
+-   `-10` = buffer too small
+-   `-12` = directory not loaded
 
-- -5 = Disk I/O error
+> Note: Each directory entry will have a `<CR><LF>` character pair appended to the end.
 
-- -6 = invalid parameter (i.e. Entry points beyond the end of the directory)
+## Example
 
-- -10 = buffer too small
-
-- -12 = directory not loaded
-
-Note: Each directory entry will have a \<CR\>\<LF\> character pair appended to
-the end.
-
-Example:
-
-```
-CHAR Buffer\[1024\]
-
-```
-
+```c linenums="1"
+CHAR Buffer[1024]
 LONG NumFiles = 1
-
 LONG Entry = 1
 
-WHILE (NumFiles \> 0)
-
+WHILE (NumFiles > 0)
 {
-
-    NumFiles = FILE_DIR ('\CDLIST', Buffer, Entry)
-
-    Entry = Entry + 1
-
-    // add code to display contents of Buffer
-
+    NumFiles = FILE_DIR ('\CDLIST', Buffer, Entry)
+    Entry = Entry + 1
+    // add code to display contents of Buffer
 }
+```
 
-Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have
-errors these will never be recognized. [SLONG](SLONG.md) must be assigned or
-errors will be typecast to positive numbers.
+> Note: The [LONG](LONG.md) command cannot pass negative numbers, so if you have errors these will
+> never be recognized. [SLONG](SLONG.md) must be assigned or errors will be typecast to positive
+> numbers.
 
-See Also
+## See Also
 
-- [File Operation Keywords](File_Operation_Keywords.md)
+-   [File Operation Keywords](File_Operation_Keywords.md)
