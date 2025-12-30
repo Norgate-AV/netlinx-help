@@ -186,9 +186,10 @@ nav:
       - Unicode-Related Compiler Errors: Unicode/Unicode-Related_Compiler_Errors.md
   - Marshalling Protocol:
       - Marshalling-Protocol/index.md
-      - Marshalling Protocol (Group of Bytes): Marshalling-Protocol/Marshalling_Protocol_Group_of_Bytes.md
-      - Marshalling Protocol (Variables): Marshalling-Protocol/Marshalling_Protocol_Variables.md
+      - Marshalling Protocol (Group of Bytes): Marshalling-Protocol/Marshalling_Protocol_Group_of_Bytes_.md
+      - Marshalling Protocol (Variables): Marshalling-Protocol/Marshalling_Protocol_Variables_.md
       - "Marshalling Protocol: Encoding Notes": Marshalling-Protocol/Marshalling_Protocol_Encoding_Notes.md
       - String Encoding: Marshalling-Protocol/String_Encoding.md
       - Binary Array Encoding: Marshalling-Protocol/Binary_Array_Encoding.md
-  - ASCII /HEX /Decimal Conversions Table: ASCII-HEX-Decimal-Conversion/index.md
+  - ASCII /HEX /Decimal Conversions Table:
+      - ASCII-HEX-Decimal-Conversion/index.md
