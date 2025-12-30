@@ -160,6 +160,8 @@ nav:
           - Conitional Waits: Language-Elements/Waits/Conditional_Waits.md
           - Timed Conditional Waits: Language-Elements/Waits/Timed_Conditional_Waits.md
           - WAIT Keywords: Language-Elements/Waits/WAIT_Keywords.md
+  - NetLinx Keywords:
+      - NetLinx-Keywords/index.md
   - Combining Devices, Levels, and Channels:
       - Combining-Devices-Levels-Channels/index.md
       - Combining and Uncombining Channels: Combining-Devices-Levels-Channels/Combining_and_Uncombining_Channels.md
@@ -187,9 +189,16 @@ nav:
   - Master-To-Master (M2M):
       - Master-To-Master/index.md
       - Design Considerations, Constraints, and Topologies:
-          - M2M - Design Considerations, Constraints, and Topologies: Master-To-Master/Design-Constraints-Topologies/index.md
+          - M2M - Design Considerations, Constraints, and Topologies: Master-To-Master/Design-Constraints-Topology/index.md
           - M2M - Design Topologies:
-              - Master-To-Master/Design-Constraints-Topologies/Design-Topologies/index.md
+              - Master-To-Master/Design-Constraints-Topology/Design-Topologies/index.md
+      - Master Routing:
+          - M2M - Master Routing: Master-To-Master/Master_Routing/index.md
+          - M2M - Route Modes: Master-To-Master/Master_Routing/Route_Modes.md
+      - Configuring and Programming M2M Systems:
+          - M2M - Configuring and Programming M2M Systems: Master-To-Master/Configuring_and_Programming_M2M_Systems/index.md
+          - M2M - Using the M2M Configuration Tool: Master-To-Master/Configuring_and_Programming_M2M_Systems/Using_the_M2M_Configuration_Tool.md
+          - M2M - Programming Considerations: Master-To-Master/Configuring_and_Programming_M2M_Systems/Programming_Considerations.md
   - Marshalling Protocol:
       - Marshalling-Protocol/index.md
       - Marshalling Protocol (Group of Bytes): Marshalling-Protocol/Marshalling_Protocol_Group_of_Bytes_.md
