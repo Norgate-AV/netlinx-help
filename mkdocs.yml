@@ -179,3 +179,8 @@ nav:
       - NetLinx-Modules/index.md
       - Defining a Module: NetLinx-Modules/Defining_a_Module.md
       - Module Keywords: NetLinx-Modules/Module_Keywords.md
+  - Unicode:
+      - Working With Unicode: Unicode/Working_With_UniCode.md
+      - Working With WIDECHAR arrays and Unicode Strings: Unicode/Working_With_WIDECHAR_arrays_and_Unicode_Strings.md
+      - Reading and Writing to Files: Unicode/Reading_and_Writing_to_Files.md
+      - Unicode-Related Compiler Errors: Unicode/Unicode-Related_Compiler_Errors.md
