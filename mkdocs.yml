@@ -184,6 +184,12 @@ nav:
       - Working With WIDECHAR arrays and Unicode Strings: Unicode/Working_with_WIDECHAR_arrays_and_Unicode_Strings.md
       - Reading and Writing to Files: Unicode/Reading_and_Writing_to_Files.md
       - Unicode-Related Compiler Errors: Unicode/Unicode-Related_Compiler_Errors.md
+  - Master-To-Master (M2M):
+      - Master-To-Master/index.md
+      - Design Considerations, Constraints, and Topologies:
+          - M2M - Design Considerations, Constraints, and Topologies: Master-To-Master/Design-Constraints-Topologies/index.md
+          - M2M - Design Topologies:
+              - Master-To-Master/Design-Constraints-Topologies/Design-Topologies/index.md
   - Marshalling Protocol:
       - Marshalling-Protocol/index.md
       - Marshalling Protocol (Group of Bytes): Marshalling-Protocol/Marshalling_Protocol_Group_of_Bytes_.md
@@ -192,4 +198,4 @@ nav:
       - String Encoding: Marshalling-Protocol/String_Encoding.md
       - Binary Array Encoding: Marshalling-Protocol/Binary_Array_Encoding.md
   - ASCII /HEX /Decimal Conversions Table:
-      - ASCII-HEX-Decimal-Conversion/index.md
+      - ASCII-Hex-Decimal-Conversion/index.md
