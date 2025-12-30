@@ -1,8 +1,8 @@
 ---
-title: ASCII / HEX / Decimal Conversions Table
+title: ASCII /HEX /Decimal Conversions Table
 ---
 
-# ASCII / HEX / Decimal Conversions Table
+# ASCII /HEX /Decimal Conversions Table
 
 | CHR | HEX | DEC |
 | --- | --- | --- |
