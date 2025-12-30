@@ -10,27 +10,31 @@
       
       
       
-        <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies/">
+        <link rel="canonical" href="https://norgate-av.github.io/netlinx-help/Master-To-Master/">
       
       
+        <link rel="prev" href="../Unicode/Unicode-Related_Compiler_Errors/">
+      
+      
+        <link rel="next" href="../Marshalling-Protocol/">
       
       
         
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>M2M - Design Considerations, Constraints, and Topologies - NetLinx Language Help</title>
+        <title>Master-To-Master (M2M) - NetLinx Language Help</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +53,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,17 +61,17 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="M2M - Design Considerations, Constraints, and Topologies - NetLinx Language Help" />
+<meta property="og:title" content="Master-To-Master (M2M) - NetLinx Language Help" />
 <meta property="og:description" content="Help reference for the NetLinx programming language." />
-<meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies.png" />
+<meta property="og:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/index.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies/" />
+<meta property="og:url" content="https://norgate-av.github.io/netlinx-help/Master-To-Master/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="M2M - Design Considerations, Constraints, and Topologies - NetLinx Language Help" />
+<meta property="twitter:title" content="Master-To-Master (M2M) - NetLinx Language Help" />
 <meta property="twitter:description" content="Help reference for the NetLinx programming language." />
-<meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations%2C_Constraints%2C_and_Topologies.png" />
+<meta property="twitter:image" content="https://norgate-av.github.io/netlinx-help/assets/images/social/Master-To-Master/index.png" />
 </head>
   
   
@@ -87,7 +91,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#m2m-design-considerations-constraints-and-topologies" class="md-skip">
+        <a href="#master-to-master-m2m" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +111,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="NetLinx Language Help" class="md-header__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
+    <a href=".." title="NetLinx Language Help" class="md-header__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -127,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              M2M - Design Considerations, Constraints, and Topologies
+              Master-To-Master (M2M)
             
           </span>
         </div>
@@ -250,7 +254,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="NetLinx Language Help" class="md-nav__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
+    <a href=".." title="NetLinx Language Help" class="md-nav__button md-logo" aria-label="NetLinx Language Help" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -280,7 +284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -354,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Mainline/" class="md-nav__link">
+      <a href="../Language-Elements/Mainline/" class="md-nav__link">
         
   
   
@@ -382,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Statements_and_Expressions/" class="md-nav__link">
+      <a href="../Language-Elements/Statements_and_Expressions/" class="md-nav__link">
         
   
   
@@ -410,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Keywords/" class="md-nav__link">
         
   
   
@@ -438,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Devices/" class="md-nav__link">
+      <a href="../Language-Elements/Devices/" class="md-nav__link">
         
   
   
@@ -466,7 +470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Device_Numbers-_Supported_Ranges_by_Device_Type/" class="md-nav__link">
+      <a href="../Language-Elements/Device_Numbers-_Supported_Ranges_by_Device_Type/" class="md-nav__link">
         
   
   
@@ -494,7 +498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Virtual_Devices/" class="md-nav__link">
+      <a href="../Language-Elements/Virtual_Devices/" class="md-nav__link">
         
   
   
@@ -522,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Comments/" class="md-nav__link">
+      <a href="../Language-Elements/Comments/" class="md-nav__link">
         
   
   
@@ -597,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Identifiers/" class="md-nav__link">
+      <a href="../Language-Elements/Identifiers/" class="md-nav__link">
         
   
   
@@ -625,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Devices/" class="md-nav__link">
+      <a href="../Language-Elements/Devices/" class="md-nav__link">
         
   
   
@@ -653,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Identifiers/Device_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Identifiers/Device_Arrays/" class="md-nav__link">
         
   
   
@@ -681,7 +685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Identifiers/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
         
   
   
@@ -709,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Identifiers/Device_Level_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Identifiers/Device_Level_Arrays/" class="md-nav__link">
         
   
   
@@ -737,7 +741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Identifiers/Data_Set_Structures/" class="md-nav__link">
+      <a href="../Language-Elements/Identifiers/Data_Set_Structures/" class="md-nav__link">
         
   
   
@@ -765,7 +769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Virtual_Devices/" class="md-nav__link">
+      <a href="../Language-Elements/Virtual_Devices/" class="md-nav__link">
         
   
   
@@ -848,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/" class="md-nav__link">
         
   
   
@@ -876,7 +880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/Variables/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/Variables/" class="md-nav__link">
         
   
   
@@ -904,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/Local_Variables/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/Local_Variables/" class="md-nav__link">
         
   
   
@@ -932,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/Global_Variables/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/Global_Variables/" class="md-nav__link">
         
   
   
@@ -960,7 +964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/Persistent_Variables/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/Persistent_Variables/" class="md-nav__link">
         
   
   
@@ -988,7 +992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/Variables_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/Variables_Keywords/" class="md-nav__link">
         
   
   
@@ -1016,7 +1020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/DEFINE_MUTUALLY_EXCLUSIVE_and_Variables/" class="md-nav__link">
         
   
   
@@ -1044,7 +1048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Variables-Constants/Constants/" class="md-nav__link">
+      <a href="../Language-Elements/Variables-Constants/Constants/" class="md-nav__link">
         
   
   
@@ -1127,7 +1131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Subroutines-Functions/" class="md-nav__link">
+      <a href="../Language-Elements/Subroutines-Functions/" class="md-nav__link">
         
   
   
@@ -1155,7 +1159,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Subroutines-Functions/Subroutines_-_Calling_Parameters/" class="md-nav__link">
+      <a href="../Language-Elements/Subroutines-Functions/Subroutines_-_Calling_Parameters/" class="md-nav__link">
         
   
   
@@ -1183,7 +1187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Subroutines-Functions/Subroutines_-_Return_Statements/" class="md-nav__link">
+      <a href="../Language-Elements/Subroutines-Functions/Subroutines_-_Return_Statements/" class="md-nav__link">
         
   
   
@@ -1211,7 +1215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Subroutines-Functions/System_Call_Subroutines/" class="md-nav__link">
+      <a href="../Language-Elements/Subroutines-Functions/System_Call_Subroutines/" class="md-nav__link">
         
   
   
@@ -1239,7 +1243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Subroutines-Functions/Subroutine_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Subroutines-Functions/Subroutine_Keywords/" class="md-nav__link">
         
   
   
@@ -1322,7 +1326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/" class="md-nav__link">
         
   
   
@@ -1350,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_DEFINE/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_DEFINE/" class="md-nav__link">
         
   
   
@@ -1378,7 +1382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_DISABLE_WARNING_/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_DISABLE_WARNING_/" class="md-nav__link">
         
   
   
@@ -1406,7 +1410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_ELSE/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_ELSE/" class="md-nav__link">
         
   
   
@@ -1434,7 +1438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_END_IF/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_END_IF/" class="md-nav__link">
         
   
   
@@ -1462,7 +1466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_IF_DEFINED/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_IF_DEFINED/" class="md-nav__link">
         
   
   
@@ -1490,7 +1494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_IF_NOT_DEFINED/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_IF_NOT_DEFINED/" class="md-nav__link">
         
   
   
@@ -1518,7 +1522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_INCLUDE/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_INCLUDE/" class="md-nav__link">
         
   
   
@@ -1546,7 +1550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Compiler-Directives/_WARN/" class="md-nav__link">
+      <a href="../Language-Elements/Compiler-Directives/_WARN/" class="md-nav__link">
         
   
   
@@ -1629,7 +1633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Arrays/" class="md-nav__link">
         
   
   
@@ -1657,7 +1661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Arrays/Multi_Dimensional_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Arrays/Multi_Dimensional_Arrays/" class="md-nav__link">
         
   
   
@@ -1685,7 +1689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Arrays/Device_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Arrays/Device_Arrays/" class="md-nav__link">
         
   
   
@@ -1713,7 +1717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Arrays/Device_Level_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Arrays/Device_Level_Arrays/" class="md-nav__link">
         
   
   
@@ -1741,7 +1745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Arrays/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
+      <a href="../Language-Elements/Arrays/Device_Channels_and_Device_Channel_Arrays/" class="md-nav__link">
         
   
   
@@ -1769,7 +1773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Arrays/Array_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Arrays/Array_Keywords/" class="md-nav__link">
         
   
   
@@ -1852,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Assignments/" class="md-nav__link">
+      <a href="../Language-Elements/Assignments/" class="md-nav__link">
         
   
   
@@ -1880,7 +1884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Assignments/Variables/" class="md-nav__link">
+      <a href="../Language-Elements/Assignments/Variables/" class="md-nav__link">
         
   
   
@@ -1908,7 +1912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Assignments/Output_channels/" class="md-nav__link">
+      <a href="../Language-Elements/Assignments/Output_channels/" class="md-nav__link">
         
   
   
@@ -1991,7 +1995,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Data-Types/Intrinsic_Data_Types/" class="md-nav__link">
+      <a href="../Language-Elements/Data-Types/Intrinsic_Data_Types/" class="md-nav__link">
         
   
   
@@ -2019,7 +2023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Data-Types/Custom_Data_Types/" class="md-nav__link">
+      <a href="../Language-Elements/Data-Types/Custom_Data_Types/" class="md-nav__link">
         
   
   
@@ -2047,7 +2051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Data-Types/Data_Type_Conversion/" class="md-nav__link">
+      <a href="../Language-Elements/Data-Types/Data_Type_Conversion/" class="md-nav__link">
         
   
   
@@ -2075,7 +2079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Data-Types/Data_Type_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Data-Types/Data_Type_Keywords/" class="md-nav__link">
         
   
   
@@ -2158,7 +2162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/" class="md-nav__link">
         
   
   
@@ -2186,7 +2190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Button_Events/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Button_Events/" class="md-nav__link">
         
   
   
@@ -2214,7 +2218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Channel_Events/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Channel_Events/" class="md-nav__link">
         
   
   
@@ -2242,7 +2246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Data_Events/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Data_Events/" class="md-nav__link">
         
   
   
@@ -2270,7 +2274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Level_Events/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Level_Events/" class="md-nav__link">
         
   
   
@@ -2298,7 +2302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Event_Parameters/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Event_Parameters/" class="md-nav__link">
         
   
   
@@ -2326,7 +2330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Custom_Events/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Custom_Events/" class="md-nav__link">
         
   
   
@@ -2354,7 +2358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Event-Handlers/Event_Handler_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Event-Handlers/Event_Handler_Keywords/" class="md-nav__link">
         
   
   
@@ -2437,7 +2441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Loops/" class="md-nav__link">
+      <a href="../Language-Elements/Loops/" class="md-nav__link">
         
   
   
@@ -2465,7 +2469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Loops/FOR_loops/" class="md-nav__link">
+      <a href="../Language-Elements/Loops/FOR_loops/" class="md-nav__link">
         
   
   
@@ -2493,7 +2497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Loops/Conditional_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Loops/Conditional_Keywords/" class="md-nav__link">
         
   
   
@@ -2576,7 +2580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Strings/" class="md-nav__link">
+      <a href="../Language-Elements/Strings/" class="md-nav__link">
         
   
   
@@ -2604,7 +2608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Strings/Wide_Strings/" class="md-nav__link">
+      <a href="../Language-Elements/Strings/Wide_Strings/" class="md-nav__link">
         
   
   
@@ -2632,7 +2636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Strings/STRING_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Strings/STRING_Keywords/" class="md-nav__link">
         
   
   
@@ -2715,7 +2719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Structures/" class="md-nav__link">
+      <a href="../Language-Elements/Structures/" class="md-nav__link">
         
   
   
@@ -2743,7 +2747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Structures/Data_Set_Structures/" class="md-nav__link">
+      <a href="../Language-Elements/Structures/Data_Set_Structures/" class="md-nav__link">
         
   
   
@@ -2826,7 +2830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Timelines/Timeline_Functions/" class="md-nav__link">
+      <a href="../Language-Elements/Timelines/Timeline_Functions/" class="md-nav__link">
         
   
   
@@ -2854,7 +2858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Timelines/TIMELINE_IDs/" class="md-nav__link">
+      <a href="../Language-Elements/Timelines/TIMELINE_IDs/" class="md-nav__link">
         
   
   
@@ -2882,7 +2886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Timelines/TIMELINE_example/" class="md-nav__link">
+      <a href="../Language-Elements/Timelines/TIMELINE_example/" class="md-nav__link">
         
   
   
@@ -2910,7 +2914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Timelines/TIMELINE_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Timelines/TIMELINE_Keywords/" class="md-nav__link">
         
   
   
@@ -2993,7 +2997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Waits/" class="md-nav__link">
+      <a href="../Language-Elements/Waits/" class="md-nav__link">
         
   
   
@@ -3021,7 +3025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Waits/Timed_Waits/" class="md-nav__link">
+      <a href="../Language-Elements/Waits/Timed_Waits/" class="md-nav__link">
         
   
   
@@ -3049,7 +3053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Waits/Conditional_Waits/" class="md-nav__link">
+      <a href="../Language-Elements/Waits/Conditional_Waits/" class="md-nav__link">
         
   
   
@@ -3077,7 +3081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Waits/Timed_Conditional_Waits/" class="md-nav__link">
+      <a href="../Language-Elements/Waits/Timed_Conditional_Waits/" class="md-nav__link">
         
   
   
@@ -3105,7 +3109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Language-Elements/Waits/WAIT_Keywords/" class="md-nav__link">
+      <a href="../Language-Elements/Waits/WAIT_Keywords/" class="md-nav__link">
         
   
   
@@ -3195,7 +3199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Combining-Devices-Levels-Channels/" class="md-nav__link">
+      <a href="../Combining-Devices-Levels-Channels/" class="md-nav__link">
         
   
   
@@ -3223,7 +3227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Combining-Devices-Levels-Channels/Combining_and_Uncombining_Channels/" class="md-nav__link">
+      <a href="../Combining-Devices-Levels-Channels/Combining_and_Uncombining_Channels/" class="md-nav__link">
         
   
   
@@ -3251,7 +3255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Combining-Devices-Levels-Channels/Combining_and_Uncombining_Devices/" class="md-nav__link">
+      <a href="../Combining-Devices-Levels-Channels/Combining_and_Uncombining_Devices/" class="md-nav__link">
         
   
   
@@ -3279,7 +3283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Combining-Devices-Levels-Channels/Combining_and_Uncombining_Levels/" class="md-nav__link">
+      <a href="../Combining-Devices-Levels-Channels/Combining_and_Uncombining_Levels/" class="md-nav__link">
         
   
   
@@ -3307,7 +3311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Combining-Devices-Levels-Channels/COMBINE_%26_UNCOMBINE_Keywords/" class="md-nav__link">
+      <a href="../Combining-Devices-Levels-Channels/COMBINE_%26_UNCOMBINE_Keywords/" class="md-nav__link">
         
   
   
@@ -3335,7 +3339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Combining-Devices-Levels-Channels/Virtual_Devices/" class="md-nav__link">
+      <a href="../Combining-Devices-Levels-Channels/Virtual_Devices/" class="md-nav__link">
         
   
   
@@ -3417,7 +3421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/" class="md-nav__link">
+      <a href="../IP-Communication/" class="md-nav__link">
         
   
   
@@ -3445,7 +3449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/Client_Programming/" class="md-nav__link">
+      <a href="../IP-Communication/Client_Programming/" class="md-nav__link">
         
   
   
@@ -3473,7 +3477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/Server_Programming/" class="md-nav__link">
+      <a href="../IP-Communication/Server_Programming/" class="md-nav__link">
         
   
   
@@ -3501,7 +3505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/Receiving_Data_with_UDP/" class="md-nav__link">
+      <a href="../IP-Communication/Receiving_Data_with_UDP/" class="md-nav__link">
         
   
   
@@ -3529,7 +3533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/Multicast_UDP_Messages/" class="md-nav__link">
+      <a href="../IP-Communication/Multicast_UDP_Messages/" class="md-nav__link">
         
   
   
@@ -3557,7 +3561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/Example_IP_Code/" class="md-nav__link">
+      <a href="../IP-Communication/Example_IP_Code/" class="md-nav__link">
         
   
   
@@ -3585,7 +3589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../IP-Communication/IP_Keywords/" class="md-nav__link">
+      <a href="../IP-Communication/IP_Keywords/" class="md-nav__link">
         
   
   
@@ -3667,7 +3671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../NetLinx-Modules/" class="md-nav__link">
+      <a href="../NetLinx-Modules/" class="md-nav__link">
         
   
   
@@ -3695,7 +3699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../NetLinx-Modules/Defining_a_Module/" class="md-nav__link">
+      <a href="../NetLinx-Modules/Defining_a_Module/" class="md-nav__link">
         
   
   
@@ -3723,7 +3727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../NetLinx-Modules/Module_Keywords/" class="md-nav__link">
+      <a href="../NetLinx-Modules/Module_Keywords/" class="md-nav__link">
         
   
   
@@ -3805,7 +3809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Unicode/Working_With_UniCode/" class="md-nav__link">
+      <a href="../Unicode/Working_With_UniCode/" class="md-nav__link">
         
   
   
@@ -3833,7 +3837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Unicode/Working_with_WIDECHAR_arrays_and_Unicode_Strings/" class="md-nav__link">
+      <a href="../Unicode/Working_with_WIDECHAR_arrays_and_Unicode_Strings/" class="md-nav__link">
         
   
   
@@ -3861,7 +3865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Unicode/Reading_and_Writing_to_Files/" class="md-nav__link">
+      <a href="../Unicode/Reading_and_Writing_to_Files/" class="md-nav__link">
         
   
   
@@ -3889,7 +3893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Unicode/Unicode-Related_Compiler_Errors/" class="md-nav__link">
+      <a href="../Unicode/Unicode-Related_Compiler_Errors/" class="md-nav__link">
         
   
   
@@ -3921,6 +3925,141 @@
       
   
   
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Master-To-Master (M2M)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Master-To-Master (M2M)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Master-To-Master (M2M)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Master-To-Master (M2M)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#select-a-help-topic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select a Help Topic
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     
@@ -3932,10 +4071,183 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Considerations, Constraints, and Topologies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design Considerations, Constraints, and Topologies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Design-Constraints-Topologies/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2M - Design Considerations, Constraints, and Topologies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2_2" id="__nav_7_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2M - Design Topologies
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    M2M - Design Topologies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Design-Constraints-Topologies/Design-Topologies/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    None
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
@@ -3953,8 +4265,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -3971,7 +4283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Marshalling-Protocol/" class="md-nav__link">
+      <a href="../Marshalling-Protocol/" class="md-nav__link">
         
   
   
@@ -3999,7 +4311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Marshalling-Protocol/Marshalling_Protocol_Group_of_Bytes_/" class="md-nav__link">
+      <a href="../Marshalling-Protocol/Marshalling_Protocol_Group_of_Bytes_/" class="md-nav__link">
         
   
   
@@ -4027,7 +4339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Marshalling-Protocol/Marshalling_Protocol_Variables_/" class="md-nav__link">
+      <a href="../Marshalling-Protocol/Marshalling_Protocol_Variables_/" class="md-nav__link">
         
   
   
@@ -4055,7 +4367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Marshalling-Protocol/Marshalling_Protocol_Encoding_Notes/" class="md-nav__link">
+      <a href="../Marshalling-Protocol/Marshalling_Protocol_Encoding_Notes/" class="md-nav__link">
         
   
   
@@ -4083,7 +4395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Marshalling-Protocol/String_Encoding/" class="md-nav__link">
+      <a href="../Marshalling-Protocol/String_Encoding/" class="md-nav__link">
         
   
   
@@ -4111,7 +4423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Marshalling-Protocol/Binary_Array_Encoding/" class="md-nav__link">
+      <a href="../Marshalling-Protocol/Binary_Array_Encoding/" class="md-nav__link">
         
   
   
@@ -4154,10 +4466,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
@@ -4175,8 +4487,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -4193,14 +4505,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ASCII-HEX-Decimal-Conversion/index.md" class="md-nav__link">
+      <a href="../ASCII-Hex-Decimal-Conversion/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    None
+    ASCII /HEX /Decimal Conversions Table
   
 
     
@@ -4248,71 +4560,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#design-considerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Design Considerations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-constraints" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Design Constraints
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-topologies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Design Topologies
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Design Topologies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#select-a-help-topic" class="md-nav__link">
     <span class="md-ellipsis">
       
         Select a Help Topic
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        General Issues
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        See Also
       
     </span>
   </a>
@@ -4337,6 +4588,46 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Master-To-Master (M2M)
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -4344,7 +4635,7 @@
 
 
   
-    <a href="https://github.com/Norgate-AV/netlinx-help/edit/master/docs/Master-To-Master/Design-Constraints-Topology/M2M_-_Design_Considerations,_Constraints,_and_Topologies.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Norgate-AV/netlinx-help/edit/master/docs/Master-To-Master/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -4352,91 +4643,33 @@
   
 
 
-<h1 id="m2m-design-considerations-constraints-and-topologies">M2M - Design Considerations, Constraints, and Topologies</h1>
-<h2 id="design-considerations">Design Considerations</h2>
-<p>When designing a system that will utilize the M2M functionality, there are multiple points to
-consider.</p>
-<p>The first thing to consider is the reason for using M2M.</p>
+<h1 id="master-to-master-m2m">Master-To-Master (M2M)</h1>
+<p>The functionality of a Master-To-Master (M2M) system consists of master routing and intersystem
+control. Master routing is the ability to route messages to any other master or device and is the
+foundation of all M2M functionality. Intersystem control allows a master, or its NetLinx program, to
+control and get status of any other device (or master) that is connected to any other master.</p>
+<p>The figure below depicts a typical system of two interconnected NetLinx control systems with several
+devices connected to each one:</p>
+<p><img alt="" src="../assets/img/M2M%20-%20Physical%20Connection%20and%20Logical%20Connection.jpg" /></p>
 <ul>
-<li>The most common reasons are:</li>
-<li>Expansion of a system to add device ports.</li>
-<li>Expansion of a system to an area the main system cannot reach.</li>
-<li>Sharing of processing load.</li>
-<li>Standalone capability of system areas.</li>
-<li>Isolation of areas for security reasons.</li>
-<li>Dedicate a master to common/shared devices located in a central location.</li>
-<li>etc…</li>
-<li>A combination of the above.</li>
-</ul>
-<p>The second thing to consider is the code requirements for each master:</p>
-<ul>
-<li>Masters that are only being used to add device ports must have an empty ".TKN" file loaded,
-    otherwise the devices will not be accessible.</li>
-<li>Masters that are used to share the processing load or are intended to provide standalone
-    capability must define its local devices and the specific remote devices needed on the other
-    masters in DEFINE_DEVICE.</li>
-<li>Ports on remote devices declared in DEFINE_DEVICE must exist! For example, adding touch panel
-    port 80 when the panel file that has been loaded only specifies 20 will cause errors in the
-    negotiation.</li>
-<li>Events must be written for remote devices for the program to hear them. Writing events causes
-    the master to negotiate for the transmission of these events over M2M (as reflected in SHOW
-    NOTIFY)</li>
-</ul>
-<p>The third thing to consider is the connection topology:</p>
-<ul>
-<li>Is there a main master who all other masters must connect with?</li>
-<li>Do all the masters need to talk to each other?</li>
-<li>Or is there some combination of the above?</li>
-</ul>
-<h2 id="design-constraints">Design Constraints</h2>
-<p>To properly configure the URL Lists in a multi-master system, there must be an understanding of 3
-hard constraints.</p>
-<ol>
-<li>The first constraint is the maximum number of 200 entries in a URL List. This limit although
-    important will most likely never pertain as the second constraint is far more relevant.</li>
 <li>
-<p>The second constraint is the maximum number of 250 simultaneous TCP/IP connections supported by
-    a single master. The maximum number of simultaneous TCP/IP ICSP (NetLinx device) connections
-    supported by a single master is 200. The top ~25 of the remaining 50 are intended to be used for
-    internal services i.e. FTP, Telnet, HTTP, etc…</p>
-<p>The next 25 are intended to be used for IP connections used in the NetLinx code via
-IP_CLIENT_OPEN, IP_SERVER_OPEN, and Duet modules.</p>
-<p>If there are more than 25 IP connections made from within the code they will utilize the
-required number of remaining 200 IP sockets which reduces the number of available socket
-connections and subsequently the number of available NetLinx device connections which will
-reduce the number of available entries within the URL List.</p>
+<p>The top portion of the illustration above shows the physical connections and the devices
+    represented.</p>
 </li>
 <li>
-<p>The third constraint is the routing metric limit of 15 usable hops on the topology of the
-    interconnected NetLinx masters. While the limit of 15 hops may seem very limiting, this is not
-    really the case if you carefully design the topology.</p>
+<p>The bottom portion shows the Logical connections that have been assigned.</p>
 </li>
-</ol>
-<p><img alt="" src="../../../assets/img/M2M%20-15%20hop%20limit.jpg" /></p>
-<h2 id="design-topologies">Design Topologies</h2>
-<h3 id="select-a-help-topic">Select a Help Topic</h3>
-<ul>
-<li><a href="M2M_-_Chain_Topology.md">M2M - Chain Topology</a></li>
-<li><a href="M2M_-_Star_Topology.md">M2M - Star Topology</a></li>
-<li><a href="M2M_-_Cluster_Topology.md">M2M - Cluster Topology</a></li>
-<li><a href="M2M_-_Cascade_Topology.md">M2M - Cascade Topology</a></li>
-<li><a href="M2M_-_Cluster_Topology_modified.md">M2M - Cluster Topology modified</a></li>
 </ul>
-<h2 id="general-issues">General Issues</h2>
-<p>When multiple masters exist within a large NetLinx installation the significance of the System
-number component cannot be over emphasized.</p>
-<p>Out of habit it is easy to ignore the system field within NetLinx Studio because its value has not
-meant anything in standalone systems. A significant source of technical support phone calls will be
-directly related to invalid or unintentionally incorrect settings of the system number, URL List, or
-route mode.</p>
-<p>When NetLinx Studio connects to a single master, yet allows the user to access all other system
-masters it is inevitable that some confusion will occur.</p>
-<p>Therefore, it is a good idea to document each master’s system number and the topology of the
-interconnections!</p>
-<h2 id="see-also">See Also</h2>
+<p>In this example the NI-3100 will not communicate with the ENV-VST-C unless defined in the
+DEFINE_DEVICE section of its program code running on NI-3100 using the appropriate system number,
+for example 128:1:1.</p>
+<p>The first port on the MVP-8400i could be defined on system 1 using 10001:1:7, and on system 7 using
+10001:1:7 or 10001:1:0.</p>
+<h2 id="select-a-help-topic">Select a Help Topic</h2>
 <ul>
 <li><a href="M2M_-_Master_Routing.md">M2M - Master Routing</a></li>
 <li><a href="M2M_-_Route_Modes_(Normal_and_Direct).htm">M2M - Route Modes (Normal and Direct)</a></li>
+<li><a href="M2M_-_Design_Considerations,_Constraints,_and_Topologies.md">M2M - Design Considerations, Constraints, and Topologies</a></li>
 <li><a href="Configuring_and_Programming_M2M_Systems.md">Configuring and Programming M2M Systems</a></li>
 </ul>
 
@@ -4467,6 +4700,44 @@ interconnections!</p>
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Unicode/Unicode-Related_Compiler_Errors/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Unicode-Related Compiler Errors">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Unicode-Related Compiler Errors
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Marshalling-Protocol/" class="md-footer__link md-footer__link--next" aria-label="Next: Marshalling Protocol">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Marshalling Protocol
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -4495,10 +4766,10 @@ interconnections!</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "content.action.edit", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "content.action.edit", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share", "header.autohide", "navigation.footer"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable", "provider": "mike"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
     
   </body>
