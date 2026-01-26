@@ -4821,6 +4821,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4860,14 +4879,14 @@ ranges of all intrinsic data types, with the exception of <a href="../CHAR/">CHA
 <p>Syntax:</p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">FLOAT</span><span class="w"> </span><span class="n">ATOF</span><span class="w"> </span><span class="p">(</span><span class="n">CHAR</span><span class="w"> </span><span class="n">STRING</span><span class="p">[])</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Parameters:</p>
+<p><strong>Parameters:</strong></p>
 <ul>
-<li>STRING: An input string containing the character representation of the
+<li><code>STRING</code>: An input string containing the character representation of the
   floating-point number. Valid input characters are "0" through "9", ".", the
   sign designators ("+" and "-"), and the exponent ("e" or "E"). If no valid
   characters are found, zero is returned as a result.</li>
 </ul>
-<p>Result:</p>
+<p><strong>Result:</strong></p>
 <ul>
 <li>64-bit floating-point number representing the converted string.</li>
 <li>Any non-numeric characters in the string are ignored.</li>
@@ -4879,7 +4898,7 @@ to ±1.79769E+308.</p>
 <p>Example:</p>
 <div class="language-c highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">Num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ATOF</span><span class="p">(</span><span class="err">&#39;</span><span class="mf">-1.25e-3</span><span class="err">&#39;</span><span class="p">)</span><span class="c1">// Num = -0.00125</span>
 </span></code></pre></div></td></tr></table></div>
-<p>See Also</p>
+<h2 id="see-also">See Also</h2>
 <ul>
 <li><a href="../ATOI/">ATOI</a></li>
 <li><a href="../ATOL/">ATOL</a></li>
