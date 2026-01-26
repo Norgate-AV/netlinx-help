@@ -16,13 +16,13 @@ Syntax:
 SLONG ATOI (CHAR STRING[])
 ```
 
-Parameters:
+**Parameters:**
 
-- STRING - string containing the character representation of the integer. Valid
+- `STRING` - string containing the character representation of the integer. Valid
   input characters are "0" through "9" and the sign designators ("+" and "-").
   If no valid characters are found, zero is returned as a result.
 
-Result:
+**Result:**
 
 - A 32-bit integer representing the converted string.
 - Any non-numeric characters in the string are ignored.
@@ -37,11 +37,10 @@ Example:
 
 ```c linenums="1"
 Vol = ATOI('Volume=100%') // Vol = 100
+Num = ATOI('-3758')       // Num =-3758
 ```
 
-Num = ATOI('-3758')       // Num =-3758
-
-See Also
+## See Also
 
 - [ATOL](ATOL.md)
 - [ITOA](ITOA.md)

@@ -16,14 +16,14 @@ Syntax:
 FLOAT ATOF (CHAR STRING[])
 ```
 
-Parameters:
+**Parameters:**
 
-- STRING: An input string containing the character representation of the
+- `STRING`: An input string containing the character representation of the
   floating-point number. Valid input characters are "0" through "9", ".", the
   sign designators ("+" and "-"), and the exponent ("e" or "E"). If no valid
   characters are found, zero is returned as a result.
 
-Result:
+**Result:**
 
 - 64-bit floating-point number representing the converted string.
 - Any non-numeric characters in the string are ignored.
@@ -39,7 +39,7 @@ Example:
 Num = ATOF('-1.25e-3')// Num = -0.00125
 ```
 
-See Also
+## See Also
 
 - [ATOI](ATOI.md)
 - [ATOL](ATOL.md)
